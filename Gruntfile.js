@@ -20,6 +20,9 @@ module.exports = function(grunt) {
           '_gen/includereplace/tag-names.js': [ 
             '__scripts/tag-names.js'
           ],
+          '_gen/includereplace/google-analytics.js': [ 
+            '__scripts/google-analytics.js'
+          ],
           'scripts/tag-search.js': [
             '__scripts/tag-container-toggle.js',
             '__scripts/tag-search.js'
