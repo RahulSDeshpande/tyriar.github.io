@@ -1,12 +1,16 @@
-While playing with [Jekyll][1] I've found that the markdown parser Maruku doesn't make the current [Codepen][2] embed code blocks.
+---
+layout      : post
+title       : Embedding CodePens on a Jekyll site
+tags        : [Jekyll]
+primarytag  : Jekyll
+intro       : During my migration to <a href="http://jekyllrb.com/">Jekyll</a> I've found that the markdown parser Maruku doesn't compile the current <a href="http://codepen.io/">Codepen</a> embed code.
+---
 
-{% include codepen.html id="AeshH" height="280" description="The &lt;progress&gt; element #2" %}
+<!--prettify lang=html-->
+	<p data-height="268" data-theme-id="0" data-slug-hash="cCyba" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/Tyriar/pen/cCyba'>The <samp> element</a> by Daniel Imms (<a href='http://codepen.io/Tyriar'>@Tyriar</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+	<script async src="//codepen.io/assets/embed/ei.js"></script>
 
-Maruku seems to have a problem [parsing Markdown where the attributes done have a value. The issue can be resolved by changing the `script` tag's `async` attribute to `async="async"`.
+Maruku seems to have a problem parsing Markdown when HTML attribute don't have a value. The issue can be resolved by changing the `script` tag's `async` attribute to `async="async"`.
 
-<pre class="prettyprint lang-html">
-&lt;script async="async" src="//codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
-</pre>
-
-[1]: http://jekyllrb.com/
-[2]: http://codepen.io/
+<!--prettify lang=html-->
+    <script async="async" src="//codepen.io/assets/embed/ei.js"></script>
