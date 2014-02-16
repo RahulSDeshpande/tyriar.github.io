@@ -1,6 +1,5 @@
 ---
 layout      : post
-staging     : 1
 title       : "Redesign #3: From Blogger to GitHub Pages"
 tags        : [Blogging, CSS, Design, GitHub, HTML, Jekyll, Markdown, Optimisation, SVG]
 socialimage : /images/2014/02/15/new.png
@@ -8,29 +7,27 @@ primarytag  : Design
 intro       : Another year, another redesign. This post will look at the recent overhaul to my blog, going over the new design and feature changes.
 ---
 
-This time I didn't actually set out to fully redesign the site again like [last time][11]. I originally set out to simply migrate off Blogger onto some other platform. It started around 6 months ago in the [little free time][1] I had, starting to [migrate all of my Blogger posts to Markdown][2]. This took considerably longer than I originally thought it would, in some cases I really had to rearrange everything in the post to bring it up to standard. Anyway, as time went on I kept seeing more and more problems and my expectations for the upgrade got higher and higher.
+This time I didn't actually set out to fully redesign the site again like [last time][11]. I originally set out to simply migrate off Blogger onto some other platform. It started around 6 months ago in the [little free time][1] I had, starting to [migrate all of my Blogger posts to Markdown][2]. This took considerably longer than I originally thought it would, in some cases I had to rearrange everything in the post to bring it up to standard. As time went on I kept seeing more and more problems and my expectations for the upgrade got higher and higher.
 
 
 
 ## HTML &rarr; Markdown
 
-My original motivation this time was to make writing posts and modifying multiple posts as easy as possible. Basically a workflow that is more programmer-friendly, having direct access to the files instead of dealing with Blogger's gigantic template or UI.
-
-All 128 posts are now all written in Markdown. This is mainly a maintenance improvement for myself but it also simplifies the markup served to readers and makes styles far more consistent. Plus it makes writing posts in the future much easier.
+My original motivation this time was to make writing posts and maintaining posts as easy as possible. A workflow that is more programmer-friendly, having direct access to the files instead of dealing with Blogger's gigantic template or <abbr title="User Interface">UI</abbr>. So all 128 posts are now written in Markdown, improving style consistency and simplifying markup. Plus it makes writing posts in the future much easier.
 
 
 
 ## Blogger &rarr; GitHub Pages
 
-[GitHub Pages][8] is powered by the static site generator [Jekyll][7]. A GitHub Pages site is backed by a GitHub repository and whenever a commit is pushed to it the site is recompiled. The great thing about this is that if there's a compilation error (that slipped past local testing), the old site is retained and an email is sent to the repository owner. It's also much easier to setup, with no costs (unless you use a private repo) and no needing to deal with any web hosting companies.
+[GitHub Pages][8] is powered by the static site generator [Jekyll][7]. A GitHub Pages site is backed by a [GitHub][12] repository and whenever a commit is pushed to it, the site is recompiled. The great thing about this is that if there's a compilation error (that slipped past local testing), the old site is retained and an email is sent to the repository owner. It's also much easier to setup, with no costs (unless you use a private repo) and you don't need to deal with any web hosting companies.
 
-The one downside I've found with GitHub Pages is that Jekyll plugins can't be installed which would allow more customisation. This is due to a valid security concern of not wanting to run arbitrary Ruby on their servers. Any gaps that have come out of this I've filled in using client JavaScript.
+The one downside I've found with GitHub Pages is that Jekyll plugins can't be installed which removes some of the customisation power of Jekyll. This is due to the valid security concern of not wanting to run arbitrary Ruby on their servers. Any gaps that have come out of this I've filled in using client-side JavaScript.
 
 
 
 ## \#perfmatters
 
-I really focused on performance this time around and I'm happy to say that I pushed the page load time for all pages down *significantly*. Pages now load over 50% faster than their previous incarnations! I'm going to write a separate article on the numbers and techniques I used as there's a lot to be said.
+I really focused on performance this time around and I'm happy to say that I pushed the page load time for all pages down *significantly*. Pages now load over 50% faster than their previous incarnations! I'm going to write a separate article on the numbers and techniques I used as there's a lot to be said about them.
 
 
 
@@ -42,13 +39,13 @@ I've implemented an [Explore page][9] which allows searching for posts via tags.
 
 #### Search bar
 
-The new search bar has been in place for several months now. It's hooked up to a `<datalist>` which provides auto-completion for all tags on the blog. If the search term is one of the tags it will redirect the user to the explore page with that tag selected, otherwise it will do a localised Google search.
+The new search bar has been in place for several months now. It's hooked up to a `<datalist>` which provides auto-completion for all tags on the blog. If the search term is one of those tags it will redirect the user to the explore page with that tag selected, otherwise it will do a Google search localised to this site.
 
 ### SVG everywhere
 
 <abbr title="Scalable Vector Graphics">SVG</abbr> images are now nearly everywhere, including the logo and most posts where applicable. This means images will be super crisp on any device, no matter the pixel density of the display.
 
-I've opted for this approach instead of the multiple png images I was using before because a single SVG is far easier to maintain than multiple image. This has a side effect of completely breaking the site for IE8 and below, however &lt;= IE8 users are such a small percentage of my audience that it doesn't bother me (~1.5% and dropping).
+I've opted for this approach instead of the multiple png images I was using before because a single SVG is far easier to maintain than multiple images. This has a side effect of completely breaking the site for IE8 and below, however &lt;= <abbr title="Internet Explorer 8">IE8</abbr> users are such a small percentage of my audience that it doesn't bother me (~1.5% and dropping).
 
 ### External posts
 
@@ -62,11 +59,11 @@ Screen real estate on wider displays is used better now. Certain images, tables,
 
 There are two new content discovery features that are a little less obtrusive than the old "featured" articles that appeared just below the header in the old design.
 
-The [top articles][10] page which can be accessed from the top navigation provides some of the best content without needing to search around for it. Also, all posts now contain a related posts section at the bottom. The related posts are based on the post's 'primary tag', so it should provide relevant links.
+The [top articles][10] page which can be accessed from the top navigation provides some of the best content without needing to search around for it. Also, all posts now contain a related posts section at the bottom. The related posts are based on the post's 'primary tag', so it should provide relevant links to the reader at the right time.
 
 ### Comments
 
-I disabled Google+ integration as I wasn't too happy with it for multiple reasons. I've moved over to Disqus for comments as I've been pretty impressed recently as a user of their service. Their scripts are asynchronous too so it won't slow down the page load's critical path.
+I disabled Google+ integration as I wasn't too happy with it for multiple reasons. I've moved over to Disqus for comments, being pretty impressed recently as a user of their service. Their embed scripts are asynchronous too so it won't slow down the page load's critical path.
 
 ### Social metadata 
 
@@ -99,3 +96,4 @@ I've been itching to get back into my normal writing schedule while working on t
 [9]: {{ site.baseurl }}/p/explore.html
 [10]: {{ site.baseurl }}/p/top-articles.html
 [11]: {{ site.baseurl }}/2013/01/blog-redesign-2.html
+[12]: https://github.com/
