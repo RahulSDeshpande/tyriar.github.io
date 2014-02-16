@@ -5,10 +5,10 @@ title       : "Redesign #3: From Blogger to GitHub Pages"
 tags        : [Blogging, CSS, Design, GitHub, HTML, Jekyll, Markdown, Optimisation, SVG]
 socialimage : /images/2014/02/15/new.png
 primarytag  : Design
-intro       : Another year, another redesign. This post will go over the recent overhaul to my blog, looking at the new design and feature changes.
+intro       : Another year, another redesign. This post will look at the recent overhaul to my blog, going over the new design and feature changes.
 ---
 
-This time I didn't actually set out to fully redesign the site again like the last time. I originally set out to simply migrate off Blogger onto some other platform. It started around 6 months ago in the [little free time][1] I had, starting to [migrate all of my Blogger posts to Markdown][2]. This took considerably longer than I originally thought it would, in some cases I really had to rearrange everything in the post to bring it up to standard. Anyway, as time went on I kept seeing more and more problems and my expectations for the upgrade got higher and higher.
+This time I didn't actually set out to fully redesign the site again like [last time][11]. I originally set out to simply migrate off Blogger onto some other platform. It started around 6 months ago in the [little free time][1] I had, starting to [migrate all of my Blogger posts to Markdown][2]. This took considerably longer than I originally thought it would, in some cases I really had to rearrange everything in the post to bring it up to standard. Anyway, as time went on I kept seeing more and more problems and my expectations for the upgrade got higher and higher.
 
 
 
@@ -80,11 +80,11 @@ I've been itching to get back into my normal writing schedule while working on t
 
 ### Old
 
-{% include post-image.html class="center-aligned" alt="Old screenshot" src="/images/2014/02/15/old.png" %}
+{% include post-image.html class="full-width stretch" alt="Old screenshot" src="/images/2014/02/15/old.png" %}
 
 ### New
 
-{% include post-image.html class="center-aligned" alt="New screenshot" src="/images/2014/02/15/new.png" %}
+{% include post-image.html class="full-width stretch" alt="New screenshot" src="/images/2014/02/15/new.png" %}
 
 
 
@@ -98,3 +98,4 @@ I've been itching to get back into my normal writing schedule while working on t
 [8]: http://pages.github.com/
 [9]: {{ site.baseurl }}/p/explore.html
 [10]: {{ site.baseurl }}/p/top-articles.html
+[11]: {{ site.baseurl }}
