@@ -1,7 +1,6 @@
 $pager-height:24px;
 
 .pager {
-  @extend .wrapper;
   position:relative;
   height:$pager-height;
   margin-top: 3em !important;
