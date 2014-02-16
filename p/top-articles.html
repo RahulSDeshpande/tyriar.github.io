@@ -1,0 +1,8 @@
+---
+layout: default
+title : Top articles
+---
+
+{% capture text %}<p>Here is a collection of my favourite articles I've written. I hope you enjoy them and learn something!</p>{% endcapture %}
+{% include masthead.html title="Top articles" text=text shareicons="1" %}
+<div class="previews">{% for post in site.posts %}{% if post.isfeatured %}{% include post-preview.html post=post %}{% endif %}{% endfor %}</div>

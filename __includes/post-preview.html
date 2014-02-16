@@ -1,0 +1,46 @@
+<article>
+  <div class="masthead no-social">
+    <div class="wrapper">
+      <header>
+        {% if include.post.external %}
+          <a href="{{ include.post.external }}" title="Written for {{ include.post.external | remove:'http://' | remove:'https://' | split:'/' | first }}">
+            <h1 class="post-title entry-title external">{{ include.post.title }}</h1>
+          </a>
+        {% else %}
+          <a href="{{ site.baseurl }}{{ include.post.url }}">
+            <h1 class="post-title entry-title">{{ include.post.title }}</h1>
+          </a>
+        {% endif %}
+        <time class="date" datetime='{{ include.post.date | date: "%Y-%m-%d" }}'>{{ include.post.date | date: "%A, %-d %B %Y" }}</time>
+      </header>
+      <span class="screen-reader">Tags: </span>
+      <ul class="tags">
+        {% for tag in include.post.tags %}
+          {% if tag == "C#" %}
+            <li><a href="{{ site.baseurl }}/p/explore.html?t=C%23" rel="tag">{{ tag }}</a></li>
+          {% else %}
+            <li><a href="{{ site.baseurl }}/p/explore.html?t={{ tag | replace: ' ','%20' |UrlEncode }}" rel="tag">{{ tag }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="inner-wrapper">
+      {% unless include.hideimage %}
+        {% if include.post.preview %}
+          {% include post-image.html class="right-col" alt="" src=include.post.preview %}
+        {% endif %}
+      {% endunless %}
+      <p>{{ include.post.intro }}</p>
+    </div>
+    <p class="jump-link">
+      {% if include.post.external %}
+        <a href="{{ include.post.external }}">Continue reading</a>
+      {% else %}
+        <a href="{{ site.baseurl }}{{ include.post.url }}">Continue reading</a>
+      {% endif %}
+    </p>
+    <div class="clear"></div>
+  </div>
+</article>

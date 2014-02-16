@@ -1,0 +1,47 @@
+%icon-styles {
+  width: 40px;
+  height: 40px;
+  transition: background-color ease .2s;
+  display: inline-block;
+  margin: 0 .5em;
+
+  @include media-sm {
+    margin: 0 .1em;
+  }
+}
+
+.social-icons {
+  h2 {
+    font-size: 1.3em;
+    font-weight: bold
+  }
+
+  li {
+    @extend %icon-styles;
+  }
+}
+
+.share-icons {
+  ul {
+    list-style: none;
+    padding: 0;
+    right: 100%;
+    text-align: center;
+    margin: .5em 0 0 0;
+  }
+  
+  li {
+    @extend %icon-styles;
+  }
+}
+
+.feed:hover           { background-color: #F08124; }
+.google-plus:hover    { background-color: #DD4C3A; }
+.twitter:hover        { background-color: #3BA9EE; }
+.linked-in:hover      { background-color: #006699; }
+.github:hover         { background-color: #5CAFE1; }
+.codepen:hover        { background-color: #999999; }
+.stack-overflow:hover { background-color: #FE7A15; }
+.pinterest:hover      { background-color: #CB2027; }
+.facebook:hover       { background-color: #3B579D; }
+.stumbleupon:hover    { background-color: #EC4B24; }

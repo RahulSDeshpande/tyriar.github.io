@@ -1,0 +1,134 @@
+.top-header {
+  @extend .wrapper;
+  text-align: center;
+
+  @include media-gt-md-sm {
+    height: $header-height-large;
+  }
+  @include media-lt-md-sm {
+    margin: 1em 0 !important;
+  }
+
+  .title::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+
+  h1 {
+    display: inline-block;
+    margin: 0 4px;
+    color: $navy;
+
+    @include media-lt-md-sm {
+      vertical-align: middle;
+    }
+
+    @include media-gt-md-sm {
+      height: $header-height-large;
+      line-height: $header-height-large;
+      float: left;
+    }
+
+    @include media-lt-md {
+      font-size: 1.5em;
+    }
+  }
+}
+
+#search-form {
+  @include media-gt-md-sm {
+    position: absolute;
+    right: 0;
+    bottom: $header-spacing;
+  }
+
+  @include media-lt-md-sm {
+    margin-top: $header-spacing;
+  }
+
+  @include media-lt-full {
+    right: 1em;
+  }
+}
+
+#search-term {
+  // Inline
+  //width: $search-width;
+  //height: $search-height;
+  //border: 1px solid $grey;
+  //background-color: transparent;
+  //@include media-lt-md-sm {
+  //  width: 100%;
+  //}
+  $box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
+  text-indent: .5em;
+  border-radius: 4px;
+  box-shadow: $box-shadow;
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  
+  &:focus {
+    border-color: $red;
+    outline: 0;
+    box-shadow: $box-shadow, 0 0 8px rgba($red, 0.5);
+  }
+} 
+
+.logo {
+  height: $logo-height-large;
+  margin: 0 4px;
+
+  @include media-gt-md-sm {
+    float: left;
+    margin: $header-spacing 4px 0;
+  }
+
+  @include media-lt-md-sm {
+    vertical-align: middle;
+  }
+}
+
+.top-nav {
+  ul {
+    margin: 0;
+
+    @include media-gt-md-sm {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+
+  li {
+    display: inline-block;
+    margin-top: $header-spacing;
+
+    &:last-child a {
+      @include media-full {
+        margin-right: 0;
+      }
+      @include media-lt-md-sm {
+        margin-right: 0;
+      }
+    }
+  }
+
+  a {
+    margin-right: 1em;
+    font-weight: bold;
+
+    @include media-gt-md-sm {
+      padding-top: $header-spacing;
+      border-top: 0px solid $red;
+      -webkit-transition: border-top linear .1s, padding-top linear .1s;
+      transition: border-top linear .1s, padding-top linear .1s;
+
+      &:hover,
+      &:focus {
+        border-top: 5px solid $red;
+        padding-top: $header-spacing - 5px;
+      }
+    }
+  }
+}

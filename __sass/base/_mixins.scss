@@ -1,0 +1,7 @@
+@mixin header-shadow-heavy {
+	text-shadow: 0 3px 3px rgba(0, 0, 0, 0.75);
+}
+
+@mixin header-shadow-light {
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}

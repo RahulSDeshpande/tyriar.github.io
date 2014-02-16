@@ -1,0 +1,9 @@
+safe: true
+lsi: false
+pygments: true
+baseurl: /
+exclude: [node_modules, markdownTemplate.jst, package.json, params.json, blog.sublime-project, blog.sublime-workspace, Gruntfile.js, pushall.bat]
+paginate: 8
+paginate_path: "page:num"
+permalink: /:year/:month/:title.html
+encoding: UTF-8

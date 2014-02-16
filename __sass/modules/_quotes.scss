@@ -1,0 +1,25 @@
+q {
+	quotes: "\201C" "\201D" "'" "'";
+	font-style: italic;
+
+	&::before { content: open-quote; }
+	&::after { content: close-quote; }
+}
+
+blockquote {
+	margin: $paragraph-spacing 0 0 1em;
+	padding-left: 1em;
+	border-left: .5em solid $red;
+
+	cite {
+		font-weight:bold;
+	}
+
+	footer {
+		margin-top: $paragraph-spacing;
+	}
+
+	p:first-child {
+		margin-top:0;
+	}
+}

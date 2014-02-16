@@ -1,0 +1,46 @@
+@mixin media-sm {
+	@media screen and (max-width: $small-width) {
+		@content;
+	}
+}
+@mixin media-gt-sm {
+	@media screen and (min-width: ($small-width + 1)) {
+		@content;
+	}
+}
+@mixin media-lt-md-sm {
+	@media screen and (max-width: ($medium-small-width - 1)) {
+		@content;
+	}
+}
+@mixin media-gt-md-sm {
+	@media screen and (min-width: ($medium-small-width)) {
+		@content;
+	}
+}
+@mixin media-lt-md {
+	@media screen and (max-width: ($medium-width - 1)) {
+		@content;
+	}
+}
+@mixin media-gt-md {
+	@media screen and (min-width: ($medium-width)) {
+		@content;
+	}
+}
+@mixin media-full {
+	@media screen and (min-width: $full-width) {
+		@content;
+	}
+}
+@mixin media-lt-full {
+	@media screen and (max-width: ($full-width - 1)) {
+		@content;
+	}
+}
+// Only implemented in Chromium currently
+@mixin media-touch {
+	@media (pointer: course) {
+		@content
+	}
+}

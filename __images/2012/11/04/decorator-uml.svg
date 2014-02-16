@@ -1,0 +1,59 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="700" height="380" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		rect, path, line { stroke: #000; stroke-width: 2; }
+		.red { fill: hsl(0,100%,80%); }
+		.yellow { fill: hsl(60,100%,80%); }
+		.green { fill: hsl(120,100%,80%); }
+		.teal { fill: hsl(180,100%,80%); }
+		.blue { fill: hsl(240,100%,80%); }
+		rect.purple { fill: hsl(300,100%,80%); }
+		text { font-family: Helvetica, Arial, sans-serif; font-size: 22px; fill: #000; }
+		.dotted { stroke-dasharray: 6, 3; }
+		marker path, path path { stroke-width: 1; stroke-dasharray: 0; }
+	</style>
+	<marker id="closed-triangle" viewBox="-1 0 12 10" refX="10.5" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+		<path d="M 0 0 L 10 5 L 0 10z" fill="#fff"/>
+	</marker>
+	<marker id="diamond" viewBox="0 -1 10 12" refX="10" refY="5" markerWidth="14" markerHeight="7" orient="auto" preserveAspectRatio="none">
+		<path d="m5 0l5 5l-5 5l-5 -5l5 -5z" stroke-width="1" fill="#fff"/>
+	</marker>
+	<g>
+		<g transform="translate(150,10)">
+			<rect x="0" y="0" width="260" height="90" class="yellow" />
+			<text x="130" y="21" text-anchor="middle" font-weight="bold">«Interface»</text>
+			<text x="130" y="51" text-anchor="middle" font-weight="bold">ComponentInterface</text>
+			<line x1="0" y1="58" x2="260" y2="58" />
+			<text x="13" y="81" text-anchor="middle">+</text>
+			<text x="30" y="81">operation()</text>
+		</g>
+		<g transform="translate(10,160)">
+			<rect x="0" y="0" width="260" height="60" class="yellow" />
+			<text x="130" y="21" text-anchor="middle" font-weight="bold">ConcreteComponent</text>
+			<line x1="0" y1="28" x2="260" y2="28" />
+			<text x="13" y="51" text-anchor="middle">+</text>
+			<text x="30" y="51">operation()</text>
+		</g>
+		<g transform="translate(290,160)">
+			<rect x="0" y="0" width="370" height="90" class="yellow" />
+			<text x="185" y="21" text-anchor="middle" font-weight="bold" font-style="italic">Decorator</text>
+			<line x1="0" y1="28" x2="370" y2="28" />
+			<text x="13" y="51" text-anchor="middle">-</text>
+			<text x="30" y="51">component : ComponentInterface</text>
+			<line x1="0" y1="58" x2="370" y2="58" />
+			<text x="13" y="81" text-anchor="middle">+</text>
+			<text x="30" y="81">operation()</text>
+		</g>
+		<g transform="translate(350,310)">
+			<rect x="0" y="0" width="220" height="60" class="yellow" />
+			<text x="110" y="21" text-anchor="middle" font-weight="bold">ConcreteDecorator</text>
+			<line x1="0" y1="28" x2="220" y2="28" />
+			<text x="13" y="51" text-anchor="middle">+</text>
+			<text x="30" y="51">operation()</text>
+		</g>
+		<path d="m280,130l0,-30" class="dotted" fill="transparent" marker-end="url(#closed-triangle)"  />
+		<path d="m140,160l0,-30l335,0l0,30" class="dotted" fill="transparent" />
+		<path d="m460,310l0,-60" fill="transparent" marker-end="url(#closed-triangle)" />
+		<path d="m410,55l280,0l0,150l-30,0" fill="transparent" marker-end="url(#diamond)" />
+	</g>
+</svg>

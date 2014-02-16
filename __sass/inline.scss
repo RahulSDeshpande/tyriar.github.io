@@ -1,0 +1,63 @@
+@import "base/_colors";
+@import "base/_images";
+@import "base/_media-queries";
+@import "base/_mixins";
+@import "base/_sizes";
+@import "base/_typography";
+@import "base/_media-queries"; // Relies on _sizes
+
+// _masthead.scss
+.masthead {
+  background-color: $navy;
+  color: $grey;
+  padding: 1.5em 0 .5em 0;
+  line-height: 1.6;
+
+  h1 {
+    color: $white;
+    font-size: 1.5em;
+    margin: 0 1em 0 0;
+  }
+
+  .date {
+    color: $navy-light;
+    font-size: 1.5em;
+    font-style: italic;
+  }
+
+  &.no-social {
+    padding-bottom: 1.5em;
+  }
+}
+
+.previews .masthead {
+  background-color: $grey-light;
+}
+
+// _top-header.scss
+
+#search-term {
+  width: $search-width;
+  height: $search-height;
+  border: 1px solid $grey;
+  background-color: transparent;
+  @include media-lt-md-sm {
+    width: 100%;
+  }
+}
+
+// _general.scss
+body {
+  color: $navy;
+  font-family: $base-font;
+  font-size:110%;
+  margin:0;
+  @include media-gt-sm {
+    font-size:125%;
+  }
+}
+
+a {
+  color: $purple;
+  text-decoration: none;
+}

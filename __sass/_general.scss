@@ -1,0 +1,84 @@
+body {
+  // Inline
+  //color: $navy;
+  //font-family: $base-font;
+  //font-size:110%;
+  //margin:0;
+  //@include media-gt-sm {
+  //  font-size:125%;
+  //}
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+}
+
+// Inline
+//a {
+//  color: $purple;
+//  text-decoration: none;
+//}
+
+a:hover {
+  color: $red;
+}
+
+.screen-reader {
+  display:none;
+}
+.clear {
+  clear:both;
+}
+
+main {
+  // This could also cut off inner code/URLs/etc. not just background
+  // Cut off code background
+  overflow: hidden;
+  line-height: 1.6;
+  margin-bottom: 1em;
+
+  ul {
+  	padding-left: 2em;
+  }
+}
+
+article {
+  // Cut off code background
+  overflow: hidden;
+}
+
+h2,h3,h4,h5,h6 {
+  @include header-shadow-light;
+}
+
+p {
+  margin: $paragraph-spacing 0 0 0;
+}
+
+iframe[src*=codepen] {
+  margin-top: $paragraph-spacing;
+}
+
+.jump-link {
+  margin-bottom: $paragraph-spacing;
+}
+
+mark {
+  background-color: $mark-yellow;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted $grey;
+}
+
+a img{
+  border: 0;
+}
+
+.previews {
+  margin-top: 1em;
+}

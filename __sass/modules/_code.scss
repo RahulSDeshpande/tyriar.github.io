@@ -1,0 +1,81 @@
+//.pln { color: $navy; }
+//.pun { color: $navy; }
+//.opn { color: $navy; }
+//.clo { color: $navy; }
+//.dec { color:#606 }
+//.var { color:#606 }
+.str { color: $red; }
+.kwd { color: $purple; }
+.com { color: $comment-green; }
+.typ { color: $navy-light; }
+.lit { color: $red; }
+.tag { color: $purple; }
+.atn { color: $red; }
+.atv { color: $navy-light; }
+.fun { color: $red; }
+
+// TOOD: Reference _colors (darken?)
+//@media print, projection {
+//  .pln,
+//  .opn, 
+//  .pun, 
+//  .clo { color:#000 }
+//  .str { color:red }
+//  .kwd { color:#00F; font-weight:bold }
+//  .com { color:#006400; font-style:italic }
+//  .typ { color:#2B91AF; font-weight:bold }
+//  .lit { color:#000 }
+//  .tag { color:#800000; font-weight:bold }
+//  .atn { color:#E0544C }
+//  .atv { color:blue }
+//}
+
+pre {
+  font-family: $code-font;
+  word-wrap: break-word;
+  line-height:1;
+}
+
+code {
+  font-family: $code-font;
+}
+
+pre code {
+  margin: 0 auto;
+}
+
+.prettyprint {
+  font-size: 17px; // giant code looks a little strange
+  padding: 1em 0;
+  position: relative;
+  white-space: pre-wrap;
+
+  @extend .stretch;
+
+  // Scroll code for touch devices
+  // This doesn't work currently because of the method used (with overflow to cut off the gray background)
+  /*@include media-touch {
+    white-space: pre;
+    word-break: normal;
+    word-wrap: normal;
+    overflow-x: scroll;
+  }*/
+  @include media-sm {
+    font-size: 14px;
+  }
+  @include media-full {
+    width: $full-width;
+  }
+}
+
+.prettyprint::before {
+  display: block;
+  content: "";
+  background-color: #E4E4E4;
+  position: absolute;
+  left: -9999em;
+  right: -9999em;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}

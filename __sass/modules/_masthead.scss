@@ -1,0 +1,51 @@
+.masthead {
+  // Inline
+  //background-color: $navy;
+  //color: $grey;
+  //padding: 1.5em 0 .5em 0;
+  //line-height: 1.6;
+
+  // Clear images in masthead
+  // No images atm
+  //&::after {
+  //  display: block;
+  //  content: "";
+  //  clear: both;
+  //}
+
+  h1 {
+    @include media-full {
+      display: inline-block;
+    }
+    // Inline
+    //color: $white;
+    //font-size: 1.5em;
+    //margin: 0 1em 0 0;
+    @include header-shadow-heavy;
+  }
+
+  a:hover h1 {
+    color: $red;
+  }
+
+  // Inline
+  //.date {
+  //  color: $navy-light;
+  //  font-size: 1.5em;
+  //  font-style: italic;
+  //}
+  //&.no-social {
+  //  padding-bottom: 1.5em;
+  //}
+}
+
+.previews .masthead {
+  background-color: $grey-light;
+  color: $navy;
+
+  h1 {
+    color: $purple;
+    @include header-shadow-light;
+  }
+}
+

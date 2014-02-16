@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" width="40px" height="40px">
+  <svg viewBox="0 0 220 220" x="3" y="3" width="34" height="34">
+    <!-- Drawn from bottom to top -->
+    <path fill="#fff" d="m24,129l15,0l0,76l113,0l0,-76l15,0l0,90l-143,0z"/>
+    <path fill="#fff" d="m52,172l85,0l0,17l-85,0z"/>
+    <path fill="#fff" d="m54,140l85,8l-2,18l-84,-8z"/>
+    <path fill="#fff" d="m62,102l83,22l-5,17l-82,-22z"/>
+    <path fill="#fff" d="m82,59l74,44l-9,15l-74-44z"/>
+    <path fill="#fff" d="m126,18l48,71l-15,10l-48,-70z"/>
+    <path fill="#fff" d="m181,0l14,84l-17,3l-15,-84z"/>
+  </svg>
+</svg>

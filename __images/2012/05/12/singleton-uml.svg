@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="300" height="140" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		rect, path, line { stroke: #000; stroke-width: 2; }
+		.red { fill: hsl(0,100%,80%); }
+		.yellow { fill: hsl(60,100%,80%); }
+		.green { fill: hsl(120,100%,80%); }
+		.teal { fill: hsl(180,100%,80%); }
+		.blue { fill: hsl(240,100%,80%); }
+		rect.purple { fill: hsl(300,100%,80%); }
+		text { font-family: Helvetica, Arial, sans-serif; font-size: 22px; fill: #000; }
+		.dotted { stroke-dasharray: 6, 3; }
+		marker path, path path { stroke-width: 1; stroke-dasharray: 0; }
+	</style>
+	<g>
+		<rect x="10" y="10" width="280" height="120" class="yellow" />
+		<text x="150" y="31" text-anchor="middle" font-weight="bold">Singleton</text>
+		<line x1="10" y1="38" x2="290" y2="38" />
+		<text x="23" y="61" text-anchor="middle">+</text>
+		<text x="40" y="61">singleton : Singleton</text>
+		<line x1="10" y1="68" x2="290" y2="68" />
+		<text x="23" y="91" text-anchor="middle">-</text>
+		<text x="40" y="91">Singleton()</text>
+		<text x="23" y="121" text-anchor="middle">+</text>
+		<text x="40" y="121">GetInstance() : Singleton</text>
+	</g>
+</svg>

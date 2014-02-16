@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{% if paginator.page == 1 %}
+  {% assign title="Welcome!" %}
+  {% capture text %}<p>My name is Daniel Imms and I'm a software engineer from Australia. I currently live in Seattle working at Amazon on Kindle's Silk Web browser.</p><p>I use this blog as a platform to learn, revise and teach various software development topics.</p>{% endcapture %}
+{% else %}
+  {% assign title="Blog" %}
+  {% assign datefrom=paginator.posts.last.date %}
+  {% assign dateto=paginator.posts.first.date %}
+{% endif %}
+{% include masthead.html title=title datefrom=datefrom dateto=dateto text=text %}
+<div class="previews">{% for post in paginator.posts %}{% include post-preview.html post=post %}{% endfor %}</div>
+{% include index-pager.html paginator=paginator %}

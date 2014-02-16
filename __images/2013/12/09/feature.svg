@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="320" height="120" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<svg width="455" height="290" y="-175" x="5" version="1.1" xmlns="http://www.w3.org/2000/svg">
+		<style>
+			rect, path, line { stroke: #000; stroke-width: 2; }
+			.red { fill: hsl(0,100%,80%); }
+			.yellow { fill: hsl(60,100%,80%); }
+			.green { fill: hsl(120,100%,80%); }
+			.teal { fill: hsl(180,100%,80%); }
+			.blue { fill: hsl(240,100%,80%); }
+			.purple { fill: hsl(300,100%,80%); }
+			text { font-family: Helvetica, Arial, sans-serif; font-size: 22px; fill: #000; }
+			.dotted { stroke-dasharray: 6, 3; }
+			marker path, path path { stroke-width: 1; stroke-dasharray: 0; }
+		</style>
+		<marker id="closed-triangle" viewBox="-1 0 12 10" refX="10.5" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+			<path d="M 0 0 L 10 5 L 0 10z" fill="#fff"/>
+		</marker>
+		<marker id="arrow" viewBox="-1 0 12 10" refX="10.5" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+			<path d="M 0 0 L 10 5 L 0 10" fill="transparent"/>
+		</marker>
+		<marker id="diamond" viewBox="0 -1 10 12" refX="10" refY="5" markerWidth="14" markerHeight="7" orient="auto" preserveAspectRatio="none">
+			<path d="m5 0l5 5l-5 5l-5 -5l5 -5z" fill="#000"/>
+		</marker>
+		<g>
+			<g transform="translate(95,10)">
+				<rect x="0" y="0" width="120" height="30" class="yellow" />
+				<text x="60" y="21" text-anchor="middle" font-weight="bold" font-style="italic">Person</text>
+			</g>
+			<g transform="translate(75,100)">
+				<rect x="0" y="0" width="160" height="60" class="yellow" />
+				<text x="80" y="21" text-anchor="middle" font-weight="bold">Programmer</text>
+				<line x1="0" y1="28" x2="160" y2="28" />
+				<text x="13" y="51" text-anchor="middle">-</text>
+				<text x="30" y="51">code()</text>
+			</g>
+			<g transform="translate(10,220)">
+				<rect x="0" y="0" width="290" height="60" class="yellow" />
+				<text x="145" y="21" text-anchor="middle" font-weight="bold">Design Pattern</text>
+				<line x1="0" y1="28" x2="290" y2="28" />
+				<text x="13" y="51" text-anchor="middle">+</text>
+				<text x="30" y="51">apply(Problem) : Solution</text>
+			</g>
+			<g transform="translate(295,115)">
+				<rect x="0" y="0" width="150" height="30" class="yellow" />
+				<text x="75" y="21" text-anchor="middle" font-weight="bold">Computer</text>
+			</g>
+			<path d="m155,100l0,-60" fill="transparent" marker-end="url(#closed-triangle)" />
+			<path d="m155,160l0,60" class="dotted" fill="transparent" marker-end="url(#arrow)" />
+			<path d="m295,130l-60,0" class="dotted" fill="transparent" marker-end="url(#diamond)" />
+		</g>
+	</svg>
+</svg>

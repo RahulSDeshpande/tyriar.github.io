@@ -1,0 +1,194 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="300" height="470" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		rect, line, path { stroke: #000; stroke-width: 2; }
+		.red { fill: hsl(0,100%,80%); }
+		.yellow { fill: hsl(60,100%,80%); }
+		.green { fill: hsl(120,100%,80%); }
+		.teal { fill: hsl(180,100%,80%); }
+		.blue { fill: hsl(240,100%,80%); }
+		.purple { fill: hsl(300,100%,80%); }
+		.l-red { stroke: hsl(0,75%,40%); }
+		.l-yellow { stroke: hsl(60,75%,40%); }
+		.l-green { stroke: hsl(120,75%,40%); }
+		.l-teal { stroke: hsl(180,75%,40%); }
+		.l-blue { stroke: hsl(240,75%,40%); }
+		.l-purple { stroke: hsl(300,75%,40%); }
+		text { text-anchor: middle; font-family: Helvetica, Arial, sans-serif; font-size: 22px; fill: #000; }
+		text.small { font-size: 16px; font-weight:bold; }
+	</style>
+	<g transform="translate(60,0)">
+		<g transform="translate(10,20)">
+			<rect height="30" width="20" x="0" class="red" />
+			<rect height="30" width="20" x="20" class="red" />
+			<rect height="30" width="20" x="40" class="yellow" />
+			<rect height="30" width="20" x="60" class="green" />
+			<rect height="30" width="20" x="80" class="yellow" />
+			<rect height="30" width="20" x="100" class="purple" />
+			<rect height="30" width="20" x="120" class="teal" />
+			<rect height="30" width="20" x="140" class="blue" />
+			<text y="23" x="10">2</text>
+			<text y="23" x="30">7</text>
+			<text y="23" x="50">3</text>
+			<text y="23" x="70">1</text>
+			<text y="23" x="90">5</text>
+			<text y="23" x="110">8</text>
+			<text y="23" x="130">4</text>
+			<text y="23" x="150">5</text>
+			<text y="-3" x="10" class="small">i,m</text>
+			<text y="-3" x="150" class="small">p</text>
+		</g>
+		<g transform="translate(10,70)">
+			<line y1="30" x1="30" y2="60" x2="50" class="l-red" />
+			<line y1="30" x1="50" y2="60" x2="30" class="l-yellow" />
+			<rect height="30" width="20" x="0" class="red" />
+			<rect height="30" width="20" x="20" class="red" />
+			<rect height="30" width="20" x="40" class="yellow" />
+			<rect height="30" width="20" x="60" class="green" />
+			<rect height="30" width="20" x="80" class="yellow" />
+			<rect height="30" width="20" x="100" class="purple" />
+			<rect height="30" width="20" x="120" class="teal" />
+			<rect height="30" width="20" x="140" class="blue" />
+			<text y="23" x="10">2</text>
+			<text y="23" x="30">7</text>
+			<text y="23" x="50">3</text>
+			<text y="23" x="70">1</text>
+			<text y="23" x="90">5</text>
+			<text y="23" x="110">8</text>
+			<text y="23" x="130">4</text>
+			<text y="23" x="150">5</text>
+			<text y="-3" x="30" class="small">i,m</text>
+			<text y="-3" x="150" class="small">p</text>
+		</g>
+		<g transform="translate(10,130)">
+			<line y1="30" x1="50" y2="60" x2="70" class="l-red" />
+			<line y1="30" x1="70" y2="60" x2="50" class="l-green" />
+			<rect height="30" width="20" x="0" class="red" />
+			<rect height="30" width="20" x="20" class="yellow" />
+			<rect height="30" width="20" x="40" class="red" />
+			<rect height="30" width="20" x="60" class="green" />
+			<rect height="30" width="20" x="80" class="yellow" />
+			<rect height="30" width="20" x="100" class="purple" />
+			<rect height="30" width="20" x="120" class="teal" />
+			<rect height="30" width="20" x="140" class="blue" />
+			<text y="23" x="10">2</text>
+			<text y="23" x="30">3</text>
+			<text y="23" x="50">7</text>
+			<text y="23" x="70">1</text>
+			<text y="23" x="90">5</text>
+			<text y="23" x="110">8</text>
+			<text y="23" x="130">4</text>
+			<text y="23" x="150">5</text>
+			<text y="-3" x="30" class="small">m</text>
+			<text y="-3" x="50" class="small">i</text>
+			<text y="-3" x="150" class="small">p</text>
+		</g>
+		<g transform="translate(10,190)">
+			<rect height="30" width="20" x="0" class="red" />
+			<rect height="30" width="20" x="20" class="yellow" />
+			<rect height="30" width="20" x="40" class="green" />
+			<rect height="30" width="20" x="60" class="red" />
+			<rect height="30" width="20" x="80" class="yellow" />
+			<rect height="30" width="20" x="100" class="purple" />
+			<rect height="30" width="20" x="120" class="teal" />
+			<rect height="30" width="20" x="140" class="blue" />
+			<text y="23" x="10">2</text>
+			<text y="23" x="30">3</text>
+			<text y="23" x="50">1</text>
+			<text y="23" x="70">7</text>
+			<text y="23" x="90">5</text>
+			<text y="23" x="110">8</text>
+			<text y="23" x="130">4</text>
+			<text y="23" x="150">5</text>
+			<text y="-3" x="50" class="small">m</text>
+			<text y="-3" x="70" class="small">i</text>
+			<text y="-3" x="150" class="small">p</text>
+		</g>
+		<g transform="translate(10,250)">
+			<rect height="30" width="20" x="0" class="red" />
+			<rect height="30" width="20" x="20" class="yellow" />
+			<rect height="30" width="20" x="40" class="green" />
+			<rect height="30" width="20" x="60" class="red" />
+			<rect height="30" width="20" x="80" class="yellow" />
+			<rect height="30" width="20" x="100" class="purple" />
+			<rect height="30" width="20" x="120" class="teal" />
+			<rect height="30" width="20" x="140" class="blue" />
+			<text y="23" x="10">2</text>
+			<text y="23" x="30">3</text>
+			<text y="23" x="50">1</text>
+			<text y="23" x="70">7</text>
+			<text y="23" x="90">5</text>
+			<text y="23" x="110">8</text>
+			<text y="23" x="130">4</text>
+			<text y="23" x="150">5</text>
+			<text y="-3" x="50" class="small">m</text>
+			<text y="-3" x="90" class="small">i</text>
+			<text y="-3" x="150" class="small">p</text>
+		</g>
+		<g transform="translate(10,310)">
+			<line y1="30" x1="70" y2="60" x2="130" class="l-red" />
+			<line y1="30" x1="130" y2="60" x2="70" class="l-teal" />
+			<rect height="30" width="20" x="0" class="red" />
+			<rect height="30" width="20" x="20" class="yellow" />
+			<rect height="30" width="20" x="40" class="green" />
+			<rect height="30" width="20" x="60" class="red" />
+			<rect height="30" width="20" x="80" class="yellow" />
+			<rect height="30" width="20" x="100" class="purple" />
+			<rect height="30" width="20" x="120" class="teal" />
+			<rect height="30" width="20" x="140" class="blue" />
+			<text y="23" x="10">2</text>
+			<text y="23" x="30">3</text>
+			<text y="23" x="50">1</text>
+			<text y="23" x="70">7</text>
+			<text y="23" x="90">5</text>
+			<text y="23" x="110">8</text>
+			<text y="23" x="130">4</text>
+			<text y="23" x="150">5</text>
+			<text y="-3" x="50" class="small">m</text>
+			<text y="-3" x="110" class="small">i</text>
+			<text y="-3" x="150" class="small">p</text>
+		</g>
+		<g transform="translate(10,370)">
+			<line y1="30" x1="90" y2="60" x2="150" class="l-yellow" />
+			<line y1="30" x1="150" y2="60" x2="90" class="l-blue" />
+			<rect height="30" width="20" x="0" class="red" />
+			<rect height="30" width="20" x="20" class="yellow" />
+			<rect height="30" width="20" x="40" class="green" />
+			<rect height="30" width="20" x="60" class="teal" />
+			<rect height="30" width="20" x="80" class="yellow" />
+			<rect height="30" width="20" x="100" class="purple" />
+			<rect height="30" width="20" x="120" class="red" />
+			<rect height="30" width="20" x="140" class="blue" />
+			<text y="23" x="10">2</text>
+			<text y="23" x="30">3</text>
+			<text y="23" x="50">1</text>
+			<text y="23" x="70">4</text>
+			<text y="23" x="90">6</text>
+			<text y="23" x="110">8</text>
+			<text y="23" x="130">7</text>
+			<text y="23" x="150">5</text>
+			<text y="-3" x="70" class="small">m</text>
+			<text y="-3" x="130" class="small">i</text>
+			<text y="-3" x="150" class="small">p</text>
+		</g>
+		<g transform="translate(10,430)">
+			<rect height="30" width="20" x="0" class="red" />
+			<rect height="30" width="20" x="20" class="yellow" />
+			<rect height="30" width="20" x="40" class="green" />
+			<rect height="30" width="20" x="60" class="teal" />
+			<rect height="30" width="20" x="80" class="blue" />
+			<rect height="30" width="20" x="100" class="purple" />
+			<rect height="30" width="20" x="120" class="red" />
+			<rect height="30" width="20" x="140" class="yellow" />
+			<text y="23" x="10">2</text>
+			<text y="23" x="30">3</text>
+			<text y="23" x="50">1</text>
+			<text y="23" x="70">4</text>
+			<text y="23" x="90">5</text>
+			<text y="23" x="110">8</text>
+			<text y="23" x="130">7</text>
+			<text y="23" x="150">6</text>
+			<text y="-3" x="90" class="small">p</text>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="180" height="210" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		ellipse.red { fill: hsl(0,100%,80%); }
+		ellipse.yellow { fill: hsl(60,100%,80%); }
+		ellipse.green { fill: hsl(120,100%,80%); }
+		ellipse.teal { fill: hsl(180,100%,80%); }
+		ellipse.blue { fill: hsl(240,100%,80%); }
+		ellipse.purple { fill: hsl(300,100%,80%); }
+		text { text-anchor: middle; font-family: Helvetica, Arial, sans-serif; font-size: 22px; fill: #000; }
+		ellipse { stroke-width: 2; stroke: #000; fill: #FFF }
+		path { stroke: #000; stroke-width: 2; }
+	</style>
+	<g>
+		<g transform="translate(150,30)">
+			<path d="m0 0 l-40,50" fill="none" stroke-width="2"/>
+			<ellipse ry="20" rx="20" class="red" />
+			<text y="7" x="0">4</text>
+		</g>
+		<g transform="translate(110,80)">
+			<path d="m0 0 l-40,50" fill="none" stroke-width="2"/>
+			<ellipse ry="20" rx="20" cy="0" cx="0" class="yellow" />
+			<text y="7" x="0">3</text>
+		</g>
+		<g transform="translate(70,130)">
+			<path d="m0 0 l-40,50" fill="none" stroke-width="2"/>
+			<ellipse ry="20" rx="20" cy="0" cx="0" class="green" />
+			<text y="7" x="0">2</text>
+		</g>
+		<g transform="translate(30,180)">
+			<ellipse ry="20" rx="20" cy="0" cx="0" class="teal" />
+			<text y="7" x="0">1</text>
+		</g>
+	</g>
+</svg>

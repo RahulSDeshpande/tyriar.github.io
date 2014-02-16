@@ -1,0 +1,62 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="960" height="260" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		rect, path, line { stroke: #000; stroke-width: 2; }
+		.red { fill: hsl(0,100%,80%); }
+		.yellow { fill: hsl(60,100%,80%); }
+		.green { fill: hsl(120,100%,80%); }
+		.teal { fill: hsl(180,100%,80%); }
+		.blue { fill: hsl(240,100%,80%); }
+		.purple { fill: hsl(300,100%,80%); }
+		marker path, path path { stroke-width: 1; stroke-dasharray: 0; }
+		text { font-family: Helvetica, Arial, sans-serif; font-size: 22px; fill: #000; }
+		.dotted { stroke-dasharray: 6, 3; }
+	</style>
+	<marker id="closed-triangle" viewBox="-1 0 12 10" refX="10.5" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+		<path d="M 0 0 L 10 5 L 0 10z" fill="#fff"/>
+	</marker>
+	<marker id="arrow" viewBox="-1 0 12 10" refX="10.5" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+		<path d="M 0 0 L 10 5 L 0 10" fill="transparent"/>
+	</marker>
+	<g>
+		<g transform="translate(170,40)">
+			<rect x="0" y="0" width="140" height="30" class="yellow" />
+			<text x="70" y="21" text-anchor="middle" font-weight="bold">Product</text>
+		</g>
+		<g transform="translate(10,130)">
+			<rect x="0" y="0" width="220" height="30" class="yellow" />
+			<text x="110" y="21" text-anchor="middle" font-weight="bold">ConcreteProduct1</text>
+		</g>
+		<g transform="translate(250,130)">
+			<rect x="0" y="0" width="220" height="30" class="yellow" />
+			<text x="110" y="21" text-anchor="middle" font-weight="bold">ConcreteProduct2</text>
+		</g>
+		<g transform="translate(510,10)">
+			<rect x="0" y="0" width="280" height="90" class="yellow" />
+			<text x="140" y="21" text-anchor="middle" font-weight="bold">«Interface»</text>
+			<text x="140" y="51" text-anchor="middle" font-weight="bold">ProductFactory</text>
+			<line x1="0" y1="58" x2="280" y2="58" />
+			<text x="13" y="81" text-anchor="middle">+</text>
+			<text x="30" y="81">makeProduct() : Product</text>
+		</g>
+		<g transform="translate(350,190)">
+			<rect x="0" y="0" width="290" height="60" class="yellow" />
+			<text x="145" y="21" text-anchor="middle" font-weight="bold">Product1Factory</text>
+			<line x1="0" y1="28" x2="290" y2="28" />
+			<text x="13" y="51" text-anchor="middle">+</text>
+			<text x="30" y="51">/makeProduct() : Product</text>
+		</g>
+		<g transform="translate(660,190)">
+			<rect x="0" y="0" width="290" height="60" class="yellow" />
+			<text x="145" y="21" text-anchor="middle" font-weight="bold">Product2Factory</text>
+			<line x1="0" y1="28" x2="290" y2="28" />
+			<text x="13" y="51" text-anchor="middle">+</text>
+			<text x="30" y="51">/makeProduct() : Product</text>
+		</g>
+		<path d="m240,100l0,-30" fill="transparent" marker-end="url(#closed-triangle)"  />
+		<path d="m120,130l0,-30l240,0l0,30" fill="transparent" />
+		<path d="m495,190l0,-45l310,0l0,45" class="dotted" fill="transparent" />
+		<path d="m650,145l0,-45" class="dotted" fill="transparent" marker-end="url(#closed-triangle)" />
+		<path d="m510,55l-200,0" class="dotted" fill="transparent" marker-end="url(#arrow)" />
+	</g>
+</svg>

@@ -1,0 +1,114 @@
+.tag-container  {
+  // Issue with floating headers being larger with floating point fonts
+  @include media-sm {
+    font-size: 1rem;
+  }
+
+  menu {
+    list-style: none;
+    padding: 0;
+    line-height: 1;
+
+    &::after {
+      display: block;
+      content: "";
+      clear: both;
+    }
+  }
+
+  li {
+    float: left;
+  }
+
+  button {
+    font-family: inherit;
+    font-size: inherit;
+    background-color: $grey-light;
+    padding: .2em .4em;
+    margin: .5em .2em 0;
+    opacity: .3;
+    white-space: nowrap;
+    color: $navy;
+    border-radius: 4px;
+    border: 0;
+    outline: 0;
+    line-height: inherit;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:hover,
+    &:focus {
+      background-color: $grey;
+    }
+
+    &.selected {
+      background-color: $red;
+    }
+  }
+}
+
+.letter-header {
+  background-color: transparent !important;
+  color: $grey-dark !important;
+  padding: .2em .4em;
+  margin: .5em .2em 0;
+  opacity: .3;
+
+  &:hover {
+    cursor: default !important;
+  }
+}
+
+.show-all button,
+.tag-container button.active,
+.show-all .letter-header {
+  opacity: 1;
+}
+
+// Toggle button/tag-container
+.toggle-button {
+  // Make a mixin/placeholder for these styles and tags
+  display: none;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  background-color: $grey-light;
+  padding: .2em .4em;
+  margin: .5em .2em 0;
+  white-space: nowrap;
+  color: $navy;
+  border-radius: 4px;
+  border: 0;
+  outline: 0;
+  margin-bottom: $paragraph-spacing;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $grey;
+  }
+
+  @include media-sm {
+    display: block;
+  }
+}
+
+.tag-container {
+  @include media-sm {
+    display: none;
+  }
+}
+
+.active {
+  .toggle-button {
+    background-color: $red;
+  }
+  .tag-container {
+    display:block;
+  }
+}

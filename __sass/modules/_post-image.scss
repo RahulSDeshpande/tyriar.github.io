@@ -1,0 +1,108 @@
+figure {
+  margin: 0;
+}
+// TODO: Some of these can probably be removed/optimised
+
+.post-image.center-aligned {
+  text-align: center;
+  margin: $paragraph-spacing auto 0 auto;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+@include media-gt-sm {
+  .post-image {
+    &.right-aligned,
+    &.right-aligned-lg,
+    &.right-small-aligned {
+      float:right;
+      max-width:50%;
+      margin-left: 1em;
+
+      img {
+        width: 100%;
+      }
+    }
+    &.left-aligned,
+    &.left-aligned-lg,
+    &.left-small-aligned {
+      float:left;
+      max-width:50%;
+      margin-right: 1em;
+
+      img {
+        width: 100%;
+      }
+    }
+    &.right-aligned,
+    &.right-aligned-lg,
+    &.left-aligned,
+    &.left-aligned-lg {
+      max-width:50%;
+    }
+    &.right-small-aligned,
+    &.left-small-aligned {
+      max-width:25%;
+    }
+    &.full-width img,
+    &.full-width-lg img {
+      width:100%;
+      margin-top: $paragraph-spacing;
+    }
+
+    @include media-lt-full {
+      &.right-col {
+        max-width:50%;
+      }
+      &.right-col {
+        float:right;
+        max-width:50%;
+        margin-left: 1em;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+@include media-full {
+  .right-col {
+  	float: right;
+  	margin: 0 0 0 (-$full-width-right);
+  	position: relative;
+  	left: $full-width-right;
+
+    img {
+      max-width: $full-width-right;
+      height: auto;
+    }
+  }
+  // Compliments right-col
+  .fit-col {
+    width: $full-width-right;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+@include media-sm {
+  .post-image {
+    &.right-col img,
+    &.right-aligned img,
+    &.left-aligned img,
+    &.center-aligned img,
+    &.full-width img,
+    &.full-width-sm img {
+      width: 100%;
+      margin-top: $paragraph-spacing;
+    }
+    &.right-small-aligned,
+    &.left-small-aligned {
+      max-width: 50% !important;
+    }
+  }
+}

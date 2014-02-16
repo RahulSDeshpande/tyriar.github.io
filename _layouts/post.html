@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<article itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+{% include masthead.html title=page.title date=page.date tags=page.tags text=page.intro shareicons="1" %}
+<div class="wrapper">
+<div class="inner-wrapper">
+{{ content }}
+{% if page.socialimage %}<img class="screen-reader" itemprop="image" src="{{ site.baseurl }}{{ page.socialimage }}" alt="">{% endif %}
+{% if page.primarytag %}{% include post-related-tags.html primarytag=page.primarytag %}{% endif %}
+{% include disqus.html %}
+</div>
+</div>
+</article>

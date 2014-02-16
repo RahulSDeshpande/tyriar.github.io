@@ -1,0 +1,114 @@
+<?xml version="1.0" standalone="yes"?>
+<svg viewBox="0 0 240 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<svg width="240" height="180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="playing" id="player">
+		<style>
+			ellipse.red { fill: hsl(0,100%,80%); }
+			ellipse.yellow { fill: hsl(60,100%,80%); }
+			ellipse.green { fill: hsl(120,100%,80%); }
+			ellipse.teal { fill: hsl(180,100%,80%); }
+			ellipse.blue { fill: hsl(240,100%,80%); }
+			ellipse.purple { fill: hsl(300,100%,80%); }
+			line { stroke-width: 2; stroke: #000; }
+			text { text-anchor: middle; font-family: Helvetica, Arial, sans-serif; font-size: 22px; fill: #000; }
+			ellipse { stroke-width: 2; stroke: #000; fill: #FFF }
+			path { stroke: #000; stroke-width: 2; }
+			.step { font-size:18px; }
+			.playing #play-button {
+				display:none;
+			}
+			#play-button path {
+				-webkit-transform: scale(1);
+				transform: scale(1);
+			}
+			svg:hover #play-button path {
+				-webkit-transform: scale(1.5);
+				transform: scale(1.5);
+			}
+			svg[width]:not(.playing):hover {
+				cursor:pointer;
+			}
+		</style>
+
+		<!-- link 1 to 9 opacity -->
+		<animate          xlink:href="#link1to9" id="link1to9pause1" begin="indefinite"         attributeName="opacity"   attributeType="XML" from="0"  to="0"  dur="0.5s"/>
+		 <animate          xlink:href="#link1to9" id="link1to9show"   begin="link1to9pause1.end" attributeName="opacity"   attributeType="XML" from="0"  to="1"  dur="0.25s"/>
+		  <animate          xlink:href="#link1to9" id="link1to9pause2" begin="link1to9show.end"   attributeName="opacity"   attributeType="XML" from="1"  to="1"  dur="0.5s"/>
+		   <animate          xlink:href="#link1to9" id="link1to9pause3" begin="link1to9pause2.end" attributeName="opacity"   attributeType="XML" from="1"  to="1"  dur="4s"/>
+		   <animate          xlink:href="#link1to9" id="link1to9move1"  begin="link1to9pause2.end" attributeName="x1"        attributeType="XML" from="0"  to="90" dur="1s" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1"/>
+		    <animate          xlink:href="#link1to9" id="link1to9pause4" begin="link1to9move1.end"  attributeName="x1"        attributeType="XML" from="90" to="90" dur="3s"/>
+		   <animate          xlink:href="#link1to9" id="link1to9move2"  begin="link1to9pause2.end" attributeName="y2"        attributeType="XML" from="0"  to="60" dur="1s" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1"/>
+		    <animate          xlink:href="#link1to9" id="link1to9pause5" begin="link1to9move2.end"  attributeName="y2"        attributeType="XML" from="60" to="60" dur="0.5s"/>
+		     <animate          xlink:href="#link1to9" id="link1to9pause6" begin="link1to9pause5.end" attributeName="y2"        attributeType="XML" from="60" to="60" dur="2.5s"/>
+		   <animateTransform xlink:href="#e1"       id="e1move1"        begin="link1to9pause2.end" attributeName="transform" attributeType="XML" type="translate" from="0,0"     to="90,0" dur="1s" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1"/>
+		    <animateTransform xlink:href="#e1"       id="e1pause1"       begin="e1move1.end"        attributeName="transform" attributeType="XML" type="translate" from="90,0"    to="90,0" dur="3s"/>
+		   <animateTransform xlink:href="#e7"       id="e7move1"        begin="link1to9pause2.end" attributeName="transform" attributeType="XML" type="translate" from="0,0"     to="0,60" dur="1s" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1"/>
+		    <animateTransform xlink:href="#e7"       id="e7pause1"       begin="e7move1.end"        attributeName="transform" attributeType="XML" type="translate" from="0,60"    to="0,60" dur="0.5s"/>
+		     <animateTransform xlink:href="#e7"       id="e7pause2"       begin="e7pause1.end"       attributeName="transform" attributeType="XML" type="translate" from="0,60"    to="0,60" dur="2.5s"/>
+		     <animateTransform xlink:href="#t3"       id="t3move1"        begin="e7pause1.end"       attributeName="transform" attributeType="XML" type="translate" from="0,0"     to="-160,60" dur="1s" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1"/>
+		      <animateTransform xlink:href="#t3"       id="t3pause1"       begin="t3move1.end"        attributeName="transform" attributeType="XML" type="translate" from="-160,60" to="-160,60" dur="1.5s"/>
+		       <animate          xlink:href="#link1to3" id="link1to3move1"  begin="e7pause1.end"       attributeName="x2"        attributeType="XML" from="90"  to="-70" dur="1s" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1"/>
+		        <animate          xlink:href="#link1to3" id="link1to3pause1" begin="link1to3move1.end"  attributeName="x2"        attributeType="XML" from="-70" to="-70" dur="1.5s"/>
+		       <animate          xlink:href="#link1to3" id="link1to3move2"  begin="e7pause1.end"       attributeName="y2"        attributeType="XML" from="0"   to="60"  dur="1s" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1"/>
+		        <animate          xlink:href="#link1to3" id="link1to3pause2" begin="link1to3move2.end"  attributeName="y2"        attributeType="XML" from="60"  to="60"  dur="1.5s"/>
+
+		<g transform="translate(30,30)">
+			<line id="link1to9" x1="0" y1="0" x2="90" y2="0" opacity="0"/>
+		</g>
+
+		<g transform="translate(120,30)">
+			<line id="link1to3" x1="0" y1="0" x2="90" y2="0"/>
+		</g>
+
+		<g transform="translate(30,30)">
+			<g id="e1">
+				<ellipse ry="20" rx="20" cy="0" cx="0" class="red" />
+				<text y="7" x="0">1</text>
+			</g>
+		</g>
+
+		<g transform="translate(120,30)">
+			<g id="e7">
+				<ellipse ry="20" rx="20" class="green"/>
+				<text y="7" x="0">7</text>
+			</g>
+		</g>
+
+		<g transform="translate(210,30)">
+			<g id="t3">
+				<path d="m0 0 l0,60"/>
+				<ellipse ry="20" rx="20" cy="0" cx="0" class="blue" />
+				<text y="7" x="0">3</text>
+				<g transform="translate(0,60)">
+					<ellipse ry="20" rx="20" cy="0" cx="0" class="blue" />
+					<text y="7" x="0">5</text>
+				</g>
+			</g>
+		</g>
+		<g id="play-button" transform="translate(120,90)">
+			<path d="m-30 -36l60 36l-60 36z" opacity=".85" fill="hsl(0,0%,80%)" stroke-width="0"/>
+		</g>
+		<rect x="0" y="0" width="240" height="180" id="click-mask" fill="transparent"/>
+		<script xlink:type="text/javascript">
+			(function () {
+				var svg = document.querySelector('#player');
+				if (!svg.classList || !document.querySelector('#link1to9pause1').beginElement) {
+					return;
+				}
+				svg.classList.remove('playing');
+				document.querySelector('#click-mask').addEventListener('click', startPlaying);
+
+				function startPlaying() {
+					if (!svg.classList.contains('playing')) {
+						svg.classList.add('playing');
+						document.querySelector('#link1to9pause1').beginElement();
+						window.setTimeout(finish, 5250);
+					}
+				}
+
+				function finish() {
+					svg.classList.remove('playing');
+				}
+			})();
+		</script>
+	</svg>
+</svg>

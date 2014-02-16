@@ -1,0 +1,32 @@
+$pager-height:24px;
+
+.pager {
+  @extend .wrapper;
+  position:relative;
+  height:$pager-height;
+  margin-top: 3em !important;
+
+  a {
+  	display:block;
+  	position:absolute;
+  	top:0;
+  	height:24px;
+  	width:24px;
+  }
+
+  .home {
+    background-image: url($home-icon);
+    left:50%;
+    margin-left:-12px;
+  }
+
+  .prev-page {
+    background-image: url($prev-page-icon);
+    left:1em;
+  }
+
+  .next-page {
+    background-image: url($home-page-icon);
+    right:1em;
+  }
+}

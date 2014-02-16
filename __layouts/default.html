@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en-AU'>
+<head>
+<meta charset="utf-8">
+<meta content='initial-scale=1,minimum-scale=1.0' name='viewport'>
+<meta name="msvalidate.01" content="A9D9C37FC2BBD86DA36EC0711736B54D">
+{% if page.title %}<meta property="og:title" content="{{ page.title }}">{% else %}<meta property="og:title" content="Growing with the Web">{% endif %}
+{% capture intro %}{{ page.intro | strip_html }}{% endcapture %}
+{% unless intro contains '"' %}<meta property="og:description" content="{{ intro }}">{% endunless %}
+<meta property="og:url" content="www.growingwiththeweb.com{{ page.url }}">
+{% if page.socialimage %}<meta property="og:image" content="http://tyriar.github.io{{ site.baseurl }}{{ page.socialimage }}" />{% endif %}
+<title>{% if page.title %}{{ page.title }} - {% endif %} Growing with the Web</title>
+<link href='{{ site.baseurl }}/images/general/favicon.png' rel='shortcut icon' type='image/png'>
+<link href='http://feeds.feedburner.com/GrowingWithTheWeb' rel='alternate' title='Growing with the Web - Atom' type='application/atom+xml'>
+{% if page.url != "/p/explore.html" %}<link href='http://www.growingwiththeweb.com{{ page.url }}' rel='canonical'>{% endif %}
+<style><!--@@include('inline.css')--></style>
+</head>
+<body>
+{% include default-header.html %}
+<main class="content">
+{{ content }}
+</main>
+{% include default-footer.html %}
+<script type="text/javascript">var home='{{ site.baseurl }}';<!--@@include('tag-names.js')--></script>
+<script src='{{ site.baseurl }}/scripts/site.js' type='text/javascript' async></script>
+{% if page.url == "/p/explore.html" %}
+<script type="text/javascript" src="{{ site.baseurl }}/scripts/tag-search.js" async></script>
+{% endif %}
+<script src='http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript' async></script>
+<link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
+</body>
+</html>

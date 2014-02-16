@@ -1,0 +1,18 @@
+{% if include.primarytag == "C#" %}
+  <h2>More posts tagged <a href="{{ site.baseurl }}/p/explore.html?t=C%23" rel="tag">{{ include.primarytag }}</a></h2>
+{% else %}
+  <h2>More posts tagged <a href="{{ site.baseurl }}/p/explore.html?t={{ include.primarytag | replace: ' ','%20' | UrlEncode }}" rel="tag">{{ include.primarytag }}</a></h2>
+{% endif %}
+<div class="related-posts">
+  <ul>
+    {% for post in site.posts %}
+      {% if post.title != page.title %}
+        {% if post.tags contains include.primarytag %}
+          <li>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

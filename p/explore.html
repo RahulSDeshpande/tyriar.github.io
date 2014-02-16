@@ -1,0 +1,19 @@
+---
+layout: default
+title : Explore
+---
+
+
+<div class="masthead">
+<div class="wrapper">
+<header>
+<h1>Explore</h1>
+</header>
+<div class="tag-toggle-container">
+<button class="toggle-button">Show tags</button>
+<div class="tag-container"></div>
+</div>
+</div>
+</div>
+<div class="previews">{% for post in site.posts %}{% include post-preview.html post=post hideimage="1" %}{% endfor %}</div>
+<style>article{display:none;}article.active{display:block;}</style>
