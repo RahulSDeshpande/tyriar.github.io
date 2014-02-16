@@ -127,7 +127,7 @@ module.exports = function(grunt) {
     pagespeed: {
       indexdesktop: {
         options: {
-          url: "http://tyriar.github.io/growing-with-the-web-blog",
+          url: "http://tyriar.github.io",
           locale: "en_AU",
           strategy: "desktop",
           threshold: 90
@@ -135,7 +135,7 @@ module.exports = function(grunt) {
       },
       indexmobile: {
         options: {
-          url: "http://tyriar.github.io/growing-with-the-web-blog",
+          url: "http://tyriar.github.io",
           locale: "en_AU",
           strategy: "mobile",
           threshold: 90
