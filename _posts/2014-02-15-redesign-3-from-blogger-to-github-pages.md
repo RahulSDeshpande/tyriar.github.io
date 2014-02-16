@@ -98,4 +98,4 @@ I've been itching to get back into my normal writing schedule while working on t
 [8]: http://pages.github.com/
 [9]: {{ site.baseurl }}/p/explore.html
 [10]: {{ site.baseurl }}/p/top-articles.html
-[11]: {{ site.baseurl }}
+[11]: {{ site.baseurl }}/2013/01/blog-redesign-2.html
