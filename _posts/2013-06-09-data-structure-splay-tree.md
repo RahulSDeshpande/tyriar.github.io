@@ -13,7 +13,7 @@ intro       : The splay tree is type of self-adjusting binary search tree like t
 
 The worst case height of a splay tree is \\(n\\), this could be the case if all nodes were accessed in ascending order for example.
 
-This makes the worst case complexity of the splay tree's operations \\(O(n)\\). Since all operations also splay the tree on the node, the tree ends up roughly balancing itself, this results in a \\(O(\log n)\\) amortized worst case time complexity for all operations.
+This makes the worst case complexity of the splay tree's operations \\(O(n)\\). Since all operations also splay the tree on the node, the tree ends up roughly balancing itself, this results in a \\(O(\log n)\\) amortised worst case time complexity for all operations.
 
 The splay tree is a particularly good choice as a data structure when it's likely that the same nodes will be accessed multiple times in a short period. This is where the real power in the splay tree lies, in its ability to hoist nodes up to the root when they are accessed, giving speedy access for nearby successive accesses.
 
