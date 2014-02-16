@@ -1,13 +1,12 @@
 .wrapper {
-  @include media-full {
-    width: $full-width;
-  }
-
-  @include media-lt-full {
-    padding: 0 1em;
-  }
-  
-  margin: 0 auto;
+  // Inline
+  //@include media-full {
+  //  width: $full-width;
+  //}
+  //@include media-lt-full {
+  //  padding: 0 1em;
+  //}  
+  //margin: 0 auto;
   position: relative;
 
   &::after {

@@ -46,6 +46,18 @@
   }
 }
 
+// _wrappers.scss
+
+.wrapper {
+  @include media-full {
+    width: $full-width;
+  }
+  @include media-lt-full {
+    padding: 0 1em;
+  }  
+  margin: 0 auto;
+}
+
 // _general.scss
 body {
   color: $navy;
