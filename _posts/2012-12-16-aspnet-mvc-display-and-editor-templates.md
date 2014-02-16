@@ -3,7 +3,7 @@ layout      : post
 title       : ASP.NET MVC display and editor templates
 tags        : [.NET, ASP.NET, MVC, C#, Razor]
 primarytag  : ASP.NET
-intro       : This article looks at how to define custom display and editor templates in ASP.NET MVC
+intro       : Display and editor templates in ASP.NET MVC let us create views in a more maintainable and elegant ways. This article looks at how to define custom templates to display and manipulate different data types.
 ---
 
 ## Display templates
