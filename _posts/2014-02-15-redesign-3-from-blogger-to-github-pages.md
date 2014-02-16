@@ -80,11 +80,11 @@ I've been itching to get back into my normal writing schedule while working on t
 
 ### Old
 
-{% include post-image.html class="center-align" alt="Old screenshot" src="/images/2014/02/15/old.png" %}
+{% include post-image.html class="center-aligned" alt="Old screenshot" src="/images/2014/02/15/old.png" %}
 
 ### New
 
-{% include post-image.html class="center-align" alt="New screenshot" src="/images/2014/02/15/new.png" %}
+{% include post-image.html class="center-aligned" alt="New screenshot" src="/images/2014/02/15/new.png" %}
 
 
 
