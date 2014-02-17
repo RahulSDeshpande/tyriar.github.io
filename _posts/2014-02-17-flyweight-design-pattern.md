@@ -1,6 +1,5 @@
 ---
 layout      : post
-staging     : 1
 title       : Flyweight design pattern
 tags        : [Creational design pattern, Design pattern, Software engineering, UML]
 preview     : /images/2014/02/17/flyweight-uml.svg
