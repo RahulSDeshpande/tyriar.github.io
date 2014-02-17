@@ -7,7 +7,7 @@
 		.green { fill: hsl(120,100%,80%); }
 		.teal { fill: hsl(180,100%,80%); }
 		.blue { fill: hsl(240,100%,80%); }
-		rect.purple { fill: hsl(300,100%,80%); }
+		.purple { fill: hsl(300,100%,80%); }
 		text { font-family: Helvetica, Arial, sans-serif; font-size: 22px; fill: #000; }
 		.dotted { stroke-dasharray: 6, 3; }
 		marker path, path path { stroke-width: 1; stroke-dasharray: 0; }
