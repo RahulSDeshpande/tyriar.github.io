@@ -152,4 +152,4 @@ The original recursive function how's exponentially \\(O(n^2)\\) while both the 
 
 
 
-[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/fibonacci-sequence
+[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/interview-questions/fibonacci-sequence

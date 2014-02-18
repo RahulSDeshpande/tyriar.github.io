@@ -78,7 +78,7 @@ While determining the complexity of a function like the above may seem intimidat
 
 ## Code
 
-And here is the finished product. [View on GitHub][1]
+[View on GitHub][1]
 
 <!--prettify lang=java-->
     public ArrayList<String> getCombinations(String text) {
