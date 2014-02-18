@@ -54,4 +54,4 @@ So after doing it a couple of times I went ahead and spent a few minutes writing
         return divisor;
     }
 
-[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/gcd
+[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/math/gcd

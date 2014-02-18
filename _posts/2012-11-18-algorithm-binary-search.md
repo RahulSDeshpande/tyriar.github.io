@@ -139,6 +139,8 @@ These types of algorithms have often been labelled as divide and conquer algorit
 
 ## Code
 
+[View on GitHub][2]
+
 <!--prettify lang=java-->
     public class BinarySearch {
         public static boolean search(int[] sortedArray, int value) {
@@ -167,3 +169,4 @@ These types of algorithms have often been labelled as divide and conquer algorit
 
 
 [1]: {{site.baseurl}}/2012/11/algorithm-merge-sort.html
+[2]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/search/binary-search

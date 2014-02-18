@@ -102,7 +102,7 @@ Here is a heapsort implementation done in Java using a max-heap.
 
 
 [1]: {{site.baseurl}}/2012/10/data-structures-binary-search-tree.html
-[2]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/heapsort
+[2]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/sorting/heapsort
 
 [Heapsort]: {{site.baseurl}}/2012/11/algorithm-heapsort.html
 [Insertion sort]: {{site.baseurl}}/2012/11/algorithm-insertion-sort.html

@@ -61,4 +61,4 @@ or
         return new StringBuilder(text).reverse().toString();
     }
 
-[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/reverse-string
+[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/interview-questions/reverse-string

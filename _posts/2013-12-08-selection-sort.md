@@ -74,5 +74,5 @@ While selection sort is faster than most \\(O(\log n)\\) sorts for small lists, 
 
 
 [1]: {{site.baseurl}}/2012/11/algorithm-insertion-sort.html
-[2]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/selection-sort
+[2]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/sorting/selection-sort
 [3]: {{site.baseurl}}/2012/11/algorithm-heapsort.html

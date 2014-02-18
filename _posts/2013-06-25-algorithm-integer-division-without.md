@@ -16,6 +16,8 @@ There are two other cases we need to handle: the first is when the divisor is `0
 
 ## Code
 
+[View on GitHub][1]
+
 <!--prettify lang=java-->
     public static int divide(int a, int b) {
         if (b == 0)
@@ -36,3 +38,7 @@ There are two other cases we need to handle: the first is when the divisor is `0
         }
         return (result - 1) * sign;
     }
+
+
+
+[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/interview-questions/divide-without-divide

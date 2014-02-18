@@ -78,7 +78,7 @@ While determining the complexity of a function like the above may seem intimidat
 
 ## Code
 
-And here is the finished product.
+And here is the finished product. [View on GitHub][1]
 
 <!--prettify lang=java-->
     public ArrayList<String> getCombinations(String text) {
@@ -93,3 +93,7 @@ And here is the finished product.
         }
         return results;
     }
+
+
+
+[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/interview-questions/combinations-of-a-set

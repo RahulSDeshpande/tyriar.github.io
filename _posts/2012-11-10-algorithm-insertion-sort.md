@@ -79,7 +79,7 @@ Being an adaptive sort also makes it an online algorithm, which means we can sta
 
 
 
-[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/insertion-sort
+[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/sorting/insertion-sort
 
 [Heapsort]: {{site.baseurl}}/2012/11/algorithm-heapsort.html
 [Insertion sort]: {{site.baseurl}}/2012/11/algorithm-insertion-sort.html

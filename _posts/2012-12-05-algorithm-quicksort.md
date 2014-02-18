@@ -143,7 +143,7 @@ The following when added to the above class implements a randomised pivot.
     }
 
 
-[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/quicksort
+[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/sorting/quicksort
 
 [Heapsort]: {{site.baseurl}}/2012/11/algorithm-heapsort.html
 [Insertion sort]: {{site.baseurl}}/2012/11/algorithm-insertion-sort.html

@@ -65,6 +65,8 @@ Much like [all combinations of a set][1], the time and space complexity of the a
 
 ## Code
 
+[View on GitHub][2]
+
 <!--prettify lang=java-->
     public static ArrayList<String> getPermutations(String text) {
         ArrayList<String> results = new ArrayList<String>();
@@ -89,3 +91,4 @@ Much like [all combinations of a set][1], the time and space complexity of the a
     }
 
 [1]: {{site.baseurl}}/2013/06/algorithm-all-combinations-of-set.html
+[2]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/interview-questions/permutations-of-a-set
