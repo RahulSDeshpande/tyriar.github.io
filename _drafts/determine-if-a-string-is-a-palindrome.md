@@ -11,4 +11,10 @@ intro       : This article looks at the interview question - <em>Determine if a 
 
 
 
+\\(O(n)\\)
+
+phrase version
+
+
+
 ## Code
