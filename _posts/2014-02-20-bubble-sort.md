@@ -2,7 +2,6 @@
 layout      : post
 title       : Bubble sort
 tags        : [Algorithm, Computer science, Java, Sorting]
-staging     : 1
 preview     : /images/2014/02/20/bubble-sort.svg
 socialimage : /images/2014/02/20/bubble-sort.png
 primarytag  : Sorting
