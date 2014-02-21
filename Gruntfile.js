@@ -114,6 +114,14 @@ module.exports = function(grunt) {
           src: ['**/*.html'],
           dest: ''
         }]
+      },
+      optimisedImages: {
+        files: [{
+          expand: true,
+          cwd: '__images-optimised/',
+          src: ['**/*.{png,jpg,gif}'],
+          dest: 'images'
+        }]
       }
     },
     includereplace: {
@@ -173,6 +181,7 @@ module.exports = function(grunt) {
     'htmlmin',
     'includereplace', // Apply any <!--@@include()-->
     'copy:replaced',  // Copy generated files from above into correct folders
+    'copy:optimisedImages',
     'imagemin',
     'svgmin',
     'copy:animsvg'
