@@ -1,6 +1,5 @@
 ---
 layout      : post
-staging     : 1
 title       : Determine if a string is a palindrome
 tags        : [Algorithm, Interview questions, Java]
 primarytag  : Interview questions
