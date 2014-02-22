@@ -6,7 +6,7 @@
 <meta name="msvalidate.01" content="A9D9C37FC2BBD86DA36EC0711736B54D">
 {% if page.title %}<meta property="og:title" content="{{ page.title }}">{% else %}<meta property="og:title" content="Growing with the Web">{% endif %}
 {% capture intro %}{{ page.intro | strip_html }}{% endcapture %}
-{% if intro contains '"' %}<meta name="description" content="A blog on software and web development by Daniel Imms">{% else %}<meta name="description" content="{{ intro }}">{% endif %}
+{% if intro %}{% if intro contains '"' %}<meta name="description" content="A blog on software and web development by Daniel Imms">{% else %}<meta name="description" content="{{ intro }}">{% endif %}{% else %}<meta name="description" content="A blog on software and web development by Daniel Imms">{% endif %}
 <meta property="og:url" content="www.growingwiththeweb.com{{ page.url }}">
 {% if page.socialimage %}<meta property="og:image" content="http://tyriar.github.io{{ site.baseurl }}{{ page.socialimage }}" />{% endif %}
 <title>{% if page.title %}{{ page.title }} - {% endif %} Growing with the Web</title>
