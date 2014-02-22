@@ -2,6 +2,7 @@
 layout      : post
 title       : "SASS: Syntactically Awesome Stylesheets"
 tags        : [CSS, HTML, SASS, Visual Studio]
+preview     : /images/2012/04/22/logo.png
 socialimage : /images/2012/04/22/logo.png
 primarytag  : SASS
 intro       : SASS stands for <a href="http://sass-lang.com/">Syntactically Awesome Stylesheets</a>, yes, I'm quite a fan of the name. It provides us with a much simpler and more elegant way of defining CSS, allowing the creation of more modular and manageable stylesheets. SASS has two flavours; SASS-style and SCSS-style, the basic difference being that SASS-style uses indentation to separate code-blocks instead of curly braces. The examples used in this post will be using the SCSS-style.

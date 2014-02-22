@@ -1,17 +1,16 @@
 ---
 layout      : post
-staging     : 1
 title       : Optimisation and validation tools for web development
 tags        : [Accessibility, CSS, Design, HTML, Optimisation, SEO]
 preview     : /images/2014/02/22/checks.svg
 socialimage : /images/2014/02/22/checks.png
-primarytag  : Optimisation
+primarytag  : Accessibility
 intro       : There is a lot to cover when making a website. So much that it's unreasonable to manually check a site for best practices in <abbr title="Search Engine Optimisation">SEO</abbr>, performance, accessibility, style and so on. Luckily the internet has you covered with these great tools to push your site to the next level!
 ---
 
 {% include post-image.html class="right-col" alt="A checklist" src="/images/2014/02/22/checks.svg" %}
 
-This article presents several of those tools that I've found most useful. Many of these have overlapping functionality but it's great to get multiple opinions about the state of your site.
+This article presents several of those tools that I've found the most useful. Many have overlapping functionality but it's great to get multiple opinions about the state of your site.
 
 
 
@@ -24,7 +23,7 @@ Accessibility is a big deal on the internet that is unfortunately often overlook
 - [**W3C Feed Validation Service**][21] scans and validates a RSS or Atom feed.
 - [**W3C mobileOK Checker**][22] performs various tests on a page and its resources to determine its level of mobile friendliness.
 - [**W3C Internationalization Checker**][23] checks to see if a page contains any internationalization issues.
-- [**Powermapper SortSite**][26] is the most comprehensive accessibility checker I've used, focusing on [<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.0][27].
+- [**Powermapper SortSite**][26] is the most comprehensive accessibility checker I've used, giving a detailed breakdown on [<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.0][27] conformance errors and warnings.
 - [**WAVE Web Accessibility Evaluation Tool**][24] by [WebAIM][25] scans a page and provides a series of inline accessibility errors and warnings.
 
 
@@ -33,18 +32,18 @@ Accessibility is a big deal on the internet that is unfortunately often overlook
 
 These tools help with the validation of a site's design.
 
-- [**Viewport Resizer**][18] is a bookmarklet from [Malte Wassermann][19] helpful in checking how a page will (likely) display on all devices by wrapping a page in a resizeable container.
+- [**Viewport Resizer**][18] is a bookmarklet from [Malte Wassermann][19] helpful in approximating how a page will display on different devices by wrapping a page in a resizeable container.
 - [**W3C CSS Validation Service**][20] scans a CSS file and provides a series of warnings and conformance errors.
 
 
 
 ## Performance
 
-Achieving great performance is all about pushing down page-weight as much as possible and optimising the above-the-fold content in order to improve the user experience. Above-the-fold loading performance is typically measures using [speed index][2].
+Achieving great performance is about pushing page-weight down as much as possible and optimising the above-the-fold content in order to improve the user experience. Above-the-fold loading performance is typically measured using [speed index][2].
 
 - [**PageSpeed Insights**][1] from Google scans a pages and gives some high-level advice for optimising it on desktop and mobile.
-- [**Web Page Test**][9] is an [open source project][10] primarily supported by Google that runs a web page on a remote computer and provides in depth details on connections, requests, page size and speed index for both the non-cached first time load and cached second load.
-- [**CSS Stats**][6] is an [open source project][8] from [Adam Morse][7] that provides some unique insight into all the CSS used on a page, such as how many times a selector is used, all font sizes or colors on a page and so on. This enables a web developer to push down the size of their CSS file by merging selectors or cutting ones that shouldn't be there in the first place.
+- [**Web Page Test**][9] is an [open source project][10] primarily supported by Google that runs a web page on a remote computer and provides in depth details on connections, requests, page size and speed index for both the non-cached first time load and cached repeated loads.
+- [**CSS Stats**][6] is an [open source project][8] from [Adam Morse][7] that provides some unique insight into all the CSS used on a page, such as how many times a selector is used, all font sizes or colors on a page and so on. A clever web developer could use this to push down the size of their CSS file by merging selectors or cutting ones that shouldn't be there in the first place.
 - [**DOM monster**][11] is an [open source][12] bookmarklet from [Thomas Fuchs][13] that analyses the DOM of a page and gives some stats and a list of tips and warnings to improve the overall page weight.
 
 
