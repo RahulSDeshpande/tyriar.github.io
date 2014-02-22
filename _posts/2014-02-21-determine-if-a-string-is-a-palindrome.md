@@ -82,4 +82,4 @@ An interviewer may ask about the time complexity for this algorithm to try and t
 
 
 [1]: {{ site.baseurl }}/2012/11/big-o-notation.html
-[2]: 
+[2]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/interview-questions/palindrome-string
