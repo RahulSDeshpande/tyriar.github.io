@@ -43,7 +43,7 @@ If an interviewer ever asks this question, the above solution alone will likely 
 The easiest way to modify our code to take these new pieces of information into account to make a complete solution is to use a regular expression. We can craft a <abbr title="Regular Expression">regex</abbr> that removes the spaces and punctuation, then transforms the text into lowercase and returns the result of the new string passed into our original solution.
 
 <pre>function isPhrasePalindrome (text)
-  remove regex "[^a-zA-Z]" from text
+  remove regex "\[^a-zA-Z\]" from text
   text &larr; lowercase(text)
   return isPalindrome(text)</pre>
 
