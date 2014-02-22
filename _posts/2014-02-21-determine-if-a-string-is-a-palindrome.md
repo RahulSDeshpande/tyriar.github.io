@@ -24,6 +24,8 @@ a &harr; a</pre>
 This leads us to our initial solution:
 
 <pre>function isPalindrome (text)
+  if text is null
+    return false
   left &larr; 0
   right &larr; text.length - 1
   while (left &lt; right)
@@ -64,6 +66,9 @@ An interviewer may ask about the time complexity for this algorithm to try and t
 
 <!--prettify lang=java-->
     public static boolean isTextPalindrome(String text) {
+        if (text == null) {
+            return false;
+        }
         int left = 0;
         int right = text.length() - 1;
         while (left < right) {
