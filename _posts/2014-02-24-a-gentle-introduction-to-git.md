@@ -14,6 +14,8 @@ intro       : Git is a source control (or version control) system designed and d
 
 Over the last few years Git has seen incredible growth making it one of the widest-adopted source control systems in the world. According to an [Eclipse Foundation survey][1] conducted in May 2013, Git has risen from 6.8% usage in 2010 to a massive 30.3% in 2013.
 
+This article provides an overview of the basic concepts and commands in Git to get you up and running.
+
 <div class="clear"><!----></div>
 
 
@@ -66,7 +68,7 @@ Before files are commited they need to be first staged for commit. Once files ar
 
 A repository can contain many *branches*, the first of which is the *master* branch which is typically where the first commit of the project would be. A branch is basically another copy of the repository within the repository itself. This allows a developer to work on a large feature on the branch `find-command` which can be paused at any time by returning to the `master` branch.
 
-{% include post-image.html class="center-aligned" alt="A forked project" src="/images/2014/02/24/branches.svg" %}
+{% include post-image.html class="center-aligned" alt="Two branches being branced off of and merged into master" src="/images/2014/02/24/branches.svg" %}
 
 Typically all development should be done on a branch, ideally having a separate branch each new feature. This gives the developer a very clean and manageable workspace. The concept of a branch is not Git-specific, but the idea that all development should be done on a branch is arguably more prevalent on Git due to how simple they are to manage.
 
