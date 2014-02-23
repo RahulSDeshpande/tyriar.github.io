@@ -60,7 +60,7 @@ As time passes by, the original repository may not end up being the primary repo
 
 ## Staging
 
-Before files are commited they need to be first staged for commit. Once files are staged, they can then be committed to the local repository.
+Before files are commited they first need to be staged for commit. Once files are staged, they can then be committed to the local repository.
 
 
 
@@ -70,7 +70,7 @@ A repository can contain many *branches*, the first of which is the *master* bra
 
 {% include post-image.html class="center-aligned" alt="Two branches being branced off of and merged into master" src="/images/2014/02/24/branches.svg" %}
 
-Typically all development should be done on a branch, ideally having a separate branch each new feature. This gives the developer a very clean and manageable workspace. The concept of a branch is not Git-specific, but the idea that all development should be done on a branch is arguably more prevalent on Git due to how simple they are to manage.
+In an ideal world, all development should be done on a non-master branch, with a separate branch each new feature. This gives the developer a very clean and manageable workspace. The concept of a branch is not Git-specific, but the idea that all development should be done on a branch is arguably more prevalent on Git due to how simple they are to manage.
 
 
 
@@ -83,16 +83,16 @@ Here are a few must know commands to get you started.
 | <kbd><code>git init</code></kbd>                                  | Creates an empty git repository
 | <kbd><code>git clone &lt;repository&gt;</code></kbd>              | Clones a repository
 | <kbd><code>git pull &lt;repository&gt;</code></kbd>               | Pulls changes from a repository
-| <kbd><code>git status</code></kbd>                                | Show any modified, added or removed files since the last commit
-| <kbd><code>git diff</code></kbd>                                  | Shows the file changes between the staged files and unstaged files
-| <kbd><code>git diff --cached</code></kbd>                         | Shows the file changes between the the last commit and the staged files
+| <kbd><code>git status</code></kbd>                                | Show any modified, added, removed and staged files since the last commit
+| <kbd><code>git diff</code></kbd>                                  | Shows file changes between the staged files and unstaged files
+| <kbd><code>git diff --cached</code></kbd>                         | Shows file changes between the the last commit and the staged files
 | <kbd><code>git add &lt;file1&gt; \[&lt;file2&gt; ...\]</code></kbd> | Stage one or more files for commit
 | <kbd><code>git add -A</code></kbd>                                | Stage all changes in the repository
 | <kbd><code>git commit -m &lt;message&gt;</code></kbd>             | Commits the staged files with a message
-| <kbd><code>git push</code></kbd>                                  | Push commits to a remove repository
+| <kbd><code>git push</code></kbd>                                  | Push commits to a remote repository
 | <kbd><code>git log</code></kbd>                                   | Show a list of commits made to the repository
 | <kbd><code>git help</code></kbd>                                  | Shows a list of Git commands
-| <kbd><code>git help &lt;command&gt;</code></kbd>                  | Print help on <kbd><code>&lt;command&gt;</code></kbd> 
+| <kbd><code>git help &lt;command&gt;</code></kbd>                  | Shows help on <kbd><code>&lt;command&gt;</code></kbd> 
 
 
 
@@ -101,6 +101,12 @@ Here are a few must know commands to get you started.
 No you don't, there are a [range of GUIs available][2] on the official Git site. I actually recommend you start somewhere like GitHub and use a graphical client first to get yourself familiar with all the lingo. I personally started out with [GitHub for Windows][6].
 
 Once you're a little more confident have a shot at using the command line if you want more control and a deeper understanding of the system.
+
+
+
+## Final words
+
+This article is just the tip of the iceberg. Git is an incredibly powerful source control system, the enormous rise in usage over the last few years can likely be attributed to the development community realising that.
 
 
 
