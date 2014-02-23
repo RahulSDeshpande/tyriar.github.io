@@ -2,6 +2,7 @@
 layout      : post
 title       : Optimisation and validation tools for web development
 tags        : [Accessibility, CSS, Design, HTML, Optimisation, SEO]
+isfeatured  : 1
 preview     : /images/2014/02/22/checks.svg
 socialimage : /images/2014/02/22/checks.png
 primarytag  : Accessibility
