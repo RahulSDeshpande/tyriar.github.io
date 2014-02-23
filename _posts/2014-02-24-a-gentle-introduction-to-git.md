@@ -4,8 +4,8 @@ title       : A gentle introduction to Git
 tags        : [Git, GitHub]
 staging     : 1
 isfeatured  : 1
-preview     : /images/2014/02/23/git-logo.png
-socialimage : /images/2014/02/23/git-tree.png
+preview     : /images/2014/02/24/git-logo.png
+socialimage : /images/2014/02/24/git-tree.png
 primarytag  : GitHub
 intro       : Git is a source control (or version control) system designed and developed by Linus Torvalds back in 2005 for the development of the Linux kernal. Similar to other source control systems like <abbr title="Team Foundation Server">TFS</abbr> or Subversion, it manages your source code and allows a team to work on the same project without much trouble.
 ---
