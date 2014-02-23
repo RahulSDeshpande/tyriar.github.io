@@ -84,7 +84,7 @@ Here are a few must know commands to get you started.
 | <kbd><code>git status</code></kbd>                                | Show any modified, added or removed files since the last commit
 | <kbd><code>git diff</code></kbd>                                  | Shows the file changes between the staged files and unstaged files
 | <kbd><code>git diff --cached</code></kbd>                         | Shows the file changes between the the last commit and the staged files
-| <kbd><code>git add &lt;file1&gt; [&lt;file2&gt; ...]</code></kbd> | Stage one or more files for commit
+| <kbd><code>git add &lt;file1&gt; \[&lt;file2&gt; ...\]</code></kbd> | Stage one or more files for commit
 | <kbd><code>git add -A</code></kbd>                                | Stage all changes in the repository
 | <kbd><code>git commit -m &lt;message&gt;</code></kbd>             | Commits the staged files with a message
 | <kbd><code>git push</code></kbd>                                  | Push commits to a remove repository
