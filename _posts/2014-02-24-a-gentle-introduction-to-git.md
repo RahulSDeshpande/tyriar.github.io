@@ -7,7 +7,7 @@ isfeatured  : 1
 preview     : /images/2014/02/24/git-logo.png
 socialimage : /images/2014/02/24/git-tree.png
 primarytag  : GitHub
-intro       : Git is a source control (or version control) system designed and developed by Linus Torvalds back in 2005 for the development of the Linux kernal. Similar to other source control systems like <abbr title="Team Foundation Server">TFS</abbr> or Subversion, it manages your source code and allows a team to work on the same project without much trouble.
+intro       : Git is a source control (or version control) system designed and developed by Linus Torvalds back in 2005 for the development of the Linux kernal. Similar to other source control systems like <abbr title="Team Foundation Server">TFS</abbr> or Subversion, it manages your source code enabling a team to work on the same project minimising conflicts.
 ---
 
 {% include post-image.html class="right-col" alt="Git logo" src="/images/2014/02/24/git-logo.png" %}
@@ -20,11 +20,17 @@ This article provides an overview of the basic concepts and commands in Git to g
 
 
 
+## Cloning and merging
+
+Git was designed for open source software and that shines through in its workflow. Say you wanted to submit a patch to John's repository, the first thing you would do is *clone* the repository (also called *fork*). This will give you your own identical version of the repository that you can work on and *commit* your changes to. Once the work is complete you will ask John to *merge* your commits into his repository.
+
+
+
 ## Distributed version control
 
 {% include post-image.html class="right-col" alt="TFS revisions vs Git commits" src="/images/2014/02/24/number-vs-hash.svg" %}
 
-What sets Git apart from regular source control systems is that it's *distributed*. I've found the best way to explain this is to compare it to a regular one. In <abbr title="Team Foundation Server">TFS</abbr> for example, you have a single centralised repository on some server that everyone commits to. The first commit is commit #1, the second is commit #2, and so on. With Git the commit names are actually hashes that looks like `f52435ce2ffeb7d6b8f1573ca8a6bba9d0697520`.
+What sets Git apart from regular source control systems is that it's *distributed*. I've found the best way to explain this is to compare it to a non-distributed one. In <abbr title="Team Foundation Server">TFS</abbr> or subversion for example, you have a single centralised repository on some server that everyone commits to. The first commit is commit #1, the second is commit #2, and so on. With Git the commit names are actually hashes that looks like `f52435ce2ffeb7d6b8f1573ca8a6bba9d0697520`.
 
 Since there is only a single repository in <abbr title="Team Foundation Server">TFS</abbr> everyone commits to the repository and if necessary, will sync from the server to resolve any conflicts before committing.
 
@@ -49,12 +55,6 @@ This is what is happening in the above image:
 As time passes by, the original repository may not end up being the primary repository. For example, say Frank wants to modify John's project to suit his needs, but John doesn't want to bring the changes into his repository. Provided John's license allows, Frank could clone John's repository and continue working on it as a completely separate project.
 
 {% include post-image.html class="center-aligned" alt="A forked project" src="/images/2014/02/24/forked-project.svg" %}
-
-
-
-## Cloning and merging
-
-Git was designed for open source software and that shines through in its workflow. Say you wanted to submit a patch to John's repository, the first thing you would do is *clone* the repository (also called *fork*). This will give you your own identical version of the repository that you can work on and *commit* your changes to. Once the work is complete you will ask John to *merge* your commits into his repository.
 
 
 
