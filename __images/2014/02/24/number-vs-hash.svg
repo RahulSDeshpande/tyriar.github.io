@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="300" height="205" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		rect, ellipse, path, line { stroke: #000; stroke-width: 2; }
+		.red { fill: hsl(0,100%,80%); }
+		.yellow { fill: hsl(60,100%,80%); }
+		.green { fill: hsl(120,100%,80%); }
+		.teal { fill: hsl(180,100%,80%); }
+		.blue { fill: hsl(240,100%,80%); }
+		.purple { fill: hsl(300,100%,80%); }
+		text { text-anchor: middle; font-family: Helvetica, Arial, sans-serif; font-size: 16px; fill: #000; }
+		.headings text { font-weight: bold; font-size: 18px; }
+		.thin { stroke-width: 1; }
+	</style>
+	<g class="headings">
+		<text x="160" y="20">Time</text>
+		<text x="20" y="76">TFS</text>
+		<text x="20" y="166">Git</text>
+	</g>
+	<path d="M140,30l40,0"/>
+	<path d="M180,30l-5,-5l2,5l-2,5l5,-5z" class="thin"/>
+	<g transform="translate(0,70)">
+		<path d="M60,0l200,0" />
+		<ellipse cx="60" cy="0" rx="15" ry="15" class="blue"/>
+		<ellipse cx="160" cy="0" rx="15" ry="15" class="blue"/>
+		<ellipse cx="260" cy="0" rx="15" ry="15" class="blue"/>
+		<text x="60" y="35">#1</text>
+		<text x="160" y="35">#2</text>
+		<text x="260" y="35">#3</text>
+	</g>
+	<g transform="translate(0,160)">
+		<path d="M60,0l200,0" />
+		<ellipse cx="60" cy="0" rx="15" ry="15" class="red"/>
+		<ellipse cx="160" cy="0" rx="15" ry="15" class="red"/>
+		<ellipse cx="260" cy="0" rx="15" ry="15" class="red"/>
+		<text x="60" y="35">c3867e5f</text>
+		<text x="160" y="35">b41107cb</text>
+		<text x="260" y="35">10032b86</text>
+	</g>
+</svg>

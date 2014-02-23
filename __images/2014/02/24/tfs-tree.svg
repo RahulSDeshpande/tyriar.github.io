@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="470" height="160" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		rect, ellipse, path, line { stroke: #000; stroke-width: 2; }
+		.red { fill: hsl(0,100%,80%); }
+		.yellow { fill: hsl(60,100%,80%); }
+		.green { fill: hsl(120,100%,80%); }
+		.teal { fill: hsl(180,100%,80%); }
+		.blue { fill: hsl(240,100%,80%); }
+		.purple { fill: hsl(300,100%,80%); }
+		text { text-anchor: middle; font-family: Helvetica, Arial, sans-serif; font-size: 16px; fill: #000; }
+		.headings text { font-weight: bold; font-size: 18px; text-anchor: initial; }
+		path { fill: transparent; }
+	</style>
+	<g class="headings">
+		<text x="10" y="36">Daniel</text>
+		<text x="10" y="86">TFS Server</text>
+		<text x="10" y="136">John</text>
+	</g>
+	<path d="M140,80l300,0" />
+	<path d="M140,80l50,-50l100,100l50,-50" />
+	<path d="M290,130l100,0l50,-50" />
+	<ellipse cx="190" cy="30" rx="15" ry="15" class="green"/>
+	<g transform="translate(140,80)">
+		<ellipse cx="0" cy="0" rx="15" ry="15" class="red"/>
+		<ellipse cx="100" cy="0" rx="15" ry="15" class="red"/>
+		<ellipse cx="200" cy="0" rx="15" ry="15" class="red"/>
+		<ellipse cx="300" cy="0" rx="15" ry="15" class="red"/>
+		<text x="0" y="35">#1</text>
+		<text x="100" y="35">#2</text>
+		<text x="200" y="-23">#3</text>
+		<text x="300" y="-23">#4</text>
+	</g>
+	<g transform="translate(290,130)">
+		<ellipse cx="0" cy="0" rx="15" ry="15" class="blue"/>
+		<ellipse cx="100" cy="0" rx="15" ry="15" class="blue"/>
+	</g>
+</svg>
