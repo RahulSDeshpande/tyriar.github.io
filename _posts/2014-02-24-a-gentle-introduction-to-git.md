@@ -26,17 +26,17 @@ Git was designed for open source software and that shines through in its workflo
 
 ## Distributed version control
 
-What sets Git apart from regular source control systems is that it's *distributed*. I've found the best way to explain this is to compare it to a regular one. In <abbr title="Team Foundation Server">TFS</abbr> for example, you have a single centralised repository on some server that everyone commits to. The first commit is commit #1, the second is commit #2, and so on. With Git the commit names are actually hashes that looks like f52435ce2ffeb7d6b8f1573ca8a6bba9d0697520.
-
 {% include post-image.html class="right-col" alt="TFS revisions vs Git commits" src="/images/2014/02/24/number-vs-hash.svg" %}
+
+What sets Git apart from regular source control systems is that it's *distributed*. I've found the best way to explain this is to compare it to a regular one. In <abbr title="Team Foundation Server">TFS</abbr> for example, you have a single centralised repository on some server that everyone commits to. The first commit is commit #1, the second is commit #2, and so on. With Git the commit names are actually hashes that looks like f52435ce2ffeb7d6b8f1573ca8a6bba9d0697520.
 
 Since there is only a single repository in <abbr title="Team Foundation Server">TFS</abbr> everyone commits to the repository and if necessary, will sync from the server to resolve any conflicts before committing.
 
-{% include post-image.html class="full-width stretch" alt="An example of a TFS tree" caption="A TFS tree" src="/images/2014/02/24/tfs-tree.svg" %}
+{% include post-image.html class="center-aligned stretch" alt="An example of a TFS tree" caption="A TFS tree" src="/images/2014/02/24/tfs-tree.svg" %}
 
 With Git, the idea of numbered commits doesn't make as much sense as there could be hundreds of different versions of the same repository all being pulled from and merged into each other.
 
-{% include post-image.html class="full-width stretch" alt="An example of a Git tree" caption="A Git tree" src="/images/2014/02/24/git-tree.svg" %}
+{% include post-image.html class="center-aligned stretch" alt="An example of a Git tree" caption="A Git tree" src="/images/2014/02/24/git-tree.svg" %}
 
 This is what is happening in the above image:
 
@@ -52,7 +52,7 @@ This is what is happening in the above image:
 
 As time passes by, the original repository may not end up being the primary repository. For example, say Frank wants to modify John's project to suit his needs, but John doesn't want to bring the changes into his repository. Provided John's license allows, Frank could clone John's repository and continue working on it as a completely separate project.
 
-{% include post-image.html class="full-width stretch" alt="A forked project" src="/images/2014/02/24/forked-project.svg" %}
+{% include post-image.html class="center-aligned stretch" alt="A forked project" src="/images/2014/02/24/forked-project.svg" %}
 
 
 
@@ -60,7 +60,7 @@ As time passes by, the original repository may not end up being the primary repo
 
 A repository can contain many *branches*, the first of which is the *master* branch which is typically where the first commit of the project would be. A branch is basically another copy of the repository within the repository itself. This allows a developer to work on a large feature on the branch `find-command` which can be paused at any time by returning to the `master` branch.
 
-{% include post-image.html class="full-width stretch" alt="A forked project" src="/images/2014/02/24/branches.svg" %}
+{% include post-image.html class="center-aligned stretch" alt="A forked project" src="/images/2014/02/24/branches.svg" %}
 
 Typically all development should be done on a *branch*, ideally having a separate branch each new feature. This gives the developer a very clean and manageable workspace. The concept of a branch is not Git-specific, but the idea that all development should be done on a branch is arguably more prevalent on Git due to how simple they are to manage.
 
