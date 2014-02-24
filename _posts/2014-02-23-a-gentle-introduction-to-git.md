@@ -21,7 +21,7 @@ This article provides an overview of the basic concepts and commands in Git to g
 
 ## Cloning and merging
 
-Git was designed for open source software and that shines through in its workflow. Say you wanted to submit a patch to John's repository, the first thing you would do is *clone* the repository (also called *fork*). This will give you your own identical version of the repository that you can work on and *commit* your changes to. Once the work is complete you will ask John to *merge* your commits into his repository.
+Git was designed for open source software and that shines through in its workflow. Say you wanted to submit a patch to John's repository, the first thing you would do is *clone* the repository. This will give you your own identical local version of the repository that you can work on and *commit* your changes to. Once the work is complete you will *merge* your commits into his repository.
 
 
 
@@ -65,7 +65,7 @@ Before files are commited they first need to be staged for commit. Once files ar
 
 ## Branching
 
-A repository can contain many *branches*, the first of which is the *master* branch which is typically where the first commit of the project would be. A branch is basically another copy of the repository within the repository itself. This allows a developer to work on a large feature on the branch `find-command` which can be paused at any time by returning to the `master` branch.
+A repository can contain many *branches*, the first of which is the *master* branch that is typically where the first commit of the project will be. A branch is basically an independant version of the project code within the repository itself. This allows a developer to work on a large feature on the branch `find-command` which can be paused at any time by returning to the `master` branch.
 
 {% include post-image.html class="center-aligned" alt="Two branches being branced off of and merged into master" src="/images/2014/02/23/branches.svg" %}
 
