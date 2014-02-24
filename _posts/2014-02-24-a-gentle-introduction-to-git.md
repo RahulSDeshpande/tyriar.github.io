@@ -2,7 +2,6 @@
 layout      : post
 title       : A gentle introduction to Git
 tags        : [Git, GitHub]
-staging     : 1
 isfeatured  : 1
 preview     : /images/2014/02/24/git-logo.png
 socialimage : /images/2014/02/24/git-tree.png
