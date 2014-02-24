@@ -65,7 +65,7 @@ Before files are commited they first need to be staged for commit. Once files ar
 
 ## Branching
 
-A repository can contain many *branches*, the first of which is the *master* branch that is typically where the first commit of the project will be. A branch is basically an independent version of the project code within the repository itself. This allows a developer to work on a large feature on the branch `find-command` which can be paused at any time by returning to the `master` branch.
+A repository can contain many *branches*, the first of which is the *master* branch that is typically where the first commit of the project will be. A branch is basically an independent version of the project code within the repository. This allows a developer to work on a large feature on the branch `find-command` which can be paused at any time by returning to the `master` branch.
 
 {% include post-image.html class="center-aligned" alt="Two branches being branced off of and merged into master" src="/images/2014/02/23/branches.svg" %}
 
