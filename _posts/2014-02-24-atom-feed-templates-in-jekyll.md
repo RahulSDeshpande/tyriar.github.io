@@ -93,5 +93,5 @@ I setup an external post system in my blog that allows me to add articles I writ
 {% endif %}
 &lt;content type="html"&gt;
   &amp;lt;p&amp;gt;{{ post.excerpt | xml_escape }}&amp;lt;/p&amp;gt;
-  &amp;lt;p&amp;gt;&amp;lt;a href="{% if post.external %}{{ post.external }}{% else %}<mark>home_url</mark>{{ post.url }}{% endif %}"&amp;gt;Read the full article&amp;lt;/&amp;gt;&amp;lt;/p&amp;gt;
+  &amp;lt;p&amp;gt;&amp;lt;a href="{% if post.external_url %}{{ post.external_url }}{% else %}<mark>home_url</mark>{{ post.url }}{% endif %}"&amp;gt;Read the full article&amp;lt;/&amp;gt;&amp;lt;/p&amp;gt;
 &lt;/content&gt;{% endraw %}</code></pre>
