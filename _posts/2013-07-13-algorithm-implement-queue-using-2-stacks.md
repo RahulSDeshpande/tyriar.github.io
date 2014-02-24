@@ -8,7 +8,7 @@ intro       : This article looks at the interview question - <em>Implement a que
 
 ## Analysis
 
-A queue can actually be implemented using a single stack, this method makes use of recursion however which makes uses another stack of sorts, the call stack. This method involves popping each item off the queue and then recursively calling itself until the last element is found, on the way back down the call stack we push the items back on to the stack.
+A queue can actually be implemented using a single stack. This method makes use of recursion however which uses another stack of sorts; the call stack. This method involves popping each item off the queue and then recursively calling itself until the last element is found, on the way back down the call stack, we push the items back on to the stack.
 
 <pre>
 queuepop()
