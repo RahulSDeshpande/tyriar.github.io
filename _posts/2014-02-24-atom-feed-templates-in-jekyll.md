@@ -22,7 +22,7 @@ The feed's location in the site doesn't matter too much but it will need to be l
 
 ## Basic template
 
-Parts that need to be customised are <mark>marked</mark> and explained below in the variables section.
+Parts that need to be modified to suit the site are <mark>marked</mark> with explainations in the variables section below.
 
 <!--prettify lang=xml-->
 <pre><code>{% raw %}---
@@ -55,15 +55,15 @@ layout: nil
 
 ## Variables
 
-| Variable                 | Info                                                              | Example
+| Variable                 | Description                                                       | Example
 |--------------------------|-------------------------------------------------------------------|--------
 | `atom_feed_url`          | Fully qualified atom feed URL                                     | `http://www.growingwiththeweb.com/site.atom`
+| `author_name`            | The primary author/company of the site                            | `Daniel Imms`
 | `copyright_details`      | Copyright details for your feed                                   | `Copyright (c) 2012-2014, Daniel Imms; all rights reserved.`
 | `home_url`               | The home URL excluding the `/` at the end                         | `http://www.growingwiththeweb.com`
 | `home_url_canonical`     | The canonical (best) home URL, ideally include the `/` at the end | `http://www.growingwiththeweb.com/`
 | `site_title`             | Title of the website                                              | `Growing with the Web`
 | `unique_feed_identifier` | Some unique string to identify the feed, ideally include your URL | `http://www.growingwiththeweb.com/all_feed`
-| `author_name`            | The primary author/company of the site                            | `Daniel Imms`
 
 
 
