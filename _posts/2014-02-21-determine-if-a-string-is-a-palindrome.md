@@ -32,7 +32,7 @@ This leads us to our initial solution:
     if text[left] is not text[right]
       return false
     left &larr; left + 1
-    right &larr; right + 1
+    right &larr; right - 1
   return true</pre>
 
 If an interviewer ever asks this question, the above solution alone will likely not impress them too much. There are several ambiguities in the question that should be clarified before getting into the code. Failing to clarify the question could make you come off as someone who rushes the job without thinking too hard about what the *right* solution is. So the questions:
