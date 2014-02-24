@@ -1,7 +1,6 @@
 ---
 layout      : post
 title       : Atom feed templates in Jekyll
-staging     : 1
 tags        : [GitHub, Jekyll]
 preview     : /images/2014/02/24/logo.png
 socialimage : /images/2014/02/24/logo.png
