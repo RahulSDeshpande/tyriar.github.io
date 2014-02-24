@@ -3,13 +3,13 @@ layout      : post
 title       : A gentle introduction to Git
 tags        : [Git, GitHub]
 isfeatured  : 1
-preview     : /images/2014/02/24/git-logo.png
-socialimage : /images/2014/02/24/git-tree.png
+preview     : /images/2014/02/23/git-logo.png
+socialimage : /images/2014/02/23/git-tree.png
 primarytag  : GitHub
 intro       : Git is a source control (or version control) system designed and developed by Linus Torvalds back in 2005 for the development of the Linux kernal. Similar to other source control systems like <abbr title="Team Foundation Server">TFS</abbr> or Subversion, it manages your source code enabling a team to work on the same project while minimising conflicts.
 ---
 
-{% include post-image.html class="right-col" alt="Git logo" src="/images/2014/02/24/git-logo.png" %}
+{% include post-image.html class="right-col" alt="Git logo" src="/images/2014/02/23/git-logo.png" %}
 
 Over the last few years Git has seen incredible growth making it one of the widest-adopted source control systems in the world. According to an [Eclipse Foundation survey][1] conducted in May 2013, Git has risen from 6.8% usage in 2010 to a massive 30.3% in 2013.
 
@@ -27,17 +27,17 @@ Git was designed for open source software and that shines through in its workflo
 
 ## Distributed version control
 
-{% include post-image.html class="right-col" alt="TFS revisions vs Git commits" src="/images/2014/02/24/number-vs-hash.svg" %}
+{% include post-image.html class="right-col" alt="TFS revisions vs Git commits" src="/images/2014/02/23/number-vs-hash.svg" %}
 
 What sets Git apart from regular source control systems is that it's *distributed*. I've found the best way to explain this is to compare it to a non-distributed one. In <abbr title="Team Foundation Server">TFS</abbr> or subversion for example, you have a single centralised repository on some server that everyone commits to. The first commit is commit #1, the second is commit #2, and so on. With Git the commit names are actually hashes that looks like `f52435ce2ffeb7d6b8f1573ca8a6bba9d0697520`.
 
 Since there is only a single repository in <abbr title="Team Foundation Server">TFS</abbr> everyone commits to the repository and if necessary, will sync from the server to resolve any conflicts before committing.
 
-{% include post-image.html class="center-aligned" alt="An example of a TFS tree" caption="A TFS tree" src="/images/2014/02/24/tfs-tree.svg" %}
+{% include post-image.html class="center-aligned" alt="An example of a TFS tree" caption="A TFS tree" src="/images/2014/02/23/tfs-tree.svg" %}
 
 With Git, the idea of numbered commits doesn't make as much sense as there could be hundreds of different versions of the same repository all being pulled from and merged into each other.
 
-{% include post-image.html class="center-aligned" alt="An example of a Git tree" caption="A Git tree" src="/images/2014/02/24/git-tree.svg" %}
+{% include post-image.html class="center-aligned" alt="An example of a Git tree" caption="A Git tree" src="/images/2014/02/23/git-tree.svg" %}
 
 This is what is happening in the above image:
 
@@ -53,7 +53,7 @@ This is what is happening in the above image:
 
 As time passes by, the original repository may not end up being the primary repository. For example, say Frank wants to modify John's project to suit his needs, but John doesn't want to bring the changes into his repository. Provided John's license allows, Frank could clone John's repository and continue working on it as a completely separate project.
 
-{% include post-image.html class="center-aligned" alt="A forked project" src="/images/2014/02/24/forked-project.svg" %}
+{% include post-image.html class="center-aligned" alt="A forked project" src="/images/2014/02/23/forked-project.svg" %}
 
 
 
@@ -67,7 +67,7 @@ Before files are commited they first need to be staged for commit. Once files ar
 
 A repository can contain many *branches*, the first of which is the *master* branch which is typically where the first commit of the project would be. A branch is basically another copy of the repository within the repository itself. This allows a developer to work on a large feature on the branch `find-command` which can be paused at any time by returning to the `master` branch.
 
-{% include post-image.html class="center-aligned" alt="Two branches being branced off of and merged into master" src="/images/2014/02/24/branches.svg" %}
+{% include post-image.html class="center-aligned" alt="Two branches being branced off of and merged into master" src="/images/2014/02/23/branches.svg" %}
 
 In an ideal world, all development should be done on a non-master branch, with a separate branch each new feature. This gives the developer a very clean and manageable workspace. The concept of a branch is not Git-specific, but the idea that all development should be done on a branch is arguably more prevalent on Git due to how simple they are to manage.
 

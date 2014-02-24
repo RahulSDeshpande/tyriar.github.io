@@ -1,14 +1,15 @@
 ---
 layout      : post
 title       : Atom feed templates in Jekyll
-tags        : [Jekyll]
-preview     : /images/2012/04/22/logo.png
-socialimage : /images/2012/04/22/logo.png
+staging     : 1
+tags        : [GitHub, Jekyll]
+preview     : /images/2014/02/24/logo.png
+socialimage : /images/2014/02/24/logo.png
 primarytag  : Jekyll
 intro       : This posts presents the basic Liquid template I use for my <a href="http://jekyllrb.com/">Jekyll</a> blog's Atom feed.
 ---
 
-{% include post-image.html class="right-col" alt="Jekyll logo" src="/images/2014/xx/yy/logo.png" %}
+{% include post-image.html class="right-col" alt="Jekyll logo" src="/images/2014/02/24/logo.png" %}
 
 The feed's location in the site doesn't matter too much but it will need to be linked to in your `default.html` layout file.
 
