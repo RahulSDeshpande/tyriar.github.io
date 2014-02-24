@@ -71,7 +71,7 @@ layout: nil
 
 ### Beefing up `<content>`
 
-The main section that will be useful customising is the `<content>` tag which defined the content of a post/entry/article. If you're using the `excerpt_separator` feature then `{% raw %}{{ post.excerpt }}{% endraw %}` could be used in addition to a link so your users will need to go to the site to read the entire post.
+The main section that is usually customised is the `<content>` element which defines the content of a post/entry/article. If you're using the `excerpt_separator` feature then `{% raw %}{{ post.excerpt }}{% endraw %}` could be used in addition to a link so your users will need to click through to the site to read the entire post.
 
 <!--prettify lang=xml-->
 <pre><code>{% raw %}&lt;content type="html"&gt;
@@ -83,7 +83,7 @@ Banner ads are another example of something that can be slipped into the `<conte
 
 ### External posts
 
-I setup an external posts system where if I add an `external` property whose value is a URL to a post's YAML header it will link to an external post. This can be done like so:
+I setup an external post system in my blog that allows me to add articles I write externally to the homepage and feed. If the `external` property (URL) exists on a post's YAML header it will link to an external URL instead of the internally generates one. The feed code for this is as follows:
 
 <!--prettify lang=xml-->
 <pre><code>{% raw %}{% if post.external %}
