@@ -83,11 +83,11 @@ Banner ads are another example of something that can be slipped into the `<conte
 
 ### External posts
 
-I setup an external post system in my blog that allows me to add articles I write externally to the homepage and feed. If the `external` property (URL) exists on a post's YAML header it will link to an external URL instead of the internally generates one. The feed code for this is as follows:
+I setup an external post system in my blog that allows me to add articles I write externally to the homepage and feed. If the `external_url` property exists in a post's YAML header then it will link to the external URL instead of the internally generated page. The feed code for this is as follows:
 
 <!--prettify lang=xml-->
-<pre><code>{% raw %}{% if post.external %}
-&lt;link href="{{ post.external }}"/&gt;
+<pre><code>{% raw %}{% if post.external_url %}
+&lt;link href="{{ post.external_url }}"/&gt;
 {% else %}
 &lt;link href="<mark>home_url</mark>{{ post.url }}"/&gt;
 {% endif %}
