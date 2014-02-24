@@ -13,6 +13,12 @@ $$\text{VC} = \text{% visually complete}$$
 << Image of speed index graph >>
 << Caption "From webpagetest.org documention" >>
 
+### What was I aiming for?
+
+> My answer to how fast is fast enough? **A Speed Index of under 1000.**
+> 
+> [<cite>Paul Irish</cite>][5]
+
 ### Test configuration
 
 I used the bot *Dulles Thinkpad T430* with the Chrome browser on Cable. They loaded the [homepage][4] 9 times each to give a decent sample size. 
@@ -121,3 +127,4 @@ Switch to MathML when widely implemented
 [2]: http://www.webpagetest.org/
 [3]: https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index
 [4]: http://www.growingwiththeweb.com
+[5]: http://timkadlec.com/2014/01/fast-enough/#comment-1200946500
