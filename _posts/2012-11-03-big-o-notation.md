@@ -16,7 +16,7 @@ The formal definition is as follows:
 >
 > <cite>The Algorithm Design Manual</cite>, Steven S. Skiena
 
-This definition is a very format way of saying that Big-\\(O\\) notation is the upper-bound/worst-case of a function.
+This definition is a very formal way of saying that Big-\\(O\\) notation is the upper-bound/worst-case of a function.
 
 
 
