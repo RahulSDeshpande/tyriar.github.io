@@ -2,6 +2,8 @@
 layout      : post
 title       : Triangles in CSS
 tags        : [CSS, Design, HTML, SASS]
+isfeatured  : 1
+preview     : /images/2014/02/24/triangle2.png
 socialimage : /images/2013/03/11/triangle2.png
 primarytag  : CSS
 intro       : Creating triangles with CSS is a pretty good way to reduce the amount of image dependencies within an application. They're a bit tricky to get your head around at first but once you understand them it's really easy.
