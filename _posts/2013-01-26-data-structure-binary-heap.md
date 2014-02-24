@@ -77,7 +77,7 @@ return min
 
 ## Code
 
-Here is a full generic implementation of a min-heap. Notice that the only changes needs to be made to turn this into a max-heap are symbol names and the <mark>marked</mark> comparisons.
+Here is a full generic implementation of a min-heap. Note that the only changes needed to be made to turn this into a max-heap are symbol names and the `compareTo` comparisons.
 
 [View on GitHub][2]
 
