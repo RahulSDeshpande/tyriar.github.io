@@ -6,7 +6,7 @@ tags        : [GitHub, Jekyll]
 preview     : /images/2014/02/24/logo.png
 socialimage : /images/2014/02/24/logo.png
 primarytag  : Jekyll
-intro       : This posts presents the basic Liquid template I use for my <a href="http://jekyllrb.com/">Jekyll</a> blog's Atom feed.
+intro       : This post presents the basic Liquid template and customisations I use for my <a href="http://jekyllrb.com/">Jekyll</a> blog's Atom feed.
 ---
 
 {% include post-image.html class="right-col" alt="Jekyll logo" src="/images/2014/02/24/logo.png" %}
@@ -25,7 +25,7 @@ The feed's location in the site doesn't matter too much but it will need to be l
 Parts that need to be customised are <mark>marked</mark> and explained below in the variables section.
 
 <!--prettify lang=xml-->
-<pre><code>{{ raw }}---
+<pre><code>{% raw %}---
 layout: nil
 ---
 &lt;?xml version="1.0" encoding="utf-8"?&gt;
@@ -49,7 +49,7 @@ layout: nil
     &lt;content type="html"&gt;{{ post.content | xml_escape }}&lt;/content&gt;
   &lt;/entry&gt;
   {% endfor %}
-&lt;/feed&gt;{{ endraw }}</code></pre>
+&lt;/feed&gt;{% endraw %}</code></pre>
 
 
 
@@ -71,13 +71,13 @@ layout: nil
 
 ### Beefing up `<content>`
 
-The main section that will be useful customising is the `<content>` tag which defined the content of a post/entry/article. If you're using the `excerpt_separator` feature then {{ raw }}`{{ post.excerpt }}`{{ endraw }} could be used in addition to a link so your users will need to go to the site to read the entire post.
+The main section that will be useful customising is the `<content>` tag which defined the content of a post/entry/article. If you're using the `excerpt_separator` feature then `{% raw %}{{ post.excerpt }}{% endraw %}` could be used in addition to a link so your users will need to go to the site to read the entire post.
 
 <!--prettify lang=xml-->
-<pre><code>{{ raw }}&lt;content type="html"&gt;
+<pre><code>{% raw %}&lt;content type="html"&gt;
   &amp;lt;p&amp;gt;{{ post.excerpt | xml_escape }}&amp;lt;/p&amp;gt;
   &amp;lt;p&amp;gt;&amp;lt;a href="<mark>home_url</mark>{{ post.url }}"&amp;gt;Read the full article&amp;lt;/&amp;gt;&amp;lt;/p&amp;gt;
-&lt;/content&gt;{{ endraw }}</code></pre>
+&lt;/content&gt;{% endraw %}</code></pre>
 
 Banner ads are another example of something that can be slipped into the `<content>` element easily.
 
@@ -86,7 +86,7 @@ Banner ads are another example of something that can be slipped into the `<conte
 I setup an external posts system where if I add an `external` property whose value is a URL to a post's YAML header it will link to an external post. This can be done like so:
 
 <!--prettify lang=xml-->
-<pre><code>{{ raw }}{% if post.external %}
+<pre><code>{% raw %}{% if post.external %}
 &lt;link href="{{ post.external }}"/&gt;
 {% else %}
 &lt;link href="<mark>home_url</mark>{{ post.url }}"/&gt;
@@ -94,4 +94,4 @@ I setup an external posts system where if I add an `external` property whose val
 &lt;content type="html"&gt;
   &amp;lt;p&amp;gt;{{ post.excerpt | xml_escape }}&amp;lt;/p&amp;gt;
   &amp;lt;p&amp;gt;&amp;lt;a href="{% if post.external %}{{ post.external }}{% else %}<mark>home_url</mark>{{ post.url }}{% endif %}"&amp;gt;Read the full article&amp;lt;/&amp;gt;&amp;lt;/p&amp;gt;
-&lt;/content&gt;{{ endraw }}</code></pre>
+&lt;/content&gt;{% endraw %}</code></pre>
