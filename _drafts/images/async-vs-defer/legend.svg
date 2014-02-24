@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="300" height="148" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		rect, path, line { stroke: #000; stroke-width: 2; }
+		.red { fill: hsl(0,100%,80%); }
+		.green { fill: hsl(120,100%,80%); }
+		.blue { fill: hsl(240,100%,80%); }
+		.grey { fill: hsl(0,0%,80%); }
+		text { font-family: Helvetica, Arial, sans-serif; font-size: 18px; fill: #000; alignment-baseline: middle; }
+	</style>
+	<g transform="translate(10,10)">
+		<rect height="26" width="26" x="0" y="0" class="green" />
+		<rect height="26" width="26" x="0" y="34" class="grey" />
+		<rect height="26" width="26" x="0" y="68" class="blue" />
+		<rect height="26" width="26" x="0" y="102" class="red" />
+		<text y="13" x="32">HTML parsing</text>
+		<text y="47" x="32">HTML parsing paused</text>
+		<text y="81" x="32">Script download</text>
+		<text y="115" x="32">Script execution</text>
+	</g>
+</svg>

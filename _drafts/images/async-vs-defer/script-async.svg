@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="520" height="65" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		rect, path, line { stroke: #000; stroke-width: 1; }
+		.red { fill: hsl(0,100%,80%); }
+		.green { fill: hsl(120,100%,80%); }
+		.blue { fill: hsl(240,100%,80%); }
+		.grey { fill: hsl(0,0%,80%); }
+	</style>
+	<g transform="translate(10,10)">
+		<g>
+			<title>HTML parsing</title>
+			<rect height="15" width="500" x=".5" y=".5" class="green" />
+		</g>
+		<g>
+			<title>HTML parsing paused</title>
+			<rect height="15" width="50" x="250.5" y=".5" class="grey" />
+		</g>
+		<g>
+			<title>Script download</title>
+			<rect height="15" width="100" x="150.5" y="15.5" class="blue" />
+		</g>
+		<g>
+			<title>Script execution</title>
+			<rect height="15" width="50" x="250.5" y="30.5" class="red" />
+		</g>
+	</g>
+</svg>
