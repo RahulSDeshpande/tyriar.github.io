@@ -11,12 +11,12 @@ intro       : This post presents the basic Liquid template and customisations I 
 
 {% include post-image.html class="right-col" alt="Jekyll logo" src="/images/2014/02/24/logo.png" %}
 
-The feed's location in the site doesn't matter too much but it will need to be linked to in your `default.html` layout file.
+The feed's location in the site doesn't matter too much but it will need to be linked in your `default.html` layout file.
+
+<div class="clear"><!----></div>
 
 <!--prettify lang=xml-->
 <pre><code>&lt;link href='<mark>home_url</mark>/site.atom' rel='alternate' title='<mark>site_title</mark> - Atom' type='application/atom+xml'&gt;</code></pre>
-
-<div class="clear"><!----></div>
 
 
 
@@ -32,11 +32,11 @@ layout: nil
 &lt;feed xmlns="http://www.w3.org/2005/Atom"&gt;
   &lt;title type="text" xml:lang="en"&gt;<mark>site_title</mark>&lt;/title&gt;
   &lt;link type="application/atom+xml" href="<mark>atom_feed_url</mark>" rel="self"/&gt;
-  &lt;link type="text/html" href="<mark>canonical_home_url</mark>" rel="alternate"/&gt;
+  &lt;link type="text/html" href="<mark>home_url_canonical</mark>" rel="alternate"/&gt;
   &lt;updated&gt;{{ site.time | date_to_xmlschema }}&lt;/updated&gt;
   &lt;id&gt;<mark>unique_feed_identifier</mark>&lt;/id&gt;
   &lt;author&gt;
-    &lt;name&gt;<mark>your_name</mark>&lt;/name&gt;
+    &lt;name&gt;<mark>author_name</mark>&lt;/name&gt;
   &lt;/author&gt;
   &lt;rights&gt;<mark>copyright_details</mark>&lt;/rights&gt;
 
@@ -57,13 +57,13 @@ layout: nil
 
 | Variable                 | Info                                                              | Example
 |--------------------------|-------------------------------------------------------------------|--------
-| `site_title`             | Title of the website                                              | `Growing with the Web`
 | `atom_feed_url`          | Fully qualified atom feed URL                                     | `http://www.growingwiththeweb.com/site.atom`
-| `canonical_home_url`     | The canonical (best) home URL, ideally include the `/` at the end | `http://www.growingwiththeweb.com/`
-| `unique_feed_identifier` | Some unique string to identify the feed, ideally include your URL | `http://www.growingwiththeweb.com/all_feed`
-| `your_name`              | The primary author/company of the site                            | `Daniel Imms`
 | `copyright_details`      | Copyright details for your feed                                   | `Copyright (c) 2012-2014, Daniel Imms; all rights reserved.`
 | `home_url`               | The home URL excluding the `/` at the end                         | `http://www.growingwiththeweb.com`
+| `home_url_canonical`     | The canonical (best) home URL, ideally include the `/` at the end | `http://www.growingwiththeweb.com/`
+| `site_title`             | Title of the website                                              | `Growing with the Web`
+| `unique_feed_identifier` | Some unique string to identify the feed, ideally include your URL | `http://www.growingwiththeweb.com/all_feed`
+| `author_name`            | The primary author/company of the site                            | `Daniel Imms`
 
 
 
