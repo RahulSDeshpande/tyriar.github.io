@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : Custom helper for surrounding a block in markup with MVC
-tags        : [.NET, ASP.NET, MVC, C#, Extension method, HTML]
+tags        : [.NET, ASP.NET MVC, C#, Extension method, HTML]
 primarytag  : ASP.NET
 intro       : This article illustrates how to create a custom helper for ASP.NET MVC to use in views that surrounds a block of markup.
 ---

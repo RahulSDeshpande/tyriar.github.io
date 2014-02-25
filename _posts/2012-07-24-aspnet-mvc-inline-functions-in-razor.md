@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : ASP.NET MVC inline functions in a razor view
-tags        : [.NET, ASP.NET, MVC, C#, Razor, Umbraco]
+tags        : [.NET, ASP.NET MVC, C#, Razor, Umbraco]
 primarytag  : ASP.NET
 intro       : Here is the syntax for defining inline functions in an ASP.NET MVC razor view. I found this particularly useful when working with Umbraco as the regular alternatives like extension methods and helper classes aren't available.
 ---
