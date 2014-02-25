@@ -9,9 +9,13 @@ primarytag  : ASP.NET
 intro       : Display and editor templates in ASP.NET MVC let us create views in a more maintainable and elegant ways. This article looks at how to define custom templates to display and manipulate different data types.
 ---
 
+{% include post-image.html class="right-col" alt=".NET logo" src="/images/2012/12/16/logo.png" %}
+
 ## Display templates
 
 MVC has a bunch of handy helpers that we can use to create our views more efficiently. One such helper are the display templates that are used within views.
+
+<div class="clear"><!----></div>
 
 <!--prettify lang=csharp-->
     @Html.DisplayFor(e => e.Username)
