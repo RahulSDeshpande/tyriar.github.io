@@ -46,7 +46,7 @@ Despite quicksort having a worst-case performance of \\(O(n^2)\\), it is sometim
 
 ## Partition
 
-{% include post-image.html class="right-col" alt="The partition operation" src="/images/2012/12/05/partition.svg" %}
+{% include post-image.html class="right-col fit-col" alt="The partition operation" src="/images/2012/12/05/partition.svg" %}
 
 The partition function is where the actual sorting happens. The image illustrates the function in action, using the right-most value as the pivot (`5`).
 
