@@ -2,6 +2,8 @@
 layout      : post
 title       : Quicksort
 tags        : [Algorithm, Computer science, Java, Sorting]
+isfeatured  : 1
+preview     : /images/2012/12/05/quicksort.svg
 socialimage : /images/2012/12/05/preview.png
 primarytag  : Sorting
 intro       : Quicksort is an \(O(n^2)\) sorting algorithm that runs in \(O(n \log n)\) time on average. It has a number of favourable qualities; it's an in-place sort, requiring \(O(\log n)\) auxiliary space in the worst case; and is also a divide and conquer algorithm making it easy to parallelise. Unfortunately however it's not a stable sort.
