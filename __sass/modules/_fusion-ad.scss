@@ -1,0 +1,28 @@
+.fusionentire {
+  display: block;
+
+  a {
+    display: block;
+  }
+}
+
+@include media-sm {
+  
+}
+
+@include media-gt-sm {
+  .fusionentire {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 1em;
+  }
+
+  .fusiontext {
+    padding-right: $fusion-ad-width;
+    width: 130px;
+    line-height: 1.2;
+    font-size: 16px;
+    font-size: 1rem;
+  }
+}
