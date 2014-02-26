@@ -23,6 +23,9 @@ module.exports = function(grunt) {
           '_gen/includereplace/google-analytics.js': [ 
             '__scripts/google-analytics.js'
           ],
+          '_gen/includereplace/fusion-ad.js': [ 
+            '__scripts/fusion-ad.js'
+          ],
           'scripts/tag-search.js': [
             '__scripts/tag-container-toggle.js',
             '__scripts/tag-search.js'
