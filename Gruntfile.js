@@ -152,7 +152,7 @@ module.exports = function(grunt) {
           url: "http://tyriar.github.io",
           locale: "en_AU",
           strategy: "mobile",
-          threshold: 87
+          threshold: 80
         }
       },
       options: {
