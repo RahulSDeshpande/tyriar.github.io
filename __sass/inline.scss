@@ -23,7 +23,9 @@
     color: $navy-light;
     font-size: 1.5em;
     font-style: italic;
-    white-space: nowrap;
+    @include media-full {
+      white-space: nowrap;
+    }
   }
 
   &.no-social {
