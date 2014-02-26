@@ -13,6 +13,7 @@
 
 @include media-gt-sm {
   .fusionentire {
+    width: $fusion-ad-width;
     position: absolute;
     right: 0;
     top: 0;
