@@ -4,6 +4,11 @@
     font-size: 1rem;
   }
 
+  // Push tags down for the ad
+  @include media-gt-md-sm {
+    padding-top: 1em;
+  }
+
   menu {
     list-style: none;
     padding: 0;
