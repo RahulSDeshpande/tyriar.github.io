@@ -9,12 +9,12 @@
 	}
 }
 @mixin media-lt-md {
-	@media screen and (max-width: ($medium-small-width - 1)) {
+	@media screen and (max-width: ($medium-width - 1)) {
 		@content;
 	}
 }
 @mixin media-gt-md {
-	@media screen and (min-width: ($medium-small-width)) {
+	@media screen and (min-width: ($medium-width)) {
 		@content;
 	}
 }
