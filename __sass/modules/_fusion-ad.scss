@@ -11,13 +11,19 @@
 
 @include media-sm {
   .fusionentire {
-    //margin: 0 -1em;
     width: 100%;
+
+    &::after {
+      display: block;
+      content: "";
+      clear: both;
+    }
   }
 
   .fusionimg {
     float: left;
     margin-right: 1em;
+    line-height: 0;
   }
 }
 
