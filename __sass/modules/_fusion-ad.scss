@@ -67,7 +67,8 @@
 
       a:last-child {
         width: $fusion-ad-wide-width - $fusion-ad-width;
-        padding: 0 .5em 0 1em;
+        padding-left: 1.5em;
+        margin-left: -1em;
       }
     }
   }
