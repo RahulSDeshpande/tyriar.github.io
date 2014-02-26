@@ -52,6 +52,8 @@
 
 @include media-lt-full {
   @include media-gt-sm {
+    .tags,
+    .masthead header,
     .masthead .inner-wrapper {
       margin-right: 1em;
       padding-right: $fusion-ad-width;
