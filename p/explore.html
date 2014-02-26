@@ -4,7 +4,7 @@ title : Explore
 ---
 
 
-<div class="masthead">
+<div class="masthead wide-ad">
 <div class="wrapper">
 <header>
 <h1>Explore</h1>
@@ -13,6 +13,7 @@ title : Explore
 <button class="toggle-button">Show tags</button>
 <div class="tag-container"></div>
 </div>
+{% include fusion-ad.html %}
 </div>
 </div>
 <div class="previews">{% for post in site.posts %}{% include post-preview.html post=post hideimage="1" %}{% endfor %}</div>
