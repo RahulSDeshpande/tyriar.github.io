@@ -28,18 +28,6 @@
   }
 }
 
-@include media-lt-full {
-  @include media-gt-sm {
-    .masthead .inner-wrapper {
-      margin-right: 1em;
-      padding-right: $fusion-ad-width;
-    }
-    .masthead p {
-      padding-right: 1em;
-    }
-  }
-}
-
 .stretch {
   @include media-full {
     width: $full-width;
