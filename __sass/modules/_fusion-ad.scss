@@ -45,4 +45,21 @@
     font-size: 16px;
     font-size: 1rem;
   }
+
+  // Style overrides for .masthead's marked as having a wide ad
+  .wide-ad {
+    .fusionentire {
+      padding: .5em;
+      width: $fusion-ad-wide-width;
+
+      a:first-child {
+        float: left;
+        line-height: 0;
+      }
+
+      a {
+        display: inline;
+      }
+    }
+  }
 }

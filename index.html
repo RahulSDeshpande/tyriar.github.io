@@ -10,6 +10,10 @@ layout: default
   {% assign datefrom=paginator.posts.last.date %}
   {% assign dateto=paginator.posts.first.date %}
 {% endif %}
-{% include masthead.html title=title datefrom=datefrom dateto=dateto text=text %}
+{% if paginator.page == 1 %}
+  {% include masthead.html title=title datefrom=datefrom dateto=dateto text=text %}
+{% else %}
+  {% include masthead.html title=title datefrom=datefrom dateto=dateto text=text widead="1" %}
+{% endif %}
 <div class="previews">{% for post in paginator.posts %}{% include post-preview.html post=post %}{% endfor %}</div>
 {% include index-pager.html paginator=paginator %}
