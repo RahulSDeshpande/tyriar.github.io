@@ -21,8 +21,10 @@
     width: $full-width-left;
   }
   @include media-lt-full {
-    margin-right: 1em;
-    padding-right: $fusion-ad-width;
+    @include media-gt-sm {
+      margin-right: 1em;
+      padding-right: $fusion-ad-width;
+    }
   }
 }
 
