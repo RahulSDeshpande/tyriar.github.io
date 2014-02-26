@@ -1,12 +1,17 @@
 .fusionentire {
   display: block;
   padding: 1em;
-  background-color: $navy-light;
+  background-color: $fusion-ad-bg;
   line-height: 1.2;
 
   a {
     display: block;
     color: $fusion-ad-color;
+
+    &:hover {
+      color: $fusion-ad-color;
+      text-decoration: underline;
+    }
   }
 }
 
