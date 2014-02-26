@@ -7,7 +7,7 @@
 }
 
 @include media-sm {
-  
+
 }
 
 @include media-gt-sm {
@@ -19,8 +19,7 @@
   }
 
   .fusiontext {
-    padding-right: $fusion-ad-width;
-    width: 130px;
+    width: $fusion-ad-width;
     line-height: 1.2;
     font-size: 16px;
     font-size: 1rem;
