@@ -53,8 +53,9 @@
 @include media-gt-sm {
   .tags,
   .masthead header {
-    margin-right: 1em;
-    padding-right: $fusion-ad-width;
+    // Important to override styles for Fusion ads
+    margin-right: 1em !important;
+    padding-right: $fusion-ad-width !important;
   }
   @include media-lt-full {
     .masthead p {
