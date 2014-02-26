@@ -50,16 +50,19 @@
   }
 }
 
-@include media-lt-full {
-  @include media-gt-sm {
-    .tags,
-    .masthead header,
+@include media-gt-sm {
+  .tags,
+  .masthead header
+    margin-right: 1em;
+    padding-right: $fusion-ad-width;
+  }
+  @include media-lt-full {
+    .masthead p {
+      padding-right: 1em;
+    }
     .masthead .inner-wrapper {
       margin-right: 1em;
       padding-right: $fusion-ad-width;
-    }
-    .masthead p {
-      padding-right: 1em;
     }
   }
 }
