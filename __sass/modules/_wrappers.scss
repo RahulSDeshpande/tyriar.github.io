@@ -20,12 +20,6 @@
   @include media-full {
     width: $full-width-left;
   }
-  @include media-lt-full {
-    @include media-gt-sm {
-      margin-right: 1em;
-      padding-right: $fusion-ad-width;
-    }
-  }
 }
 
 .stretch {
