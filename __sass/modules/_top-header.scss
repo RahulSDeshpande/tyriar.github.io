@@ -1,10 +1,10 @@
 .top-header {
   text-align: center;
 
-  @include media-gt-md-sm {
+  @include media-gt-md {
     height: $header-height-large;
   }
-  @include media-lt-md-sm {
+  @include media-lt-md {
     margin: 1em 0 !important;
   }
 
@@ -19,30 +19,30 @@
     margin: 0 4px;
     color: $navy;
 
-    @include media-lt-md-sm {
+    @include media-lt-md {
       vertical-align: middle;
     }
 
-    @include media-gt-md-sm {
+    @include media-gt-md {
       height: $header-height-large;
       line-height: $header-height-large;
       float: left;
     }
 
-    @include media-lt-md {
+    @include media-lt-md-lg {
       font-size: 1.5em;
     }
   }
 }
 
 #search-form {
-  @include media-gt-md-sm {
+  @include media-gt-md {
     position: absolute;
     right: 0;
     bottom: $header-spacing;
   }
 
-  @include media-lt-md-sm {
+  @include media-lt-md {
     margin-top: $header-spacing;
   }
 
@@ -57,7 +57,7 @@
   //height: $search-height;
   //border: 1px solid $grey;
   //background-color: transparent;
-  //@include media-lt-md-sm {
+  //@include media-lt-md {
   //  width: 100%;
   //}
   $box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -78,12 +78,12 @@
   height: $logo-height-large;
   margin: 0 4px;
 
-  @include media-gt-md-sm {
+  @include media-gt-md {
     float: left;
     margin: $header-spacing 4px 0;
   }
 
-  @include media-lt-md-sm {
+  @include media-lt-md {
     vertical-align: middle;
   }
 }
@@ -92,7 +92,7 @@
   ul {
     margin: 0;
 
-    @include media-gt-md-sm {
+    @include media-gt-md {
       position: absolute;
       right: 0;
       top: 0;
@@ -107,7 +107,7 @@
       @include media-full {
         margin-right: 0;
       }
-      @include media-lt-md-sm {
+      @include media-lt-md {
         margin-right: 0;
       }
     }
@@ -117,7 +117,7 @@
     margin-right: 1em;
     font-weight: bold;
 
-    @include media-gt-md-sm {
+    @include media-gt-md {
       padding-top: $header-spacing;
       border-top: 0px solid $red;
       -webkit-transition: border-top linear .1s, padding-top linear .1s;

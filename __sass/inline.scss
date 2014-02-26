@@ -44,7 +44,7 @@
   height: $search-height;
   border: 1px solid $grey;
   background-color: transparent;
-  @include media-lt-md-sm {
+  @include media-lt-md {
     width: 100%;
   }
 }
