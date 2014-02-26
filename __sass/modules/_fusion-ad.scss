@@ -3,13 +3,16 @@
   padding: 1em;
   background-color: $navy-light;
   line-height: 1.2;
-  font-size: 16px;
-  font-size: 1rem;
 
   a {
     display: block;
     color: $fusion-ad-color;
   }
+}
+
+.fusiontext {
+  font-size: 16px;
+  font-size: 1rem;
 }
 
 @include media-lt-md-sm {
