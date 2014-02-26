@@ -16,5 +16,5 @@ title : Explore
 {% include fusion-ad.html %}
 </div>
 </div>
-<div class="previews">{% for post in site.posts %}{% include post-preview.html post=post hideimage="1" %}{% endfor %}</div>
+<div class="previews">{% for post in site.posts %}{% unless post.draft %}{% include post-preview.html post=post hideimage="1" %}{% endunless %}{% endfor %}</div>
 <style>article{display:none;}article.active{display:block;}</style>

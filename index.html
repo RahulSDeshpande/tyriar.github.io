@@ -15,5 +15,5 @@ layout: default
 {% else %}
   {% include masthead.html title=title datefrom=datefrom dateto=dateto text=text widead="1" %}
 {% endif %}
-<div class="previews">{% for post in paginator.posts %}{% include post-preview.html post=post %}{% endfor %}</div>
+<div class="previews">{% for post in paginator.posts %}{% unless post.draft %}{% include post-preview.html post=post %}{% endunless %}{% endfor %}</div>
 {% include index-pager.html paginator=paginator %}
