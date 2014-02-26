@@ -9,7 +9,7 @@
   }
 }
 
-@include media-sm {
+@include media-lt-md-sm {
   #fusion_ad {
     margin: 0 -1em;
   }
@@ -31,7 +31,7 @@
   }
 }
 
-@include media-gt-sm {
+@include media-gt-md-sm {
   .fusionentire {
     position: absolute;
     right: 0;
