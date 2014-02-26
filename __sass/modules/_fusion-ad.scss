@@ -2,6 +2,9 @@
   display: block;
   padding: 1em;
   background-color: $navy-light;
+  line-height: 1.2;
+  font-size: 16px;
+  font-size: 1rem;
 
   a {
     display: block;
@@ -41,9 +44,6 @@
 
   .fusiontext {
     width: $fusion-ad-width;
-    line-height: 1.2;
-    font-size: 16px;
-    font-size: 1rem;
   }
 
   // Style overrides for .masthead's marked as having a wide ad
