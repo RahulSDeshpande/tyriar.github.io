@@ -52,7 +52,7 @@
 
 @include media-gt-sm {
   .tags,
-  .masthead header
+  .masthead header {
     margin-right: 1em;
     padding-right: $fusion-ad-width;
   }
