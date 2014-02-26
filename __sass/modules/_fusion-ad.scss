@@ -55,15 +55,19 @@
       padding: .5em 0;
       width: $fusion-ad-wide-width;
 
+      a {
+        display: inline-block;
+      }
+
       a:first-child {
         float: left;
         line-height: 0;
+        padding-left: .5em;
       }
 
-      a {
-        display: inline-block;
-        width: $fusion-ad-width;
-        padding: 0 .5em;
+      a:last-child {
+        width: $fusion-ad-wide-width - $fusion-ad-width;
+        padding: 0 .5em 0 1em;
       }
     }
   }
