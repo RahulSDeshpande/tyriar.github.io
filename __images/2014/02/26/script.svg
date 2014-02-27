@@ -7,7 +7,7 @@
 		.blue { fill: hsl(240,100%,80%); }
 		.grey { fill: hsl(0,0%,80%); }
 	</style>
-	<g transform="translate(10,10)">
+	<g transform="translate(0,10)">
 		<g>
 			<title>HTML parsing</title>
 			<rect height="15" width="499" x=".5" y=".5" class="green" />
