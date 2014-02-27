@@ -80,8 +80,9 @@ module.exports = function(grunt) {
     svgmin: {
       options: {
         plugins: [
-          { removeViewBox: false },
-          { mergePaths: false }
+          { mergePaths: false },
+          { removeTitle: false },
+          { removeViewBox: false }
         ]
       },
       dist: {
