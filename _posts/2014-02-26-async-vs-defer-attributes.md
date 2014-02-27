@@ -4,7 +4,7 @@ title       : async vs defer attributes
 draft       : 1
 tags        : [HTML, JavaScript]
 primarytag  : JavaScript
-intro       : The <a href="http://caniuse.com/#feat=script-async"><code>async</code></a> and <a href="http://caniuse.com/script-defer"><code>defer</code></a> attributes for the <code>&lt;script&gt;</code> element have great support now, so it's time to learn exactly what they do and clarify the difference between them.
+intro       : The <a href="http://caniuse.com/#feat=script-async"><code>async</code></a> and <a href="http://caniuse.com/script-defer"><code>defer</code></a> attributes for the <code>&lt;script&gt;</code> element have great support now, so it's time to learn exactly what they do!
 ---
 
 ## Legend
