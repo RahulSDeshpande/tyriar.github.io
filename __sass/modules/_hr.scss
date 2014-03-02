@@ -1,14 +1,15 @@
 %hr-circle {
-  width: .3em;
-  height: .3em;
   border-radius: 50%;
+  content: "";
+  height: .3em;
+  width: .3em;
 }
 
 hr {
   @extend %hr-circle;
+  background-color: $red;
   border: 0;
   margin: $paragraph-spacing auto 0;
-  background-color: $red;
   position: relative;
 
   &::before,
