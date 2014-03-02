@@ -11,7 +11,7 @@ A bookmarklet is typically just a self-executing JavaScript function.
 
 <!--prettify lang=js-->
     (function() {
-    	// Do something
+      // Do something
     })()
 
 After being minified it's placed within an anchor's `href` attribute with `javascript:` at the start. Typically the surrounding text indicates that it is a bookmarklet by giving instructions to dragging it to your bookmarks bar.
@@ -43,7 +43,8 @@ The browser's cache can work against us with bookmarklets by holding on to the o
 <!--prettify lang=js-->
     (function () {
       var script = document.createElement('script');
-      script.src = '//www.growingwiththeweb.com/bookmarklet.js?' + Math.floor((new Date).getTime()/3600000);
+      script.src = '//www.growingwiththeweb.com/bookmarklet.js?' + 
+                   Math.floor((new Date).getTime()/3600000);
       document.body.appendChild(script);
     })()
 
@@ -63,7 +64,8 @@ Special considerations may need to be made if the script is going to be run mult
         script.parentNode.removeChild(s);
       }
       script = document.createElement('script');
-      script.src = '//www.growingwiththeweb.com/bookmarklet.js?' + Math.floor((new Date).getTime() / 3600000);
+      script.src = '//www.growingwiththeweb.com/bookmarklet.js?' + 
+                   Math.floor((new Date).getTime() / 3600000);
       script.id = uniqueId;
       document.body.appendChild(script);
     })()
