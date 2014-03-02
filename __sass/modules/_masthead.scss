@@ -51,13 +51,13 @@
 }
 
 @include media-gt-md-sm {
-  .tags,
-  .masthead header {
-    // Important to override styles for Fusion ads
-    margin-right: 3em !important;
-    padding-right: $fusion-ad-width !important;
-  }
   @include media-lt-full {
+    .tags,
+    .masthead header {
+      // Important to override styles for Fusion ads
+      margin-right: 1em !important;
+      padding-right: $fusion-ad-width !important;
+    }
     .masthead p {
       padding-right: 1em;
     }
@@ -65,5 +65,11 @@
       margin-right: 1em;
       padding-right: $fusion-ad-width;
     }
+  }
+}
+@include media-full {
+  .tags,
+  .masthead header {
+    margin-right: 3em !important;
   }
 }
