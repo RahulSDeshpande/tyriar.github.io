@@ -32,7 +32,7 @@ Bookmarklets usually download a script from some external server and injects it 
       document.body.appendChild(script);
     })()
 
-The usage of `//` in the URL ensures the same scheme (`http`/`https`) as the page is used for the request.
+The usage of `'//'` in the URL ensures the same scheme (http/https) as the page is used for the request.
 
 
 
