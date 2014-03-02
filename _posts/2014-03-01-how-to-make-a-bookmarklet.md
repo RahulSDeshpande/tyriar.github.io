@@ -23,7 +23,7 @@ After being minified it's placed within an anchor's `href` attribute with `javas
 
 ## Injecting the script
 
-Normally a bookmarklet downloads a script from some external server and injects it into the page. This allows the script to be a large as necessary and also enable automatic updating. Here is an example bookmarklet that injects a script into the page:
+Bookmarklets usually download a script from some external server and injects it into the page. This allows the script to be a large as necessary and also enables automatic updating. Here is an example bookmarklet that injects a script into the page:
 
 <!--prettify lang=js-->
     (function () {
