@@ -61,7 +61,7 @@ Special considerations may need to be made if the script is going to be run mult
       var uniqueId = 'gwtw-bookmarklet';
       var script = document.getElementById(uniqueId);
       if (script) {
-        script.parentNode.removeChild(s);
+        script.parentNode.removeChild(script);
       }
       script = document.createElement('script');
       script.src = '//www.growingwiththeweb.com/bookmarklet.js?' + 
