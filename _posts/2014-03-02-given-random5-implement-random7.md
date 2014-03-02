@@ -40,7 +40,7 @@ This turns out to be a very common answer to the problem, but does each number h
 
 This trend continues, leading to the middle numbers having a larger chance of occuring.
 
-<hr>
+---
 
 A good solution to the problem would be to look at it like a decision tree. Calling `random5` once to get 5 choices (\\(20\%\\) chance each) that are then split up into another 5 choices (\\(4\%\\) chance each). Giving 25 choices in total, each of which map to a particular action.
 
