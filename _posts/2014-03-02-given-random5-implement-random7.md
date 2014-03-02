@@ -6,18 +6,18 @@ draft : 1
 preview     : /images/2014/03/02/function.svg
 socialimage : /images/2014/03/02/function.png
 primarytag  : Interview questions
-intro       : Given the function <code>random5</code> that generates and returns a uniformly distributed random integer from 1 to 5, implement <code>random7</code> that returns a uniformly distributed random integer from 1 to 7.
+intro       : Given the function <code>random5</code> that generates and returns a random integer from 1 to 5, implement <code>random7</code> that returns a uniformly distributed random integer from 1 to 7.
 ---
 
 {% include post-image.html class="right-col" alt="Given random5 function input and 1 to 7 output, implement random7" src="/images/2014/03/02/function.png" %}
 
-This is a classic probability problem that turns out to deceptively tricky since solutions that seem like they work don't because they don't end up uniformly distributed.
+This is a classic probability problem that turns out to be deceptively tricky since solutions that seem fine don't end up filling the uniformly distributed requirement.
 
 ## Analysis
 
 To start off, let's reread what we're supposed to do:
 
-> implement `random7` that returns a *uniformly distributed* random *integer* from 1 to 7.
+> implement `random7` that returns a ***uniformly distributed*** random ***integer*** from 1 to 7.
 
 We're dealing with *integers* not floats, so it's not as simple as multiplying `random5` by `7/5`. It also needs to be *uniformly distributed* just like `random5`, meaning we cannot just return the result of `random5() * 2 % 7 + 1` since that will favour the integers 2, 3 and 4 twice as much as the rest.
 
@@ -58,7 +58,7 @@ With this solution, in a single call each number has a \\(12\%\\) chance of retu
 
 ## Code
 
-View on [GitHub][1]
+[View on GitHub][1]
 
 <!--prettify lang=java-->
     public static int random7() {
