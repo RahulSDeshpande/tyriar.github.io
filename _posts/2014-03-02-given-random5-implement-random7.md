@@ -2,7 +2,6 @@
 layout      : post
 title       : Given random5(), implement random7()
 tags        : [Algorithm, Computer science, Interview questions, Java, Math]
-draft : 1
 preview     : /images/2014/03/02/function.svg
 socialimage : /images/2014/03/02/function.png
 primarytag  : Interview questions
