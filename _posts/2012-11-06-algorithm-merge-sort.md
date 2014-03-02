@@ -67,7 +67,7 @@ The top-down variant is considered the 'normal' merge sorting algorithm.
 
         int middle = array.length / 2;
         int[] left = new int[middle];
-        int[] right = new int[middle + array.length % 2];
+        int[] right = new int[array.length - middle];
 
         for (int i = 0; i < left.length; i++) {
             left[i] = array[i];

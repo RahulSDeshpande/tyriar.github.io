@@ -1,0 +1,60 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="300" height="190" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		ellipse, line, path { stroke: #000; stroke-width: 2; }
+		.red { fill: hsl(0,100%,80%); }
+		.yellow { fill: hsl(60,100%,80%); }
+		.green { fill: hsl(120,100%,80%); }
+		.teal { fill: hsl(180,100%,80%); }
+		.blue { fill: hsl(240,100%,80%); }
+		.purple { fill: hsl(300,100%,80%); }
+		text { text-anchor: middle; font-family: Helvetica, Arial, sans-serif; font-size: 22px; fill: #000; }
+	</style>
+	<marker id="arrow" viewBox="-1 0 12 10" refX="10.5" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+		<path d="M 0 0 L 10 5 L 0 10z"/>
+	</marker>
+	<g transform="translate(30,60)">
+		<text x="120" y="-32">Input</text>
+		<g transform="translate(0,0)">
+			<path d="m20 0 l40,0" marker-end="url(#arrow)"/>
+			<ellipse ry="20" rx="20" cy="0" cx="0" class="green" />
+			<text y="7" x="0">1</text>
+		</g>
+		<g transform="translate(80,0)">
+			<path d="m20 0 l40,0" marker-end="url(#arrow)"/>
+			<ellipse ry="20" rx="20" cy="0" cx="0" class="green" />
+			<text y="7" x="0">2</text>
+		</g>
+		<g transform="translate(160,0)">
+			<path d="m20 0 l40,0" marker-end="url(#arrow)"/>
+			<ellipse ry="20" rx="20" cy="0" cx="0" class="green" />
+			<text y="7" x="0">3</text>
+		</g>
+		<g transform="translate(240,0)">
+			<ellipse ry="20" rx="20" cy="0" cx="0" class="green" />
+			<text y="7" x="0">4</text>
+		</g>
+	</g>
+	<g transform="translate(30,160)">
+		<text x="120" y="-32">Output</text>
+		<g transform="translate(0,0)">
+			<ellipse ry="20" rx="20" cy="0" cx="0" class="red" />
+			<text y="7" x="0">1</text>
+		</g>
+		<g transform="translate(80,0)">
+			<path d="m-20 0 l-40,0" marker-end="url(#arrow)"/>
+			<ellipse ry="20" rx="20" cy="0" cx="0" class="red" />
+			<text y="7" x="0">2</text>
+		</g>
+		<g transform="translate(160,0)">
+			<path d="m-20 0 l-40,0" marker-end="url(#arrow)"/>
+			<ellipse ry="20" rx="20" cy="0" cx="0" class="red" />
+			<text y="7" x="0">3</text>
+		</g>
+		<g transform="translate(240,0)">
+			<path d="m-20 0 l-40,0" marker-end="url(#arrow)"/>
+			<ellipse ry="20" rx="20" cy="0" cx="0" class="red" />
+			<text y="7" x="0">4</text>
+		</g>
+	</g>
+</svg>
