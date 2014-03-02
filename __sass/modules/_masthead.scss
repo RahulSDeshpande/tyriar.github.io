@@ -54,7 +54,7 @@
   .tags,
   .masthead header {
     // Important to override styles for Fusion ads
-    margin-right: 1em !important;
+    margin-right: 3em !important;
     padding-right: $fusion-ad-width !important;
   }
   @include media-lt-full {
