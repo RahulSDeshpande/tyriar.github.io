@@ -4,7 +4,7 @@ title       : How to make a bookmarklet
 draft : 1
 tags        : [HTML, JavaScript]
 primarytag  : JavaScript
-intro       : A bookmarklet is a section of JavaScript that executes from a browser bookmark.
+intro       : A bookmarklet is a section of JavaScript that extends the browsers currently loaded page by executing from a browser bookmark.
 ---
 
 A bookmarklet is typically just a self-executing JavaScript function.
