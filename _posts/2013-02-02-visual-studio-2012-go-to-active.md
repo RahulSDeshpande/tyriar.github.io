@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : Go to active document in Visual Studio 2012 solution explorer
-tags        : [.NET, C#, Hotkey, Productivity, Visual Studio]
+tags        : [C#, Hotkey, Productivity, Visual Studio]
 socialimage : /images/2013/02/02/goto.png
 primarytag  : Visual Studio
 intro       : Finally! Visual Studio natively supports jumping to the active document in the solution explorer with Visual Studio 2012. The command is called "Sync with Active Document" and can be accessed from the Solution Explorer toolbar.

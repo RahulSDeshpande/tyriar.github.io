@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : Delegation design pattern
-tags        : [.NET, C#, Design pattern, Java, Software engineering, Structural design pattern, UML]
+tags        : [C#, Design pattern, Java, Software engineering, Structural design pattern, UML]
 socialimage : /images/2012/07/21/preview.png
 primarytag  : Design pattern
 intro       : The delegation design pattern allows an object to delegate one or more tasks to a helper object. Two classes are used to achieve this; the delegate and delegator, both which realise a common interface. A method (or methods) on the interface represent the functionality to be delegated. A call to the delegator calls the matching function on the delegate.

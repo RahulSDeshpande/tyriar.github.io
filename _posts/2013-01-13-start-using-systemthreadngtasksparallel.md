@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : Start using System.Threadng.Tasks.Parallel now!
-tags        : [.NET, C#, Concurrency]
+tags        : [C#, Concurrency]
 primarytag  : Concurrency
 intro       : If you haven't experienced the power of the <code>System.Threading.Tasks</code> namespace new in .NET 4 you're missing out. This post is about the <code>Parallel</code> class which takes all of the complexity out of the seemingly simple task of running multiple functions in parallel.
 ---

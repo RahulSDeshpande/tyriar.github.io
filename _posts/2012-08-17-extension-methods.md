@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : Extension methods
-tags        : [.NET, C#, Extension method]
+tags        : [C#, Extension method]
 primarytag  : Extension method
 intro       : Extension methods are a nice piece of syntactic sugar added to C# version 3.0 as part of .NET framework 3.5. They allow you to add methods to existing types, for example you can add a new method to the type <code>System.String</code> or <code>System.IO.File</code>.
 ---

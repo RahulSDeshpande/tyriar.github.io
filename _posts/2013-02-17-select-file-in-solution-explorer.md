@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : Select a solution file without previewing
-tags        : [.NET, Hotkey, Productivity, Visual Studio]
+tags        : [C#, Hotkey, Productivity, Visual Studio]
 socialimage : /images/2013/02/17/vs2012-no-preview.png
 primarytag  : Visual Studio
 intro       : One of the new features in VS2012 is the ability to 'preview' a file instead of opening it fully which will open it in the 'preview' pane (docked to the right). To do this <kbd><kbd>Left click</kbd></kbd> on the file in the solution explorer. The great thing about it is that you can only have one preview open at a time. So when you're searching for something looking through several files in the process, the ones that aren't needed will close themselves.

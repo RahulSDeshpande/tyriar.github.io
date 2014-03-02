@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : Using enum as a generic type
-tags        : [.NET, C#, Generics]
+tags        : [C#, Generics]
 primarytag  : C#
 intro       : This article introduces a method of defining a generic type for an <code>enum</code> for use in generic methods.
 ---

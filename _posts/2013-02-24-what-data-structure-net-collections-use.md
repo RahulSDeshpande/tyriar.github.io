@@ -1,11 +1,11 @@
 ---
 layout      : post
 title       : What data structures the .NET collections use
-tags        : [.NET, C#, Generics]
+tags        : [C#, Generics, Optimisation]
 isfeatured  : 1
 preview     : /images/2013/02/24/logo.png
 socialimage : /images/2013/02/24/logo.png
-primarytag  : .NET
+primarytag  : C#
 intro       : I've compiled some information about time complexity and underlying data structures of .NET simple collections and dictionaries. It was difficult to find some of this information on official sources like MSDN and non-official sources seemed to differ, so I used reflector and actually had a look at the .NET framework code to confirm these cases.
 ---
 

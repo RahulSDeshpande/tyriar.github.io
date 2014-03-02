@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : Entity framework delete all entities extension method
-tags        : [.NET, C#, Entity framework, Extension method]
+tags        : [C#, Entity framework, Extension method]
 primarytag  : C#
 intro       : Unfortunately when deleting items in entity framework the SQL commands are issued as single <code>DELETE</code> statements for each entity. This really becomes a bottleneck when there are a several thousand items. This handy set of extension methods allows convenient and efficient deletion of all entities for a particular type <code>T</code>. The <code>GetTableName&lt;T&gt;</code> used function even takes into account table mappings set up with the <code>ModelBuilder</code>.
 ---

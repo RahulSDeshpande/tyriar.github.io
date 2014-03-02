@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : Lazy loading design pattern
-tags        : [.NET, C#, Design pattern, Entity framework, Software engineering, Structural design pattern]
+tags        : [C#, Design pattern, Entity framework, Software engineering, Structural design pattern]
 primarytag  : Design pattern
 intro       : The lazy-loading design pattern provides a means to defer the creation of an object by loading it at the point it is needed. This has both benefits and drawbacks.
 ---

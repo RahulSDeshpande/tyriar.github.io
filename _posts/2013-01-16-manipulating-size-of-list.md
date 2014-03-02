@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : Manipulating the size of List&lt;T&gt;
-tags        : [.NET, C#, Java, Optimisation]
+tags        : [C#, Java, Optimisation]
 primarytag  : Optimisation
 intro       : .NET allows us to set the size of a <code>List&lt;T&gt;</code> in the constructor if we know the capacity ahead of time. This will save the List's inner (dynamic) array from being reassigned (and copied) when items are added. While usually this will make a minuscule change to your program, if the list is large enough it saves quite a few operations.
 ---

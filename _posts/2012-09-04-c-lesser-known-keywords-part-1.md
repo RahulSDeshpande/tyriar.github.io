@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : C# lesser known keywords part 1
-tags        : [.NET, C#]
+tags        : [C#]
 primarytag  : C#
 intro       : This post will give a brief overview of some of the lesser known keywords in C# (as-implicit). I'll cover more in later posts.
 ---

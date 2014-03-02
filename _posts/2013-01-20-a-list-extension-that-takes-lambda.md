@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : A List&lt;T&gt;.BinarySearch extension that takes a lambda expression
-tags        : [.NET, C#, Extension method, Generics, Searching]
+tags        : [C#, Extension method, Generics, Searching]
 primarytag  : Extension method
 intro       : I was thinking the other day how inconvenient it is to use <a href="http://msdn.microsoft.com/en-au/library/ftfdbfx6.aspx"><code>List&lt;T&gt;.BinarySearch</code></a> if you don't want to use the default comparer of <code>T</code>, needing to go and create a new class that implements <code>IComparer&lt;T&gt;</code>. Seems overly messy to require a whole new class just to do the <a href="http://www.growingwiththeweb.com/2012/11/algorithm-binary-search.html">binary search</a>.
 ---

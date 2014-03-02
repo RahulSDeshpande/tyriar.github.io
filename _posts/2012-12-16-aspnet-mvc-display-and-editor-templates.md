@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : ASP.NET MVC display and editor templates
-tags        : [.NET, ASP.NET MVC, C#, Razor]
+tags        : [ASP.NET MVC, C#, Razor]
 isfeatured  : 1
 preview     : /images/2012/12/16/logo.png
 socialimage : /images/2012/12/16/logo.png

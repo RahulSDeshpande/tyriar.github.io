@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : Singleton design pattern
-tags        : [.NET, C#, Concurrency, Creational design pattern, Design pattern, Software engineering, UML]
+tags        : [C#, Concurrency, Creational design pattern, Design pattern, Software engineering, UML]
 socialimage : /images/2012/05/12/preview.svg
 primarytag  : Design pattern
 intro       : The singleton design pattern enables easy access to a single instance of a class.

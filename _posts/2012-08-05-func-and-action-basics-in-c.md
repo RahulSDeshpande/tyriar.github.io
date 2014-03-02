@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : Func&lt;&gt; and Action&lt;&gt; basics in C#
-tags        : [.NET, ASP.NET MVC, C#, Generics]
+tags        : [ASP.NET MVC, C#, Generics]
 primarytag  : Generics
 intro       : If you've been coding in C# for a while you may have noticed the <code>Func&lt;&gt;</code> parameter type presented in several places, particularly LINQ which uses it extensively. You may know how to use it but have you ever thought about what it is exactly and how to go about using it in your own functions?
 ---
