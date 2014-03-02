@@ -74,7 +74,7 @@ Special considerations may need to be made if the script is going to be run mult
 
 ## Putting it all together
 
-Once the script is all done, minify the Javascript and add `javascript:` to the front before adding it to the `<a>`.
+Once the script is all done, minify the Javascript and add `javascript:` to the front before adding it to the anchor.
 
 <!--prettify lang=html-->
     <p>Drag <a class="bookmarklet" href="javascript:(function(){var a=document.getElementById("gwtw-bookmarklet");a&&a.parentNode.removeChild(s);a=document.createElement("script");a.src="//www.growingwiththeweb.com/bookmarklet.js?"+Math.floor((new Date).getTime()/3600000);a.id="gwtw-bookmarklet";document.body.appendChild(a)})()">the bookmarklet</a> to your bookmarks bar.</p>
