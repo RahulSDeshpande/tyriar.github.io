@@ -35,7 +35,7 @@ The sitemap protocol also supports splitting a sitemap up into multiple sitemaps
 
 Just because you have an XML sitemap does not mean that you shouldn't have a HTML sitemap too since they're targetted at different audiences; XML sitemaps are for web crawlers and HTML sitemaps are for users. [HTML sitemaps][8] provide an overview of the entire site, help users understand how the content is organised and provide an alternative way to navigate it. This can help fulfill WCAG 2.0 Level AA:
 
-> 2.4.5 Multiple Ways: More than one way is available to locate a Web page within a set of Web pages except where the Web Page is the result of, or a step in, a process. (Level AA)
+> **2.4.5 Multiple Ways:** More than one way is available to locate a Web page within a set of Web pages except where the Web Page is the result of, or a step in, a process. (Level AA)
 >
 > [<cite><abbr title="World Wide Web Consortium">W3C</abbr></cite> - <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.0][9]
 
