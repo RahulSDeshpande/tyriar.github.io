@@ -5,7 +5,7 @@ tags        : [Accessibility, GitHub, HTML, SEO, XML]
 preview     : /images/2014/03/03/sitemap.svg
 socialimage : /images/2014/03/03/sitemap.png
 primarytag  : SEO
-intro       : This post explains what <abbr title="Extensible Markup Language">XML</abbr> sitemaps are, why they're useful and how to make one.
+intro       : This post explains what XML sitemaps are, why they're useful and how to make one.
 ---
 
 {% include post-image.html class="right-col" alt="A collection of linked nodes" src="/images/2014/03/03/sitemap.svg" %}
@@ -32,7 +32,7 @@ The sitemap protocol also supports splitting a sitemap up into multiple sitemaps
 
 ## What about HTML sitemaps then?
 
-Just because you have an XML sitemap does not mean that you shouldn't have a HTML sitemap too since they're targetted at different audiences; XML sitemaps are for web crawlers and HTML sitemaps are for users. [<abbr title="HyperText Markup Language">HTML</abbr> sitemaps][8] provide an overview of the entire site, help users understand how the content is organised and provide an alternative way to navigate it. This can help fulfill <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.0 Level AA:
+Just because you have an XML sitemap does not mean that you shouldn't have a HTML sitemap too since they're targetted at different audiences; XML sitemaps are for web crawlers and HTML sitemaps are for users. [HTML sitemaps][8] provide an overview of the entire site, help users understand how the content is organised and provide an alternative way to navigate it. This can help fulfill <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.0 Level AA:
 
 > **2.4.5 Multiple Ways:** More than one way is available to locate a Web page within a set of Web pages except where the Web Page is the result of, or a step in, a process. (Level AA)
 >
