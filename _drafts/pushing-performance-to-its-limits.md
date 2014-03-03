@@ -1,4 +1,4 @@
-Last week I switched on the [big redesign][1] and couldn't be happier with how it turned out. One topic I didn't cover too deeply on the post though was performance. This post will go deep into the technique I used and present the results.
+********************Last week******************** I switched on the [big redesign][1] and couldn't be happier with how it turned out. One topic I didn't cover too deeply on the post though was performance. This post will go deep into the technique I used and present the results.
 
 ## Numbers say it best
 
