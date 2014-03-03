@@ -5,7 +5,7 @@ tags        : [Accessibility, GitHub, HTML, SEO, XML]
 preview     : /images/2014/03/03/sitemap.svg
 socialimage : /images/2014/03/03/sitemap.png
 primarytag  : SEO
-intro       : This post explains what <abbr title="Web Content Accessibility Guidelines"> sitemaps are, why they're useful and how to make one.
+intro       : This post explains what <abbr title="Extensible Markup Language">XML</abbr> sitemaps are, why they're useful and how to make one.
 ---
 
 {% include post-image.html class="right-col" alt="A collection of linked nodes" src="/images/2014/03/03/sitemap.svg" %}
