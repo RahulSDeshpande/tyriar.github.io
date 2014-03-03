@@ -5,14 +5,14 @@ tags        : [Accessibility, GitHub, HTML, SEO, XML]
 preview     : /images/2014/03/03/sitemap.svg
 socialimage : /images/2014/03/03/sitemap.png
 primarytag  : SEO
-intro       : This post explains what XML sitemaps are, why they're useful and how to make one.
+intro       : This post explains what <abbr title="Web Content Accessibility Guidelines"> sitemaps are, why they're useful and how to make one.
 ---
 
 {% include post-image.html class="right-col" alt="A collection of linked nodes" src="/images/2014/03/03/sitemap.svg" %}
 
-## What is an XML sitemap?
+## What is an <abbr title="Extensible Markup Language">XML</abbr> sitemap?
 
-An [XML sitemap][4] is a file that helps better inform search engines about how to crawl and index a web site. Google, Yahoo! and Bing all recommend the use of an XML sitemap to improve crawling.
+An [<abbr title="Extensible Markup Language">XML</abbr> sitemap][4] is a file that helps better inform search engines about how to crawl and index a web site. Google, Yahoo! and Bing all recommend the use of an <abbr title="Extensible Markup Language">XML</abbr> sitemap to improve crawling.
 
 This article looks at the current version of the [sitemap protocol][5], 0.90.
 
@@ -20,7 +20,7 @@ This article looks at the current version of the [sitemap protocol][5], 0.90.
 
 ## Why are they useful?
 
-Search engines will naturally crawl a web site and index its pages, but it's difficult for search engines to guess everything about a particular page. Providing a formal XML sitemap helps define these details that machines can't easily determine.
+Search engines will naturally crawl a web site and index its pages, but it's difficult for search engines to guess everything about a particular page. Providing a formal <abbr title="Extensible Markup Language">XML</abbr> sitemap helps define these details that machines can't easily determine.
 
 The primary value add is in the ability to specify a priority against a URL. This **will not** change the search rankings of the pages against external sites, it does however use this information to rank the importance of pages internally. For example on my blog I use the lowest priority for [index pages past the first one][1], my shorter posts are in the middle while [home][2] and [top articles][3] are the highest. This ensures that the best quality, most relevant articles will be presented higher in search results than the lesser ranked pages.
 
@@ -30,9 +30,9 @@ The sitemap protocol also supports splitting a sitemap up into multiple sitemaps
 
 
 
-## What about HTML sitemaps then?
+## What about <abbr title="HyperText Markup Language">HTML</abbr> sitemaps then?
 
-Just because you have an XML sitemap does not mean that you shouldn't have a HTML sitemap too since they're targetted at different audiences; XML sitemaps are for web crawlers and HTML sitemaps are for users. [HTML sitemaps][8] provide an overview of the entire site, help users understand how the content is organised and provide an alternative way to navigate it. This can help fulfill WCAG 2.0 Level AA:
+Just because you have an <abbr title="Extensible Markup Language">XML</abbr> sitemap does not mean that you shouldn't have a <abbr title="HyperText Markup Language">HTML</abbr> sitemap too since they're targetted at different audiences; <abbr title="Extensible Markup Language">XML</abbr> sitemaps are for web crawlers and <abbr title="HyperText Markup Language">HTML</abbr> sitemaps are for users. [<abbr title="HyperText Markup Language">HTML</abbr> sitemaps][8] provide an overview of the entire site, help users understand how the content is organised and provide an alternative way to navigate it. This can help fulfill <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.0 Level AA:
 
 > **2.4.5 Multiple Ways:** More than one way is available to locate a Web page within a set of Web pages except where the Web Page is the result of, or a step in, a process. (Level AA)
 >
@@ -40,9 +40,9 @@ Just because you have an XML sitemap does not mean that you shouldn't have a HTM
 
 
 
-## XML tag definitions
+## <abbr title="Extensible Markup Language">XML</abbr> tag definitions
 
-### XML sitemap
+### <abbr title="Extensible Markup Language">XML</abbr> sitemap
 
 | Attribute      | Description
 |----------------|------------
@@ -53,7 +53,7 @@ Just because you have an XML sitemap does not mean that you shouldn't have a HTM
 | `<changefreq>` | Optional - How frequently the page is likely to change. Valid values are: <ul><li>always</li><li>hourly</li><li>daily</li><li>weekly</li><li>monthly</li><li>yearly</li><li>never</li></ul>
 | `<priority>`   | Optional - The priority of this URL relative to other URLs on your site. Valid values range from 0.0 to 1.0 (default 0.5).
 
-### XML sitemap index
+### <abbr title="Extensible Markup Language">XML</abbr> sitemap index
 
 | Attribute        | Description
 |------------------|------------
