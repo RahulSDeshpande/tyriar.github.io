@@ -24,7 +24,7 @@ layout: nil
         {% if page.url contains "index.html" %}
           <priority>0.1</priority>
         {% else %}
-          <priority>0.25</priority>
+          <priority>0.5</priority>
         {% endif %}
       {% endif %}
     </url>
