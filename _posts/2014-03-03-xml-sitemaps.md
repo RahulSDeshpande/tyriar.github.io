@@ -23,7 +23,7 @@ This article looks at the current version of the [sitemap protocol][5], 0.90.
 
 Search engines will naturally crawl a web site and index its pages, but it's difficult for search engines to guess everything about a particular page. Providing a formal XML sitemap helps define these details that machines can't easily determine.
 
-The primary value add is in the ability to specify a priority against a URL. This **will not** change the search rankings of the pages against external sites, it does however use this information to rank the importance of pages internally. For example on my blog I use the lowest priority for index pages past the first one ([`/page2/index.html`][1] and so on), my shorter posts are in the middle while [home][2] and [top articles][3] are the highest. This ensures that the best quality, most relevant articles will be presented higher in search results than the lesser ranked pages.
+The primary value add is in the ability to specify a priority against a URL. This **will not** change the search rankings of the pages against external sites, it does however use this information to rank the importance of pages internally. For example on my blog I use the lowest priority for [index pages past the first one][1], my shorter posts are in the middle while [home][2] and [top articles][3] are the highest. This ensures that the best quality, most relevant articles will be presented higher in search results than the lesser ranked pages.
 
 A URL's approximate change frequency and last modified date can also be specified. These are just hints though and may not increase or reduce the frequency in which a page is crawled.
 
