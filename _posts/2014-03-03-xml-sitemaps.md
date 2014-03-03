@@ -46,21 +46,21 @@ Just because you have an XML sitemap does not mean that you shouldn't have a HTM
 
 | Attribute      | Description
 |----------------|------------
-| `<urlset>`     | Required - Wrapping element that references the current protocol.
-| `<url>`        | Required - Parent tag for each URL entry.
-| `<loc>`        | Required - URL of the page. It must contain the protocol (such as http) and end with a trailing slash, if your web server requires it. This value must be less than 2,048 characters.
-| `<lastmod>`    | Optional - Date of last modification of the file. This date should be in W3C Datetime format, such as `YYYY-MM-DD`.
-| `<changefreq>` | Optional - How frequently the page is likely to change. Valid values are: <ul><li>always</li><li>hourly</li><li>daily</li><li>weekly</li><li>monthly</li><li>yearly</li><li>never</li></ul>
-| `<priority>`   | Optional - The priority of this URL relative to other URLs on your site. Valid values range from 0.0 to 1.0 (default 0.5).
+| `<urlset>`     | *Required* - Wrapping element that references the current protocol.
+| `<url>`        | *Required* - Parent tag for each URL entry.
+| `<loc>`        | *Required* - URL of the page. It must contain the protocol (such as http) and end with a trailing slash, if your web server requires it. This value must be less than 2,048 characters.
+| `<lastmod>`    | *Optional* - Date of last modification of the file. This date should be in W3C Datetime format, such as `YYYY-MM-DD`.
+| `<changefreq>` | *Optional* - How frequently the page is likely to change. Valid values are: <ul><li>always</li><li>hourly</li><li>daily</li><li>weekly</li><li>monthly</li><li>yearly</li><li>never</li></ul>
+| `<priority>`   | *Optional* - The priority of this URL relative to other URLs on your site. Valid values range from 0.0 to 1.0 (default 0.5).
 
 ### XML sitemap index
 
 | Attribute        | Description
 |------------------|------------
-| `<sitemapindex>` | Required - Wrapping element containing about all of the sitemaps in the file.
-| `<sitemap>`      | Required - Parent tag for a sitemap entry.
-| `<loc>`          | Required - URL of the sitemap. This can be a sitemap, an Atom file, RSS file or simple text file.
-| `<lastmod>`      | Optional - Identifies the time that the corresponding Sitemap file was modified. This date should be in W3C Datetime format, such as `YYYY-MM-DD`.
+| `<sitemapindex>` | *Required* - Wrapping element containing about all of the sitemaps in the file.
+| `<sitemap>`      | *Required* - Parent tag for a sitemap entry.
+| `<loc>`          | *Required* - URL of the sitemap. This can be a sitemap, an Atom file, RSS file or simple text file.
+| `<lastmod>`      | *Optional* - Identifies the time that the corresponding Sitemap file was modified. This date should be in W3C Datetime format, such as `YYYY-MM-DD`.
 
 
 
