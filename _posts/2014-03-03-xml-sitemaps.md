@@ -113,7 +113,7 @@ Here is the example sitemap index from the official [protocol page][7].
 
 
 [1]: {{ site.baseurl }}/page2/index.html
-[2]: {{ site.baseurl }}
+[2]: {{ site.baseurl }}/
 [3]: {{ site.baseurl }}/p/top-articles.html
 [4]: http://www.sitemaps.org/
 [5]: http://www.sitemaps.org/protocol.html
