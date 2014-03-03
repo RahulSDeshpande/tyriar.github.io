@@ -76,6 +76,10 @@ abbr[title] {
   cursor: default;
 }
 
+a abbr[title] {
+  cursor: pointer; 
+}
+
 a img{
   border: 0;
 }
