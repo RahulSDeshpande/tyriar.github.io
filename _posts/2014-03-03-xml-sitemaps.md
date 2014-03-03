@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : XML sitemaps
-tags        : [Accessibility, GitHub, HTML, SEO, XML]
+tags        : [Accessibility, HTML, SEO, XML]
 preview     : /images/2014/03/03/sitemap.svg
 socialimage : /images/2014/03/03/sitemap.png
 primarytag  : SEO
