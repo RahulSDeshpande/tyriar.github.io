@@ -51,7 +51,7 @@ Just because you have an XML sitemap does not mean that you shouldn't have a HTM
 | `<loc>`        | *Required* - URL of the page. It must contain the protocol (such as http) and end with a trailing slash, if your web server requires it. This value must be less than 2,048 characters.
 | `<lastmod>`    | *Optional* - Date of last modification of the file. This date should be in W3C Datetime format, such as `YYYY-MM-DD`.
 | `<changefreq>` | *Optional* - How frequently the page is likely to change. Valid values are: <ul><li><code>always</code></li><li><code>hourly</code></li><li><code>daily</code></li><li><code>weekly</code></li><li><code>monthly</code></li><li><code>yearly</code></li><li><code>never</code></li></ul>
-| `<priority>`   | *Optional* - The priority of this URL relative to other URLs on your site. Valid values range from 0.0 to 1.0 (default 0.5).
+| `<priority>`   | *Optional* - The priority of this URL relative to other URLs on your site. Valid values range from `0.0` to `1.0` (default `0.5`).
 
 ### XML sitemap index
 
