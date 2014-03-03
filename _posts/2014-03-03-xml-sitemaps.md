@@ -36,7 +36,7 @@ Just because you have an XML sitemap does not mean that you shouldn't have a HTM
 
 > **2.4.5 Multiple Ways:** More than one way is available to locate a Web page within a set of Web pages except where the Web Page is the result of, or a step in, a process. (Level AA)
 >
-> [<cite><abbr title="World Wide Web Consortium">W3C</abbr></cite> - <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.0][9]
+> [<cite><abbr title="World Wide Web Consortium">W3C</abbr></cite> - WCAG 2.0][9]
 
 
 
