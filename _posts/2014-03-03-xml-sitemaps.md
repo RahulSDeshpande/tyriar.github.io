@@ -1,11 +1,10 @@
 ---
 layout      : post
 title       : XML sitemaps
-draft : 1
 tags        : [Accessibility, GitHub, HTML, SEO, XML]
 preview     : /images/2014/03/03/sitemap.svg
 socialimage : /images/2014/03/03/sitemap.png
-primarytag  : Jekyll
+primarytag  : SEO
 intro       : This post explains what XML sitemaps are, why they're useful and how to make one.
 ---
 
@@ -95,7 +94,7 @@ A good example is [Google's own (enormous) sitemap][6]. As a simple example, her
       </url>
     </urlset>
 
-Here is the example sitemap index from the official [protocol page][7].
+And this is the example sitemap index from the official [sitemap protocol page][7].
 
 <!--prettify lang=xml-->
     <?xml version="1.0" encoding="UTF-8"?>
