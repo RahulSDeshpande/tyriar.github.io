@@ -5,7 +5,7 @@ tags        : [Algorithm, Computer science, Interview questions, Java, Math]
 preview     : /images/2014/03/02/function.svg
 socialimage : /images/2014/03/02/function.png
 primarytag  : Interview questions
-intro       : Given the function <code>random5</code> that generates and returns a random integer from 1 to 5, implement <code>random7</code> that returns a uniformly distributed random integer from 1 to 7.
+intro       : This article looks at the interview question - <em>Given the function <code>random5</code> that generates and returns a random integer from 1 to 5, implement <code>random7</code> that returns a uniformly distributed random integer from 1 to 7.</em>
 ---
 
 {% include post-image.html class="right-col" alt="Given random5 function input and 1 to 7 output, implement random7" src="/images/2014/03/02/function.png" %}
