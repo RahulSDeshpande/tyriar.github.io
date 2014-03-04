@@ -111,6 +111,12 @@ And this is the example sitemap index from the official [sitemap protocol page][
 
 
 
+## Submitting the sitemap
+
+Once your sitemap is complete it can be submitted it to Google with the [Google Webmaster Tools][11] and Bing/Yahoo! through the [Bing Webmaster Tools][12]. After parsing is complete, you will be informed of any problems with the sitemap.
+
+
+
 [1]: {{ site.baseurl }}/page2/index.html
 [2]: {{ site.baseurl }}/
 [3]: {{ site.baseurl }}/p/top-articles.html
@@ -121,3 +127,5 @@ And this is the example sitemap index from the official [sitemap protocol page][
 [8]: http://www.w3.org/TR/WCAG20-TECHS/G63
 [9]: http://www.w3.org/TR/2008/REC-WCAG20-20081211/#navigation-mechanisms-mult-loc
 [10]: http://www.growingwiththeweb.com/sitemap.xml
+[11]: https://www.google.com/webmasters/tools/home
+[12]: http://www.bing.com/toolbox/webmaster/
