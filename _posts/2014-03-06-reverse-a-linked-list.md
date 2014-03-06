@@ -114,7 +114,7 @@ It becomes clear from the picture that the list can be reversed by simply swappi
             head.next = head.prev;
             head.prev = temp;
             if (temp == null)
-                return head;
+                break;
             head = temp;
         }
         return head;
