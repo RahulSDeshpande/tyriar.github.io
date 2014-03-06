@@ -88,7 +88,7 @@ Now draw the picture:
 
 {% include post-image.html class="center-aligned" alt="Doubly linked list being reversed" src="/images/2014/03/06/doubly-linked-list.svg" %}
 
-It becomes clear from the picture that the list can be reversed by simply swapping each node's next and prev pointers. The only part that could be difficult in this question is ensuring that the new head pointer is valid and doesn't introduce a cycle.
+It becomes clear from the picture that the list can be reversed by simply swapping each node's next and prev pointers. The only part that could be tricky with this question is ensuring that the new head pointer is valid and doesn't introduce a cycle.
 
 ### Pseudocode
 
