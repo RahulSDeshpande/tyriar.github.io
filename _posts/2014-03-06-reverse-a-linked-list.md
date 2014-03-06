@@ -1,6 +1,5 @@
 ---
 layout      : post
-draft : 1
 title       : Reverse a linked list
 tags        : [Algorithm, Interview questions, Java]
 primarytag  : Interview questions
