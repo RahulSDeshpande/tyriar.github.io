@@ -31,7 +31,7 @@ Let's start off by defining the data structure:
 
 Linked list questions always seem simple, but when you get into dealing with the pointers it's easy to get lost. I recommend drawing a picture of the pointers, that way if you do get confused you can always refer to it.
 
-{% include post-image.html class="center-aligned" alt="Singly linked list being reversed" src="/images/2014/03/01/singly-linked-list.png" %}
+{% include post-image.html class="center-aligned" alt="Singly linked list being reversed" src="/images/2014/03/01/singly-linked-list.svg" %}
 
 The most important thing in this problem is to make sure the head and tail pointers are handled. Notice in the image how the old head's next point will be `null` whereas the new head is no longer `null`. The main section of the function will involve flipping the pointer between elements the other way.
 
@@ -86,7 +86,7 @@ Again, let's define the data structure:
 
 Now draw the picture:
 
-{% include post-image.html class="center-aligned" alt="Doubly linked list being reversed" src="/images/2014/03/01/doubly-linked-list.png" %}
+{% include post-image.html class="center-aligned" alt="Doubly linked list being reversed" src="/images/2014/03/01/doubly-linked-list.svg" %}
 
 It becomes clear from the picture that the list can be reversed by simply swapping each node's next and prev pointers. The only part that could be difficult in this question is ensuring that the new head pointer is valid and doesn't introduce a cycle.
 
