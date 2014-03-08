@@ -21,13 +21,13 @@ The LESS pre-processor doesn't actually have a for loop, or even a while loop. I
     }
 
     button {
-      // Add optional styles
+      /* Add optional styles */
       @switch: true;
       .optional-style(@switch);
     }
 
     li {
-      // Don't add optional styles
+      /* Don't add optional styles */
       @switch: false;
       .optional-style(@switch);
     }
@@ -41,6 +41,8 @@ A for loop can be simulated by using a guard expression that calls itself with t
         color:red;
       }
     }
+
+    /* Run the loop */
     .my-loop(5);
 
     // Produces li:nth-child(1) ... li:nth-child(5)
@@ -54,6 +56,8 @@ To reverse the order in which the loop is evaluated, place the recursive call at
       }
       .my-loop(@i - 1);
     }
+
+    /* Run the loop */
     .my-loop(5);
 
     // Produces li:nth-child(5) ... li:nth-child(1)
