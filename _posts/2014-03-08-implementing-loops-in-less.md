@@ -9,7 +9,11 @@ primarytag  : LESS
 intro       : This article looks at how to implement for loops in LESS, which is harder than it would seem unfortunately.
 ---
 
+{% include post-image.html class="right-col" alt="LESS logo" src="/images/2014/03/08/logo.png" %}
+
 The LESS pre-processor doesn't actually have a for loop, or even a while loop. Instead it has the ability to simulate them with a feature called [*guard expressions*][1], which is a mixin that will only execute if a given condition passes.
+
+<div class="clear"></div>
 
 <!--prettify lang=css-->
     .optional-style(@switch) when (@switch) {
