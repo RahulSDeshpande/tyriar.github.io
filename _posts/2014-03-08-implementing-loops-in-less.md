@@ -45,7 +45,7 @@ A for loop can be simulated by using a guard expression that calls itself with t
     /* Run the loop */
     .my-loop(5);
 
-    // Produces li:nth-child(1) ... li:nth-child(5)
+    /* Produces li:nth-child(1) ... li:nth-child(5) */
 
 To reverse the order in which the loop is evaluated, place the recursive call at the other end of the guard expression.
 
@@ -60,7 +60,7 @@ To reverse the order in which the loop is evaluated, place the recursive call at
     /* Run the loop */
     .my-loop(5);
 
-    // Produces li:nth-child(5) ... li:nth-child(1)
+    /* Produces li:nth-child(5) ... li:nth-child(1) */
 
 
 
