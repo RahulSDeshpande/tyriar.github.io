@@ -21,10 +21,14 @@ layout: nil
         <priority>1.0</priority>
         <changefreq>daily</changefreq>
       {% else %}
-        {% if page.url contains "index.html" %}
-          <priority>0.1</priority>
+        {% if page.sitemap.priority %}
+          <priority>page.sitemap.priority</priority>
         {% else %}
-          <priority>0.5</priority>
+          {% if page.url contains "index.html" %}
+            <priority>0.1</priority>
+          {% else %}
+            <priority>0.5</priority>
+          {% endif %}
         {% endif %}
       {% endif %}
     </url>

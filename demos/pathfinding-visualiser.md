@@ -1,6 +1,8 @@
 ---
 layout : plain-comments
 title  : Pathfinding visualiser
+sitemap:
+ priority: 1.0
 ---
 
 Write up on the algorithm can be found [here][1].

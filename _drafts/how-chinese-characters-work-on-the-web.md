@@ -6,7 +6,7 @@ Chinese characters, meanings
 
 ...
 
-Consider the letter 'a' in English
+Consider the English lower case letter 'a'. It can be written in two different ways that, to a non-English speaker would look like two separate letters. This is a similar concept to Han unification, the letters convey exactly the same meaning but are represented differently.
 
 ...
 
