@@ -1,9 +1,9 @@
 ---
 layout      : post
-title       : Advanced media queries with SASS and LESS
-tags        : [CSS, LESS, SASS]
-primarytag  : SASS
-intro       : SASS and LESS both have handy features to allow media queries to be written once and used throughout a project, but both have their own unique was of doing so.
+title       : Advanced media queries with Sass and LESS
+tags        : [CSS, LESS, Sass]
+primarytag  : Sass
+intro       : Sass and LESS both have handy features to allow media queries to be written once and used throughout a project, but both have their own unique was of doing so.
 ---
 
 Just as a refresher, here is a regular CSS media query. This one applies two styles to `<img>` elements, but only when the browser is in the `screen` category (as opposed to `print`) and the width of the page is less that `15em`s.
@@ -16,11 +16,11 @@ Just as a refresher, here is a regular CSS media query. This one applies two sty
       }
     }
 
-This becomes very difficult to manage when you start using the same query in multiple places, or worse, when there is more than one type of media query. That's where our trusty pre-processors SASS or LESS come in. Not only do they allow us to write the media queries once and use everywhere, but we can place all of them together in their own isolated file to simplify future refactors.
+This becomes very difficult to manage when you start using the same query in multiple places, or worse, when there is more than one type of media query. That's where our trusty pre-processors Sass or LESS come in. Not only do they allow us to write the media queries once and use everywhere, but we can place all of them together in their own isolated file to simplify future refactors.
 
-## SASS
+## Sass
 
-For SASS it's built into the `@mixin` system. Version 3.2.0 brought with it the ability to include a block of content which you place the `@content` directive inside.
+For Sass it's built into the `@mixin` system. Version 3.2.0 brought with it the ability to include a block of content which you place the `@content` directive inside.
 
 **media-queries.scss**
 

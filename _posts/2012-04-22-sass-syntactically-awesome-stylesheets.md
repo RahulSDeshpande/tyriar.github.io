@@ -1,16 +1,16 @@
 ---
 layout      : post
-title       : "SASS: Syntactically Awesome Stylesheets"
-tags        : [CSS, HTML, SASS, Visual Studio]
+title       : "Sass: Syntactically Awesome Stylesheets"
+tags        : [CSS, HTML, Sass, Visual Studio]
 preview     : /images/2012/04/22/logo.png
 socialimage : /images/2012/04/22/logo.png
-primarytag  : SASS
-intro       : SASS stands for <a href="http://sass-lang.com/">Syntactically Awesome Stylesheets</a>, yes, I'm quite a fan of the name. It provides us with a much simpler and more elegant way of defining CSS, allowing the creation of more modular and manageable stylesheets. SASS has two flavours; SASS-style and SCSS-style, the basic difference being that SASS-style uses indentation to separate code-blocks instead of curly braces. The examples used in this post will be using the SCSS-style.
+primarytag  : Sass
+intro       : Sass stands for <a href="http://sass-lang.com/">Syntactically Awesome Stylesheets</a>, yes, I'm quite a fan of the name. It provides us with a much simpler and more elegant way of defining CSS, allowing the creation of more modular and manageable stylesheets. Sass has two flavours; Sass-style and SCSS-style, the basic difference being that Sass-style uses indentation to separate code-blocks instead of curly braces. The examples used in this post will be using the SCSS-style.
 ---
 
-{% include post-image.html class="right-col" alt="SASS logo" src="/images/2012/04/22/logo.png" %}
+{% include post-image.html class="right-col" alt="Sass logo" src="/images/2012/04/22/logo.png" %}
 
-Several years ago, I was playing around with CSS thinking how great it would be if CSS was able to define variables. The help it would be just having the ability to define the colours of a site so you don't have random hex values peppered throughout your stylesheet would be huge. This problem is what instantly drew me to SASS.
+Several years ago, I was playing around with CSS thinking how great it would be if CSS was able to define variables. The help it would be just having the ability to define the colours of a site so you don't have random hex values peppered throughout your stylesheet would be huge. This problem is what instantly drew me to Sass.
 
 <div class="clear"><!----></div>
 
@@ -43,7 +43,7 @@ Is compiled to...
 
 ## Mixins
 
-Mixins are SASS's word for functions, you define a mixin and then include it within a selector. One mixin I've found particularly useful defines an `inline-block` that contains the hack to make it work correctly in IE6.
+Mixins are Sass' word for functions, you define a mixin and then include it within a selector. One mixin I've found particularly useful defines an `inline-block` that contains the hack to make it work correctly in IE6.
 
 <!--prettify lang=css-->
     @mixin inline-block-xbrowser {
@@ -88,7 +88,7 @@ Which is compiled to...
 
 ## Importing stylesheets
 
-SASS includes an `@import` directive which allows you to include all contents of a different SASS file into the one using the directive. This allows us to quite easily have a single HTTP request for all styles in the site by including all styles into a single file.
+Sass includes an `@import` directive which allows you to include all contents of a different Sass file into the one using the directive. This allows us to quite easily have a single HTTP request for all styles in the site by including all styles into a single file.
 
 Using this feature you can create a nice modular infrastructure for your website.
 
@@ -118,11 +118,11 @@ The way I normally set my projects out is by having a main.scss file which impor
 
 ### Comments
 
-Personally when writing CSS I very rarely write comments, primarily as they can't be minified. SASS gives you two different types of comments, the regular CSS-style block comment `/* comment */` and also line comments `// comment`. They act differently however, block comments will carry over to the compiled CSS file whereas line comments won't.
+Personally when writing CSS I very rarely write comments, primarily as they can't be minified. Sass gives you two different types of comments, the regular CSS-style block comment `/* comment */` and also line comments `// comment`. They act differently however, block comments will carry over to the compiled CSS file whereas line comments won't.
 
 ### Interpolation
 
-SASS allows us to use string variables as part of the actual rules themselves. I am yet to find a good use for this but it's useful to know the capability is there.
+Sass allows us to use string variables as part of the actual rules themselves. I am yet to find a good use for this but it's useful to know the capability is there.
 
 <div class="clear"><!----></div>
 
@@ -135,7 +135,7 @@ SASS allows us to use string variables as part of the actual rules themselves. I
 
 ### Operations and functions
 
-SASS has a [collection of functions][2] at its disposal, primarily relating to manipulating or extracting values from colours.
+Sass has a [collection of functions][2] at its disposal, primarily relating to manipulating or extracting values from colours.
 
 ### Extending selectors
 
@@ -145,7 +145,7 @@ There is the capability to have a selector extend another selector, this applies
 
 ## How do I use it?
 
-The official implementation of SASS is coded in Ruby and it is fairly easy to get up and running by installing sass and then watching a file.
+The official implementation of Sass is coded in Ruby and it is fairly easy to get up and running by installing sass and then watching a file.
 
 <pre><kbd>gem install sass
 sass --watch style.scss:style.css</kbd></pre>
@@ -156,7 +156,7 @@ I do most of my work in .NET so I use the Visual Studio extension [Web Workbench
 
 ## Alternatives
 
-The primary alternative to SASS is [LESS][5]. I instantly gravitated more towards SASS due to its syntax being much more similar to regular CSS.
+The primary alternative to Sass is [LESS][5]. I instantly gravitated more towards Sass due to its syntax being much more similar to regular CSS.
 
 
 

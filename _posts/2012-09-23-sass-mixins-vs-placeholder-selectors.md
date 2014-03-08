@@ -1,9 +1,9 @@
 ---
 layout      : post
-title       : SASS mixins vs placeholder selectors
-tags        : [CSS, SASS]
-primarytag  : SASS
-intro       : One of the things that made me fall in love with <a href="http://www.growingwiththeweb.com/2012/04/sass-syntactically-awesome-stylesheets.html">SASS</a> was the ease of including large chunks of CSS very easily using mixins. This happens to also be one of the main criticisms of SASS due to the CSS it results in. Consider the following SASS which applies the IE6/7 hack to enable the use of the then unsupported <code>inline-block</code> to 3 selectors.
+title       : Sass mixins vs placeholder selectors
+tags        : [CSS, Sass]
+primarytag  : Sass
+intro       : One of the things that made me fall in love with <a href="http://www.growingwiththeweb.com/2012/04/sass-syntactically-awesome-stylesheets.html">Sass</a> was the ease of including large chunks of CSS very easily using mixins. This happens to also be one of the main criticisms of Sass due to the CSS it results in. Consider the following Sass which applies the IE6/7 hack to enable the use of the then unsupported <code>inline-block</code> to 3 selectors.
 ---
 
 *I published an updated, more in depth version of this article for [The Sass Way][1]*
@@ -51,7 +51,7 @@ Which is compiled to...
       zoom: 1;
       margin: 4px; }
 
-This is obviously not ideal due to redundancies. Recently SASS version 3.2.0 was released which implemented 'placeholder selectors', these allow you to specify a set of rules that don't belong to anything at first but allow us to extend the placeholder much like you would with the regular `@extend` directive. To specify a placeholder selector simply add a `%` sign to the beginning of the selector. When applied to the situation above it we get this SASS code.
+This is obviously not ideal due to redundancies. Recently Sass version 3.2.0 was released which implemented 'placeholder selectors', these allow you to specify a set of rules that don't belong to anything at first but allow us to extend the placeholder much like you would with the regular `@extend` directive. To specify a placeholder selector simply add a `%` sign to the beginning of the selector. When applied to the situation above it we get this Sass code.
 
 <!--prettify lang=css-->
     %inline-block-hack {

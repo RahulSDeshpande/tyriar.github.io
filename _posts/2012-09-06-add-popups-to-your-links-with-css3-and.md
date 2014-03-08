@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : Add popups to your links with CSS3 and HTML5
-tags        : [CSS, HTML, SASS]
+tags        : [CSS, HTML, Sass]
 primarytag  : CSS
 intro       : The styles are compatible with the latest Chrome, Firefox, Opera, Safari as well as IE9. They also degrade gracefully by simply not displaying the popup to IE8 and below.
 ---

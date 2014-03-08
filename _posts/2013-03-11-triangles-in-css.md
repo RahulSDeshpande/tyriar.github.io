@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : Triangles in CSS
-tags        : [CSS, Design, HTML, SASS]
+tags        : [CSS, Design, HTML, Sass]
 isfeatured  : 1
 preview     : /images/2013/03/11/triangle2.png
 socialimage : /images/2013/03/11/triangle2.png
@@ -137,6 +137,6 @@ Adding a border to the triangle is another handy trick to have in your arsenal. 
 
 ## Examples
 
-Here are some flexible styles for triangles taking advantage of pseudo-elements written in SASS.
+Here are some flexible styles for triangles taking advantage of pseudo-elements written in Sass.
 
 {% include codepen.html id="dsJvt" height="279" description="Triangles in CSS" %}

@@ -33,7 +33,7 @@ I'm currently at [Amazon][6] working on the Silk which is an AWS-backed Android-
 
 - [C#][2]
 - [Dart][7]
-- [SASS][8]
+- [Sass][8]
 - [Markdown][9]
 
 ## Contacting me
@@ -48,5 +48,5 @@ You can get in touch with me by commenting on the blog or through the social pla
 [5]: http://stackoverflow.com/users/1156119/daniel-imms
 [6]: http://www.growingwiththeweb.com/p/explore.html?t=Amazon
 [7]: http://www.growingwiththeweb.com/p/explore.html?t=Dart
-[8]: http://www.growingwiththeweb.com/p/explore.html?t=SASS
+[8]: http://www.growingwiththeweb.com/p/explore.html?t=Sass
 [9]: http://www.growingwiththeweb.com/p/explore.html?t=Markdown

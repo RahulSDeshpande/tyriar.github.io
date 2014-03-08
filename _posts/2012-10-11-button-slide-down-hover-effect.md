@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : Button slide down hover effect
-tags        : [CSS, Design, SASS]
+tags        : [CSS, Design, Sass]
 primarytag  : Design
 intro       : Here's a cool little effect that can be applied to buttons/images/etc. on hover, it slides the button down using top/bottom margins and fades the button slightly into the background. Subtle effects like this really add to a web site in my opinion.
 ---
