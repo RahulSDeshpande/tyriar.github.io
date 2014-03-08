@@ -1,14 +1,15 @@
 ---
 layout      : post
-title       : Implementing loops in LESS CSS
+draft : 1
+title       : Implementing loops in LESS
 tags        : [CSS, LESS]
-preview     : /images/2014/03/07/logo.png
-socialimage : /images/2014/03/07/logo.png
+preview     : /images/2014/03/08/logo.png
+socialimage : /images/2014/03/08/logo.png
 primarytag  : LESS
 intro       : This article looks at how to implement for loops in LESS, which is harder than it would seem unfortunately.
 ---
 
-The LESS pre-processor doesn't actually have a for loop, or even a while loop. Instead it has the ability to simulate them with a feature called *guard expressions*, which is a mixin that will only execute if a given condition passes.
+The LESS pre-processor doesn't actually have a for loop, or even a while loop. Instead it has the ability to simulate them with a feature called [*guard expressions*][1], which is a mixin that will only execute if a given condition passes.
 
 <!--prettify lang=css-->
     .optional-style(@switch) when (@switch) {
@@ -16,11 +17,13 @@ The LESS pre-processor doesn't actually have a for loop, or even a while loop. I
     }
 
     button {
+      // Add optional styles
       @switch: true;
       .optional-style(@switch);
     }
 
     li {
+      // Don't add optional styles
       @switch: false;
       .optional-style(@switch);
     }
@@ -50,3 +53,7 @@ To reverse the order in which the loop is evaluated, place the recursive call at
     .my-loop(5);
 
     // Produces li:nth-child(5) ... li:nth-child(1)
+
+
+
+[1]: http://lesscss.org/features/#css-guards-feature
