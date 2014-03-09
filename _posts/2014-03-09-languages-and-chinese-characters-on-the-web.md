@@ -133,16 +133,16 @@ The right answer in my book is to follow the [W3C's recommendation][5] and ***al
 
 ## References
 
-- [The Unicode Standard version 6.3.0][6]
-- [HTML5 Specification][10]
- - [The `lang` and `xml:lang` attributes][9]
-- [W3C Internationalisation][11]
- - [Accept-Language used for locale setting][13]
- - [Declaring language in HTML][14]
-- [Wikipedia][16]
- - [Chinese Characters: Number of characters][7]
- - [Han unification][15]
-- [Unicode CJKV character set rationalization][12]
+* [The Unicode Standard version 6.3.0][6]
+* [HTML5 Specification][10]
+ * [The `lang` and `xml:lang` attributes][9]
+* [W3C Internationalisation][11]
+ * [Accept-Language used for locale setting][13]
+ * [Declaring language in HTML][14]
+* [Wikipedia][16]
+ * [Chinese Characters: Number of characters][7]
+ * [Han unification][15]
+* [Unicode CJKV character set rationalization][12]
 
 [1]: http://www.w3.org/TR/html5/dom.html#the-lang-and-xml:lang-attributes
 [2]: https://www.w3.org/International/questions/qa-accept-lang-locales
