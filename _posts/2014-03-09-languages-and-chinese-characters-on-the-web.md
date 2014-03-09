@@ -62,7 +62,7 @@ Indicating that my browser wants to receive pages with languages in the followin
 
 1. English (Australia)
 2. English
-3. English (United States)*
+3. English (United States)\*
 4. Korean
 5. Japanese
 
@@ -109,7 +109,7 @@ To give some more context of the problem, I'll start with a little language less
 
 Han unification (or Unihan) is a project by Unicode to combine the <abbr title="Chinese Japanese Korean">CJK</abbr> characters into a single, unified set of characters in an effort to reduce the total number of characters needed to be encoded. Characters that were derived from the same character were merged into a single character code in the Unicode Standard.
 
-{% include post-image.html class="center-aligned" alt="An image comparing the CJK characters 判, 与, 海, 直, 約, 返, 次 and 今" caption="Demonstrates the difference between CJK characters all using the same character code (<a href="http://codepen.io/Tyriar/pen/mqLkH">live demo</a>)" src="/images/2014/03/09/cjk-characters.png" %}
+{% include post-image.html class="center-aligned" alt="An image comparing the CJK characters 判, 与, 海, 直, 約, 返, 次 and 今" caption="Demonstrates the difference between CJK characters all using the same character code (<a href='http://codepen.io/Tyriar/pen/mqLkH'>live demo</a>)" src="/images/2014/03/09/cjk-characters.png" %}
 
 One of the main driving forces for Unihan was to reduce the amount of characters required to fit in the first version of Unicode which was designed to fit in only 16 bits leaving room for only 65,536 characters. Unicode was later extended to 21 bits to reduce these sorts of problems later. Currently only a small number of possible character codes are currently assigned.
 
