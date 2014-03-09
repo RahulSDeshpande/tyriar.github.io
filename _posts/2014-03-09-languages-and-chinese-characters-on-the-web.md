@@ -1,8 +1,7 @@
 ---
 layout      : post
 title       : Languages and Chinese characters on the web
-#isfeatured  : 1
-draft : 1
+isfeatured  : 1
 tags        : [Accessibility, Chrome, HTML, Natural language, Opera, Safari, Unicode]
 preview     : /images/2014/03/09/cjk-characters.png
 socialimage : /images/2014/03/09/cjk-characters.png
