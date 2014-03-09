@@ -133,16 +133,14 @@ The right answer in my book is to follow the [W3C's recommendation][5] and ***al
 
 ## References
 
-* [The Unicode Standard version 6.3.0][6]
-* [HTML5 Specification][10]
- * [The `lang` and `xml:lang` attributes][9]
-* [W3C Internationalisation][11]
- * [Accept-Language used for locale setting][13]
- * [Declaring language in HTML][14]
-* [Wikipedia][16]
- * [Chinese Characters: Number of characters][7]
- * [Han unification][15]
-* [Unicode CJKV character set rationalization][12]
+- [The Unicode Standard version 6.3.0][6]
+- [HTML5 Specification][10]
+- [HTML5 Specification: The `lang` and `xml:lang` attributes][9]
+- [W3C Internationalisation: Accept-Language used for locale setting][13]
+- [W3C Internationalisation: Declaring language in HTML][14]
+- [Wikipedia - Chinese Characters: Number of characters][7]
+- [Wikipedia - Han unification][15]
+- [Unicode CJKV character set rationalization][12]
 
 [1]: http://www.w3.org/TR/html5/dom.html#the-lang-and-xml:lang-attributes
 [2]: https://www.w3.org/International/questions/qa-accept-lang-locales
@@ -154,9 +152,7 @@ The right answer in my book is to follow the [W3C's recommendation][5] and ***al
 [8]: http://tools.ietf.org/rfc/bcp/bcp47.txt
 [9]: http://www.w3.org/TR/html5/dom.html#the-lang-and-xml:lang-attributes
 [10]: http://www.w3.org/TR/html5
-[11]: http://www.w3.org/International/
 [12]: http://homepage.ntlworld.com/jonathan.deboynepollard/FGA/unicode-cjkv-character-set-rationalization.html
 [13]: http://www.w3.org/International/questions/qa-accept-lang-locales
 [14]: http://www.w3.org/International/questions/qa-html-language-declarations
 [15]: http://en.wikipedia.org/wiki/Han_unification
-[16]: http://en.wikipedia.org
