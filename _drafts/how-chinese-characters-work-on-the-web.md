@@ -1,32 +1,33 @@
-[Internationalization, Unicode]
+---
+layout      : post
+title       : Font fallback and Chinese characters on the web 
+#isfeatured  : 1
+draft : 1
+tags        : [Accessibility, Chrome, HTML, Internationalization, Natural language, Opera, Safari, Unicode]
+preview     : 
+socialimage : 
+primarytag  : Accessibility
+intro       : East-Asian languages are a bit of a mess on the internet for a number of reasons, such as browser implementation, the presence of system fonts and web developers neglecting to address the issue on their side. This article dives deep into how languages work on the web and the problems that can occur.
+---
+
+## The `lang` attribute
+
+`lang` is an optional HTML attribute that can be used on any element to *explicitly* indicate the language of the contents using an [IETF language tag][8].
+
+<!--prettify lang=html-->
+    <div lang="en">
+      <ul>
+        <li>Chinese: <span lang="cn">学</span></li>
+        <li>Japanese: <span lang="ja">学</span></li>
+        <li>Korean: <span lang="ko">学</span></li>
+      </ul>
+    </div>
+
+The `lang` attribute can be viewed through developer tools on WebKit and Blink-based browsers by inspecting an element and finding the `-webkit-locale` style. If the element is inherited the `lang` from an ancestor you will need to view inherited styles.
 
 
-This post explains how Chinese characters work on the web and the problems that can occur
 
-## Han unification
-
-Chinese characters, meanings
-
-...
-
-Consider the English lower case letter 'a'. It can be written in two different ways that, to a non-English speaker would look like two separate letters. This is a similar concept to Han unification, the letters convey exactly the same meaning but are represented differently.
-
-...
-
-Traditional Chinese is not included in this
-
-
-
-
-## How languages work on the web
-
-### The `lang` attribute
-
-The `lang` attribute is an optional attribute that can be used on any HTML element to *explicitly* indicate the language of the contents.
-
-
-
-### The specification
+## The specification
 
 This is what the HTML5 specification has to say about the `lang` attribute and font fallback:
 
@@ -43,9 +44,11 @@ In other words, an element inherits language code information according to the f
 1. The language is set by ***the element*** with the `lang` attribute
 2. The language is set by ***an ancestor of the element*** with the `lang` attribute
 3. The language is set by ***the server*** with the HTTP `Content-Language` header
-4. The language is set by ***user agent*** with user and system preferences
+4. The language is set by ***the user agent*** with user and system preferences
 
-### The `Accept-Language` header
+
+
+## The `Accept-Language` header
 
 The [`Accept-Language` header][2] is attached to requests in order to tell a server which language(s) the user is interested in. It is normally based on the system language but certain browsers allow the user to go deeper and define an ordered list of languages they are interested in. For example, Chrome on my personal computer uses:
 
@@ -63,7 +66,7 @@ Indicating that my browser wants to receive pages with languages in the followin
 
 So what does this have to do with font fallback? Well, this header is exactly the last fallback that the HTML5 specification says to use as a page's language code.
 
-#### Chromium and WebKit
+### Chromium and WebKit
 
 At the time of writing this article, Chromium and WebKit both don't implement this last step which is primarily a problem for the CJK fonts. There are open issues on their respective sites:
 
@@ -72,7 +75,7 @@ At the time of writing this article, Chromium and WebKit both don't implement th
 
 Unfortunately they haven't seem much activity recently.
 
-#### Checking `Accept-Language` header
+### Checking `Accept-Language` header
 
 A neat little service exists that spits back the HTTP headers that were used in the request. Crack open your dev tools (on a site that has jQuery) and use the following `Accept-Language` header:
 
@@ -89,50 +92,66 @@ A neat little service exists that spits back the HTTP headers that were used in 
 
 ## Chinese, Japanese and Korean characters 
 
+Unfortunately the above isn't all there is to font fallback on the web. The primary cause of issues with font rendering comes from <abbr title="Chinese Japanese Korean">CJK</abbr> characters, which is the collective term for the characters based on Chinese characters for these languages.
+
+To give some more context of the problem I'll start with a bit of a language lesson. The Chinese writing system has two scripts; traditional and simplified. Traditional Chinese characters are used by Hong Kong and Taiwan while Simplified Chinese is used by China, Singapore and Malaysia. Both Korean and Japanese have their own scripts but also use Chinese characters. They also both modify the way that some characters are written, far more of this happens in Japanese. It's somewhat difficult to get exact numbers of Chinese characters used by each language but here is what I found from a little research.
+
+- 106,230+ Traditional Chinese characters
+- 2,235+ Simplified Chinese characters
+- 53,667+ Korean
+- 50,000+ Japanese
+
 ### Han unification 
 
-Unfortunately the above isn't all there is to font fallback on the web. The primary cause of issues with font rendering comes from <abbr title="Chinese Japanese Korean">CJK</a> characters, which is the collective term for the characters based on Chinese characters for these languages.
+Han unification (or Unihan) is a project by Unicode to combine the Chinese, Korean and Japanese characters into a single, unified set of characters in an effort to reduce the number of characters needed to be encoded. Characters that were derived from the same character were merged into a single character code in the Unicode Standard.
 
-To give some more context I'll start with a bit of a language lesson. The Chinese writing system has two scripts; traditional and simplified. 
+{% include post-image.html class="center-aligned" alt="An image comparing the CJK characters 判, 与, 海, 直, 約, 返, 次 and 今" caption="Demonstrates the difference between CJK characters all using the same character code (<a href="http://codepen.io/Tyriar/pen/mqLkH">live demo</a>)" src="/images//cjk-fonts.png" %}
 
+One of the main driving forces for Unihan was to reduce the amount of characters to fit in the first version of Unicode which was designed to fit in only 16 bits leaving room for only 65,536 characters. Unicode was later extended to 21 bits to reduce these sorts of problems with only a small number currently assigned.
 
+Unihan actually met with a bit of controversy due to numerous reasons, such as:
 
+- The initial Unicode team, before East-Asian governments were participating, was largely composed of American organisations.
+- Two of these languages can appear together, and do occasionally because of multiple factors, this can cause offence to the reader due to sociopolitical reasons for example.
 
+### Where this fails users
 
+Unless `lang` is explicitly defined, this fails users in a specific use case. Consider a bi-lingual person who speaks two of the CJK languages, say Chinese (mother-tongue) and Japanese. If `lang` is not present then the system language will be used to determine the glyphs. This leads to characters always being displays using *Chinese* glyphs, even on Japanese websites. This is a particular issue for language learners as it will cause confusion as to how a character is written.
 
+### How do we fix it?
 
+A browser could potentially leverage knowledge such as the top-level domain or scanning a document for the presence of certain other scripts such as kana (Japanese) or hangul (Korean) to make a more educated guess of the document's language. But these are both non-standard techniques and could degrade browser performance (particularly the second one).
 
-
-
-
-### Font fallback
-
-...
-
-
-
-
-
+The right answer in my book is to follow the [W3C's recommendation][5] and <q>always use a language attribute on the `html` element</q>, as that would fix all the font selection problems that browsers experience.
 
 
 
+## References
 
-
-
-It is exceptionally difficult for a browser to figure out what the correct language is when the lang attribute isn't specified. Most browsers will assume the system language is correct if lang is not present.
-
-Consider a bi-lingual person who speaks Chinese and Korean, if lang is not present then the system language will be used to determine the glyphs. This will lead to Chinese being displayed on Korean websites, leading to confusion. This is a particular issue for language learners as they will receive mixed signals.
-
-
-
-
-
-http://homepage.ntlworld.com/jonathan.deboynepollard/FGA/unicode-cjkv-character-set-rationalization.html
-
-
-
+- [The Unicode Standard version 6.3.0][6]
+- [HTML5 Specification][10]
+ - [The `lang` and `xml:lang` attributes][9]
+- [W3C Internationalisation][11]
+ - [Accept-Language used for locale setting][13]
+ - [Declaring language in HTML][14]
+- [Wikipedia][16]
+ - [Chinese Characters: Number of characters][7]
+ - [Han unification][15]
+- [Unicode CJKV character set rationalization][12]
 
 [1]: http://www.w3.org/TR/html5/dom.html#the-lang-and-xml:lang-attributes
 [2]: https://www.w3.org/International/questions/qa-accept-lang-locales
 [3]: http://crbug.com/179331
 [4]: https://bugs.webkit.org/show_bug.cgi?id=93985
+[5]: http://www.w3.org/International/questions/qa-html-language-declarations
+[6]: http://www.unicode.org/versions/Unicode6.3.0/
+[7]: http://en.wikipedia.org/wiki/Chinese_characters#Number_of_characters
+[8]: http://tools.ietf.org/rfc/bcp/bcp47.txt
+[9]: http://www.w3.org/TR/html5/dom.html#the-lang-and-xml:lang-attributes
+[10]: http://www.w3.org/TR/html5
+[11]: http://www.w3.org/International/
+[12]: http://homepage.ntlworld.com/jonathan.deboynepollard/FGA/unicode-cjkv-character-set-rationalization.html
+[13]: http://www.w3.org/International/questions/qa-accept-lang-locales
+[14]: http://www.w3.org/International/questions/qa-html-language-declarations
+[15]: http://en.wikipedia.org/wiki/Han_unification
+[16]: http://en.wikipedia.org
