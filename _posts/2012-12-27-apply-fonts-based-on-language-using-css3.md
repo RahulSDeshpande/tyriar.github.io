@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : Apply fonts based on language using CSS3
-tags        : [CSS, Natural language]
+tags        : [CSS, Natural language, Unicode]
 primarytag  : CSS
 intro       : You can apply fonts based on unicode character codes using the <code>unicode-range</code> CSS3 rule. Fonts with a <code>unicode-range</code> rule will only target the specified range and fall back to other fonts with characters not in the range. Multiple ranges can be used by separating them with a comma.
 ---
