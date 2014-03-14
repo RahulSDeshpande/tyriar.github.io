@@ -1,7 +1,7 @@
 ---
 layout      : post
 draft : 1
-title       : Enabling the new full image shares on Google+
+title       : Enabling the new and improved shares on Google+
 tags        : [Accessibility, Google, HTML, SEO]
 preview     : /images/2014/03/14/google-plus.png
 socialimage : /images/2014/03/14/google-plus.png
@@ -44,7 +44,8 @@ For example, my [XML sitemaps][2] article uses:
 Some observations I made while experimenting with the new feature.
 
 - They work work on *any page*, regardless of whether it has a Google+ Page or Profile attached with Google Authorship.
-- The images need to have a decent width, around 700+px
+- The images need to have a decent width, around 700-800 pixels otherwise they will be reverted to the old style.
+- Currently they are not enabled on Google+ for Android.
 
 
 
