@@ -1,7 +1,7 @@
 <div class="masthead{% unless include.shareicons %} no-social{% endunless %}{% if include.widead %} wide-ad{% endif %}">
   <div class="wrapper">
     <header>
-      <h1 itemprop="name">{{ include.title }}</h1>
+      <h1>{{ include.title }}</h1>
       {% if include.date %}
         <time class="date" datetime='{{ include.date | date: "%Y-%m-%d" }}'>{{ include.date | date: "%A, %-d %B %Y" }}</time>
       {% else %}
