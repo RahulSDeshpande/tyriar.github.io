@@ -1,6 +1,5 @@
 ---
 layout      : post
-draft : 1
 title       : Enabling the new and improved shares on Google+
 tags        : [Accessibility, Google, HTML, SEO]
 preview     : /images/2014/03/14/google-plus.png
