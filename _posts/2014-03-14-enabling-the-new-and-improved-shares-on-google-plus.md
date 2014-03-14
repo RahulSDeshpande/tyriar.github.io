@@ -11,11 +11,11 @@ intro       : So Google+ dropped an update on us over the last day which allows 
 
 ## What's new?
 
-When sharing a page, instead of the normal share style:
+When sharing a page, instead of the regular old style shares.
 
 {% include post-image.html class="center-aligned" alt="The normal style Google+ shares" src="/images/2014/03/14/normal-share.png" %}
 
-It is now possible to get full-sized images and descriptions in the Google+ share:
+It is now possible to include full-sized images and descriptions as well.
 
 {% include post-image.html class="center-aligned" alt="The new, richer Google+ shares" src="/images/2014/03/14/rich-share.png" %}
 
@@ -39,9 +39,11 @@ For example, my [XML sitemaps][2] article uses:
 	<meta property="og:type" content="article">
 	<meta property="og:image" content="http://www.growingwiththeweb.com/images/2014/03/03/sitemap.png">
 
+
+
 ## Notes
 
-Some observations I made while experimenting with the new feature.
+Here are some observations I made while experimenting with the new feature.
 
 - They work work on *any page*, regardless of whether it has a Google+ Page or Profile attached with Google Authorship.
 - The images need to have a decent width, around 700-800 pixels otherwise they will be reverted to the old style.
