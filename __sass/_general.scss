@@ -24,7 +24,7 @@ ul {
 //}
 
 a:hover {
-  @extend %link-effect;
+  @extend %link-hover-effect;
 }
 
 a:focus {
