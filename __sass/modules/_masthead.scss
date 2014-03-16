@@ -29,7 +29,7 @@
 
   a:hover h1,
   a:focus h1 {
-    color: $red;
+    @extend %link-effect;
   }
 
   // Inline
