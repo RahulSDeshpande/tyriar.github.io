@@ -23,9 +23,12 @@ ul {
 //  text-decoration: none;
 //}
 
-a:hover,
-a:focus {
+a:hover {
   @extend %link-effect;
+}
+
+a:focus {
+  @extend %link-focus-effect;
 }
 
 .screen-reader {

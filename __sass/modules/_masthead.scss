@@ -27,9 +27,12 @@
     @include header-shadow-heavy;
   }
 
-  a:hover h1,
+  a:hover h1 {
+    @extend %link-hover-effect;
+  }
+
   a:focus h1 {
-    @extend %link-effect;
+    @extend %link-focus-effect;
   }
 
   // Inline
