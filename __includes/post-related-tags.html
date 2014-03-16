@@ -5,12 +5,14 @@
 {% endif %}
 <div class="related-posts">
   <ul>
+    {% assign numVisible='' %}
     {% for post in site.posts %}
-      {% if post.title != page.title %}
-        {% if post.tags contains include.primarytag %}
-          <li>
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-          </li>
+      {% if numVisible.size != 10 %}
+        {% if post.title != page.title %}
+          {% if post.tags contains include.primarytag %}
+            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+            {% capture numVisible %}{{ numVisible }}.{% endcapture %} 
+          {% endif %}
         {% endif %}
       {% endif %}
     {% endfor %}
