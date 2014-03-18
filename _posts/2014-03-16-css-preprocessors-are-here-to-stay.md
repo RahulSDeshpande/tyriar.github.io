@@ -1,6 +1,5 @@
 ---
 layout      : post
-draft: 1
 title       : CSS preprocessors are here to stay
 tags        : [CSS, LESS, Sass, Stylus]
 socialimage : /images/2014/03/17/preprocessors.png
