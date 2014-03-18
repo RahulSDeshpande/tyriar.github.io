@@ -3,12 +3,12 @@ layout      : post
 draft: 1
 title       : CSS preprocessors are here to stay
 tags        : [CSS, LESS, Sass, Stylus]
-socialimage : /images/2014/03/16/preprocessors.png
+socialimage : /images/2014/03/17/preprocessors.png
 primarytag  : CSS
 intro       : CSS preprocessors like LESS, Sass and Stylus have come a long way in the short period of time they've been around, and they aren't going anywhere. If you haven't looked into them yet, now is as good time as any to get into them! Here's why.
 ---
 
-{% include post-image.html class="stretch center-aligned" alt="Pre-processor logos" src="/images/2014/03/16/preprocessors.png" %}
+{% include post-image.html class="stretch center-aligned" alt="Pre-processor logos" src="/images/2014/03/17/preprocessors.png" %}
 
 
 
