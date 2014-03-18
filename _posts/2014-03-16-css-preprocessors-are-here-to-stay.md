@@ -5,7 +5,7 @@ title       : CSS preprocessors are here to stay
 tags        : [CSS, LESS, Sass, Stylus]
 socialimage : /images/2014/03/16/preprocessors.png
 primarytag  : CSS
-intro       : CSS preprocessors like LESS, Sass and Stylus have come a long way in the short period of time they've been around, and they aren't going anywhere. If you haven't looked into them yet, now is as good time as any. Here's why.
+intro       : CSS preprocessors like LESS, Sass and Stylus have come a long way in the short period of time they've been around, and they aren't going anywhere. If you haven't looked into them yet, now is as good time as any to get into them! Here's why.
 ---
 
 {% include post-image.html class="stretch center-aligned" alt="Pre-processor logos" src="/images/2014/03/16/preprocessors.png" %}
@@ -16,23 +16,23 @@ intro       : CSS preprocessors like LESS, Sass and Stylus have come a long way 
 
 To simply replace CSS, preprocessors are incredibly simple to learn. In fact the three major preprocessors are actually *supersets* of CSS, meaning valid CSS is valid in the preprocessors (`.scss` syntax for Sass).
 
-Other features can then be learned progressively as required.
+Features can then be learned progressively as required.
 
 
 
 ## Easy to develop
 
-Developing styles in a preprocessor is simply better in every way to plain CSS. No longer do you need to hack away at a single, enormous CSS file containing all the styles in the page, the styles can now be split up into whatever way makes the most sense to the developer.
+Being supersets of CSS, developing styles in a preprocessor is simply better in every way to plain CSS. No longer do you need to hack away at a single, enormous CSS file containing all the styles in the page, the styles can now be split up into whatever way makes the most sense to the developer.
 
-There are many other features that improve the maintainability of styles, such as:
+There are many other features that improve the maintainability of styles as well, such as:
 
 - **Mixins**, reducing duplication
-- **Variables**, defining constants like values, colours and media queries once that can be used multiple times 
+- **Variables**, defining constants like sizes, colours and media queries that can be used multiple times 
 - **Nesting**, providing a more intuitive and structured way to construct selectors
 - **Extending** and **loops**, providing more ways to reuse styles
 - **Functions**, providing convenience functions that can transform values
 
-This is only the tip of the iceberg, certain preprocessors even use considerably different syntax allowing developers to customise their development workflow even more.
+This is only the tip of the iceberg. Certain preprocessors even have considerably different syntax, allowing developers to customise their development workflow even more.
 
 
 
@@ -44,7 +44,7 @@ Just like how compiled code is faster than interpreted code, preprocessors are *
 
 ## They can innovate faster
 
-CSS, and web development in general, takes a lot of time to progress because of the standardisation process. Standards need to go through multiple review steps and then browser vendors need to actually implement them. This typically takes several years and afterwards only people who use either modern evergreen browsers or who manually update their browsers will get the new features.
+CSS, and web development in general, takes a lot of time to progress because of the standardisation process. Standards need to go through multiple review steps and then browser vendors need to actually implement them. This typically takes several years and afterwards only the people who use either modern evergreen browsers or who manually update their browsers will get the new features.
 
 While preprocessors can't change the CSS standard, they can effectively 'fix' this problem from a maintenance/syntactic sugar perspective. The creators of the preprocessors are free to add features to the projects without worrying about standardisation because they're defining their own language that will be compiled down to CSS. Plus, the multiple preprocessors available only feed innovation through healthy competition.
 
@@ -59,6 +59,17 @@ There are now numerous convenient ways to use CSS preprocessors in your build pr
 - Task runners (eg. [Grunt][3], [Gulp][4]) 
 
 
+
+## Getting started
+
+CSS preprocessors are here to stay, if you work in web development and haven't touched them yet I highly recommend you get inot them. The official websites for provide some great documentation and introductory tutorials.
+
+- [LESS][7]
+- [Sass][8]
+- [Stylus][9]
+
+
+
 [0]: http://sass-lang.com/documentation/file.SASS_REFERENCE.html#using_sass
 [1]: http://visualstudiogallery.msdn.microsoft.com/6ed4c78f-a23e-49ad-b5fd-369af0c2107f
 [2]: https://sublime.wbond.net/packages/SassBuilder
@@ -66,3 +77,6 @@ There are now numerous convenient ways to use CSS preprocessors in your build pr
 [4]: http://gulpjs.com/
 [5]: https://incident57.com/codekit/
 [6]: http://alphapixels.com/prepros/
+[7]: http://lesscss.org/
+[8]: http://sass-lang.com/
+[9]: http://learnboost.github.io/stylus/
