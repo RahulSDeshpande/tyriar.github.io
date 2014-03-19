@@ -17,7 +17,7 @@ $$\text{VC} = \text{% visually complete}$$
 
 > My answer to how fast is fast enough? **A Speed Index of under 1000.**
 > 
-> [<cite>Paul Irish</cite>][5]
+> [<footer><cite>Tim Kaldec - Fast Enough</cite>, Paul Irish</footer>][5]
 
 ### Test configuration
 

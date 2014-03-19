@@ -11,7 +11,7 @@ The open/closed principle states;
 
 > software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification
 >
-> <cite>Object-Oriented Software Construction</cite>, Bertrand Meyer
+> <footer><cite>Object-Oriented Software Construction</cite>, Bertrand Meyer</footer>
 
 That is, modifying an entity's behaviour without modifying the underlying source code. Following the open/closed principle provides many quality-related benefits as the original code never changes.
 
