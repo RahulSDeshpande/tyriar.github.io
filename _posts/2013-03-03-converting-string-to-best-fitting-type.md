@@ -51,7 +51,7 @@ Here is the full question:
 >
 > Usually I have found that .NET accommodates this functionality in a better way than my implementation, so my question is: are there any better approaches to this problem and/or is this functionality implemented better in .NET?
 >
-> <footer><cite>[Intelligent type conversion in .NET][2]</cite>, [series0ne][3]</footer>
+> <footer><cite><a href="http://stackoverflow.com/questions/15173684/intelligent-type-conversion-in-net">Intelligent type conversion in .NET</a></cite>, <a href="http://stackoverflow.com/users/1033686/series0ne">series0ne</a></footer>
 
 It's an Interesting idea but the code above has one major flaw, if `value` happens to be some GUID then the method will throw 12 exceptions before returning the `string` converted to a `System.GUID` boxed in `dynamic`. Immediately I thought awesome, another opportunity to use reflection! :)
 
@@ -130,7 +130,5 @@ I made a couple of other improvements, namely making the method an extension met
 
 
 
-[2]: http://stackoverflow.com/questions/15173684/intelligent-type-conversion-in-net
-[3]: http://stackoverflow.com/users/1033686/series0ne
 [4]: http://stackoverflow.com/a/15174728/1156119
 [5]: http://msdn.microsoft.com/en-au/library/h9y629c8(v=vs.80).aspx
