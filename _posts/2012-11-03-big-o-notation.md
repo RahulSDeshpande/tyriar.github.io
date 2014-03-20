@@ -14,7 +14,7 @@ The formal definition is as follows:
 
 > \\(f(n) = O(g(n))\\) means \\(cg(n)\\) is an upper bound on \\(f(n)\\). Thus there exists some constant \\(c\\) such that \\(f(n)\\) is always \\(&le; cg(n)\\), for large enough \\(n\\) (i.e. , \\(n &ge; n_0\\) for some constant \\(n_0\\)).
 >
-> <cite>The Algorithm Design Manual</cite>, Steven S. Skiena
+> <footer><cite>The Algorithm Design Manual</cite>, Steven S. Skiena</footer>
 
 This definition is a very formal way of saying that Big-\\(O\\) notation is the upper-bound/worst-case of a function.
 

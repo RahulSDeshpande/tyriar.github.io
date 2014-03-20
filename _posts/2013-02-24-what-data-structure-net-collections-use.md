@@ -64,7 +64,7 @@ Dictionaries or hash tables are ideal when you either need to access the data vi
 >
 > Another difference between the `SortedDictionary<TKey, TValue>` and `SortedList<TKey, TValue>` classes is that `SortedList<TKey, TValue>` supports efficient indexed retrieval of keys and values through the collections returned by the Keys and Values properties. It is not necessary to regenerate the lists when the properties are accessed, because the lists are just wrappers for the internal arrays of keys and values.
 >
-> <cite>[MSDN - `SortedList`][7]</cite>, Microsoft
+> <footer><cite>[MSDN - `SortedList`][7]</cite>, Microsoft</footer>
 
 
 

@@ -51,7 +51,7 @@ Here is the full question:
 >
 > Usually I have found that .NET accommodates this functionality in a better way than my implementation, so my question is: are there any better approaches to this problem and/or is this functionality implemented better in .NET?
 >
-> <cite>[Intelligent type conversion in .NET][2]</cite>, [series0ne][3]
+> <footer><cite>[Intelligent type conversion in .NET][2]</cite>, [series0ne][3]</footer>
 
 It's an Interesting idea but the code above has one major flaw, if `value` happens to be some GUID then the method will throw 12 exceptions before returning the `string` converted to a `System.GUID` boxed in `dynamic`. Immediately I thought awesome, another opportunity to use reflection! :)
 
