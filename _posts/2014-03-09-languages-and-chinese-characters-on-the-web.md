@@ -40,7 +40,7 @@ This is what the HTML5 specification has to say about the `lang` attribute and f
 > 
 > If neither the node nor any of the node's ancestors, including the root element, have either attribute set, but there is a pragma-set default language set, then that is the language of the node. If there is no pragma-set default language set, then language information from a higher-level protocol (such as HTTP), if any, must be used as the final fallback language instead. In the absence of any such language information, and in cases where the higher-level protocol reports multiple languages, the language of the node is unknown, and the corresponding language tag is the empty string.
 > 
-> [<cite>W3C</cite> - HTML5 Specification: The `lang` and `xml:lang` attributes][1]
+> <footer><cite><a href="http://www.w3.org/TR/html5/dom.html#the-lang-and-xml:lang-attributes">HTML5 Specification: The `lang` and `xml:lang` attributes</a></cite>, W3C</footer>
 
 In other words, an element inherits language code information according to the following order of precedence:
 
