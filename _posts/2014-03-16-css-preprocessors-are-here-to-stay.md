@@ -61,7 +61,7 @@ There are now numerous convenient ways to use CSS preprocessors in your build pr
 
 ## Getting started
 
-CSS preprocessors are here to stay, if you work in web development and haven't touched them yet I highly recommend you get inot them. The official websites for provide some great documentation and introductory tutorials.
+CSS preprocessors are here to stay, if you work in web development and haven't touched them yet I highly recommend you get into them. The official websites for provide some great documentation and introductory tutorials.
 
 - [LESS][7]
 - [Sass][8]
