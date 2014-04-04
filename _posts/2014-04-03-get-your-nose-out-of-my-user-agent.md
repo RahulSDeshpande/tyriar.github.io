@@ -84,7 +84,7 @@ There is one case where you would want to be user agents and that if for analyti
 
 
 
-## Final thoughts
+## Final thoughts 
 
 So put in your best effort to do it the right way with feature detection, you will be doing the right thing for both your users and browsers. Who knows, maybe one day browsers will be able to switch them back to what they were designed for. 
 
