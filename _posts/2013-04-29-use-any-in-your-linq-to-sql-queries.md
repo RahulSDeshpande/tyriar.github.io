@@ -30,7 +30,9 @@ They will produce the following SQL:
                 FROM [TableName] AS [t0]
                 ) THEN 1
             ELSE 0
-         END) AS [value] As you can see the second sample produces some admittedly uglier SQL but is much more efficient.
+         END) AS [value]
+
+ As you can see the second sample produces some admittedly uglier SQL but is much more efficient.
 
 [1]: http://msdn.microsoft.com/en-AU/library/bb337697.aspx
 [2]: http://msdn.microsoft.com/en-us/library/bb338038.aspx
