@@ -82,6 +82,13 @@ This command sends the event that unlocks the lockscreen on the device.
 
 
 
+## Print all installed packages
+
+<!--prettify lang=bash-->
+    adb shell pm list packages -f
+
+
+
 ## Logging
 
 To show the log stream on your command line.
