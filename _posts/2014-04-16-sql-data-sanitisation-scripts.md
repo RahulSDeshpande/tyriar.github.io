@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : SQL data sanitisation scripts
-tags        : [SQL]
+tags        : [My projects, SQL]
 primarytag  : SQL
 intro       : I created several SQL data sanitisation script templates that can be used to obfuscate data.
 ---
