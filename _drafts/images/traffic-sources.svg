@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="1000" height="190" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		rect, path, line { stroke: #000; stroke-width: 0; }
+		.red { fill: hsl(0,100%,80%); }
+		.yellow { fill: hsl(60,100%,80%); }
+		.green { fill: hsl(120,100%,80%); }
+		.teal { fill: hsl(180,100%,80%); }
+		.blue { fill: hsl(240,100%,80%); }
+		.purple { fill: hsl(300,100%,80%); }
+		line { stroke-width: 2; }
+		.l-red { stroke: hsl(0,75%,40%); }
+		.l-yellow { stroke: hsl(60,75%,40%); }
+		.l-green { stroke: hsl(120,75%,40%); }
+		.l-teal { stroke: hsl(180,75%,40%); }
+		.l-blue { stroke: hsl(240,75%,40%); }
+		.l-purple { stroke: hsl(300,75%,40%); }
+		text { text-anchor: middle; font-family: Helvetica, Arial, sans-serif; font-size: 22px; fill: #000; }
+		.algorithm { fill: #FFF; }
+		marker path, path path { stroke-width: 1; }
+	</style>
+	<!--
+		43% organic search
+		20% social
+		19% unknown
+		10% direct
+		4% email
+		4% referral
+	-->
+	<g transform="translate(0,30)">
+		<g transform="scale(5,1)">
+			<rect width="43" height="40" x="0" y="0" class="red"/>
+			<rect width="20" height="40" x="43" y="0" class="yellow"/>
+			<rect width="19" height="40" x="63" y="0" class="green"/>
+			<rect width="10" height="40" x="82" y="0" class="teal"/>
+			<rect width="4" height="40" x="92" y="0" class="blue"/>
+			<rect width="4" height="40" x="96" y="0" class="purple"/>
+		</g>
+	</g>
+	<text x="100" y="98" class="algorithm">Algorithm</text>
+</svg>

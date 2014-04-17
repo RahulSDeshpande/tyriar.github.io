@@ -42,7 +42,7 @@ If you want to thank someone, give them an upvote.
 
 
 
-## Include a [SSCCE][2]
+## Include a [<abbr title="Short, Self-Contained, Correct, Example">SSCCE</abbr>][2]
 
 Many people ask their first question on Stack Overflow, don't include any code and expect people to know the fix magically. You should always include example code for the question you're asking, ideally as the term goes *short, self contained and correct*.
 
@@ -54,7 +54,13 @@ If you don't include an example you can expect to have your question closed. Alw
 
 ## Avoid link-only questions
 
-...
+An important thing to keep in your mind when asking a question is that the answer isn't just for you, it's for everyone. Because of this, questions should be self-contained including the relevant code samples and a link to [jsFiddle][1] if necessary to demonstrate the problem.
+
+
+
+## Tag correctly
+
+Seasoned answerers of Stack Overflow have a set of 'favorite tags' which define the majority of questions that show up in their feed on the [homepage][3]. This is the primary way that exports discover questions to answer, meaning if you don't use the correct tags you probably won't get the best answers.
 
 
 
@@ -72,3 +78,4 @@ Really, when you have finished writing up the question try Googling it again now
 
 [1]: jsfiddle.net
 [2]: http://sscce.org/
+[3]: http://stackoverflow.com/
