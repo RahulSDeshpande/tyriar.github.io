@@ -73,9 +73,18 @@ Use the `install` command to install an apk, the optional `-r` argument reinstal
 
 
 
+## Power button
+
+This command sends the power button event to turn the device on or off.
+
+<!--prettify lang=bash-->
+    adb shell input keyevent 26
+
+
+
 ## Unlock screen
 
-This command sends the event that unlocks the lockscreen on the device.
+This command sends the event that unlocks the lockscreen on the device. It can be combine with the power button command above to turn on and unlock the device.
 
 <!--prettify lang=bash-->
     adb shell input keyevent 82
