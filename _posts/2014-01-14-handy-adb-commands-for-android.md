@@ -32,7 +32,7 @@ Use the `install` command to install an apk, the optional `-r` argument reinstal
     adb install -r APK_FILE
 
     # example
-    adb install -r com.growingwiththeweb.example
+    adb install -r ~/application.apk
 
 
 
