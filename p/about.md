@@ -13,7 +13,7 @@ Computers have been a very large part of my life since I was around 5 years old.
 
 I enjoyed gaming so much, at 10 years of age I investigated how I would go about creating them. So I hit the internet and came across game development tools like RPG Maker and GameMaker. Eventually I started to feel confined by the limits that these tools imposed on me and wanted more control, this naturally led me to more sophisticated platforms like VB, [Java][1], C, C++ and later [C#][2]. When I entered high school, any classes on computer programming seemed trivial to me and I'd always score top with very little effort.
 
-My early career focus was largely been towards .NET and web development. Currently I'm working with C++ and [Java][1] for [Android development][4]. At home I keep up to date on everything web development related with some Android work on the side.
+My early career focus was largely been towards .NET and web development. Currently I'm primarily working on Chromium, Blink and Telemetry for the cloud-backed Silk Browser. At home I keep up to date on everything web development by writing for my blog.
 
 {% include post-image.html class="right-col" alt="Commander Keen 4 screenshot" src="/images/p/about/commander-keen-4.png" %}
 
