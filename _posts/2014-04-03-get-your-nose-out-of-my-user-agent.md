@@ -89,7 +89,7 @@ So put in your best effort to do it the right way with feature detection, you wi
 
 
 
-[0]: https://github.com/NielsLeenheer/WhichBrowser/blob/master/detect.js
+[0]: https://github.com/NielsLeenheer/WhichBrowser/blob/master/detect.php
 [1]: https://github.com/NielsLeenheer/WhichBrowser
 [2]: http://modernizr.com/
 [3]: http://modernizr.com/download/
