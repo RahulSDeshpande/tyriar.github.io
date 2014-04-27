@@ -2,7 +2,16 @@ safe: true
 lsi: false
 pygments: true
 baseurl: 
-exclude: [node_modules, markdownTemplate.jst, package.json, params.json, tyriar.github.io.sublime-project, tyriar.github.io.sublime-workspace, Gruntfile.js, pushall.bat]
+exclude: [
+    node_modules,
+    markdownTemplate.jst,
+    package.json,
+    params.json,
+    tyriar.github.io.sublime-project,
+    tyriar.github.io.sublime-workspace,
+    Gruntfile.js,
+    pushall.sh,
+    CNAME]
 paginate: 8
 paginate_path: "page:num"
 permalink: /:year/:month/:title.html
