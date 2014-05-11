@@ -2,14 +2,14 @@
 layout      : post
 title       : Asking better questions on Stack Overflow
 tags        : [Stack Exchange]
-preview     : /images/2012/05/10/stack-overflow.svg
+preview     : /images/2014/05/10/stack-overflow.svg
 socialimage : /images/2014/05/10/stack-overflow.png
 primarytag  : Stack Exchange
 draft: 1
 intro       : <a href="http://stackoverflow.com/">Stack Overflow</a> is a brilliant resource for asking software development questions. There is a certain amount of etiquette you should follow though that isn't immediately obvious to new users. This article tries to clear this up so you can get down to asking great questions and helping the site, the industry and the web grow.
 ---
 
-{% include post-image.html class="right-col" alt="Stack Overflow logo" src="/images/2012/05/10/stack-overflow.svg" %}
+{% include post-image.html class="right-col" alt="Stack Overflow logo" src="/images/2014/05/10/stack-overflow.svg" %}
 
 ## Break your question down and Google it first
 
