@@ -13,7 +13,7 @@ intro       : <a href="http://stackoverflow.com/">Stack Overflow</a> is a brilli
 
 ## Break your question down and Google it first
 
-The amount of questions I've answered that I didn't know anything about before reading them would probably surprise you. Unless your question is either very specific or is on a new technology, then it has probably been asked and answered before somewhere on the internet (likely Stack Overflow). One part where I think people fail is in breaking down their problem into multiple sub-problems.
+The amount of questions I've answered that I didn't know anything about before reading them would probably surprise you. Unless your question is either very specific or is on a new technology, then it has probably been asked and answered before somewhere on the internet (likely Stack Overflow). One part where I think people fail in this is correctly breaking down their problem into multiple sub-problems.
 
 
 
@@ -27,7 +27,7 @@ Consider for example the question:
 
 Not only is this question badly worded, it contains information that isn't super important, namely C# and HTML. This would be a much better title:
 
-> *Iterating over table rows with Razor"
+> *Iterating over table rows with Razor*
 
 As you can see it's far more clear what you want to accomplish and instead of ASP.NET MVC, the templating engine is included since it's more specific.
 
@@ -65,7 +65,7 @@ Seasoned answerers of Stack Overflow have a set of 'favorite tags' which define 
 
 ## Formatting matters
 
-Putting a little care into the formatting of the question, particularly code formatting and indentation will make reading it a significantly better experience for the people answering your question. WHich results in more attention/answers.
+Putting a little care into the formatting of the question, particularly code formatting and indentation will make reading it a significantly better experience for the people answering your question. Which can lead to more attention and answers.
 
 
 
@@ -83,7 +83,7 @@ Really, when you have finished writing up the question try Googling it again now
 
 ## Make sure you accept your answer
 
-If someone answers your question correctly then you should accept their answer. Now only will this give 'reputation' to them but also to you. It's the best way to show your gratitude to the answerer.
+If someone answers your question and you're satisfied with it, you should accept their answer. Now only will this give 'reputation' to them but also to you, helping you unlock additional privileges. It's the best way to show your gratitude to the answerer.
 
 
 
