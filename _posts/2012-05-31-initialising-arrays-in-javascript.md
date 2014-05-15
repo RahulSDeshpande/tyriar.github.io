@@ -145,9 +145,9 @@ Calls the function provided on each value of the array until the function return
     }
 
     var x = [4, 8];
-    alert(x.some(lessThanTen)); // alerts 'true'
+    alert(x.every(lessThanTen)); // alerts 'true'
     var y = [10, 5];
-    alert(y.some(lessThanTen)); // alerts 'false'</pre>
+    alert(y.every(lessThanTen)); // alerts 'false'</pre>
 
 ### `filter(function) : array`
 
