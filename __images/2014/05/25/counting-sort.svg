@@ -1,0 +1,77 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="200" height="170" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        rect, path, line { stroke: #000; stroke-width: 2; }
+        .red { fill: hsl(0,100%,80%); }
+        .yellow { fill: hsl(60,100%,80%); }
+        .green { fill: hsl(120,100%,80%); }
+        .teal { fill: hsl(180,100%,80%); }
+        .blue { fill: hsl(240,100%,80%); }
+        .purple { fill: hsl(300,100%,80%); }
+        .grey { fill: hsl(300,0%,90%); }
+        .l-red { stroke: hsl(0,75%,40%); }
+        .l-yellow { stroke: hsl(60,75%,40%); }
+        .l-green { stroke: hsl(120,75%,40%); }
+        .l-teal { stroke: hsl(180,75%,40%); }
+        .l-blue { stroke: hsl(240,75%,40%); }
+        .l-purple { stroke: hsl(300,75%,40%); }
+        text { text-anchor: middle; font-family: Helvetica, Arial, sans-serif; font-size: 22px; fill: #000; }
+    </style>
+    <g transform="translate(10,10)">
+        <line y1="30" x1="40" y2="60" x2="110" class="l-blue" />
+        <line y1="30" x1="60" y2="60" x2="150" class="l-purple" />
+        <line y1="30" x1="80" y2="60" x2="10" class="l-red" />
+        <line y1="30" x1="100" y2="60" x2="50" class="l-green" />
+        <line y1="30" x1="120" y2="60" x2="90" class="l-teal" />
+        <line y1="30" x1="140" y2="60" x2="30" class="l-yellow" />
+        <rect height="30" width="20" x="30"  class="blue" />
+        <rect height="30" width="20" x="50" class="purple" />
+        <rect height="30" width="20" x="70" class="red" />
+        <rect height="30" width="20" x="90" class="green" />
+        <rect height="30" width="20" x="110" class="teal" />
+        <rect height="30" width="20" x="130" class="yellow" />
+        <text y="23" x="40">6</text>
+        <text y="23" x="60">8</text>
+        <text y="23" x="80">1</text>
+        <text y="23" x="100">3</text>
+        <text y="23" x="120">5</text>
+        <text y="23" x="140">2</text>
+    </g>
+    <g transform="translate(10,70)">
+        <line y1="30" x1="10" y2="60" x2="40" class="l-red" />
+        <line y1="30" x1="30" y2="60" x2="60" class="l-yellow" />
+        <line y1="30" x1="50" y2="60" x2="80" class="l-green" />
+        <line y1="30" x1="90" y2="60" x2="100" class="l-teal" />
+        <line y1="30" x1="110" y2="60" x2="120" class="l-blue" />
+        <line y1="30" x1="150" y2="60" x2="140" class="l-purple" />
+        <rect height="30" width="20" x="0"  class="red" />
+        <rect height="30" width="20" x="20" class="yellow" />
+        <rect height="30" width="20" x="40" class="green" />
+        <rect height="30" width="20" x="60" class="grey" />
+        <rect height="30" width="20" x="80" class="teal" />
+        <rect height="30" width="20" x="100" class="blue" />
+        <rect height="30" width="20" x="120" class="grey" />
+        <rect height="30" width="20" x="140" class="purple" />
+        <rect height="30" width="20" x="160" class="grey" />
+        <text y="23" x="10">1</text>
+        <text y="23" x="30">2</text>
+        <text y="23" x="50">3</text>
+        <text y="23" x="90">5</text>
+        <text y="23" x="110">6</text>
+        <text y="23" x="150">8</text>
+    </g>
+    <g transform="translate(10,130)">
+        <rect height="30" width="20" x="30"  class="red" />
+        <rect height="30" width="20" x="50" class="yellow" />
+        <rect height="30" width="20" x="70" class="green" />
+        <rect height="30" width="20" x="90" class="teal" />
+        <rect height="30" width="20" x="110" class="blue" />
+        <rect height="30" width="20" x="130" class="purple" />
+        <text y="23" x="40">1</text>
+        <text y="23" x="60">2</text>
+        <text y="23" x="80">3</text>
+        <text y="23" x="100">5</text>
+        <text y="23" x="120">6</text>
+        <text y="23" x="140">8</text>
+    </g>
+</svg>
