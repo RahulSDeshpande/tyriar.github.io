@@ -10,9 +10,13 @@ intro       : Counting sort is a non-comparison integer sort that achieves linea
 draft : 1
 ---
 
+{% include post-image.html class="right-col" alt="Counting sort example" src="/images/2014/05/25/counting-sort.svg" %}
+
 Counting sort works by creating a an auxiliary array the size of the range of values, the unsorted values are then placed into the new array using the *value* as the *index*. The auxiliary array is now in sorted order and iterated through to place the values back into the original array.
 
 Counting sort can be exceptionally fast because of the way that elements are sorted using their values as array keys. This means that more memory is required for the extra array at the cost of running time. It runs in \\(O(n + k)\\) time where \\(n\\) is the number of elements to be sorted and \\(k\\) is the number of possible values in the range.
+
+<div class="clear"><!----></div>
 
 
 
