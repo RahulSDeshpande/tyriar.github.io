@@ -38,6 +38,7 @@
     border: 0;
     outline: 0;
     line-height: inherit;
+    display: block;
 
     &:hover {
       cursor: pointer;
@@ -90,7 +91,6 @@
   border: 0;
   outline: 0;
   margin-bottom: $paragraph-spacing;
-  display: block;
 
   &:hover {
     cursor: pointer;
