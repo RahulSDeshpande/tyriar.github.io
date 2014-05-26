@@ -45,6 +45,20 @@ Counting sort can be exceptionally fast because of the way that elements are sor
 
 
 
+## Primitives, objects and duplicates
+
+The basic algorithm can be augmented depending on the situation. For example when sorting primitives, you likely don't care about retaining the original reference or stability of duplicates so the auxiliary array can be used to *count* instances of the value which can be reconstructed after.
+
+Sorting objects where there can be duplicates however you will need a more sophisticated method of storing values in the auxiliary array such as a linked list or dynamic array.
+
+
+
+## Non-zero minimum
+
+Most versions of counting sort use a minimum value of either 0 or 1, this can be easily adjusted to suit any minimum value though by shifting the indexes back and forward certain amounts. Say the list is known to have a minimum possible value of 200, the algorithm can be easily modified so that values are added onto auxiliary array at index \\(i - 200\\) and added back on to the sorted array with the value \\(i + 200\\), improving both memory usage and performance.
+
+
+
 ## Ideal usage scenario
 
 Counting sort is an ideal algorithm choice when:
@@ -55,20 +69,6 @@ Counting sort is an ideal algorithm choice when:
 - The additional memory usage is not an issue
 
 If the list is known to be partially sorted then another option such as [insertion sort][1] may end up being better, since counting sort does not take advantage of that.
-
-
-
-## Primitives, objects and duplicates
-
-The basic algorithm can be augmented depending on the situation. For example when sorting primitives you likely don't care about retaining the original reference or stability of duplicates so the auxiliary array can be used to count instances of that value which can be reconstructed after.
-
-Sorting objects where there can be duplicates however you will need a more sophisticated method of storing values in the auxiliary array such as a linked list or dynamic array.
-
-
-
-## Non-zero minimum
-
-Most versions of counting sort use a minimum value of either 0 or 1, this can be easily adjusted to suit any minimum value though by shifting the indexes back and forward certain amounts. Say the list is known to have a minimum possible value of 200, the algorithm can be easily modified so that values are added onto auxiliary array at index \\(i - 200\\) and added back on to the sorted array with the value \\(i + 200\\).
 
 
 
