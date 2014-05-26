@@ -57,7 +57,7 @@ However, sorting objects where there can be duplicates will require a more sophi
 
 Most versions of counting sort use a minimum value of either 0 or 1, this can easily be adjusted to suit any minimum value though by shifting the indexes back and forth by the minimum value.
 
-Say the list is known to have a minimum possible value of \\(200\\), the algorithm can be modified so that values are added onto auxiliary array at index \\(value - 200\\) and added back on to the sorted array with the value \\(index + 200\\), improving both memory usage and performance.
+Say the list is known to have a minimum possible value of \\(200\\), the algorithm can be modified so that values are added onto auxiliary array at index \\((value - 200)\\) and added back on to the sorted array with the value \\((index + 200)\\), improving both memory usage and performance.
 
 
 
