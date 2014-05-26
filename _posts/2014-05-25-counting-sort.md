@@ -6,7 +6,7 @@ isfeatured  : 1
 preview     : /images/2014/05/25/counting-sort.svg
 socialimage : /images/2014/05/25/counting-sort.png
 primarytag  : Sorting
-intro       : Counting sort is a non-comparison integer sort that achieves linear time complexity (\(O(n)\)) given some trade-offs and requirements.
+intro       : Counting sort is a non-comparison integer sort that achieves linear time complexity given some trade-offs and requirements.
 draft : 1
 ---
 
