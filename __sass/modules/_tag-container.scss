@@ -27,9 +27,9 @@
 
   button {
     font-family: inherit;
-    font-size: inherit;
     background-color: $grey-light;
-    padding: .2em .4em;
+    padding: .6em .4em;
+    font-size: .8em;
     margin: .5em .2em 0;
     opacity: .3;
     white-space: nowrap;
@@ -57,7 +57,8 @@
 .letter-header {
   background-color: transparent !important;
   color: $grey-dark !important;
-  padding: .2em .4em;
+  padding: .6em .4em;
+  font-size: .8em;
   margin: .5em .2em 0;
   opacity: .3;
 
@@ -70,6 +71,7 @@
 .tag-container button.active,
 .show-all .letter-header {
   opacity: 1;
+  display: block;
 }
 
 // Toggle button/tag-container
@@ -78,9 +80,9 @@
   display: none;
   width: 100%;
   font-family: inherit;
-  font-size: inherit;
+  font-size: .8em;
   background-color: $grey-light;
-  padding: .2em .4em;
+  padding: .6em .4em;
   margin: .5em .2em 0;
   white-space: nowrap;
   color: $navy;
