@@ -61,6 +61,7 @@
   font-size: .8em;
   margin: .5em .2em 0;
   opacity: .3;
+  display: block;
 
   &:hover {
     cursor: default !important;
@@ -71,7 +72,6 @@
 .tag-container button.active,
 .show-all .letter-header {
   opacity: 1;
-  display: block;
 }
 
 // Toggle button/tag-container
@@ -90,6 +90,7 @@
   border: 0;
   outline: 0;
   margin-bottom: $paragraph-spacing;
+  display: block;
 
   &:hover {
     cursor: pointer;
