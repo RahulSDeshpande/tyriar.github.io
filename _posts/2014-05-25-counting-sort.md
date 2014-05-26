@@ -7,7 +7,6 @@ preview     : /images/2014/05/25/counting-sort.svg
 socialimage : /images/2014/05/25/counting-sort.png
 primarytag  : Sorting
 intro       : Counting sort is a non-comparison integer sort that achieves linear time complexity given some trade-offs and provided some requirements are met.
-draft : 1
 ---
 
 {% include post-image.html class="right-col" alt="Counting sort example" src="/images/2014/05/25/counting-sort.svg" %}
