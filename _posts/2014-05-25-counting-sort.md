@@ -12,7 +12,7 @@ draft : 1
 
 {% include post-image.html class="right-col" alt="Counting sort example" src="/images/2014/05/25/counting-sort.svg" %}
 
-Counting sort works by creating a an auxiliary array the size of the range of values, the unsorted values are then placed into the new array using the *value* as the *index*. The auxiliary array is now in sorted order and iterated through to place the values back into the original array.
+Counting sort works by creating an auxiliary array the size of the range of values, the unsorted values are then placed into the new array using the *value* as the *index*. The auxiliary array is now in sorted order and iterated through to place the values back into the original array.
 
 Counting sort can be exceptionally fast because of the way that elements are sorted using their values as array keys. This means that more memory is required for the extra array at the cost of running time. It runs in \\(O(n + k)\\) time where \\(n\\) is the number of elements to be sorted and \\(k\\) is the number of possible values in the range.
 
@@ -55,6 +55,14 @@ Counting sort is an ideal algorithm choice when:
 - The additional memory usage is not an issue
 
 If the list is known to be partially sorted then another option such as [insertion sort][1] may end up being better, since counting sort does not take advantage of that.
+
+
+
+## Primitives, objects and duplicates
+
+The basic algorithm can be augmented depending on the situation. For example when sorting primitives you likely don't care about retaining the original reference or stability of duplicates so the auxiliary array can be used to count instances of that value which can be reconstructed after.
+
+Sorting objects where there can be duplicates however you will need a more sophisticated method of storing values in the auxiliary array such as a linked list or dynamic array.
 
 
 
