@@ -6,13 +6,13 @@ isfeatured  : 1
 preview     : /images/2014/05/25/counting-sort.svg
 socialimage : /images/2014/05/25/counting-sort.png
 primarytag  : Sorting
-intro       : Counting sort is a non-comparison integer sort that achieves linear time complexity given some trade-offs and requirements.
+intro       : Counting sort is a non-comparison integer sort that achieves linear time complexity given some trade-offs and provided some requirements are met.
 draft : 1
 ---
 
 {% include post-image.html class="right-col" alt="Counting sort example" src="/images/2014/05/25/counting-sort.svg" %}
 
-Counting sort works by creating an auxiliary array the size of the range of values, the unsorted values are then placed into the new array using the *value* as the *index*. The auxiliary array is now in sorted order and iterated through to place the values back into the original array.
+Counting sort works by creating an auxiliary array the size of the range of values, the unsorted values are then placed into the new array using the *value* as the *index*. The auxiliary array is now in sorted order and can be iterated over to construct the sorted array.
 
 Counting sort can be exceptionally fast because of the way that elements are sorted using their values as array keys. This means that more memory is required for the extra array at the cost of running time. It runs in \\(O(n + k)\\) time where \\(n\\) is the number of elements to be sorted and \\(k\\) is the number of possible values in the range.
 
@@ -63,6 +63,12 @@ If the list is known to be partially sorted then another option such as [inserti
 The basic algorithm can be augmented depending on the situation. For example when sorting primitives you likely don't care about retaining the original reference or stability of duplicates so the auxiliary array can be used to count instances of that value which can be reconstructed after.
 
 Sorting objects where there can be duplicates however you will need a more sophisticated method of storing values in the auxiliary array such as a linked list or dynamic array.
+
+
+
+## Non-zero minimum
+
+Most versions of counting sort use a minimum value of either 0 or 1, this can be easily adjusted to suit any minimum value though by shifting the indexes back and forward certain amounts. Say the list is known to have a minimum possible value of 200, the algorithm can be easily modified so that values are added onto auxiliary array at index \\(i - 200\\) and added back on to the sorted array with the value \\(i + 200\\).
 
 
 
