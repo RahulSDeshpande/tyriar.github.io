@@ -63,6 +63,9 @@ article {
 
 h2,h3,h4,h5,h6 {
   @include header-shadow-light;
+}
+
+h2 {
   // Inline
   //margin-top:3em;
 }
