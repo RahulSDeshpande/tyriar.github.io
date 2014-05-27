@@ -52,7 +52,7 @@ The heuristic is a computationally easy estimate of the distance between each no
 
 This is the simplest heuristic and is ideal for grids that allow 4-way movement (up, down, left, right).
 
-$$h(n) = |n.x - goal.x| + |n.y - goal.y|$$
+$$h(n) = \|n.x - goal.x\| + \|n.y - goal.y\|$$
 
 {% include post-image.html class="center-aligned" alt="Manhattan distance" src="/images/2012/06/03/manhattan-distance.png" %}
 
@@ -60,7 +60,7 @@ $$h(n) = |n.x - goal.x| + |n.y - goal.y|$$
 
 This heuristic is used for 8-way movement (diagonals) when the cost of diagonal movement is the same as the cost of non-diagonal. Note that this is *very* inaccurate if the costs for diagonal and non-diagonal are not the same.
 
-$$h(n) = c\cdot max(|n.x - goal.x|, |n.y - goal.y|)$$
+$$h(n) = c\cdot max(\|n.x - goal.x\|, \|n.y - goal.y\|)$$
 
 $$c = \text{cost of movement}$$
 
@@ -72,9 +72,9 @@ This heuristic is used for 8-way movement when the cost of diagonal movement dif
 
 $$h(n) = c\_d d\_{min} + c\_n ( d\_{max} - d\_{min})$$
 
-$$d\_{max} = max(|n.x - goal.x|, |n.y - goal.y|)$$
+$$d\_{max} = max(\|n.x - goal.x\|, \|n.y - goal.y\|)$$
 
-$$d\_{min} = min(|n.x - goal.x|, |n.y - goal.y|)$$
+$$d\_{min} = min(\|n.x - goal.x\|, \|n.y - goal.y\|)$$
 
 $$c\_n = \text{cost of non-diagonal movement}$$
 
