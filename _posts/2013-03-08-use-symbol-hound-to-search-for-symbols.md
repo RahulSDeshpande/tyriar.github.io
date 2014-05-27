@@ -16,9 +16,9 @@ Here are the top 5 results from Stack Overflow, Google and Symbol Hound for the 
 
 ### [Stack Overflow][2]
 
-- Q: &amp;&amp; and || operators
-- Q: &amp;&amp;= and ||= operators \[closed\]
-- Q: Meaning of "| =" operator?
+- Q: &amp;&amp; and \|\| operators
+- Q: &amp;&amp;= and \|\|= operators \[closed\]
+- Q: Meaning of "\| =" operator?
 - Q: Meaning of a** operator
 - Q: operation of for loop
 
@@ -28,7 +28,7 @@ Here are the top 5 results from Stack Overflow, Google and Symbol Hound for the 
 - ?? Operator (C# Reference)
 - ?: Operator (C# Reference)
 - C# => operator? - Stack Overflow
-- c# - ?: ?? Operators Instead Of IF|ELSE - Stack Overflow
+- c# - ?: ?? Operators Instead Of IF\|ELSE - Stack Overflow
 
 ### [Symbol Hound][4]
 
