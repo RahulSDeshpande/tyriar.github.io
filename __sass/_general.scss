@@ -61,11 +61,17 @@ article {
 //  font-weight:300;
 //}
 
-h2,h3,h4,h5,h6 {
+h2, h3, h4, h5, h6 {
   @include header-shadow-light;
   // Inline
   //margin-top:3em;
 }
+
+// Inline
+//.inner-wrapper > h2:first-child {
+//  // Default margin-top value
+//  margin-top: .83em;
+//}
 
 p {
   margin: $paragraph-spacing 0 0 0;
