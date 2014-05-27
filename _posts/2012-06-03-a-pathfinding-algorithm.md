@@ -46,7 +46,7 @@ $$cost(n_1, n_2) = \text{the movement cost from }n_1\text{ to }n_2$$
 
 ### H score - the heuristic
 
-The heuristic is a computationally easy estimate of the distance between each node and the goal. This being computationally easy is very important as the H score will be calculated at least once for every node considered before the goal is reached. The implementation of the H score can vary depending on the properties of the graph that is being searched, here are the most common heuristics.
+The heuristic is a computationally easy estimate of the distance between each node and the goal. This being computationally easy is very important as the H score will be calculated *at least* once for every node considered before the goal is reached. The implementation of the H score can vary depending on the properties of the graph that is being searched, here are the most common heuristics.
 
 #### Manhattan distance
 
