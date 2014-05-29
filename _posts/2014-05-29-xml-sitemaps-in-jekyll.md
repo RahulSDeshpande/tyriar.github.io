@@ -3,13 +3,13 @@ layout      : post
 draft : 1
 title       : XML sitemaps in Jekyll
 tags        : [GitHub, Jekyll, SEO, XML]
-preview     : 
-socialimage : 
+preview     : /images/2014/05/29/logo.png
+socialimage : /images/2014/05/29/logo.png
 primarytag  : Jekyll
 intro       : This post explains the what and why of <a href="http://www.growingwiththeweb.com/2014/03/xml-sitemaps.html">XML sitemaps</a> and shows how to implement one in <a href="http://jekyllrb.com/">Jekyll's</a> Liquid templating engine.
 ---
 
-{% include post-image.html class="right-col" alt="Jekyll logo" src="/images/2014//logo.png" %}
+{% include post-image.html class="right-col" alt="Jekyll logo" src="/images/2014/05/29/logo.png" %}
 
 ## Basic template
 
