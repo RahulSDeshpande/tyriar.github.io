@@ -1,6 +1,5 @@
 ---
 layout      : post
-draft : 1
 title       : XML sitemaps in Jekyll
 tags        : [GitHub, Jekyll, SEO, XML]
 preview     : /images/2014/05/29/logo.png
@@ -84,7 +83,7 @@ Then check if the variable exists in the sitemap and override the default if so.
 
 <!--prettify lang=xml-->
 <pre><code>{% raw %}{% if page.sitemap.priority %}
-  &lt;priority&gt;page.sitemap.priority&lt;/priority&gt;
+  &lt;priority&gt;{{ page.sitemap.priority}} &lt;/priority&gt;
 {% else %}
   &lt;priority&gt;0.5&lt;/priority&gt;
 {% endif %}{% endraw %}</code></pre>
