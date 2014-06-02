@@ -71,7 +71,7 @@ pre code {
 .prettyprint::before {
   display: block;
   content: "";
-  background-color: #E4E4E4;
+  background-color: $grey-light;
   position: absolute;
   left: -9999em;
   right: -9999em;
