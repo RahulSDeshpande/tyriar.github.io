@@ -47,7 +47,7 @@ If you're using Sass this technique can be applied using a mixin for convenience
       @include space-out(1, 4);
     }
 
-LESS is a little trickier as looping isn't as intuitive but it's doable as well.
+LESS is a little trickier as [looping][4] isn't as intuitive but it's doable as well.
 
 <!--prettify lang=css-->
     .space-out(@min, @max) {
@@ -68,3 +68,4 @@ LESS is a little trickier as looping isn't as intuitive but it's doable as well.
 [1]: http://andr3.net/blog/post/142
 [2]: http://lea.verou.me/2011/01/styling-children-based-on-their-number-with-css3/
 [3]: http://www.growingwiththeweb.com/2013/03/a-clearfix-without-additional-markup.html
+[4]: http://www.growingwiththeweb.com/2014/03/implementing-loops-in-less.html
