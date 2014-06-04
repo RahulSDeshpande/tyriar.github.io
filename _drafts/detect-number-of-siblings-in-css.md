@@ -31,7 +31,7 @@ It works by selecting the first child, then the <code>n</code>th last child whic
 <p data-height="268" data-theme-id="2513" data-slug-hash="qxHgE" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/Tyriar/pen/qxHgE'>Detect number of siblings with CSS</a> by Daniel Imms (<a href='http://codepen.io/Tyriar'>@Tyriar</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async="async" src="//codepen.io/assets/embed/ei.js"></script>
 
-If you're using Sass this technique can be applied using a mixin for convenience.
+This technique can be applied in Sass by using a mixin.
 
 <!--prettify lang=css-->
     @mixin space-out($min, $max) {
