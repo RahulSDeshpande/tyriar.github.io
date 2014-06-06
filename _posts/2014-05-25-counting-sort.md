@@ -102,5 +102,5 @@ If the list is known to be partially sorted then another option such as [inserti
 
 
 
-[1]: http://www.growingwiththeweb.com/2012/11/algorithm-insertion-sort.html
+[1]: /2012/11/algorithm-insertion-sort.html
 [2]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/sorting/counting-sort

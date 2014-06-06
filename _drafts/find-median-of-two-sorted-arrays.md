@@ -93,4 +93,4 @@ public class BinarySearch {
 
 
 
-[1]: http://www.growingwiththeweb.com/2012/11/algorithm-binary-search.html
+[1]: /2012/11/algorithm-binary-search.html

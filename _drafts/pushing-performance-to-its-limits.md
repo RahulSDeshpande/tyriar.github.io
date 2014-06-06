@@ -123,8 +123,8 @@ Static resource caching
 Switch to MathML when widely implemented
 
 
-[1]: http://www.growingwiththeweb.com/2014/02/redesign-3-from-blogger-to-github-pages.html
+[1]: /2014/02/redesign-3-from-blogger-to-github-pages.html
 [2]: http://www.webpagetest.org/
 [3]: https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index
-[4]: http://www.growingwiththeweb.com
+[4]: /
 [5]: http://timkadlec.com/2014/01/fast-enough/#comment-1200946500

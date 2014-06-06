@@ -67,5 +67,5 @@ LESS is a little trickier as [looping][4] isn't as intuitive but it's doable as 
 
 [1]: http://andr3.net/blog/post/142
 [2]: http://lea.verou.me/2011/01/styling-children-based-on-their-number-with-css3/
-[3]: http://www.growingwiththeweb.com/2013/03/a-clearfix-without-additional-markup.html
-[4]: http://www.growingwiththeweb.com/2014/03/implementing-loops-in-less.html
+[3]: /2013/03/a-clearfix-without-additional-markup.html
+[4]: /2014/03/implementing-loops-in-less.html

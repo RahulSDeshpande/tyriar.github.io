@@ -42,11 +42,11 @@ You can get in touch with me by commenting on the blog or through the social pla
 
 
 
-[1]: http://www.growingwiththeweb.com/p/explore.html?t=Java
-[2]: http://www.growingwiththeweb.com/p/explore.html?t=C%23
-[4]: http://www.growingwiththeweb.com/p/explore.html?t=Android
+[1]: /p/explore.html?t=Java
+[2]: /p/explore.html?t=C%23
+[4]: /p/explore.html?t=Android
 [5]: http://stackoverflow.com/users/1156119/daniel-imms
-[6]: http://www.growingwiththeweb.com/p/explore.html?t=Amazon
-[7]: http://www.growingwiththeweb.com/p/explore.html?t=Dart
-[8]: http://www.growingwiththeweb.com/p/explore.html?t=Sass
-[9]: http://www.growingwiththeweb.com/p/explore.html?t=Markdown
+[6]: /p/explore.html?t=Amazon
+[7]: /p/explore.html?t=Dart
+[8]: /p/explore.html?t=Sass
+[9]: /p/explore.html?t=Markdown

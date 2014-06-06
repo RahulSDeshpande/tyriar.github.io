@@ -5,14 +5,14 @@ tags        : [GitHub, Jekyll, SEO, XML]
 preview     : /images/2014/05/29/logo.png
 socialimage : /images/2014/05/29/logo.png
 primarytag  : Jekyll
-intro       : This post demonstrates how to implement an <a href="http://www.growingwiththeweb.com/2014/03/xml-sitemaps.html">XML sitemap</a> in <a href="http://jekyllrb.com/">Jekyll's</a> Liquid templating engine. I recommend reading up on <a href="http://www.growingwiththeweb.com/2014/03/xml-sitemaps.html">XML sitemaps here</a> if you aren't familiar with them.
+intro       : This post demonstrates how to implement an <a href="/2014/03/xml-sitemaps.html">XML sitemap</a> in <a href="http://jekyllrb.com/">Jekyll's</a> Liquid templating engine. I recommend reading up on <a href="/2014/03/xml-sitemaps.html">XML sitemaps here</a> if you aren't familiar with them.
 ---
 
 {% include post-image.html class="right-col" alt="Jekyll logo" src="/images/2014/05/29/logo.png" %}
 
 ## Basic template
 
-Here is the basic Liquid template used for Growing with the Web's <a href="http://www.growingwiththeweb.com/sitemap.xml">XML sitemap</a>, it defines:
+Here is the basic Liquid template used for Growing with the Web's <a href="/sitemap.xml">XML sitemap</a>, it defines:
 
 - All the posts in the site as 0.5 priority
 - All the pages in the site
@@ -109,7 +109,7 @@ This can be accomplished again by introducing another YAML variable and a wrappi
 
 
 
-[1]: http://www.growingwiththeweb.com/p/top-articles.html
-[2]: http://www.growingwiththeweb.com/2013/03/triangles-in-css.html
-[3]: http://www.growingwiththeweb.com/2012/10/chrome-gmail-logo-in-pure-css.html
+[1]: /p/top-articles.html
+[2]: /2013/03/triangles-in-css.html
+[3]: /2012/10/chrome-gmail-logo-in-pure-css.html
 [4]: http://jekyllrb.com/docs/pagination/

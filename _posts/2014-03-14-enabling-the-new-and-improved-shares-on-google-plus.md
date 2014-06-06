@@ -51,4 +51,4 @@ Here are some observations I made while experimenting with the new feature.
 
 
 [1]: http://ogp.me/
-[2]: http://www.growingwiththeweb.com/2014/03/xml-sitemaps.html
+[2]: /2014/03/xml-sitemaps.html
