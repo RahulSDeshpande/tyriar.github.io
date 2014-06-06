@@ -3,7 +3,7 @@ layout      : post
 title       : Let me pinch-to-zoom your responsive site
 tags        : [Accessibility, Android, HTML, Responsive web design]
 primarytag  : Responsive web design
-intro       : When I was doing my latest <a href="http://www.growingwiththeweb.com/2013/01/blog-redesign-2.html">redesign of the blog</a>, I came to the point where I needed to implement the viewport meta tag so the design would scale correctly on different devices.
+intro       : When I was doing my latest <a href="/2013/01/blog-redesign-2.html">redesign of the blog</a>, I came to the point where I needed to implement the viewport meta tag so the design would scale correctly on different devices.
 ---
 
 After a little research I discovered several tutorials that said to use this:

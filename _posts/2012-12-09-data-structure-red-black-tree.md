@@ -4,7 +4,7 @@ title       : Red-black tree
 tags        : [Computer science, Data structure, Java, Tree]
 socialimage : /images/2012/12/09/rbt.png
 primarytag  : Data structure
-intro       : The red-black tree is a type of self-balancing <a href="http://www.growingwiththeweb.com/2012/10/data-structures-binary-search-tree.html">binary search tree</a> that assigns a colour of red or black to each node. On every insert or delete, the tree re-organises itself so that it is approximately \(\log n\) nodes high, allowing search in \(O(\log n)\) time. The re-organising does not guarantee a perfectly balanced tree, it is however good enough to guarantee \(O(\log n)\) search.
+intro       : The red-black tree is a type of self-balancing <a href="/2012/10/data-structures-binary-search-tree.html">binary search tree</a> that assigns a colour of red or black to each node. On every insert or delete, the tree re-organises itself so that it is approximately \(\log n\) nodes high, allowing search in \(O(\log n)\) time. The re-organising does not guarantee a perfectly balanced tree, it is however good enough to guarantee \(O(\log n)\) search.
 ---
 
 {% include post-image.html class="right-col" alt="Red-black tree example" src="/images/2012/12/09/rbt.png" %}

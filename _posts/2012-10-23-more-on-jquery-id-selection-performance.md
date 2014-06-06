@@ -4,7 +4,7 @@ title       : More on jQuery id selection performance
 tags        : [Chrome, Firefox, Internet Explorer, JavaScript, jQuery, Opera, Optimisation, Safari]
 socialimage : /images/2012/10/23/id-perf.png
 primarytag  : jQuery
-intro       : In response to Ron's comment on the <a href="http://www.growingwiththeweb.com/2012/10/jquery-attrid-vs-0id-performance.html"><code>attr('id')</code> vs <code>[0].id</code></a> post last week asking about the <code>jQuery.fn.prop</code>'s vs <code>jQuery.fn.attr</code>'s performance, I extended the program to include <code>prop</code> and enabled profiling across all browsers (thanks to <a href="http://remysharp.com/2007/04/20/performance-profiling-javascript/">time.js</a>). The program also does the tests a little more thoroughly, running 1000000 operations 5 times per each operation and averages the result.
+intro       : In response to Ron's comment on the <a href="/2012/10/jquery-attrid-vs-0id-performance.html"><code>attr('id')</code> vs <code>[0].id</code></a> post last week asking about the <code>jQuery.fn.prop</code>'s vs <code>jQuery.fn.attr</code>'s performance, I extended the program to include <code>prop</code> and enabled profiling across all browsers (thanks to <a href="http://remysharp.com/2007/04/20/performance-profiling-javascript/">time.js</a>). The program also does the tests a little more thoroughly, running 1000000 operations 5 times per each operation and averages the result.
 ---
 
 Some of the result surprised me a little, in particular Safari beating Chrome on `d.attr('id')` but nothing else, and `d.prop('id')` was the clear winner.

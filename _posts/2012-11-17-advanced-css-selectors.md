@@ -3,7 +3,7 @@ layout      : post
 title       : Advanced CSS selectors
 tags        : [CSS]
 primarytag  : CSS
-intro       : A continuation of my post <a href="http://www.growingwiththeweb.com/2012/08/css-selectors-you-must-know.html">CSS selectors you must know</a>, this one is going to look at the more advanced selectors available to us. Each section will first describe what is selected and then provide an example first with the CSS and then the HTML if applicable, the selected elements will be <mark>marked</mark>.
+intro       : A continuation of my post <a href="/2012/08/css-selectors-you-must-know.html">CSS selectors you must know</a>, this one is going to look at the more advanced selectors available to us. Each section will first describe what is selected and then provide an example first with the CSS and then the HTML if applicable, the selected elements will be <mark>marked</mark>.
 ---
 
 ## <code>S<sub>1</sub> ~ S<sub>2</sub></code>

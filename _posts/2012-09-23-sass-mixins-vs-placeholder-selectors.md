@@ -3,7 +3,7 @@ layout      : post
 title       : Sass mixins vs placeholder selectors
 tags        : [CSS, Sass]
 primarytag  : Sass
-intro       : One of the things that made me fall in love with <a href="http://www.growingwiththeweb.com/2012/04/sass-syntactically-awesome-stylesheets.html">Sass</a> was the ease of including large chunks of CSS very easily using mixins. This happens to also be one of the main criticisms of Sass due to the CSS it results in. Consider the following Sass which applies the IE6/7 hack to enable the use of the then unsupported <code>inline-block</code> to 3 selectors.
+intro       : One of the things that made me fall in love with <a href="/2012/04/sass-syntactically-awesome-stylesheets.html">Sass</a> was the ease of including large chunks of CSS very easily using mixins. This happens to also be one of the main criticisms of Sass due to the CSS it results in. Consider the following Sass which applies the IE6/7 hack to enable the use of the then unsupported <code>inline-block</code> to 3 selectors.
 ---
 
 *I published an updated, more in depth version of this article for [The Sass Way][1]*

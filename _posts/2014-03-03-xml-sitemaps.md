@@ -126,6 +126,6 @@ Once your sitemap is complete it can be submitted it to Google with the [Google 
 [7]: http://www.sitemaps.org/protocol.html#index
 [8]: http://www.w3.org/TR/WCAG20-TECHS/G63
 [9]: http://www.w3.org/TR/2008/REC-WCAG20-20081211/#navigation-mechanisms-mult-loc
-[10]: http://www.growingwiththeweb.com/sitemap.xml
+[10]: /sitemap.xml
 [11]: https://www.google.com/webmasters/tools/home
 [12]: http://www.bing.com/toolbox/webmaster/

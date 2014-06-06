@@ -4,7 +4,7 @@ title       : "Redesign #2"
 tags        : [Blogging, CSS, Design, HTML, Responsive web design, Sass]
 socialimage : /images/2013/01/12/menu.png
 primarytag  : Blogging
-intro       : I only just <a href="http://www.growingwiththeweb.com/2012/09/new-design.html">redesigned the blog back in September</a>, but something has been bugging me since around a week after I did it. The readability completely sucked, I found myself preferring Google Reader or the Blogger backend over reading from the blog itself! Not good...
+intro       : I only just <a href="/2012/09/new-design.html">redesigned the blog back in September</a>, but something has been bugging me since around a week after I did it. The readability completely sucked, I found myself preferring Google Reader or the Blogger backend over reading from the blog itself! Not good...
 ---
 
 So I spent a bit of time here and there over the last month or so getting the design just right and then ramping up towards the end with the implementation. I used [Sass][2] this time as the changes being made were pretty significant. Here are the results.
