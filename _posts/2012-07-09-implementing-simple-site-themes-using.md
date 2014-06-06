@@ -3,7 +3,7 @@ layout      : post
 title       : Implementing simple site themes using Sass
 tags        : [CSS, Sass]
 primarytag  : Sass
-intro       : <a href="http://www.growingwiththeweb.com/2012/04/sass-syntactically-awesome-stylesheets.html">Sass</a> is awesome, I first discovered it around 9 or so months ago now and have loved it ever since. Recently I implemented an unplanned theme system to a web app and because I was doing the styles in a modular/extendable way thanks to Sass, it was very easy. It took around around 30 minutes to have 8 distinct colour themed stylesheets.
+intro       : <a href="/2012/04/sass-syntactically-awesome-stylesheets.html">Sass</a> is awesome, I first discovered it around 9 or so months ago now and have loved it ever since. Recently I implemented an unplanned theme system to a web app and because I was doing the styles in a modular/extendable way thanks to Sass, it was very easy. It took around around 30 minutes to have 8 distinct colour themed stylesheets.
 ---
 
 The app was originally split up into a structure like this:
