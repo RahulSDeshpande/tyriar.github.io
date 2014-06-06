@@ -117,9 +117,9 @@ Once your sitemap is complete it can be submitted it to Google with the [Google 
 
 
 
-[1]: {{ site.baseurl }}/page2/index.html
-[2]: {{ site.baseurl }}/
-[3]: {{ site.baseurl }}/p/top-articles.html
+[1]: /page2/index.html
+[2]: /
+[3]: /p/top-articles.html
 [4]: http://www.sitemaps.org/
 [5]: http://www.sitemaps.org/protocol.html
 [6]: http://www.google.com/sitemap.xml
