@@ -63,6 +63,7 @@ It may seem like function overloading can accomplish this same task, and in some
 The output for the above program is not as expected:
 
 > Car painted
+>
 > Car painted
 
 The second line should say `Car painted red` since `RedPaint` is used but instead uses the implementation of its super type `Paint`. This is because the function overloading on `Car.paint(...)` is done at compile-time and uses the `redPaint` variable's boxed type `Paint`.
@@ -91,6 +92,7 @@ To solve this problem the visitor pattern can be applied which has a single meth
 Producing the expected output:
 
 > Car painted red
+>
 > FastCar painted red
 
 This works because instead of relying on function overloading on `Car.paint(Paint)` to dispatch the call which is evaluated statically at *compile-time*, the function `Paint.paint(Car)` is used which is virtual and evaluated dynamically at *runtime*.
