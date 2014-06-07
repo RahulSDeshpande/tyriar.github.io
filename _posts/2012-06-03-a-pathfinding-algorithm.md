@@ -52,7 +52,7 @@ The heuristic is a computationally easy estimate of the distance between each no
 
 This is the simplest heuristic and is ideal for grids that allow 4-way movement (up, down, left, right).
 
-$$h(n) = |n.x - goal.x| + |n.y - goal.y|$$
+$$h(n) = &#x7C;n.x - goal.x&#x7C; + &#x7C;n.y - goal.y&#x7C;$$
 
 {% include post-image.html class="center-aligned" alt="Manhattan distance" src="/images/2012/06/03/manhattan-distance.png" %}
 
