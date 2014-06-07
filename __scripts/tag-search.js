@@ -1,4 +1,6 @@
 (function (tagNames) {
+  'use strict';
+  
   var visiblePosts = [];
   var hiddenPosts = [];
   var filter = [];
@@ -15,7 +17,7 @@
     var lastLetter = '';
     var menu = document.createElement('menu');
     for (var i = 0; i < tagNames.length; i++) {
-      var header;
+      var header = undefined;
       if (lastLetter.toUpperCase() !== tagNames[i][0].toUpperCase()) {
         // Create the letter heading
         lastLetter = tagNames[i][0].toUpperCase();
