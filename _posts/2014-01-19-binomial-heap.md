@@ -6,7 +6,7 @@ primarytag  : Data structure
 isfeatured  : 1
 preview     : /images/2014/01/19/binomial-heap.svg
 socialimage : /images/2014/01/19/preview.png
-intro       : A binomial heap is a priority queue data structure similar to the binary heap only with a more strict structure, it supports quicker merging of two heaps in \(&Theta;(\log n)\) at the cost of a slower find minimum operation. A binomial heap is made up of a series of unique 'binomial trees' which are constructed from smaller binomial trees.
+intro       : A binomial heap is a priority queue data structure similar to the binary heap only with a more strict structure, it supports quicker merging of two heaps in \(Θ(\log n)\) at the cost of a slower find minimum operation. A binomial heap is made up of a series of unique 'binomial trees' which are constructed from smaller binomial trees.
 ---
 
 {% include post-image.html class="right-col" alt="Binomial heap" src="/images/2014/01/19/binomial-heap.svg" %}
@@ -30,7 +30,7 @@ Just like a regular [binary heap][1], the binomial heap can be either a min heap
 | Insert          | Inserts a new value                                                     | \\(O(\log n)\\)           |
 | Union           | Combine the heap with another to form a valid binomial heap             | \\(Θ(\log n)\\)\*\* |
 
-\* *This can be reduced to \\(&Theta;(1)\\) by maintaining a pointer to the minimum element*<br />
+\* *This can be reduced to \\(Θ(1)\\) by maintaining a pointer to the minimum element*<br />
 \*\* *Where \\(n\\) is the size of the larger heap*
 
 ## Structure
