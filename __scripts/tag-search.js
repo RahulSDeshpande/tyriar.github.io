@@ -15,16 +15,16 @@
     var lastLetter = '';
     var menu = document.createElement('menu');
     for (var i = 0; i < tagNames.length; i++) {
+      var header;
       if (lastLetter.toUpperCase() !== tagNames[i][0].toUpperCase()) {
         // Create the letter heading
         lastLetter = tagNames[i][0].toUpperCase();
         if (!lastLetter.match(/[a-zA-Z]/g)) {
           lastLetter = '#';
         }
-        var header = document.createElement('li');
+        header = document.createElement('div');
         header.innerHTML = lastLetter;
         header.classList.add('letter-header');
-        menu.appendChild(header);
       }
       var button = document.createElement('button');
       button.innerHTML = tagNames[i];
@@ -33,6 +33,9 @@
         'neighbours': []
       };
       var li = document.createElement('li');
+      if (header) {
+        li.appendChild(header);
+      }
       li.appendChild(button);
       menu.appendChild(li);
     }
