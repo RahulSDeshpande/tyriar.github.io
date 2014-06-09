@@ -9,6 +9,7 @@ module.exports = function(grunt) {
           'scripts/site.js': [
             '__scripts/search.js',
             '__scripts/share.js',
+            '__scripts/responsive-tables.js',
             '__scripts/prettify.js',
             '__scripts/prettify-lang-css.js',
             '__scripts/prettify-lang-dart.js',

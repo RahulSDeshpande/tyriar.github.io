@@ -30,19 +30,6 @@ Just like a regular [binary heap][1], the binomial heap can be either a min heap
 | Insert          | Inserts a new value                                                     | \\(O(\log n)\\)     |
 | Union           | Combine the heap with another to form a valid binomial heap             | \\(Θ(\log n)\\)\*\* |
 
-<script>
-    var tables = document.querySelectorAll('table');
-    for (var i = 0; i < tables.length; i++) {
-        var table = tables[i];
-        var parent = table.parentNode;
-        parent.removeChild(table);
-        var wrapper = document.createElement('div');
-        wrapper.className = 'wide-table';
-        wrapper.appendChild(table);
-        parent.appendChild(wrapper);
-    }
-</script>
-
 \* *This can be reduced to \\(Θ(1)\\) by maintaining a pointer to the minimum element*<br />
 \*\* *Where \\(n\\) is the size of the larger heap*
 
