@@ -21,14 +21,18 @@ Just like a regular [binary heap][1], the binomial heap can be either a min heap
 
 ## Complexity
 
-| Operation       | Description                                                             | Complexity                |
-|-----------------|-------------------------------------------------------------------------|---------------------------|
+<div class="wide-table">
+
+| Operation       | Description                                                             | Complexity          |
+|-----------------|-------------------------------------------------------------------------|---------------------|
 | Decrease key    | Decreases an existing key to some value                                 | \\(Θ(\log n)\\)     |
 | Delete          | Deletes a node given a reference to **the node**                        | \\(Θ(\log n)\\)     |
 | Extract minimum | Removes and returns the minimum value given a reference to **the node** | \\(Θ(\log n)\\)     |
-| Find minimum    | Returns the minimum value                                               | \\(O(\log n)\\)\*         |
-| Insert          | Inserts a new value                                                     | \\(O(\log n)\\)           |
+| Find minimum    | Returns the minimum value                                               | \\(O(\log n)\\)\*   |
+| Insert          | Inserts a new value                                                     | \\(O(\log n)\\)     |
 | Union           | Combine the heap with another to form a valid binomial heap             | \\(Θ(\log n)\\)\*\* |
+
+</div>
 
 \* *This can be reduced to \\(Θ(1)\\) by maintaining a pointer to the minimum element*<br />
 \*\* *Where \\(n\\) is the size of the larger heap*
