@@ -31,7 +31,7 @@ Just like a regular [binary heap][1], the binomial heap can be either a min heap
 | Union           | Combine the heap with another to form a valid binomial heap             | \\(Θ(\log n)\\)\*\* |
 
 <script>
-    var tables = document.querySelector('table');
+    var tables = document.querySelectorAll('table');
     for (var i = 0; i < tables.length; i++) {
         var table = tables[i];
         var parent = table.parentNode;
