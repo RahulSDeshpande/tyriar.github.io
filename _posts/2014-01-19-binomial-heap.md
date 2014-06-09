@@ -35,7 +35,7 @@ Just like a regular [binary heap][1], the binomial heap can be either a min heap
     for (var i = 0; i < tables.length; i++) {
         var table = tables[i];
         var parent = table.parentNode;
-        parent.removeChild(parent);
+        parent.removeChild(table);
         var wrapper = document.createElement('div');
         wrapper.className = 'wide-table';
         wrapper.appendChild(table);
