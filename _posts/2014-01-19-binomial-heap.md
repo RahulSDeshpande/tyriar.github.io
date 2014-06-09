@@ -13,7 +13,7 @@ intro       : A binomial heap is a priority queue data structure similar to the 
 
 Just like a regular [binary heap][1], the binomial heap can be either a min heap or a max heap. It also follows the properties of the heap data structure; all nodes must be smaller than their children for a min heap, or larger for a max heap.
 
-*The animations in this article will only work in certain browsers, it has been tested in the latest Chrome and Firefox.*
+*The animations in this article may not work in your browser, it has been tested in the latest Chrome and Firefox.*
 
 <div class="clear"><!----></div>
 

@@ -19,12 +19,12 @@ It is typical to implement priority queues using heaps due to their \\(O(\log n)
 
 | Operation       | Description                                                             | Complexity            |
 |-----------------|-------------------------------------------------------------------------|-----------------------|
-| Decrease key    | Decreases an existing key to some value                                 | \\(&Theta;(\log n)\\) |
-| Delete          | Deletes a node given a reference to **the node**                        | \\(&Theta;(\log n)\\) |
-| Extract minimum | Removes and returns the minimum value given a reference to **the node** | \\(&Theta;(\log n)\\) |
-| Find minimum    | Returns the minimum value                                               | \\(&Theta;(1)\\)      |
-| Insert          | Inserts a new value                                                     | \\(&Theta;(\log n)\\) |
-| Union           | Combine the heap with another to form a valid binomial heap             | \\(&Theta;(n)\\)      |
+| Decrease key    | Decreases an existing key to some value                                 | \\(Θ(\log n)\\) |
+| Delete          | Deletes a node given a reference to **the node**                        | \\(Θ(\log n)\\) |
+| Extract minimum | Removes and returns the minimum value given a reference to **the node** | \\(Θ(\log n)\\) |
+| Find minimum    | Returns the minimum value                                               | \\(Θ(1)\\)      |
+| Insert          | Inserts a new value                                                     | \\(Θ(\log n)\\) |
+| Union           | Combine the heap with another to form a valid binomial heap             | \\(Θ(n)\\)      |
 
 
 
