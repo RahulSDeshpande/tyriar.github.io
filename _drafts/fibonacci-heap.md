@@ -48,6 +48,9 @@ The pointers in the Fibonacci heap is very similar to how the binomial heap, onl
 
 An important part of the Fibonacci Heap is how it 'marks' nodes in order to achieve its desired time bounds. The decrease key operation marks a node when it is cut from a tree, 
 
+http://programmers.stackexchange.com/questions/187410/marked-nodes-in-fibonacci-heaps
+http://stackoverflow.com/questions/12864914/what-is-the-purpose-behind-marking-some-of-the-nodes-in-fibonacci-heap
+
 
 
 ## Operations

@@ -1,8 +1,5 @@
     private static boolean isPalindrome(int number) {
-        if(number == reverse(number)){
-            return true;
-        }
-        return false;
+        return number == reverse(number);
     }
   
       
