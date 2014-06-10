@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : Fibonacci heap
-tags        : [Computer science, Data structure, Generics, Java]
+tags        : [Computer science, Data structure, Generics, Heap, Java]
 socialimage : 
 primarytag  : Data structure
 intro       : A Fibonacci heap is a heap data structure similar to the [binomial heap][1] only with several modifications and a looser structure. The main hallmark of the Fibonacci heap is that it defers 'clean up' operations to be done at a point where they are more convenient, guaranteeing \(Θ(1)\) for several operations. Due to these deferred clean up steps, the worst case time complexity of the delete and extract minimum operations is \(O(n)\), however they turn out to be \(O(\log n)\) amortised.

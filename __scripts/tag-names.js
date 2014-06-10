@@ -16,7 +16,31 @@
   }
 );*/
 
-var tagNames = ["ASP.NET MVC","Accessibility","Algorithm","Amazon","Android","Artificial intelligence","Bash","Behavioural design pattern","Blogging","Browser","C#","CSS","Canvas","Chrome","Computer science","Concurrency","Creational design pattern","Dart","Data structure","Debugging","Design","Design pattern","Entity framework","Extension method","Firefox","Generics","Git","GitHub","Google","Graph","HTML","Hotkey","IIS","Internet Explorer","Interview questions","Java","JavaScript","Jekyll","jQuery","Knockout","LESS","Life","LINQ","Markdown","Math","Microsoft","My projects","Natural language","Opera","Optimisation","Pathfinding","Prettyprint","Productivity","Razor","Reflection","Responsive web design","Sass","SEO","SQL","SVG","Safari","Search engine","Searching","Software engineering","Sorting","Stack Exchange","Structural design pattern","Stylus","Sublime Text","Testing","Tree","UML","Umbraco","Unicode","Visual Studio","Windows","XML"];
+var tagNames = [
+  "ASP.NET MVC","Accessibility","Algorithm","Amazon","Android","Artificial intelligence",
+  "Bash","Behavioural design pattern","Blogging","Browser",
+  "C#","CSS","Canvas","Chrome","Computer science","Concurrency","Creational design pattern",
+  "Dart","Data structure","Debugging","Design","Design pattern",
+  "Entity framework","Extension method",
+  "Firefox",
+  "Generics","Git","GitHub","Google","Graph",
+  "Heap","HTML","Hotkey",
+  "IIS","Internet Explorer","Interview questions",
+  "Java","JavaScript","Jekyll","jQuery",
+  "Knockout",
+  "LESS","Life","LINQ",
+  "Markdown","Math","Microsoft","My projects",
+  "Natural language",
+  "Opera","Optimisation",
+  "Pathfinding","Prettyprint","Productivity",
+  "Razor","Reflection","Responsive web design",
+  "Sass","SEO","SQL","SVG","Safari","Search engine","Searching","Software engineering","Sorting","Stack Exchange","Structural design pattern","Stylus","Sublime Text",
+  "Testing","Tree",
+  "UML","Umbraco","Unicode",
+  "Visual Studio",
+  "Windows",
+  "XML"
+];
 (function () {
   'use strict';
   

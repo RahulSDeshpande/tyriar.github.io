@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : Binomial heap
-tags        : [Computer science, Data structure, Generics, Java, Tree]
+tags        : [Computer science, Data structure, Generics, Heap, Java, Tree]
 primarytag  : Data structure
 isfeatured  : 1
 preview     : /images/2014/01/19/binomial-heap.svg
