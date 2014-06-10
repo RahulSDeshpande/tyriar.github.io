@@ -32,7 +32,7 @@ Its name derives from the fact that the Fibonacci sequence is used in its comple
 
 ## Structure
 
-Like the binomial heap, a Fibonacci heap is a collection of heap-ordered trees. They do not need to be binomial trees however, this is where the relaxation of some of the binomial heap's properties comes in.
+Like the binomial heap, a Fibonacci heap is a collection of *heap-ordered* trees. They do not need to be *binomial* trees however, this is where the relaxation of some of the binomial heap's properties comes in.
 
 
 

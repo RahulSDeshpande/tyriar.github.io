@@ -1,0 +1,67 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="600" height="145" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        text { text-anchor: middle; font-family: Helvetica, Arial, sans-serif; font-size: 12px; fill: #000; }
+        path { stroke: #000; stroke-width: 2; }
+    </style>
+    <g transform="translate(10,115)">
+        <path d="m0 0l20 0l0 -0.00128l-20 0l0 .00128d" fill="hsl(0,100%,80%)"/>
+        <path d="m20 0l20 0l0 -0.0896l-20 0l0 0.0896d" fill="hsl(0.1,100%,80%)"/>
+        <path d="m40 0l20 0l0 -0.3584l-20 0l0 0.3584d" fill="hsl(0.4,100%,80%)"/>
+        <path d="m60 0l20 0l0 -1.0752l-20 0l0 1.0752d" fill="hsl(1.2,100%,80%)"/>
+        <path d="m80 0l20 0l0 -2.688l-20 0l0 2.688d" fill="hsl(3.1,100%,80%)"/>
+        <path d="m100 0l20 0l0 -5.824l-20 0l0 5.824d" fill="hsl(6.7,100%,80%)"/>
+        <path d="m120 0l20 0l0 -11.2l-20 0l0 11.2d" fill="hsl(12.9,100%,80%)"/>
+        <path d="m140 0l20 0l0 -19.456l-20 0l0 19.456d" fill="hsl(22.4,100%,80%)"/>
+        <path d="m160 0l20 0l0 -30.912l-20 0l0 30.912d" fill="hsl(35.6,100%,80%)"/>
+        <path d="m180 0l20 0l0 -45.248l-20 0l0 45.248d" fill="hsl(52.2,100%,80%)"/>
+        <path d="m200 0l20 0l0 -61.376l-20 0l0 61.376d" fill="hsl(70.7,100%,80%)"/>
+        <path d="m220 0l20 0l0 -77.504l-20 0l0 77.504d" fill="hsl(89.3,100%,80%)"/>
+        <path d="m240 0l20 0l0 -91.392l-20 0l0 91.392d" fill="hsl(105.3,100%,80%)"/>
+        <path d="m260 0l20 0l0 -100.8l-20 0l0 100.8d" fill="hsl(116.1,100%,80%)"/>
+        <path d="m280 0l20 0l0 -104.128l-20 0l0 104.128d" fill="hsl(120,100%,80%)"/>
+        <path d="m300 0l20 0l0 -100.8l-20 0l0 100.8d" fill="hsl(116.1,100%,80%)"/>
+        <path d="m320 0l20 0l0 -91.392l-20 0l0 91.392d" fill="hsl(105.3,100%,80%)"/>
+        <path d="m340 0l20 0l0 -77.504l-20 0l0 77.504d" fill="hsl(89.3,100%,80%)"/>
+        <path d="m360 0l20 0l0 -61.376l-20 0l0 61.376d" fill="hsl(70.7,100%,80%)"/>
+        <path d="m380 0l20 0l0 -45.248l-20 0l0 45.248d" fill="hsl(52.2,100%,80%)"/>
+        <path d="m400 0l20 0l0 -30.912l-20 0l0 30.912d" fill="hsl(35.6,100%,80%)"/>
+        <path d="m420 0l20 0l0 -19.456l-20 0l0 19.456d" fill="hsl(22.4,100%,80%)"/>
+        <path d="m440 0l20 0l0 -11.2l-20 0l0 11.2d" fill="hsl(12.9,100%,80%)"/>
+        <path d="m460 0l20 0l0 -5.824l-20 0l0 5.824d" fill="hsl(6.7,100%,80%)"/>
+        <path d="m480 0l20 0l0 -2.688l-20 0l0 2.688d" fill="hsl(3.1,100%,80%)"/>
+        <path d="m500 0l20 0l0 -1.0752l-20 0l0 1.0752d" fill="hsl(1.2,100%,80%)"/>
+        <path d="m520 0l20 0l0 -0.3584l-20 0l0 0.3584d" fill="hsl(0.4,100%,80%)"/>
+        <path d="m540 0l20 0l0 -0.0896l-20 0l0 0.0896d" fill="hsl(0.1,100%,80%)"/>
+        <path d="m560 0l20 0l0 -0.0128l-20 0l0 0.0128d" fill="hsl(0,100%,80%)"/>
+        <text y="15" x="10">7</text>
+        <text y="15" x="30">8</text>
+        <text y="15" x="50">9</text>
+        <text y="15" x="70">10</text>
+        <text y="15" x="90">11</text>
+        <text y="15" x="110">12</text>
+        <text y="15" x="130">13</text>
+        <text y="15" x="150">14</text>
+        <text y="15" x="170">15</text>
+        <text y="15" x="190">16</text>
+        <text y="15" x="210">17</text>
+        <text y="15" x="230">18</text>
+        <text y="15" x="250">19</text>
+        <text y="15" x="270">20</text>
+        <text y="15" x="290">21</text>
+        <text y="15" x="310">22</text>
+        <text y="15" x="330">23</text>
+        <text y="15" x="350">24</text>
+        <text y="15" x="370">25</text>
+        <text y="15" x="390">26</text>
+        <text y="15" x="410">27</text>
+        <text y="15" x="430">28</text>
+        <text y="15" x="450">29</text>
+        <text y="15" x="470">30</text>
+        <text y="15" x="490">31</text>
+        <text y="15" x="510">32</text>
+        <text y="15" x="530">33</text>
+        <text y="15" x="550">34</text>
+        <text y="15" x="570">35</text>
+    </g>
+</svg>
