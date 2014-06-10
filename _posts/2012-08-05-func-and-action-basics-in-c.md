@@ -62,7 +62,7 @@ Multiple parameters are specified like so
 
 ## Using `Func`
 
-Here is a pretty good example of one way to use`Func<>` in your own functions effectively. The following function is an extension method on `HtmlHelper<dynamic>` (ASP.NET MVC) that output a select list using a list of 'something'.
+Here is a pretty good example of one way to use `Func<>` in your own functions effectively. The following function is an extension method on `HtmlHelper<dynamic>` (ASP.NET MVC) that output a select list using a list of 'something'.
 
 <!--prettify lang=csharp-->
     public static HtmlString CustomSelectList<T>(
