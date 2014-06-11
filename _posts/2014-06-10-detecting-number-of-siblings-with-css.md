@@ -1,37 +1,43 @@
 ---
 layout      : post
-title       : Detecting number of siblings in CSS
+title       : Detecting number of siblings with CSS
 tags        : [CSS, LESS, Sass]
 draft : 1
 primarytag  : CSS
 intro       : I came across a clever CSS technique, originally developed by <a href="http://andr3.net/blog/post/142">André Luís</a> in 2009 and later refined by <a href="http://lea.verou.me/2011/01/styling-children-based-on-their-number-with-css3/">Lea Verou</a> 2 years later; applying a style when the number of siblings is a particular number.
 ---
 
-This has a bunch of potential applications, a particularly nice one is styling a series of siblings to fill the width of the container (provided flexbox is out of the question anyway). Here is an example that lays out `li`s using `float:left` and a [pseudo-element clearfix][3] to clear the floating elements.
+This has a bunch of potential applications, a particularly nice one is styling a series of siblings to fill the width of the container (provided flexbox isn't suitable).
+
+Here is an example that lays out `li` elements using `float:left`.
 
 <!--prettify lang=css-->
-	/* one item */
-	li:first-child:nth-last-child(1) {
-		width: 100%;
-	}
+    li {
+      float: left;
+    }
 
-	/* two items */
-	li:first-child:nth-last-child(2),
-	li:first-child:nth-last-child(2) ~ li {
-		width: 50%;
-	}
+    /* one item */
+    li:first-child:nth-last-child(1) {
+      width: 100%;
+    }
 
-	/* three items */
-	li:first-child:nth-last-child(3),
-	li:first-child:nth-last-child(3) ~ li {
-		width: 33.3333%;
-	}
+    /* two items */
+    li:first-child:nth-last-child(2),
+    li:first-child:nth-last-child(2) ~ li {
+      width: 50%;
+    }
 
-	/* four items */
-	li:first-child:nth-last-child(4),
-	li:first-child:nth-last-child(4) ~ li {
-		width: 25%;
-	}
+    /* three items */
+    li:first-child:nth-last-child(3),
+    li:first-child:nth-last-child(3) ~ li {
+      width: 33.3333%;
+    }
+
+    /* four items */
+    li:first-child:nth-last-child(4),
+    li:first-child:nth-last-child(4) ~ li {
+      width: 25%;
+    }
 
 It works by selecting the first child, then the <code>n</code>th last child which will only exist if there is at least <code>n</code> siblings. The order in which the rules are defined ensures that the correct rule(s) are applied to the siblings.
 
