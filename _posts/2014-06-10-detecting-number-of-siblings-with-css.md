@@ -41,10 +41,7 @@ Here is an example that lays out `li` elements using `float:left`.
 
 It works by selecting the first child, then the <code>n</code>th last child which will only exist if there is at least <code>n</code> siblings. The order in which the rules are defined ensures that the correct rule(s) are applied to the siblings.
 
-<div class="stretch">
-<p data-height="268" data-theme-id="2513" data-slug-hash="qxHgE" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/Tyriar/pen/qxHgE'>Detect number of siblings with CSS</a> by Daniel Imms (<a href='http://codepen.io/Tyriar'>@Tyriar</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async="async" src="//codepen.io/assets/embed/ei.js"></script>
-</div>
+{% include codepen.html id="qxHgE" height="265" description="Detect number of siblings with CSS" %}
 
 This technique can be applied in Sass by using a mixin.
 
