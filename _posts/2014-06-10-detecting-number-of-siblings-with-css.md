@@ -2,9 +2,8 @@
 layout      : post
 title       : Detecting number of siblings with CSS
 tags        : [CSS, LESS, Sass]
-draft : 1
 primarytag  : CSS
-intro       : I came across a clever CSS technique, originally developed by <a href="http://andr3.net/blog/post/142">André Luís</a> in 2009 and later refined by <a href="http://lea.verou.me/2011/01/styling-children-based-on-their-number-with-css3/">Lea Verou</a> 2 years later; applying a style when the number of siblings is a particular number.
+intro       : I came across a clever CSS technique, originally developed by <a href="http://andr3.net/blog/post/142">André Luís</a> in 2009 and later refined by <a href="http://lea.verou.me/2011/01/styling-children-based-on-their-number-with-css3/">Lea Verou</a> 2 years later; applying a style when the number of siblings is a particular number. It's definitely worth knowing.
 ---
 
 This has a bunch of potential applications, a particularly nice one is styling a series of siblings to fill the width of the container (provided flexbox isn't suitable).
