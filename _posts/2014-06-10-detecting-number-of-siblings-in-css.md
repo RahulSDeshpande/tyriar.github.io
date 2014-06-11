@@ -1,6 +1,13 @@
-I came across a great CSS technique that was originally developed by [André Luís][1] and then refined by [Lea Verou][2], applying a style when the number of siblings is a particular number.
+---
+layout      : post
+title       : Detecting number of siblings in CSS
+tags        : [CSS, LESS, Sass]
+draft : 1
+primarytag  : CSS
+intro       : I came across a clever CSS technique, originally developed by <a href="http://andr3.net/blog/post/142">André Luís</a> in 2009 and later refined by <a href="http://lea.verou.me/2011/01/styling-children-based-on-their-number-with-css3/">Lea Verou</a> 2 years later; applying a style when the number of siblings is a particular number.
+---
 
-This has a bunch of potential applications, a particularly nice one is styling a series of siblings to fill the width of the container. Here is an example that lays out `li`s using `float:left` and a [pseudo-element clearfix][3] to clear the floating elements.
+This has a bunch of potential applications, a particularly nice one is styling a series of siblings to fill the width of the container (provided flexbox is out of the question anyway). Here is an example that lays out `li`s using `float:left` and a [pseudo-element clearfix][3] to clear the floating elements.
 
 <!--prettify lang=css-->
 	/* one item */
@@ -26,7 +33,7 @@ This has a bunch of potential applications, a particularly nice one is styling a
 		width: 25%;
 	}
 
-It works by selecting the first child, then the <code>n</code>th last child which will only exist if there is at least <code>n</code> siblings. The order in which the rules are defined then applies the correct rule(s) to the siblings.
+It works by selecting the first child, then the <code>n</code>th last child which will only exist if there is at least <code>n</code> siblings. The order in which the rules are defined ensures that the correct rule(s) are applied to the siblings.
 
 <p data-height="268" data-theme-id="2513" data-slug-hash="qxHgE" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/Tyriar/pen/qxHgE'>Detect number of siblings with CSS</a> by Daniel Imms (<a href='http://codepen.io/Tyriar'>@Tyriar</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async="async" src="//codepen.io/assets/embed/ei.js"></script>
@@ -65,7 +72,5 @@ LESS is a little trickier as [looping][4] isn't as intuitive but it's doable as 
       .space-out(1, 4);
     }
 
-[1]: http://andr3.net/blog/post/142
-[2]: http://lea.verou.me/2011/01/styling-children-based-on-their-number-with-css3/
 [3]: /2013/03/a-clearfix-without-additional-markup.html
 [4]: /2014/03/implementing-loops-in-less.html
