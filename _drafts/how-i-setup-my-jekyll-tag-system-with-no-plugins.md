@@ -1,4 +1,4 @@
 ---
 layout: post
-title: How I setup my Jekyll tag system with no plguins
+title: How I setup my Jekyll tag system with no plugins
 ---
