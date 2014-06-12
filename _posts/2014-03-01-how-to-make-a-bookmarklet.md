@@ -47,7 +47,7 @@ The browser's cache can work against us with bookmarklets by holding on to the o
       document.body.appendChild(script);
     })()
 
-The timestamp added to the query string above is the current timestamp divided by 3600000 (1000*60*60) to reduce precision to hourly, meaning the script will only be cached at most one time per hour.
+The timestamp added to the query string above is the current timestamp divided by 3600000 (1000\*60\*60) to reduce precision to hourly, meaning the script will only be cached at most one time per hour.
 
 
 
