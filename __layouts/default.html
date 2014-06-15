@@ -12,6 +12,7 @@
 <meta property="og:site_name" content="Growing with the Web" />
 {% if page.socialimage %}<meta property="og:image" content="http://www.growingwiththeweb.com{{ site.baseurl }}{{ page.socialimage }}" />{% endif %}
 <title>{% if page.title %}{{ page.title }} - {% endif %} Growing with the Web</title>
+<link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
 <link href='{{ site.baseurl }}/images/general/favicon.png' rel='shortcut icon' type='image/png'>
 <link href='http://feeds.feedburner.com/GrowingWithTheWeb' rel='alternate' title='Growing with the Web - Atom' type='application/atom+xml'>
 {% if page.url != "/p/explore.html" %}<link href='http://www.growingwiththeweb.com{{ page.url }}' rel='canonical'>{% endif %}
@@ -30,7 +31,6 @@
 <script type="text/javascript" src="{{ site.baseurl }}/scripts/tag-search.js" async></script>
 {% endif %}
 <script src='http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript' async></script>
-<link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
 <script type="text/javascript"><!--@@include('google-analytics.js')--><!--@@include('fusion-ad.js')--></script>
 </body>
 </html>
