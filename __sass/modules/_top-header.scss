@@ -1,5 +1,6 @@
 .top-header {
-  text-align: center;
+  // Inline
+  //text-align: center;
 
   @include media-gt-md {
     height: $header-height-large;
