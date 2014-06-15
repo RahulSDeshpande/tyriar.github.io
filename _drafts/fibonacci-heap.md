@@ -3,13 +3,12 @@ layout      : post
 title       : Fibonacci heap
 tags        : [Computer science, Data structure, Generics, Heap, Java]
 socialimage : 
+draft : 1
 primarytag  : Data structure
-intro       : A Fibonacci heap is a heap data structure similar to the [binomial heap][1] only with several modifications and a looser structure. The main hallmark of the Fibonacci heap is that it defers 'clean up' operations to be done at a point where they are more convenient, guaranteeing \(Θ(1)\) for several operations. Due to these deferred clean up steps, the worst case time complexity of the delete and extract minimum operations is \(O(n)\), however they turn out to be \(O(\log n)\) amortised.
+intro       : A Fibonacci heap is a heap data structure similar to the [binomial heap][1], just with several modifications and a looser structure. The main hallmark of the Fibonacci heap is that it defers all 'clean up' operations to be done at a point where they are more convenient, guaranteeing \(Θ(1)\) for several operations. Due to these deferred clean up steps, the worst case time complexity of the delete and extract minimum operations is \(O(n)\), however they turn out to be \(O(\log n)\) amortised.
 ---
 
-The Fibonacci heap was designed in order to improve Dijkstra's shortest path algorithm from \\(O(m \log n)\\) to \\(O(m + n \log n\\) by optimising the operations used most by the algorithm.
-
-Its name derives from the fact that the Fibonacci sequence is used in its complexity analysis.
+The Fibonacci heap was designed in order to improve Dijkstra's shortest path algorithm from \\(O(m \log n)\\) to \\(O(m + n \log n\\) by optimising the operations used most by the algorithm. Its name derives from the fact that the Fibonacci sequence is used in its complexity analysis.
 
 *The animations in this article may not work in your browser, it has been tested in the latest Chrome and Firefox.*
 
@@ -23,7 +22,7 @@ Its name derives from the fact that the Fibonacci sequence is used in its comple
 | Extract minimum | Removes and returns the minimum value given a reference to **the node** | \\(O(\log n)\\)\*  |
 | Find minimum    | Returns the minimum value                                               | \\(Θ(1)\\)         |
 | Insert          | Inserts a new value                                                     | \\(Θ(1)\\)         |
-| Union           | Combine the heap with another to form a valid Fibonacci heap             | \\(Θ(1)\\)         |
+| Union           | Combine the heap with another to form a valid Fibonacci heap            | \\(Θ(1)\\)         |
 
 \* *Amortised*
 
@@ -32,7 +31,9 @@ Its name derives from the fact that the Fibonacci sequence is used in its comple
 
 ## Structure
 
-Like the binomial heap, a Fibonacci heap is a collection of *heap-ordered* trees. They do not need to be *binomial* trees however, this is where the relaxation of some of the binomial heap's properties comes in.
+Like the binomial heap, a Fibonacci heap is a collection of *heap-ordered* trees. They do not need to be *binomial* trees however, this is where the relaxation of some of the binomial heap's properties comes in. Each tree has an order just like the [binomial heap][2], nodes can be removed from trees without restructuring however so the order does not necessarily represent the maximum height of the tree.
+
+{% include post-image.html class="center-aligned" alt="Links" src="/images/2014//structure.svg" %}
 
 
 
@@ -42,14 +43,19 @@ The pointers in the Fibonacci heap is very similar to how the binomial heap, onl
 
 {% include post-image.html class="center-aligned" alt="Links" src="/images/2014//links.svg" %}
 
+Note that the child node whose parent links to it is always the node with the smallest value among its siblings.
+
 
 
 ## 'Marked' nodes
 
-An important part of the Fibonacci Heap is how it 'marks' nodes in order to achieve its desired time bounds. The decrease key operation marks a node when it is cut from a tree, 
+An important part of the Fibonacci Heap is how it 'marks' nodes in order to achieve its desired time bounds. The decrease key operation marks a node when its child is cut from a tree, this allows us to track some history for each node. Essentially the marking of nodes allows us to track whether a node;
 
-http://programmers.stackexchange.com/questions/187410/marked-nodes-in-fibonacci-heaps
-http://stackoverflow.com/questions/12864914/what-is-the-purpose-behind-marking-some-of-the-nodes-in-fibonacci-heap
+* has had no children cut (unmarked)
+* has had a single child cut (marked)
+* is having a second child cut (removing a child of a marked node)
+
+When a second child is cut from the parent, the parent it moved to the root link. This ensures that the structure of the Fibonacci heap does not stray too far from that of the binomial heap, which is one of the properties that enables the Fibonacci heap to achieve its amortised time bounds.
 
 
 
@@ -125,6 +131,7 @@ Union concatenates the root lists of two Fibonacci Heaps and sets the minimum no
 
 
 [1]: /2014/01/binomial-heap.html
+[2]: /2014/01/binomial-heap.html#structure
 
 
 Priority queue implementation, like binary heap

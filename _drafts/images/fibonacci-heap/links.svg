@@ -44,7 +44,7 @@
             </g>
             <g transform="translate(-180,90)">
                 <path d="m0 70 l0,-50" marker-end="url(#arrow)"/>
-                <path d="m-14.142135 14.142135 l-61.71572,61.71572" marker-end="url(#arrow)"/>
+                <path d="m0 20 l0,50" marker-end="url(#arrow)"/>
                 <path d="m17.320508 -10 l145.358984,-70" marker-end="url(#arrow)"/>
                 <path d="m20 0 l50,0" marker-end="url(#arrow)"/>
                 <path d="m70 0 l-50,0" marker-end="url(#arrow)"/>
