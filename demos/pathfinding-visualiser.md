@@ -57,5 +57,5 @@ Visited dode
 
 
 
-[1]: {{site.baseurl}}/2012/06/03/astar-pathfinding-algorithm.html
+[1]: /2012/06/a-pathfinding-algorithm.html
 [2]: https://github.com/Tyriar/canvas-astar.js
