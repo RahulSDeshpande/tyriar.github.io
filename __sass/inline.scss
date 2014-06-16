@@ -55,6 +55,12 @@
     width: 100%;
   }
 }
+.top-nav {
+  li {
+    display: inline-block;
+    margin-top: $header-spacing;
+  }
+}
 
 // _wrappers.scss
 
