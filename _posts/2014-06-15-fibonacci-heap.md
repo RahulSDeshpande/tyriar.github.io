@@ -6,7 +6,7 @@ preview     : /images/2012/06/15/fibonacci-heap.png
 socialimage : /images/2012/06/15/fibonacci-heap.svg
 draft : 1
 primarytag  : Data structure
-intro       : A Fibonacci heap is a heap data structure similar to the <a href="/2014/01/binomial-heap.html">binomial heap</a>, just with several modifications and a looser structure. The main hallmark of the Fibonacci heap is that it defers all 'clean up' operations to be done at a point where they are more convenient, guaranteeing \(Θ(1)\) for several operations. Due to these deferred clean up steps, the worst case time complexity of the delete and extract minimum operations is \(O(n)\), however they turn out to be \(O(\log n)\) amortised.
+intro       : A Fibonacci heap is a heap data structure similar to the <a href="/2014/01/binomial-heap.html">binomial heap</a>, only with a few modifications and a looser structure. The primary difference of the Fibonacci heap is that it defers all 'clean up' operations to a point where they are more convenient, which guarantees \(Θ(1)\) for several operations. Due to these deferred clean up steps, the worst case time complexity of the delete and extract minimum operations is \(O(n)\), however they are \(O(\log n)\) amortised.
 ---
 
 {% include post-image.html class="right-col" alt="Fibonacci heap" src="/images/2014/06/15/fibonacci-heap.svg" %}
