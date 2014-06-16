@@ -9,7 +9,7 @@ primarytag  : Data structure
 intro       : A Fibonacci heap is a heap data structure similar to the <a href="/2014/01/binomial-heap.html">binomial heap</a>, only with a few modifications and a looser structure. The primary difference of the Fibonacci heap is that it defers all 'clean up' operations to a point where they are more convenient, which guarantees \(Θ(1)\) for several operations. Due to these deferred clean up steps, the worst case time complexity of the delete and extract minimum operations is \(O(n)\), however they are \(O(\log n)\) amortised.
 ---
 
-{% include post-image.html class="right-col" alt="Fibonacci heap" src="/images/2014/06/15/fibonacci-heap.svg" %}
+{% include post-image.html class="right-col" alt="Fibonacci heap" src="/images/2014/06/15/fibonacci-heap.svg" caption="A Fibonacci heap" %}
 
 The Fibonacci heap was designed in order to improve Dijkstra's shortest path algorithm from \\(O(m \log n)\\) to \\(O(m + n \log n)\\) by optimising the operations used most by the algorithm. Its name derives from the fact that the Fibonacci sequence is used in the complexity analysis of its operations.
 
@@ -98,7 +98,7 @@ Union concatenates the root lists of two Fibonacci Heaps and sets the minimum no
 
 Decrease key lowers the key of a node. The node is then cut from the tree, joining the root list as its own tree. The parent of the node is then cut if it is marked, this continues for each anscestor until a node that is not marked is encountered, which is then marked.
 
-{% include svg-with-script.html class="center-aligned" alt="Decrease key" src="/images/2014/06/15/decrease-key.anim.svg" width="390px" %}
+{% include svg-with-script.html class="center-aligned" alt="Decrease key" src="/images/2014/06/15/decrease-key.anim.svg" width="390px" caption="DecreaseKey(20, 1)" %}
 
 
 
