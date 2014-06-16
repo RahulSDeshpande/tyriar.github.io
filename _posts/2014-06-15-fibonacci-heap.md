@@ -38,6 +38,8 @@ The Fibonacci heap was designed in order to improve Dijkstra's shortest path alg
 
 Like the binomial heap, a Fibonacci heap is a collection of *heap-ordered* trees. They do not need to be *binomial* trees however, this is where the relaxation of some of the binomial heap's properties comes in. Each tree has an order just like the [binomial heap][2] that is based on the number of children. Nodes within a Fibonacci heap can be removed from trees without restructuring them however, so the order does not necessarily indicate the maximum height of the tree, or number of nodes.
 
+{% include post-image.html class="stretch full-width" alt="Links" src="/images/2014/06/15/structure.svg" caption="Some examples of tree orders" %}
+
 
 
 ## Links
