@@ -70,7 +70,7 @@ When a second child is cut from its parent, the parent is moved to the root list
 
 ### Find minimum
 
-The minimum node in the heap is always maintained in a dedicated pointer.
+A pointer to minimum node of the root list is always kept up to date.
 
 {% include post-image.html class="center-aligned" alt="Insert" src="/images/2014/06/15/find-minimum.svg" %}
 
