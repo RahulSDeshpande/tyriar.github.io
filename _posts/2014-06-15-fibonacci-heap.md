@@ -2,8 +2,8 @@
 layout      : post
 title       : Fibonacci heap
 tags        : [Computer science, Data structure, Generics, Heap, Java]
-preview     : /images/2012/06/15/fibonacci-heap.png
-socialimage : /images/2012/06/15/fibonacci-heap.svg
+preview     : /images/2014/06/15/fibonacci-heap.png
+socialimage : /images/2014/06/15/fibonacci-heap.svg
 draft : 1
 primarytag  : Data structure
 intro       : A Fibonacci heap is a heap data structure similar to the <a href="/2014/01/binomial-heap.html">binomial heap</a>, only with a few modifications and a looser structure. The Fibonacci heap was designed in order to improve Dijkstra's shortest path algorithm from \(O(m \log n)\) to \(O(m + n \log n)\) by optimising the operations used most by the algorithm. Its name derives from the fact that the Fibonacci sequence is used in the complexity analysis of its operations.
@@ -108,7 +108,9 @@ Extract minimum is the most complex operation of a Fibonacci Heap as it's where 
 
 {% include svg-with-script.html class="center-aligned" alt="Extract minimum" src="/images/2014/06/15/extract-min1.anim.svg" width="390px" %}
 
-If the minimum was the only node in the root list, the pointer to the minimum node is set to the smallest node in the root list and the operation is completed. Otherwise, the 'consolidate' operation is performed which merges all trees of the same order together until there are no two trees with the same degree. The minimum is then set to the smallest node in the root list.
+If the minimum was the only node in the root list, the pointer to the minimum node is set to the smallest node in the root list and the operation is completed.
+
+If not, the 'consolidate' operation is performed which merges all trees of the same order together until there are no two trees of the same order. The minimum is then set to the smallest node in the root list.
 
 {% include svg-with-script.html class="center-aligned" alt="Consolidate" src="/images/2014/06/15/extract-min2.anim.svg" width="390px" %}
 
