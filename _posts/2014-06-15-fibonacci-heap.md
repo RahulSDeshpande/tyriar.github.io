@@ -78,17 +78,17 @@ A pointer to minimum node of the root list is always kept up to date.
 
 ### Insert
 
-Insert creates a new tree with degree one containing only the new node which is added to the heap. This is initialised with a child doubly linked list containing only itself. The total number of nodes in the tree \\(n\\) is incremented and the pointer to the minimum value \\(min\\) is if necessary.
-
-The insert operation of a fibonacci heap does not attempt to consolidate the trees of equal degree, opting instead to defer until a later operation.
+Insert creates a new tree containing only the new node which is being added to the heap. The total number of nodes in the tree \\(n\\) is incremented and the pointer to the minimum value is updated if necessary.
 
 {% include post-image.html class="center-aligned" alt="Insert" src="/images/2014/06/15/insert.svg" %}
+
+The insert operation of a fibonacci heap does not attempt to consolidate trees of equal order, opting instead to defer until a later time.
 
 
 
 ### Union
 
-Union concatenates the root lists of two Fibonacci Heaps and sets the minimum node to which ever tree's minimum node is smaller.
+Union concatenates the root lists of two Fibonacci heaps and sets the minimum node to which ever tree's minimum node is smaller.
 
 {% include svg-with-script.html class="center-aligned" alt="Union" src="/images/2014/06/15/union.anim.svg" width="480px" %}
 
@@ -96,7 +96,7 @@ Union concatenates the root lists of two Fibonacci Heaps and sets the minimum no
 
 ### Decrease key
 
-Decrease key lowers the key of a node. The node is then cut from the tree, joining the root list as its own tree. The parent of the node is then cut if it is marked, this continues for each anscestor until a node that is not marked is encountered, which is then marked.
+Decrease key lowers the key of a node. The node is then cut from the tree, joining the root list as its own tree. The parent of the node is then cut if it is marked, this continues for each anscestor until a parent that is not marked is encountered, which is then marked.
 
 {% include svg-with-script.html class="center-aligned" alt="Decrease key" src="/images/2014/06/15/decrease-key.anim.svg" width="390px" caption="DecreaseKey(20, 1)" %}
 
@@ -104,11 +104,11 @@ Decrease key lowers the key of a node. The node is then cut from the tree, joini
 
 ### Extract minimum
 
-Extract minimum is by far the most complex operation of a Fibonacci Heap as it's where the actions that were deferred by other operations are performed. It starts by removing the minimum node from the root list and adding its children to the root list.
+Extract minimum is the most complex operation of a Fibonacci Heap as it's where the actions that were deferred by the other operations occur. It starts by removing the minimum node from the root list and adding its children to the root list.
 
 {% include svg-with-script.html class="center-aligned" alt="Extract minimum" src="/images/2014/06/15/extract-min1.anim.svg" width="390px" %}
 
-If the minimum was the only node in the root list, the new minimum node to the smallest node in the root list and the operation is completed. Otherwise, the 'consolidate' operation is called which merges all trees of the same degree together until there is no two trees with the same degree. The minimum is then set as the smallest node in the root list.
+If the minimum was the only node in the root list, the pointer to the minimum node is set to the smallest node in the root list and the operation is completed. Otherwise, the 'consolidate' operation is performed which merges all trees of the same order together until there are no two trees with the same degree. The minimum is then set to the smallest node in the root list.
 
 {% include svg-with-script.html class="center-aligned" alt="Consolidate" src="/images/2014/06/15/extract-min2.anim.svg" width="390px" %}
 
@@ -116,7 +116,7 @@ If the minimum was the only node in the root list, the new minimum node to the s
 
 ### Delete
 
-Delete is performed by calling decrease key to reducing the node to negative infinity which pulls the node to the top of the tree. Extract minimum is then called to remove the node from the heap.
+Delete is performed by calling decrease key to reduce the node to negative infinity which pulls the node to the top of the tree. Extract minimum is then called on the node to remove it from the heap.
 
 
 
