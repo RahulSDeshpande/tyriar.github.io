@@ -3,7 +3,7 @@ layout : plain
 title  : Code license
 ---
 
-Unless otherwise stated, within the article or linked GitHub project, all code within the articles of this blog are released under the [Unlicense][1].
+Unless otherwise stated, within the article or linked GitHub project, all code within the articles of this blog is released under [Unlicense][1].
 
 > This is free and unencumbered software released into the public domain.
 >
