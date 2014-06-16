@@ -1,5 +1,8 @@
-<div class="post-image {{ include.class }}">
+<figure class="post-image {{ include.class }}">
     <object data="{{ site.baseurl }}{{ include.src }}" type="image/svg+xml" style="max-width:{{ include.width }}">
         {{ include.alt }}, your browser doesn't support SVG :(
     </object>
-</div>
+    {% if include.caption %}
+        <figcaption>{{ include.caption }}</figcaption>
+    {% endif %}
+</figure>
