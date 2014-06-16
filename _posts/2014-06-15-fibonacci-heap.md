@@ -11,23 +11,23 @@ intro       : A Fibonacci heap is a heap data structure similar to the <a href="
 
 {% include post-image.html class="right-col" alt="Fibonacci heap" src="/images/2014/06/15/fibonacci-heap.svg" %}
 
-The Fibonacci heap was designed in order to improve Dijkstra's shortest path algorithm from \\(O(m \log n)\\) to \\(O(m + n \log n)\\) by optimising the operations used most by the algorithm. Its name derives from the fact that the Fibonacci sequence is used in its complexity analysis.
+The Fibonacci heap was designed in order to improve Dijkstra's shortest path algorithm from \\(O(m \log n)\\) to \\(O(m + n \log n)\\) by optimising the operations used most by the algorithm. Its name derives from the fact that the Fibonacci sequence is used in the complexity analysis of its operations.
 
-*This article assumes you have knowledge of the [binomial heap][1] data structure.*
+*This article assumes some knowledge of the [binomial heap][1] data structure.*
 
 *The animations in this article may not work in your browser, it has been tested in the latest Chrome and Firefox.*
 
 
 ## Time complexity
 
-| Operation       | Description                                                             | Complexity         |
-|-----------------|-------------------------------------------------------------------------|--------------------|
-| Decrease key    | Decreases an existing key to some value                                 | \\(Θ(1)\\)\*       |
-| Delete          | Deletes a node given a reference to **the node**                        | \\(O(\log n)\\)\*  |
-| Extract minimum | Removes and returns the minimum value given a reference to **the node** | \\(O(\log n)\\)\*  |
-| Find minimum    | Returns the minimum value                                               | \\(Θ(1)\\)         |
-| Insert          | Inserts a new value                                                     | \\(Θ(1)\\)         |
-| Union           | Combine the heap with another to form a valid Fibonacci heap            | \\(Θ(1)\\)         |
+| Operation       | Description                                                   | Complexity         |
+|-----------------|---------------------------------------------------------------|--------------------|
+| Decrease key    | Decreases an existing key to some value                       | \\(Θ(1)\\)\*       |
+| Delete          | Deletes a node given a reference to it                        | \\(O(\log n)\\)\*  |
+| Extract minimum | Removes and returns the minimum value given a reference to it | \\(O(\log n)\\)\*  |
+| Find minimum    | Returns the minimum value                                     | \\(Θ(1)\\)         |
+| Insert          | Inserts a new value                                           | \\(Θ(1)\\)         |
+| Union           | Combine the heap with another to form a valid Fibonacci heap  | \\(Θ(1)\\)         |
 
 \* *Amortised*
 
