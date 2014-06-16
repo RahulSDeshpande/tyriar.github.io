@@ -107,11 +107,11 @@
                 </g>
                 <g transform="translate(-60,60)">
                     <path d="m0 0 l0,60"/>
-                    <ellipse ry="20" rx="20" cy="0" cx="0" />
-                    <text y="7" x="0">5</text>
+                    <ellipse ry="20" rx="20" cy="0" cx="0" class="black" />
+                    <text y="7" x="0" class="white">5</text>
                     <g transform="translate(0,60)">
-                        <ellipse ry="20" rx="20" cy="0" cx="0" class="black" />
-                        <text y="7" x="0" class="white">13</text>
+                        <ellipse ry="20" rx="20" cy="0" cx="0" />
+                        <text y="7" x="0">13</text>
                     </g>
                 </g>
             </g>
