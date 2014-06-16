@@ -40,7 +40,7 @@ Like the binomial heap, a Fibonacci heap is a collection of *heap-ordered* trees
 
 Each tree has an order just like the [binomial heap][2] that is based on the number of children. Nodes within a Fibonacci heap can be removed from their tree without restructuring them however, so the order does not necessarily indicate the maximum height of the tree, or number of nodes it contains.
 
-{% include post-image.html class="stretch full-width" alt="Links" src="/images/2014/06/15/structure.svg" caption="Some examples of trees of order 0, 1 and 2. The black nodes are 'marked'" %}
+{% include post-image.html class="stretch full-width" alt="Links" src="/images/2014/06/15/structure.svg" caption="Some examples of trees of order 0, 1 and 2 (the black nodes are 'marked')" %}
 
 
 
@@ -56,13 +56,13 @@ Note that the child node whose parent links to it is always the node with the sm
 
 ## 'Marked' nodes
 
-An important part of the Fibonacci Heap is how it marks nodes in order to achieve its desired time bounds. The decrease key operation marks a node when its child is cut from a tree, this allows us to track some history for each node. Essentially the marking of nodes allows us to track whether:
+An important part of the Fibonacci Heap is how it marks nodes within the trees. The decrease key operation marks a node when its child is cut from a tree, this allows it to track some history about each node. Essentially the marking of nodes allows us to track whether:
 
 * The node has had no children cut (unmarked)
 * The node has had a single child cut (marked)
-* The node is having a second child cut (removing a child of a marked node)
+* The node is about to have a second child cut (removing a child of a marked node)
 
-When a second child is cut from the parent, the parent it moved to the root list. This ensures that the structure of the Fibonacci heap does not stray too far from that of the binomial heap, which is one of the properties that enables the Fibonacci heap to achieve its amortised time bounds.
+When a second child is cut from its parent, the parent is moved to the root list. This ensures that the structure of the Fibonacci heap does not stray too far from that of the binomial heap, which is one of the properties that enables the Fibonacci heap to achieve its amortised time bounds.
 
 
 
