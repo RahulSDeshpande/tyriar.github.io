@@ -52,11 +52,11 @@ Note that the child node whose parent links to it is always the node with the sm
 
 ## 'Marked' nodes
 
-An important part of the Fibonacci Heap is how it marks nodes in order to achieve its desired time bounds. The decrease key operation marks a node when its child is cut from a tree, this allows us to track some history for each node. Essentially the marking of nodes allows us to track whether a node;
+An important part of the Fibonacci Heap is how it marks nodes in order to achieve its desired time bounds. The decrease key operation marks a node when its child is cut from a tree, this allows us to track some history for each node. Essentially the marking of nodes allows us to track whether:
 
-* has had no children cut (unmarked)
-* has had a single child cut (marked)
-* is having a second child cut (removing a child of a marked node)
+* The node has had no children cut (unmarked)
+* The node has had a single child cut (marked)
+* The node is having a second child cut (removing a child of a marked node)
 
 When a second child is cut from the parent, the parent it moved to the root list. This ensures that the structure of the Fibonacci heap does not stray too far from that of the binomial heap, which is one of the properties that enables the Fibonacci heap to achieve its amortised time bounds.
 
@@ -68,7 +68,7 @@ When a second child is cut from the parent, the parent it moved to the root list
 
 Decrease key sets a node's key to a certain value less than the original. The node is then cut from the tree, joining the root list as its own tree. The parent of the node is then cut if it is marked, this continues for each anscestor until a node that is not marked is encountered, which is then marked.
 
-{% include svg-with-script.html class="center-aligned" alt="Decrease key" src="/images/2014/06/15/decrease-key.anim.svg" width="240px" %}
+{% include svg-with-script.html class="center-aligned" alt="Decrease key" src="/images/2014/06/15/decrease-key.anim.svg" width="390px" %}
 
 
 
@@ -82,11 +82,11 @@ Delete is performed by calling decrease key to reducing the node to negative inf
 
 Extract minimum is by far the most complex operation of a Fibonacci Heap as it's where the actions that were deferred by other operations are performed. It starts by removing the minimum node from the root list and adding its children to the root list.
 
-{% include svg-with-script.html class="center-aligned" alt="Extract minimum" src="/images/2014/06/15/extract-min1.anim.svg" width="240px" %}
+{% include svg-with-script.html class="center-aligned" alt="Extract minimum" src="/images/2014/06/15/extract-min1.anim.svg" width="390px" %}
 
 If the minimum was the only node in the root list, the new minimum node to the smallest node in the root list and the operation is completed. Otherwise, the 'consolidate' operation is called which merges all trees of the same degree together until there is no two trees with the same degree. The minimum is then set as the smallest node in the root list.
 
-{% include svg-with-script.html class="center-aligned" alt="Consolidate" src="/images/2014/06/15/extract-min2.anim.svg" width="240px" %}
+{% include svg-with-script.html class="center-aligned" alt="Consolidate" src="/images/2014/06/15/extract-min2.anim.svg" width="390px" %}
 
 
 
@@ -112,7 +112,7 @@ The insert operation of a fibonacci heap does not attempt to consolidate the tre
 
 Union concatenates the root lists of two Fibonacci Heaps and sets the minimum node to which ever tree's minimum node is smaller.
 
-{% include svg-with-script.html class="center-aligned" alt="Union" src="/images/2014/06/15/union.anim.svg" width="240px" %}
+{% include svg-with-script.html class="center-aligned" alt="Union" src="/images/2014/06/15/union.anim.svg" width="480px" %}
 
 
 
