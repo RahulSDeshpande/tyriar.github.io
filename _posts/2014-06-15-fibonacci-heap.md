@@ -44,6 +44,16 @@ Each tree has an order just like the [binomial heap][2] that is based on the num
 
 
 
+## Links
+
+The pointers between nodes in a Fibonacci heap are very similar that of the binomial heap, only that each node in a Fibonacci heap contains a *doubly* linked list of all its children. This allows node removal and child list concatenation to both be performed in linear time.
+
+{% include post-image.html class="center-aligned" alt="Links" src="/images/2014/06/15/links.svg" %}
+
+Note that the child node whose parent links to it is always the node with the smallest value among its siblings.
+
+
+
 ## 'Marked' nodes
 
 An important part of the Fibonacci Heap is how it marks nodes in order to achieve its desired time bounds. The decrease key operation marks a node when its child is cut from a tree, this allows us to track some history for each node. Essentially the marking of nodes allows us to track whether:
@@ -53,16 +63,6 @@ An important part of the Fibonacci Heap is how it marks nodes in order to achiev
 * The node is having a second child cut (removing a child of a marked node)
 
 When a second child is cut from the parent, the parent it moved to the root list. This ensures that the structure of the Fibonacci heap does not stray too far from that of the binomial heap, which is one of the properties that enables the Fibonacci heap to achieve its amortised time bounds.
-
-
-
-## Links
-
-The pointers in the Fibonacci heap is very similar to how the binomial heap, only that each node in a Fibonacci heap contains a doubly linked list of all its children. This allows node removal and child list concatenation to both be performed in linear time.
-
-{% include post-image.html class="center-aligned" alt="Links" src="/images/2014/06/15/links.svg" %}
-
-Note that the child node whose parent links to it is always the node with the smallest value among its siblings.
 
 
 

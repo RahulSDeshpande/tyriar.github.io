@@ -24,7 +24,7 @@
             <path d="m0 70 l0,-50" marker-end="url(#arrow)"/>
             <path d="m-17.320508 10 l-145.358984,70" marker-end="url(#arrow)"/>
             <ellipse ry="20" rx="20" cy="0" cx="0" />
-            <text y="7" x="0">3</text>
+            <text y="7" x="0">2</text>
             <g transform="translate(0,90)">
                 <ellipse ry="20" rx="20" cy="0" cx="0" />
                 <text y="7" x="0">4</text>
@@ -52,7 +52,7 @@
                 <text y="7" x="0">3</text>
                 <g transform="translate(0,90)">
                     <ellipse ry="20" rx="20" cy="0" cx="0" />
-                    <text y="7" x="0">4</text>
+                    <text y="7" x="0">8</text>
                 </g>
                 <g transform="translate(-90,90)">
                     <path d="m14.142135 -14.142135 l61.71572,-61.71572" marker-end="url(#arrow)"/>
@@ -61,10 +61,10 @@
                     <path d="m70 0 l-50,0" marker-end="url(#arrow)"/>
                     <path d="m0 70 l0,-50" marker-end="url(#arrow)"/>
                     <ellipse ry="20" rx="20" cy="0" cx="0" />
-                    <text y="7" x="0">5</text>
+                    <text y="7" x="0">11</text>
                     <g transform="translate(0,90)">
                         <ellipse ry="20" rx="20" cy="0" cx="0" />
-                        <text y="7" x="0">12</text>
+                        <text y="7" x="0">18</text>
                     </g>
                 </g>
             </g>
