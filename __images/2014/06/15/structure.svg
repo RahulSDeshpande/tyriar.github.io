@@ -12,11 +12,11 @@
         .dot-red { stroke: hsl(0,100%,80%); fill: hsl(0,100%,95%); }
         .dot-green { stroke: hsl(120,100%,80%); fill: hsl(120,100%,95%); }
         .dot-blue { stroke: hsl(240,100%,80%); fill: hsl(240,100%,95%); }
-        .black { fill: #000; }
-        .white { fill: #fff; }
         line { stroke-width: 2; stroke: #000; }
         text { text-anchor: middle; font-family: Helvetica, Arial, sans-serif; font-size: 22px; fill: #000; }
         ellipse { stroke-width: 2; stroke: #000; fill: #FFF }
+        .black { fill: #000; }
+        .white { fill: #fff; }
         path { stroke: #000; stroke-width: 2; }
         .order { font-size:18px; }
     </style>
@@ -39,17 +39,17 @@
                 <text y="7" x="0">10</text>
             </g>
 
-            <g transform="translate(90,0)">
+            <g transform="translate(90 0)">
                 <path d="m0 0 l0,60"/>
                 <ellipse ry="20" rx="20" cy="0" cx="0" class="black" />
-                <text y="7" x="0" class="white">4</text>
+                <text y="7" x="0" class="white">2</text>
                 <g transform="translate(0,60)">
                     <path d="m0 0 l0,60"/>
                     <ellipse ry="20" rx="20" cy="0" cx="0" />
-                    <text y="7" x="0">10</text>
-                    <g transform="translate(0,60)">
+                    <text y="7" x="0">7</text>
+                    <g transform="translate(0 60)">
                         <ellipse ry="20" rx="20" cy="0" cx="0" />
-                        <text y="7" x="0">10</text>
+                        <text y="7" x="0">11</text>
                     </g>
                 </g>
             </g>
@@ -75,18 +75,18 @@
                 <path d="m0 0 l0,60"/>
                 <path d="m0 0 l-60,60"/>
                 <ellipse ry="20" rx="20" cy="0" cx="0" />
-                <text y="7" x="0">1</text>
+                <text y="7" x="0">3</text>
                 <g transform="translate(0,60)">
                     <ellipse ry="20" rx="20" cy="0" cx="0" />
-                    <text y="7" x="0">9</text>
+                    <text y="7" x="0">16</text>
                 </g>
                 <g transform="translate(-60,60)">
                     <path d="m0 0 l0,60"/>
                     <ellipse ry="20" rx="20" cy="0" cx="0" />
-                    <text y="7" x="0">7</text>
+                    <text y="7" x="0">6</text>
                     <g transform="translate(0,60)">
                         <ellipse ry="20" rx="20" cy="0" cx="0" />
-                        <text y="7" x="0">15</text>
+                        <text y="7" x="0">8</text>
                     </g>
                 </g>
             </g>
@@ -95,23 +95,23 @@
                 <path d="m0 0 l0,60"/>
                 <path d="m0 0 l-60,60"/>
                 <ellipse ry="20" rx="20" cy="0" cx="0" class="black" />
-                <text y="7" x="0" class="white">1</text>
+                <text y="7" x="0" class="white">2</text>
                 <g transform="translate(0,60)">
                     <path d="m0 0 l0,60"/>
                     <ellipse ry="20" rx="20" cy="0" cx="0" />
-                    <text y="7" x="0">9</text>
-                    <g transform="translate(0,60)">
+                    <text y="7" x="0">4</text>
+                    <g transform="translate(0 60)">
                         <ellipse ry="20" rx="20" cy="0" cx="0" />
-                        <text y="7" x="0">15</text>
+                        <text y="7" x="0">7</text>
                     </g>
                 </g>
                 <g transform="translate(-60,60)">
                     <path d="m0 0 l0,60"/>
                     <ellipse ry="20" rx="20" cy="0" cx="0" />
-                    <text y="7" x="0">7</text>
+                    <text y="7" x="0">5</text>
                     <g transform="translate(0,60)">
                         <ellipse ry="20" rx="20" cy="0" cx="0" class="black" />
-                        <text y="7" x="0" class="white">15</text>
+                        <text y="7" x="0" class="white">13</text>
                     </g>
                 </g>
             </g>

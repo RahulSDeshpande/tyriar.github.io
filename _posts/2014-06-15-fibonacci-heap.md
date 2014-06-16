@@ -11,7 +11,7 @@ intro       : A Fibonacci heap is a heap data structure similar to the [binomial
 
 {% include post-image.html class="right-col" alt="Fibonacci heap" src="/images/2014/06/15/fibonacci-heap.svg" %}
 
-The Fibonacci heap was designed in order to improve Dijkstra's shortest path algorithm from \\(O(m \log n)\\) to \\(O(m + n \log n\\) by optimising the operations used most by the algorithm. Its name derives from the fact that the Fibonacci sequence is used in its complexity analysis.
+The Fibonacci heap was designed in order to improve Dijkstra's shortest path algorithm from \\(O(m \log n)\\) to \\(O(m + n \log n)\\) by optimising the operations used most by the algorithm. Its name derives from the fact that the Fibonacci sequence is used in its complexity analysis.
 
 *This article assumes you have knowledge of the [binomial heap][1] data structure.*
 
