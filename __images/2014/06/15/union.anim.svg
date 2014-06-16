@@ -99,7 +99,7 @@
             </g>
         </g>
 
-        <g id="play-button" transform="translate(180,90)">
+        <g id="play-button" transform="translate(240,120)">
             <path d="m-30 -36l60 36l-60 36z" opacity=".85" fill="hsl(0,0%,80%)" stroke-width="0"/>
         </g>
         <rect x="0" y="0" width="240" height="180" id="click-mask" fill="transparent"/>

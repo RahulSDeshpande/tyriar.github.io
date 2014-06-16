@@ -1,5 +1,5 @@
 <?xml version="1.0" standalone="yes"?>
-<svg width="360" height="180" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="390" height="180" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <style>
         rect,ellipse,path { stroke: #000; stroke-width: 2; }
         .red { fill: hsl(0,100%,80%); }
@@ -15,51 +15,42 @@
         ellipse { stroke-width: 2; stroke: #000; fill: #FFF }
         path { stroke: #000; stroke-width: 2; }
     </style>
-    <path d="m30 30l300 0"/>
-    <g transform="translate(30,30)">
-        <ellipse ry="20" rx="20" cy="0" cx="0" />
-        <text y="7" x="0">15</text>
-    </g>
-    <g transform="translate(210,30)">
+
+    <path d="m90 30l270 0"/>
+    <g transform="translate(90,30)">
         <path d="m0 0 l0,60"/>
         <path d="m0 0 l-60,60"/>
-        <path d="m0 0 l-120,60"/>
         <ellipse ry="20" rx="20" cy="0" cx="0" />
-        <text y="7" x="0">5</text>
+        <text y="7" x="0">7</text>
         <g transform="translate(0,60)">
             <ellipse ry="20" rx="20" cy="0" cx="0" />
             <text y="7" x="0">8</text>
         </g>
         <g transform="translate(-60,60)">
             <path d="m0 0 l0,60"/>
-            <ellipse ry="20" rx="20" cy="0" cx="0" />
-            <text y="7" x="0">6</text>
-            <g transform="translate(0,60)">
-                <ellipse ry="20" rx="20" cy="0" cx="0" />
-                <text y="7" x="0">24</text>
-            </g>
-        </g>
-        <g transform="translate(-120,60)">
-            <path d="m0 0 l0,60"/>
             <ellipse ry="20" rx="20" cy="0" cx="0" class="black" />
-            <text y="7" x="0" class="white-text">12</text>
+            <text y="7" x="0" class="white">10</text>
             <g transform="translate(0,60)">
                 <ellipse ry="20" rx="20" cy="0" cx="0" />
-                <text y="7" x="0">13</text>
+                <text y="7" x="0">14</text>
             </g>
         </g>
+    </g>
+    <g transform="translate(180,30)">
+        <ellipse ry="20" rx="20" cy="0" cx="0" />
+        <text y="7" x="0">13</text>
     </g>
     <g transform="translate(270,30)">
-        <ellipse ry="20" rx="20" cy="0" cx="0" />
-        <text y="7" x="0">9</text>
-    </g>
-    <g transform="translate(330,30)">
-        <path d="m0 0 l0,60"/>
         <ellipse ry="20" rx="20" cy="0" cx="0" class="red" />
-        <text y="7" x="0">2</text>
+        <text y="7" x="0">3</text>
+    </g>
+    <g transform="translate(360,30)">
+        <path d="m0 0 l0,60"/>
+        <ellipse ry="20" rx="20" cy="0" cx="0" />
+        <text y="7" x="0">5</text>
         <g transform="translate(0,60)">
             <ellipse ry="20" rx="20" cy="0" cx="0" />
-            <text y="7" x="0">4</text>
+            <text y="7" x="0">6</text>
         </g>
     </g>
 </svg>

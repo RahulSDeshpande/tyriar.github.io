@@ -1,0 +1,135 @@
+<?xml version="1.0" standalone="yes"?>
+<svg viewBox="0 0 390 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg width="390" height="120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="playing" id="player">
+        <style>
+            .red { fill: hsl(0,100%,80%) !important; }
+            .yellow { fill: hsl(60,100%,80%) !important; }
+            .green { fill: hsl(120,100%,80%) !important; }
+            .teal { fill: hsl(180,100%,80%) !important; }
+            .blue { fill: hsl(240,100%,80%) !important; }
+            .purple { fill: hsl(300,100%,80%) !important; }
+            .black { fill: #000 !important; }
+            .white { fill: #FFF !important; }
+            line { stroke-width: 2; stroke: #000; }
+            text { text-anchor: middle; font-family: Helvetica, Arial, sans-serif; font-size: 22px; }
+            ellipse { stroke-width: 2; stroke: #000; }
+            ellipse:not(.no-color) { fill: #FFF; }
+            text:not(.no-color) { fill: #000; }
+            path { stroke: #000; stroke-width: 2; }
+            .step { font-size:18px; }
+            .playing #play-button {
+                display:none;
+            }
+            #play-button path {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+            svg:hover #play-button path {
+                -webkit-transform: scale(1.5);
+                transform: scale(1.5);
+            }
+            svg[width]:not(.playing):hover {
+                cursor:pointer;
+            }
+        </style>
+
+        <!-- links to 1 -->
+        <animate          xlink:href="#links1" id="links1pause1" begin="indefinite"       attributeName="opacity" attributeType="XML" from="1" to="1" dur="0.5s"/>
+        <animate          xlink:href="#links1" id="links1fade"   begin="links1pause1.end" attributeName="opacity" attributeType="XML" from="1" to="0" dur="0.5s"/>
+        <animate          xlink:href="#links1" id="links1pause2" begin="links1fade.end"   attributeName="opacity" attributeType="XML" from="0" to="0" dur="5s"/>
+        <!-- element 1 -->
+        <animate          xlink:href="#e1" id="e1pause1" begin="indefinite"   attributeName="opacity" attributeType="XML" from="1" to="1" dur="1.5s"/>
+        <animate          xlink:href="#e1" id="e1fade"   begin="e1pause1.end" attributeName="opacity" attributeType="XML" from="1" to="0" dur="0.5s"/>
+        <animate          xlink:href="#e1" id="e1pause2" begin="e1fade.end"   attributeName="opacity" attributeType="XML" from="0" to="0" dur="4s"/>
+        <!-- element 10 -->
+        <animateTransform xlink:href="#e10" id="e10pause1" begin="indefinite"    attributeName="transform" attributeType="XML" type="translate" from="0,0"  to="0,0"     dur="2.5s"/>
+        <animateTransform xlink:href="#e10" id="e10move"   begin="e10pause1.end" attributeName="transform" attributeType="XML" type="translate" from="0,0"  to="0,-60" dur="1s" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1"/>
+        <animateTransform xlink:href="#e10" id="e10pause2" begin="e10move.end"   attributeName="transform" attributeType="XML" type="translate" from="0,-60" to="0,-60" dur="2.5s"/>
+        <!-- link 9 to 3 -->
+        <animate          xlink:href="#link9to3" id="link9to3pause1" begin="indefinite"         attributeName="opacity" attributeType="XML" from="0" to="0" dur="4s"/>
+        <animate          xlink:href="#link9to3" id="link9to3show"   begin="link9to3pause1.end" attributeName="opacity" attributeType="XML" from="0" to="1" dur="0.5s"/>
+        <animate          xlink:href="#link9to3" id="link9to3pause2" begin="link9to3show.end"   attributeName="opacity" attributeType="XML" from="1" to="1" dur="1.5s"/>
+
+
+        <g transform="translate(30,30)">
+            <path id="link9to3" d="m0 0 l330,0" opacity="0"/>
+            <g id="links1">
+                <path d="m0 0 l330,0"/>
+                <g transform="translate(180,0)">
+                    <path d="m0 0 l0,60"/>
+                </g>
+            </g>
+            <g>
+                <path d="m0 0 l0,60"/>
+                <ellipse ry="20" rx="20" cy="0" cx="0" />
+                <text y="7" x="0">8</text>
+                <g transform="translate(0,60)">
+                    <ellipse ry="20" rx="20" cy="0" cx="0"/>
+                    <text y="7" x="0">12</text>
+                </g>
+            </g>
+            <g transform="translate(90,0)">
+                <ellipse ry="20" rx="20"/>
+                <text y="7" x="0">9</text>
+            </g>
+            <g transform="translate(180,0)">
+                <g id="e1">
+                    <ellipse ry="20" rx="20" cy="0" cx="0" class="red" />
+                    <text y="7" x="0">1</text>
+                </g>
+                <g transform="translate(0,60)">
+                    <g id="e10">
+                        <ellipse ry="20" rx="20" cy="0" cx="0" />
+                        <text y="7" x="0">10</text>
+                    </g>
+                </g>
+            </g>
+            <g transform="translate(330,0)">
+                <g id="t3">
+                    <path d="m0 0 l0,60"/>
+                    <path d="m0 0 l-60,60"/>
+                    <ellipse id="e3circle" ry="20" rx="20" cy="0" cx="0" class="no-color" fill="#FFF" />
+                    <text y="7" x="0">3</text>
+                    <g transform="translate(0,60)">
+                        <ellipse ry="20" rx="20" cy="0" cx="0"/>
+                        <text y="7" x="0">4</text>
+                    </g>
+                    <g transform="translate(-60,60)">
+                        <ellipse ry="20" rx="20" cy="0" cx="0" class="black" />
+                        <text y="7" x="0" class="white">5</text>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="play-button" transform="translate(195,60)">
+            <path d="m-30 -36l60 36l-60 36z" opacity=".85" fill="hsl(0,0%,80%)" stroke-width="0"/>
+        </g>
+        <rect x="0" y="0" width="300" height="180" id="click-mask" fill="transparent"/>
+        <script xlink:type="text/javascript">
+            (function () {
+                var svg = document.querySelector('#player');
+                if (!svg.classList || !document.querySelector('#links1pause1').beginElement) {
+                    return;
+                }
+                svg.classList.remove('playing');
+                document.querySelector('#click-mask').addEventListener('click', startPlaying);
+
+                function startPlaying() {
+                    if (!svg.classList.contains('playing')) {
+                        svg.classList.add('playing');
+                        var selectors = '#links1pause1, #e1pause1, #e10pause1, #link9to3pause1';
+                        var elements = document.querySelectorAll(selectors);
+                        for (var i = 0; i &lt; elements.length; i++) {
+                            elements[i].beginElement();
+                        }
+                        window.setTimeout(finish, 7000);
+                    }
+                }
+
+                function finish() {
+                    svg.classList.remove('playing');
+                }
+            })();
+        </script>
+    </svg>
+</svg>

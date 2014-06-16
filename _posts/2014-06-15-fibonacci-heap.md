@@ -2,13 +2,14 @@
 layout      : post
 title       : Fibonacci heap
 tags        : [Computer science, Data structure, Generics, Heap, Java]
-socialimage : 
+preview     : /images/2012/06/15/fibonacci-heap.png
+socialimage : /images/2012/06/15/fibonacci-heap.svg
 draft : 1
 primarytag  : Data structure
 intro       : A Fibonacci heap is a heap data structure similar to the [binomial heap][1], just with several modifications and a looser structure. The main hallmark of the Fibonacci heap is that it defers all 'clean up' operations to be done at a point where they are more convenient, guaranteeing \(Θ(1)\) for several operations. Due to these deferred clean up steps, the worst case time complexity of the delete and extract minimum operations is \(O(n)\), however they turn out to be \(O(\log n)\) amortised.
 ---
 
-{% include post-image.html class="right-col" alt="Fibonacci heap" src="/images/2014/06//fibonacci-heap.svg" %}
+{% include post-image.html class="right-col" alt="Fibonacci heap" src="/images/2014/06/15/fibonacci-heap.svg" %}
 
 The Fibonacci heap was designed in order to improve Dijkstra's shortest path algorithm from \\(O(m \log n)\\) to \\(O(m + n \log n\\) by optimising the operations used most by the algorithm. Its name derives from the fact that the Fibonacci sequence is used in its complexity analysis.
 
@@ -43,7 +44,7 @@ Like the binomial heap, a Fibonacci heap is a collection of *heap-ordered* trees
 
 The pointers in the Fibonacci heap is very similar to how the binomial heap, only that each node in a Fibonacci heap contains a doubly linked list of all its children. This allows node removal and child list concatenation to both be performed in linear time.
 
-{% include post-image.html class="center-aligned" alt="Links" src="/images/2014//links.svg" %}
+{% include post-image.html class="center-aligned" alt="Links" src="/images/2014/06/15/links.svg" %}
 
 Note that the child node whose parent links to it is always the node with the smallest value among its siblings.
 
@@ -67,7 +68,7 @@ When a second child is cut from the parent, the parent it moved to the root list
 
 Decrease key sets a node's key to a certain value less than the original. The node is then cut from the tree, joining the root list as its own tree. The parent of the node is then cut if it is marked, this continues for each anscestor until a node that is not marked is encountered, which is then marked.
 
-{% include svg-with-script.html class="center-aligned" alt="Decrease key" src="/images/2014/06//decrease-key.anim.svg" width="240px" %}
+{% include svg-with-script.html class="center-aligned" alt="Decrease key" src="/images/2014/06/15/decrease-key.anim.svg" width="240px" %}
 
 
 
@@ -81,11 +82,11 @@ Delete is performed by calling decrease key to reducing the node to negative inf
 
 Extract minimum is by far the most complex operation of a Fibonacci Heap as it's where the actions that were deferred by other operations are performed. It starts by removing the minimum node from the root list and adding its children to the root list.
 
-{% include svg-with-script.html class="center-aligned" alt="Extract minimum" src="/images/2014/06//extract-min1.anim.svg" width="240px" %}
+{% include svg-with-script.html class="center-aligned" alt="Extract minimum" src="/images/2014/06/15/extract-min1.anim.svg" width="240px" %}
 
 If the minimum was the only node in the root list, the new minimum node to the smallest node in the root list and the operation is completed. Otherwise, the 'consolidate' operation is called which merges all trees of the same degree together until there is no two trees with the same degree. The minimum is then set as the smallest node in the root list.
 
-{% include svg-with-script.html class="center-aligned" alt="Consolidate" src="/images/2014/06//extract-min2.anim.svg" width="240px" %}
+{% include svg-with-script.html class="center-aligned" alt="Consolidate" src="/images/2014/06/15/extract-min2.anim.svg" width="240px" %}
 
 
 
@@ -93,7 +94,7 @@ If the minimum was the only node in the root list, the new minimum node to the s
 
 The minimum node in the heap is always maintained in a dedicated pointer.
 
-{% include post-image.html class="center-aligned" alt="Insert" src="/images/2014/06//find-minimum.svg" %}
+{% include post-image.html class="center-aligned" alt="Insert" src="/images/2014/06/15/find-minimum.svg" %}
 
 
 
@@ -103,7 +104,7 @@ Insert creates a new tree with degree one containing only the new node which is 
 
 The insert operation of a fibonacci heap does not attempt to consolidate the trees of equal degree, opting instead to defer until a later operation.
 
-{% include post-image.html class="center-aligned" alt="Insert" src="/images/2014/06//insert.svg" %}
+{% include post-image.html class="center-aligned" alt="Insert" src="/images/2014/06/15/insert.svg" %}
 
 
 
@@ -111,7 +112,7 @@ The insert operation of a fibonacci heap does not attempt to consolidate the tre
 
 Union concatenates the root lists of two Fibonacci Heaps and sets the minimum node to which ever tree's minimum node is smaller.
 
-{% include svg-with-script.html class="center-aligned" alt="Union" src="/images/2014/06//union.anim.svg" width="240px" %}
+{% include svg-with-script.html class="center-aligned" alt="Union" src="/images/2014/06/15/union.anim.svg" width="240px" %}
 
 
 
