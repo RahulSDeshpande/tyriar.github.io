@@ -122,7 +122,7 @@
                         for (var i = 0; i &lt; elements.length; i++) {
                             elements[i].beginElement();
                         }
-                        window.setTimeout(finish, 7000);
+                        window.setTimeout(finish, 6000);
                     }
                 }
 

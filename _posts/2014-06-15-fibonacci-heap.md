@@ -11,7 +11,7 @@ intro       : A Fibonacci heap is a heap data structure similar to the <a href="
 
 {% include post-image.html class="right-col" alt="Fibonacci heap" src="/images/2014/06/15/fibonacci-heap.svg" %}
 
-The primary difference of the Fibonacci heap is that it defers all 'clean up' operations to a point where they are more convenient, guaranteeing \\(Θ(1)\\) for several operations. Due to these deferred clean up steps, the worst case time complexity of the delete and extract minimum operations is \\(O(n)\\), however they are \\(O(\log n)\\) amortised.
+The primary difference between the Fibonacci heap and the binomial heap is that it defers all 'clean up' jobs to a point where they are more convenient, guarenteeing \\(Θ(1)\\) for several operations. Due to the deferred clean up, the worst case time complexity of the delete and extract minimum operations is \\(O(n)\\), however they are \\(O(\log n)\\) amortised.
 
 *This article assumes some knowledge of the [binomial heap][1] data structure.*
 
@@ -38,7 +38,7 @@ The primary difference of the Fibonacci heap is that it defers all 'clean up' op
 
 Like the binomial heap, a Fibonacci heap is a collection of *heap-ordered* trees. They do not need to be *binomial* trees however, this is where the relaxation of some of the binomial heap's properties comes in.
 
-Each tree has an order just like the [binomial heap][2] that is based on the number of children. Nodes within a Fibonacci heap can be removed from their tree without restructuring them however, so the order does not necessarily indicate the maximum height of the tree, or number of nodes it contains.
+Each tree has an [order just like the binomial heap][2] that is based on the number of children. Nodes within a Fibonacci heap can be removed from their tree without restructuring them, so the order does not necessarily indicate the maximum height of the tree or number of nodes it contains.
 
 {% include post-image.html class="stretch full-width" alt="Links" src="/images/2014/06/15/structure.svg" caption="Some examples of trees of order 0, 1 and 2 (the black nodes are 'marked')" %}
 
@@ -46,7 +46,7 @@ Each tree has an order just like the [binomial heap][2] that is based on the num
 
 ## Links
 
-The pointers between nodes in a Fibonacci heap are very similar that of the binomial heap, only that each node in a Fibonacci heap contains a *doubly* linked list of all its children. This allows node removal and child list concatenation to both be performed in linear time.
+The pointers between nodes in a Fibonacci heap are very similar to that of the binomial heap, only that each node in a Fibonacci heap contains a *doubly* linked list of all its children. This allows node removal and child list concatenation to both be performed in linear time.
 
 {% include post-image.html class="center-aligned" alt="Links" src="/images/2014/06/15/links.svg" %}
 
@@ -62,7 +62,7 @@ An important part of the Fibonacci Heap is how it marks nodes within the trees. 
 * The node has had a single child cut (marked)
 * The node is about to have a second child cut (removing a child of a marked node)
 
-When a second child is cut from its parent, the parent is moved to the root list. This ensures that the structure of the Fibonacci heap does not stray too far from that of the binomial heap, which is one of the properties that enables the Fibonacci heap to achieve its amortised time bounds.
+When a second child is cut from its parent, the parent is moved to the root list. This ensures that the structure of the Fibonacci heap does not stray too far from that of the binomial heap, which is one of the properties that enables the data structure to achieve its amortised time bounds.
 
 
 
@@ -78,7 +78,7 @@ A pointer to minimum node of the root list is always kept up to date.
 
 ### Insert
 
-Insert creates a new tree containing only the new node which is being added to the heap. The total number of nodes in the tree \\(n\\) is incremented and the pointer to the minimum value is updated if necessary.
+Insert creates a new tree containing only the new node which is being added to the heap. The total number of nodes in the tree is incremented and the pointer to the minimum value is updated if necessary.
 
 {% include post-image.html class="center-aligned" alt="Insert" src="/images/2014/06/15/insert.svg" %}
 
@@ -96,7 +96,7 @@ Union concatenates the root lists of two Fibonacci heaps and sets the minimum no
 
 ### Decrease key
 
-Decrease key lowers the key of a node. The node is then cut from the tree, joining the root list as its own tree. The parent of the node is then cut if it is marked, this continues for each anscestor until a parent that is not marked is encountered, which is then marked.
+Decrease key lowers the key of a node. The node is then cut from the tree, joining the root list as its own tree. The parent of the node is then cut if it is marked, this continues for each anscestor until a parent that is not marked is encountered, which is then marked. The pointer to the minimum node is then updated if the node's new value is less than the current minimum.
 
 {% include svg-with-script.html class="center-aligned" alt="Decrease key" src="/images/2014/06/15/decrease-key.anim.svg" width="390px" caption="DecreaseKey(20, 1)" %}
 
