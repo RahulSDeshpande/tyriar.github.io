@@ -4,6 +4,7 @@ title       : "Redesign #3: From Blogger to GitHub Pages"
 tags        : [Blogging, CSS, Design, GitHub, HTML, Jekyll, Markdown, Optimisation, SVG]
 socialimage : /images/2014/02/15/new.png
 primarytag  : Design
+gpluspost   : 7qfdkNHqyt7
 intro       : Another year, another redesign. This post will look at the recent overhaul to my blog, going over the new design and feature changes.
 ---
 

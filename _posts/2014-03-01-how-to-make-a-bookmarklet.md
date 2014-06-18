@@ -3,6 +3,7 @@ layout      : post
 title       : How to make a bookmarklet
 tags        : [HTML, JavaScript]
 primarytag  : JavaScript
+gpluspost   : PsjBy9mqv1D
 intro       : A bookmarklet is a section of JavaScript that extends the browsers currently loaded page by executing from a browser bookmark.
 ---
 

@@ -5,6 +5,7 @@ tags        : [Algorithm, Computer science, Java, Sorting]
 preview     : /images/2014/02/20/bubble-sort.svg
 socialimage : /images/2014/02/20/bubble-sort.png
 primarytag  : Sorting
+gpluspost   : 8hBwPFQFMYg
 intro       : While studying efficient sorting algorithms is beneficial, studying slow ones, at least initially is as well since it teaches us why they're bad. Bubble sort is one of those bad sorting algorithms. I recall as a young programmer, around 11 years old before I had any formal training, bubble sort is how I intuitively sorted a list.
 ---
 

@@ -5,6 +5,7 @@ tags        : [Accessibility, GitHub, Jekyll]
 preview     : /images/2014/02/24/logo.png
 socialimage : /images/2014/02/24/logo.png
 primarytag  : Jekyll
+gpluspost   : aAMeEv11psw
 intro       : This post presents the basic Liquid template and customisations I use for my <a href="http://jekyllrb.com/">Jekyll</a> blog's Atom feed.
 ---
 

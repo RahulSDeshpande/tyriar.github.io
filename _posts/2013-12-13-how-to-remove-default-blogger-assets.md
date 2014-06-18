@@ -3,6 +3,7 @@ layout     : post
 title      : How to remove the default Blogger assets
 tags       : [Blogging, CSS, Design, HTML, JavaScript, Optimisation]
 primarytag : Blogging
+gpluspost  : Bn9zRC6xizf
 intro      : The default <a href="http://www.blogger.com">Blogger</a> assets have plagued me ever since I started to dive deep into the Blogger template to make my design nicer and to drive the page load time down. I discovered recently how to remove them so no requests are made.
 ---
 

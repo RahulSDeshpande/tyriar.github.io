@@ -5,6 +5,7 @@ tags        : [GitHub, Jekyll, SEO, XML]
 preview     : /images/2014/05/29/logo.png
 socialimage : /images/2014/05/29/logo.png
 primarytag  : Jekyll
+gpluspost   : iNvLWoLNEqf
 intro       : This post demonstrates how to implement an <a href="/2014/03/xml-sitemaps.html">XML sitemap</a> in <a href="http://jekyllrb.com/">Jekyll's</a> Liquid templating engine. I recommend reading up on <a href="/2014/03/xml-sitemaps.html">XML sitemaps here</a> if you aren't familiar with them.
 ---
 

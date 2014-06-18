@@ -3,6 +3,7 @@ layout      : post
 title       : progress HTML element
 tags        : [Accessibility, CSS, Design, HTML]
 primarytag  : HTML
+gpluspost   : caQTidMe8WL
 intro       : The <a href="http://www.w3.org/TR/html5/forms.html#the-progress-element"><code>progress</code> HTML element</a> was introduced in HTML5 and is used to represents the completion progress of a task. Typically it is displayed as a progress bar but this can be overridden so is up to the web developer.
 ---
 

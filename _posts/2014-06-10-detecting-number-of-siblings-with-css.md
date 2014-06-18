@@ -3,6 +3,7 @@ layout      : post
 title       : Detecting number of siblings with CSS
 tags        : [CSS, LESS, Sass]
 primarytag  : CSS
+gpluspost   : NbNoyzqYvEZ
 intro       : I came across a clever CSS technique, originally developed by <a href="http://andr3.net/blog/post/142">André Luís</a> in 2009 and later refined by <a href="http://lea.verou.me/2011/01/styling-children-based-on-their-number-with-css3/">Lea Verou</a> 2 years later; applying a style when the number of siblings is a particular number. It's definitely worth knowing.
 ---
 

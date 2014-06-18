@@ -6,6 +6,7 @@ isfeatured  : 1
 preview     : /images/2014/02/23/git-logo.png
 socialimage : /images/2014/02/23/git-tree.png
 primarytag  : GitHub
+gpluspost   : Lab3UT2oubN
 intro       : Git is a source control (or version control) system designed and developed by Linus Torvalds back in 2005 for the development of the Linux kernal. Similar to other source control systems like <abbr title="Team Foundation Server">TFS</abbr> or Subversion, it manages your source code enabling a team to work on the same project while minimising conflicts.
 ---
 

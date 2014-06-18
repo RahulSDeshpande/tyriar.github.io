@@ -5,6 +5,7 @@ tags        : [Accessibility, HTML, SEO, XML]
 preview     : /images/2014/03/03/sitemap.svg
 socialimage : /images/2014/03/03/sitemap.png
 primarytag  : SEO
+gpluspost   : dBsiWh1Twuh
 intro       : This post explains what XML sitemaps are, why they're useful and how to make one.
 ---
 

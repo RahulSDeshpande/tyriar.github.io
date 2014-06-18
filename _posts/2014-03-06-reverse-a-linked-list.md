@@ -5,6 +5,7 @@ tags        : [Algorithm, Interview questions, Java]
 primarytag  : Interview questions
 preview     : /images/2014/03/06/singly-linked-list.svg
 socialimage : /images/2014/03/06/singly-linked-list.png
+gpluspost   : Rr2QAZL2d32
 intro       : This article looks at the interview question - <em>Reverse a linked list</em>.
 ---
 

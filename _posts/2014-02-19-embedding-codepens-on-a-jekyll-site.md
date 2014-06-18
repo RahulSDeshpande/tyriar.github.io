@@ -3,6 +3,7 @@ layout      : post
 title       : Embedding CodePens on a Jekyll site
 tags        : [Jekyll, Markdown]
 primarytag  : Jekyll
+gpluspost   : PK4SH5Zsonx
 intro       : During <a href="/2014/02/redesign-3-from-blogger-to-github-pages.html">my migration</a> to <a href="http://jekyllrb.com/">Jekyll</a> I've found that the markdown parser, Maruku, doesn't compile the current <a href="http://codepen.io/">Codepen</a> embed code.
 ---
 

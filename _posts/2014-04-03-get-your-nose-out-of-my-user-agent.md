@@ -4,6 +4,7 @@ title       : Get your nose out of my user agent
 tags        : [Browser, HTML]
 socialimage : /images/2014/04/03/i-am-your-browser.png
 primarytag  : HTML
+gpluspost   : TDXPSpzPE9x
 intro       : Seriously, stop sniffing user agents. It's hurting web compatibility and causing headaches for both users and browser vendors. Here's why and what you should be doing instead.
 ---
 

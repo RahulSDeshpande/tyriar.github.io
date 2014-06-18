@@ -6,6 +6,7 @@ primarytag  : Data structure
 isfeatured  : 1
 preview     : /images/2014/01/19/binomial-heap.svg
 socialimage : /images/2014/01/19/preview.png
+gpluspost   : 1crQYaaZrNT
 intro       : A binomial heap is a priority queue data structure similar to the binary heap only with a more strict structure, it supports quicker merging of two heaps in \(Θ(\log n)\) at the cost of a slower find minimum operation. A binomial heap is made up of a series of unique 'binomial trees' which are constructed from smaller binomial trees.
 ---
 

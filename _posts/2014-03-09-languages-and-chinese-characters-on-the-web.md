@@ -6,6 +6,7 @@ tags        : [Accessibility, Chrome, HTML, Natural language, Opera, Safari, Uni
 preview     : /images/2014/03/09/cjk-characters.png
 socialimage : /images/2014/03/09/cjk-characters.png
 primarytag  : Accessibility
+gpluspost   : 85p7MK9DMco
 intro       : East-Asian languages are a bit of a mess on the internet for a number of reasons, such as browser implementation, the presence of system fonts and web developers neglecting to address the issue on their side. This article dives deep into how languages work on the web and the problems that can occur.
 ---
 

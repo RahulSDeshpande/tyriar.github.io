@@ -5,6 +5,7 @@ tags        : [Creational design pattern, Design pattern, Software engineering, 
 preview     : /images/2014/02/17/flyweight-uml.svg
 socialimage : /images/2014/02/17/preview.png
 primarytag  : Design pattern
+gpluspost   : dadVV4ttLb8
 intro       : The flyweight design pattern aims to minimise the memory usage of a collection of items by promoting re-use and deferring initialisation.
 ---
 

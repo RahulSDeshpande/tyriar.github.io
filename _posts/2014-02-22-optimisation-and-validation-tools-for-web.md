@@ -6,6 +6,7 @@ isfeatured  : 1
 preview     : /images/2014/02/22/checks.svg
 socialimage : /images/2014/02/22/checks.png
 primarytag  : Accessibility
+gpluspost   : Bymt2xMPccA
 intro       : There is a lot to cover when making a website. So much that it's unreasonable to manually check a site for best practices in <abbr title="Search Engine Optimisation">SEO</abbr>, performance, accessibility, style and so on. Luckily the internet has you covered with these great tools to push your site to the next level!
 ---
 

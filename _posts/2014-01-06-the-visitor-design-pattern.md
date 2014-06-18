@@ -4,6 +4,7 @@ title       : Visitor design pattern
 primarytag  : Design pattern
 tags        : [Behavioural design pattern, Design pattern, Java, Software engineering, UML]
 socialimage : /images/2014/01/06/preview.png
+gpluspost   : aX6FCFaFZM1
 intro       : The visitor design pattern provides a method of separating an algorithm on an object and the object's actual class implementation. This allows the programmer to easily follow the open/closed principle.
 ---
 

@@ -6,6 +6,7 @@ primarytag  : Design pattern
 isfeatured  : 1
 preview     : /images/2013/12/09/design-patterns-uml.svg
 socialimage : /images/2013/12/09/preview.png
+gpluspost   : X6WaCYUxeAx
 intro       : Design patterns in software engineering are generic solutions to some commonly occurring problems encountered when creating software. They are incredibly useful tools for both communicating a solution to a problem to other developers and also for saving time solving problems that have already been solved in quite elegant ways. Learning the big design patterns is a also just a great way to improve your skills as a software developer.
 ---
 

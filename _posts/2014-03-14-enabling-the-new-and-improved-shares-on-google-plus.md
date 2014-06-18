@@ -5,6 +5,7 @@ tags        : [Accessibility, Google, HTML, SEO]
 preview     : /images/2014/03/14/rich-share.png
 socialimage : /images/2014/03/14/google-plus.png
 primarytag  : SEO
+gpluspost   : AegpXnJJ8oe
 intro       : So Google+ dropped an update on us yesterday which allows full-sized image previews and descriptions for page shares! No longer will you have to share images and include a link to get more presence on Google+ feeds. This article will tell you how to get them up on your site!
 ---
 

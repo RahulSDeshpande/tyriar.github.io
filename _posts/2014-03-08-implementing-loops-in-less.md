@@ -5,6 +5,7 @@ tags        : [CSS, LESS]
 preview     : /images/2014/03/08/logo.png
 socialimage : /images/2014/03/08/logo.png
 primarytag  : LESS
+gpluspost   : dM5FqvFeSLy
 intro       : This article looks at how to implement for loops in LESS, which is harder than it would seem unfortunately.
 ---
 

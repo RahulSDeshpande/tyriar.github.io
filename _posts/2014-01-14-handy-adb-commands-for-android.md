@@ -6,6 +6,7 @@ primarytag  : Android
 isfeatured  : 1
 preview     : /images/2014/01/14/android.png
 socialimage : /images/2014/01/14/android.png
+gpluspost   : UbTCVnpf4g2
 intro       : Here are some of the commands I find useful for Android's <code>adb</code>. They can be used manually or to automate your build or testing process.
 ---
 

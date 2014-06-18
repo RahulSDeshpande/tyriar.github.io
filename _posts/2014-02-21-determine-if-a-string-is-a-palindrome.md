@@ -3,6 +3,7 @@ layout      : post
 title       : Determine if a string is a palindrome
 tags        : [Algorithm, Interview questions, Java]
 primarytag  : Interview questions
+gpluspost   : MRQnqhPY7Cu
 intro       : This article looks at the interview question - <em>Determine if a string is a palindrome. A palindrome is a piece of text that is spelt the same when reversed.</em>
 ---
 
