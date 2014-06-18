@@ -8,7 +8,7 @@ layout: default
 <div class="inner-wrapper">
 {{ content }}
 {% if page.primarytag %}{% include post-related-tags.html primarytag=page.primarytag %}{% endif %}
-{% include disqus.html %}
+{% include comments.html gpluspost=page.gpluspost %}
 </div>
 </div>
 </article>
