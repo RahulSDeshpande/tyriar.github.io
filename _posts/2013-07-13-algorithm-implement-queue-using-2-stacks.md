@@ -3,6 +3,7 @@ layout      : post
 title       : Implement a queue using 2 stacks
 tags        : [Algorithm, Interview questions, Java]
 primarytag  : Interview questions
+gpluspost   : caLkqp6uS5K
 intro       : This article looks at the interview question - <em>Implement a queue using two stacks.</em>
 ---
 

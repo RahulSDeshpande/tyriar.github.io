@@ -3,5 +3,5 @@
   for (var i = 0; i < codeBlocks.length; i++) {
     codeBlocks[i].parentNode.classList.add('prettyprint');
   }
-  prettyPrint();
+  window.addEventListener("load", prettyPrint);
 })();

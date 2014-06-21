@@ -3,6 +3,7 @@ layout     : post
 title      : samp HTML element
 tags       : [Accessibility, CSS, Design, HTML]
 primarytag : HTML
+gpluspost  : PN2Y1wg7DC7
 intro      : The <a href="http://www.w3.org/TR/html5/text-level-semantics.html#the-samp-element"><code>samp</code> HTML element</a> is used to represent (sample) output from a program. It has been around since <a href="http://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt">HTML1</a>, though back it was simply used to markup <q>a sequence of literal characters</q>.
 ---
 

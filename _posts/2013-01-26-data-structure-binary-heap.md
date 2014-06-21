@@ -4,6 +4,7 @@ title       : Binary heap
 tags        : [Computer science, Data structure, Generics, Heap, Java, Tree]
 socialimage : /images/2013/01/26/preview.png
 primarytag  : Data structure
+gpluspost   : Jc9yKmhh1uQ
 intro       : A binary heap is binary tree structure that typically uses an array as its underlying data structure. Heaps are one of the fundamental data structures that all software developers should have in their toolkit due to the fast extraction of either a minimum or a maximum element.
 ---
 

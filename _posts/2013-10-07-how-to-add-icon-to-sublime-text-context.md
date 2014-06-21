@@ -4,6 +4,7 @@ title       : Add an icon to Sublime Text's context menu
 tags        : [Sublime Text, Windows]
 socialimage : /images/2013/10/07/done.png
 primarytag  : Windows
+gpluspost   : 9aufccqG8Ym
 intro       : Currently the <a href="http://www.sublimetext.com/">Sublime Text</a> installer doesn't add an icon to the 'Open with Sublime Text' context menu that appears when right-clicking a file. I've only recently switched over to Sublime from <a href="http://notepad-plus-plus.org/">Notepad++</a> which does have the icon and it's just a nice thing to have because it allows you to spot it in the menu faster.
 ---
 

@@ -3,6 +3,7 @@ layout      : post
 title       : Greatest common divisor (GCD) with working
 tags        : [Algorithm, Java, Math]
 primarytag  : Algorithm
+gpluspost   : L5kca8zA19k
 intro       : The one thing I hated about maths in school and university was the fact that I had to show my working. Of course I knew that it helped the marker see that you understood the problem, but I just found it incredibly tedious. Particularly when I knew the answer right after reading the question.
 ---
 

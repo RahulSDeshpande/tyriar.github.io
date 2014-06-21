@@ -3,6 +3,7 @@ layout      : post
 title       : All combinations of a set
 tags        : [Algorithm, Computer science, Interview questions, Java]
 primarytag  : Interview questions
+gpluspost   : Cv5r8JQ52Ru
 intro       : This article looks at the interview question - <em>Implement a function that gets all possible <em>combinations</em> (or subsets) of the characters in a string with length of at least one. For example for the input string <code>"abc"</code>, the output will be <code>"a"</code>, <code>"b"</code>, <code>"c"</code>, <code>"ab"</code>, <code>"ac"</code>, <code>"bc"</code> and <code>"abc"</code>.</em>
 ---
 

@@ -6,6 +6,7 @@ isfeatured  : 1
 preview     : /images/2013/06/09/zig-zag-left.svg
 socialimage : /images/2013/06/09/preview.png
 primarytag  : Data structure
+gpluspost   : LpNbLm7ncmx
 intro       : The splay tree is a type of self-adjusting binary search tree like the <a href="/2012/12/data-structure-red-black-tree.html">red-black tree</a>. What makes the splay tree special is its ability to access recently accessed elements faster. Whenever an operation is performed, the tree performs an operation called <em>splaying</em> which pulls the element to the top of the tree.
 ---
 

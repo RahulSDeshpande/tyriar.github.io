@@ -4,6 +4,7 @@ title       : Headers with a vertically-centered horizontal line
 tags        : [Blogging]
 socialimage : /images/2013/03/16/headings.png
 primarytag  : Blogging
+gpluspost   : JtBoQKbw2Vw
 intro       : "Here's a pretty good method of creating a header that has a vertically-centered, horizontal line on the right-hand side of the header. There are a couple of caveats though: it requires a little JavaScript to set an attribute on the headings; and it cannot be used on tiled backgrounds."
 ---
 

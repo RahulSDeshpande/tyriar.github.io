@@ -3,6 +3,7 @@ layout      : post
 title       : A clearfix without additional markup
 tags        : [CSS, HTML]
 primarytag  : CSS
+gpluspost   : ZbzU4WUqyaa
 intro       : This article introduces a way to clear floats using pseudo-elements on a wrapping element.
 ---
 

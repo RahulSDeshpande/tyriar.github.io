@@ -3,6 +3,7 @@ layout      : post
 title       : Dart, my first steps
 tags        : [Dart, JavaScript, My projects]
 primarytag  : Dart
+gpluspost   : aJTjtkNv51S
 intro       : A couple of weeks ago I jumped in to Dart with a little project to learn the language; to convert my <a href="/p/html5-demo.html">canvas-astar.js</a> project. I'm glad to say that what Google claims is true, since Dart borrows syntax from some common languages, it's very easy for the seasoned developer to learn. It took me around an hour of studying and then an hour of porting to get it in the state that it is.
 ---
 

@@ -3,6 +3,7 @@ layout      : post
 title       : Change the tab size on GitHub using a custom style extension
 tags        : [CSS, GitHub]
 primarytag  : GitHub
+gpluspost   : b4osqwdqJaL
 intro       : As far as I'm aware you can't change the tab size on <a href="https://github.com/">GitHub</a> when viewing code on the web interface (yet). While I'm sure this feature will eventually be added, in the meantime it kind of sucks to write your code using 4 character tabs and then having it mangled up when viewing on the web UI.
 ---
 

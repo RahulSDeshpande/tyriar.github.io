@@ -4,6 +4,7 @@ title       : Use Symbol Hound to search for symbols
 tags        : [Google, Productivity, Search engine, Stack Exchange]
 socialimage : /images/2013/03/08/symbolhound.png
 primarytag  : Productivity
+gpluspost   : GkM3fcsPr1K
 intro       : I stumbled upon this little gem, a search engine called <a href="http://www.symbolhound.com/">Symbol Hound</a> that unlike Google, doesn't ignore symbols in fast it is actually optimised for searching with them. It only searches within Stack Overflow but that means it's very focused on programming and really if you're not finding your answer to a programming operator question on SO, it deserves to be asked.
 ---
 

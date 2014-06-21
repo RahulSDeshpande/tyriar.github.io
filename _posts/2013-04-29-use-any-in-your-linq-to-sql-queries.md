@@ -3,6 +3,7 @@ layout      : post
 title       : Use .Any() in your LINQ to SQL queries
 tags        : [C#, LINQ, Optimisation, SQL]
 primarytag  : LINQ
+gpluspost   : hbqJD4vYHxo
 intro       : This article explains why you should use the <code>Any()</code> method over <code>Count()</code> in LINQ to SQL.
 ---
 

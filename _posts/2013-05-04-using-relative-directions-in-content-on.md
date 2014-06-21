@@ -4,6 +4,7 @@ title       : Using relative directions in content on the web
 tags        : [Accessibility, CSS, HTML, My projects, Responsive web design]
 socialimage : /images/2013/05/04/first.png
 primarytag  : Accessibility
+gpluspost   : F8L1A7RHpUw
 intro       : You've all seen it before, you hit a webpage with a menu on the left and somewhere in the main section it says something like "for more look at the left menu".
 ---
 

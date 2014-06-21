@@ -4,6 +4,7 @@ title       : Aligning and element with background-size:cover
 tags        : [CSS, HTML, JavaScript, jQuery]
 socialimage : /images/2013/04/06/google.png
 primarytag  : CSS
+gpluspost   : KccMqZcWiSw
 intro       : The CSS property <code>background-size:cover</code> is incredibly useful but due to the nature of it resizing in different directions, it's difficult to pinpoint where a particular part of the image is on the background at any given time. Difficult but not impossible of course.
 ---
 

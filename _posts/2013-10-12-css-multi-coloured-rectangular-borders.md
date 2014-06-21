@@ -4,6 +4,7 @@ title       : CSS multi-coloured rectangular borders
 tags        : [CSS, Design]
 socialimage : /images/2013/10/12/plain-desired.png
 primarytag  : Design
+gpluspost   : MXoGcGnKqeN
 intro       : The borders in CSS are weighted equally which means if their colours differ, the split between them will be diagonal. This is the reason that <a href="/2013/03/triangles-in-css.html">CSS triangles</a> work the way they do. Say your design wanted a more rectangular border though, where the top and bottom extended all the way out and covered the bottom portion of the left and right borders.
 ---
 

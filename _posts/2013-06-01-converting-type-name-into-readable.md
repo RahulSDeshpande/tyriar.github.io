@@ -3,6 +3,7 @@ layout      : post
 title       : Converting a type name into a readable string
 tags        : [C#, Extension method, Generics]
 primarytag  : C#
+gpluspost   : YWpa1yoDz9q
 intro       : Ever wanted to print a type name as text that the would be suitable for users? For example, converting the type name <code>"SomeTypeName"</code> to <code>"Some type name"</code>. I've come up with a pretty nice method to convert type names in to nice strings. 
 ---
 

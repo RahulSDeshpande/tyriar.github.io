@@ -3,6 +3,7 @@ layout      : post
 title       : Merging Dictionary objects
 tags        : [C#, Extension method, LINQ]
 primarytag  : Extension method
+gpluspost   : UuE9hLaCPkD
 intro       : Say you have two (or more) <code>Dictionary</code> objects and want their contents merged, this can be done with LINQ very conveniently like so.
 ---
 

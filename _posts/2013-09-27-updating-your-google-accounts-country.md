@@ -3,6 +3,7 @@ layout      : post
 title       : Updating your Google account's country
 tags        : [Google]
 primarytag  : Google
+gpluspost   : VCKddC8XHhD
 intro       : One of the first things I wanted to do after moving was to switch my Google account's country to USA so I could play around with the US-only features on products like Google Now.
 ---
 

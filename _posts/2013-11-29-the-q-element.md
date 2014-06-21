@@ -3,6 +3,7 @@ layout     : post
 title      : q HTML element
 tags       : [Accessibility, HTML]
 primarytag : HTML
+gpluspost  : 4iMfjv9zsZV
 intro      : The <code>q</code> HTML element is used to represent an inline quote. Now regular quotes ("") can represent this just fine, surrounding the quote in the <code>q</code> tag differs in that it explicitly indicates that the text is a quote, removing ambiguities that it could be emphasis, irony, etc.
 ---
 

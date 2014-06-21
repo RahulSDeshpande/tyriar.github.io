@@ -3,6 +3,7 @@ layout     : post
 title      : output HTML element
 tags       : [Accessibility, HTML]
 primarytag : HTML
+gpluspost  : dKjtHDiXcDM
 intro      : The <code>output</code> HTML element was introduced in HTML5 and represents a <em>calculated value</em> belonging to a <code>form</code>. An example use case is client-side calculation on a shopping website's checkout page.
 ---
 

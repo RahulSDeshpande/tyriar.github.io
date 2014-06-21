@@ -3,6 +3,7 @@ layout      : post
 title       : Integer division without the division operator (/)
 tags        : [Algorithm, Interview questions, Java]
 primarytag  : Interview questions
+gpluspost   : 5HvSNcVFwXt
 intro       : This article looks at the interview question - <em>Implement a function that performs integer division on two integers without the use of the division <code>/</code> operator. For example for the input of <code>10</code> and <code>4</code> should result in the output of <code>2</code>.</em>
 ---
 

@@ -4,6 +4,7 @@ title       : Moving to the US for work
 tags        : [Amazon, Life]
 socialimage : /images/2013/10/20/world.png
 primarytag  : Amazon
+gpluspost   : gFnEiwcHYgG
 intro       : I eventually made it to the US in September and have started working at Amazon! It was a pretty intense period in the couple of months leading up to leaving Australia. I have compiled a list of things that that helped me and also what I wished I had known before starting the move.
 ---
 

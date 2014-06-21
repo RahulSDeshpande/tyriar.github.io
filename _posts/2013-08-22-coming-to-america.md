@@ -4,6 +4,7 @@ title       : Coming to America
 tags        : [Amazon, Blogging, Life, Natural language]
 socialimage : /images/2013/08/22/coming-to-america.png
 primarytag  : Amazon
+gpluspost   : VjkyzJfEVhp
 intro       : I'll be moving to Seattle, Washington with my wife in a couple of weeks as I've accepted a position at <a href="http://www.amazon.com/">Amazon</a>! I will be joining the <a href="http://aws.amazon.com/">AWS</a> team to work on the <a href="http://en.wikipedia.org/wiki/Amazon_Kindle">Kindle's</a> cloud-powered browser <a href="http://en.wikipedia.org/wiki/Amazon_Silk">Silk</a>. Needless to say I'm super excited to get into it :)
 ---
 

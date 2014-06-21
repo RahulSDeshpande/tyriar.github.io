@@ -3,6 +3,7 @@ layout      : post
 title       : Converting a string to the 'best-fitting' type
 tags        : [C#, Extension method, Reflection, Stack Exchange]
 primarytag  : C#
+gpluspost   : 3s36RqGMLsN
 intro       : I answered a pretty interesting <a href="http://stackoverflow.com/questions/15173684/intelligent-type-conversion-in-net">question</a> on Stack Overflow yesterday, creating a method that takes a <code>string</code> and returns the value converted to the 'best-fitting' type out of a set of types boxed in <code>dynamic</code>.
 ---
 

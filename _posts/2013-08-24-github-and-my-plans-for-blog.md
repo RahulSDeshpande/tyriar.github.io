@@ -4,6 +4,7 @@ title       : GitHub and my plans for the blog
 tags        : [Blogging, GitHub, Markdown]
 socialimage : /images/2013/08/24/github-logo.png
 primarytag  : Blogging
+gpluspost   : aSqthmdRPmJ
 intro       : Due to the issues of effectively source controlling the code on my blog using Blogger's text editor and Google Drive, I've gone ahead and extracted most of the code samples into a <a href="https://github.com/Tyriar/growing-with-the-web">GitHub project</a> for your viewing and forking pleasure.
 ---
 

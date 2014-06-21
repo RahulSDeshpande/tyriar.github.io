@@ -3,6 +3,7 @@ layout      : post
 title       : Polymorphism, methods, interfaces and concrete types
 tags        : [C#, Stack Exchange]
 primarytag  : Stack Exchange
+gpluspost   : TRWpsGc2ZbY
 intro       : I answered a <a href="http://stackoverflow.com/a/14764827/1156119">question</a> on <a href="http://stackoverflow.com/">Stack Overflow</a> a couple of days ago and it sparked memories of several years ago when I was new to the industry. Something that confused me a little when starting out was around the use of interfaces. All of a sudden they started popping up in mass quantity as I started working on projects of significant size.
 ---
 

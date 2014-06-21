@@ -4,6 +4,7 @@ title       : Selection sort
 tags        : [Algorithm, Computer science, Java, Sorting]
 primarytag  : Sorting
 socialimage : /images/2013/12/08/preview.png
+gpluspost   : B4c5B9TRuJe
 intro       : Selection sort is an \(O(n^2)\) sorting algorithm that works by searching through a list to find the minimum element and swapping it for the first in the list. After every swap, selection sort is performed on the list with the head removed (ie. the minimum element). Due to the way that elements are swapped anywhere in the list, this is not a stable sort.
 ---
 

@@ -3,6 +3,7 @@ layout      : post
 title       : Reverse a string
 tags        : [Algorithm, Interview questions, Java]
 primarytag  : Interview questions
+gpluspost   : 1tgBfsayre2
 intro       : This article looks at the interview question - <em>Reverse a string in the most efficient way possible. For example an input of <code>"abc123"</code> will result in the output <code>"321cba"</code></em>.
 ---
 

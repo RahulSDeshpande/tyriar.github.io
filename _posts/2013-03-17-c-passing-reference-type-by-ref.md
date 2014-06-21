@@ -3,6 +3,7 @@ layout      : post
 title       : C# passing a reference type by ref
 tags        : [C#]
 primarytag  : C#
+gpluspost   : QvwtiYWXg4K
 intro       : You may ask yourself why you would ever want to pass a reference type into a method using the <code>ref</code> keyword, or why the C# compiler even allows this. Using <code>ref</code> on a reference type is actually slightly different to not using it. The difference is that the <code>ref</code> keyword makes it a reference (pointer) to the <em>variable</em>, not just the <em>object</em>. This allows assigning to the source variable of the parameter from within the method.
 ---
 

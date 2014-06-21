@@ -3,6 +3,7 @@ layout      : post
 title       : All permutations of a set
 tags        : [Algorithm, Computer science, Interview questions, Java]
 primarytag  : Interview questions
+gpluspost   : 8DQLGFMSZbN
 intro       : This article looks at the interview question - <em>Implement a function that gets all possible <em>permutations</em> (or orderings) of the characters in a string. For example for the input string <code>"abc"</code>, the output will be <code>"abc"</code>, <code>"acb"</code>, <code>"bac"</code>, <code>"bca"</code>, <code>"cab"</code> and <code>"cba"</code>.</em>
 ---
 

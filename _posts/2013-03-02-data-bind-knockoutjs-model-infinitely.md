@@ -4,6 +4,7 @@ title       : Data-bind a Knockout.js model infinitely deep
 tags        : [Accessibility, JavaScript, Knockout]
 socialimage : /images/2013/03/02/knockoutjs.png
 primarytag  : JavaScript
+gpluspost   : WYNSYWZrr1M
 intro       : This post will show you how to data-bind a hierarchical model that can go infinitely deep onto a page using Knockout.js. In this post, I will make a screen that will be used to build an organisation chart as an example, I chose this as it's a really simple example to illustrate the technique that I'll be using.
 ---
 

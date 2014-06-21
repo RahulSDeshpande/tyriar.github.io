@@ -2,7 +2,8 @@
 layout     : post
 title      : kbd HTML element
 tags       : [Accessibility, CSS, Design, HTML]
-primarytag : 
+primarytag : HTML
+gpluspost  : S7eU7z8dadz
 intro      : The <a href="http://www.w3.org/TR/html5/text-level-semantics.html#the-kbd-element"><code>kbd</code> HTML element</a> is used to represent some form of user input. Typically it represents keyboard input (where its name comes from) but can be used to represent any type of input that can be represented in text, such as voice commands.
 ---
 

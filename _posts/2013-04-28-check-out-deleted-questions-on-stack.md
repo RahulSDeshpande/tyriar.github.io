@@ -4,6 +4,7 @@ title       : Check out the deleted questions on Stack Overflow
 tags        : [Stack Exchange]
 socialimage : /images/2013/04/28/stackoverflow-logo.png
 primarytag  : Stack Exchange
+gpluspost   : RD7E6YMVYFW
 intro       : There are a lot of questions on <a href="http://stackoverflow.com/">Stack Overflow</a>, probably a lot than you realise. This is understandable when you consider <a href="http://stackexchange.com/sites?view=list#traffic"><em>over 7,000 questions</em></a> are being asked every day. No I'm not just talking about the 5 million odd that you can access via the <a href="http://stackoverflow.com/questions">questions tab</a> (4,930,418 and counting at time of writing). There are also a ridiculous amount of deleted questions which only users with at least 10,000 reputation can see.
 ---
 

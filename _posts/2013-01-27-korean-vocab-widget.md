@@ -4,6 +4,7 @@ title       : Korean Vocab Widget
 tags        : [Android, My projects, Natural language]
 socialimage : /images/2013/01/27/ss2.png.png
 primarytag  : My projects
+gpluspost   : Cb1kF8MeyaY
 intro       : I released my <a href="https://play.google.com/store/apps/details?id=com.growingwiththeweb.koreanvocabwidget">first app</a> on Google Play yesterday!
 ---
 
