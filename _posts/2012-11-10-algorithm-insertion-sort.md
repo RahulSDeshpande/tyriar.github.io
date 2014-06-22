@@ -62,7 +62,7 @@ Being an adaptive sort also makes it an online algorithm, which means we can sta
 
 ## Code
 
-[View on GitHub][1]
+{% include on-github.html java="https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/sorting/insertion-sort" javascript="https://github.com/Tyriar/js-sorting/blob/master/src/insertion-sort.js" %}
 
 <!--prettify lang=java-->
     public static int[] insertionSort(int[] array) {
@@ -78,8 +78,6 @@ Being an adaptive sort also makes it an online algorithm, which means we can sta
     }
 
 
-
-[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/sorting/insertion-sort
 
 [Heapsort]: {{site.baseurl}}/2012/11/algorithm-heapsort.html
 [Insertion sort]: {{site.baseurl}}/2012/11/algorithm-insertion-sort.html

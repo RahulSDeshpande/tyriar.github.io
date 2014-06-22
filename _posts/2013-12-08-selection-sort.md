@@ -53,7 +53,7 @@ While selection sort is faster than most \\(O(\log n)\\) sorts for small lists, 
 
 ## Code
 
-[View on GitHub][2]
+{% include on-github.html java="https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/sorting/selection-sort" javascript="https://github.com/Tyriar/js-sorting/blob/master/src/selection-sort.js" %}
 
 <!--prettify lang=java-->
     public static void sort(int[] array) {
@@ -75,5 +75,4 @@ While selection sort is faster than most \\(O(\log n)\\) sorts for small lists, 
 
 
 [1]: {{site.baseurl}}/2012/11/algorithm-insertion-sort.html
-[2]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/sorting/selection-sort
 [3]: {{site.baseurl}}/2012/11/algorithm-heapsort.html

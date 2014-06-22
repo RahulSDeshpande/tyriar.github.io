@@ -52,7 +52,7 @@ I mentioned earlier that when we use a min-heap they come out in ascending order
 
 Here is a heapsort implementation done in Java using a max-heap.
 
-[View on GitHub][2]
+{% include on-github.html java="https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/sorting/heapsort" javascript="https://github.com/Tyriar/js-sorting/blob/master/src/heapsort.js" %}
 
 <!--prettify lang=java-->
     public class Heapsort {
@@ -101,10 +101,9 @@ Here is a heapsort implementation done in Java using a max-heap.
 
 
 
-[1]: {{site.baseurl}}/2012/10/data-structures-binary-search-tree.html
-[2]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/sorting/heapsort
+[1]: /2012/10/data-structures-binary-search-tree.html
 
-[Heapsort]: {{site.baseurl}}/2012/11/algorithm-heapsort.html
-[Insertion sort]: {{site.baseurl}}/2012/11/algorithm-insertion-sort.html
-[Merge sort]: {{site.baseurl}}/2012/11/algorithm-merge-sort.html
-[Quicksort]: {{site.baseurl}}/2012/12/algorithm-quicksort.html
+[Heapsort]: /2012/11/algorithm-heapsort.html
+[Insertion sort]: /2012/11/algorithm-insertion-sort.html
+[Merge sort]: /2012/11/algorithm-merge-sort.html
+[Quicksort]: /2012/12/algorithm-quicksort.html

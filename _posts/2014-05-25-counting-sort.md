@@ -76,7 +76,7 @@ If the list is known to be partially sorted then another option such as [inserti
 
 ## Code
 
-[View on GitHub][2]
+{% include on-github.html java="https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/sorting/counting-sort" javascript="https://github.com/Tyriar/js-sorting/blob/master/src/counting-sort.js" %}
 
 <!--prettify lang=java-->
     public static void sort(int[] array, int maxValue) {
@@ -104,4 +104,3 @@ If the list is known to be partially sorted then another option such as [inserti
 
 
 [1]: /2012/11/algorithm-insertion-sort.html
-[2]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/sorting/counting-sort

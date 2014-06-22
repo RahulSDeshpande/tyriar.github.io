@@ -54,7 +54,7 @@ Here is an example of how you could run merge sort using two threads to potentia
 
 ## Code
 
-[View on GitHub][1]
+{% include on-github.html java="https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/sorting/merge-sort" javascript="https://github.com/Tyriar/js-sorting/blob/master/src/merge-sort.js" %}
 
 ### Top-down
 
@@ -186,8 +186,6 @@ Natural merge sort is another variant of merge sort, this one attempts to minimi
     }
 
 
-
-[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/sorting/merge-sort
 
 [Heapsort]: {{site.baseurl}}/2012/11/algorithm-heapsort.html
 [Insertion sort]: {{site.baseurl}}/2012/11/algorithm-insertion-sort.html

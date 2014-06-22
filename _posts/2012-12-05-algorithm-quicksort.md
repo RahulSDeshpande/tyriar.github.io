@@ -72,7 +72,7 @@ The chosen pivot has a great impact of how well quicksort can be parallelised. C
 
 ## Code
 
-[View on GitHub][1]
+{% include on-github.html java="https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/sorting/quicksort" javascript="https://github.com/Tyriar/js-sorting/blob/master/src/quicksort.js" %}
 
 <!--prettify lang=java-->
     public class Quicksort {
@@ -145,7 +145,6 @@ The following when added to the above class implements a randomised pivot.
     }
 
 
-[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/sorting/quicksort
 
 [Heapsort]: {{site.baseurl}}/2012/11/algorithm-heapsort.html
 [Insertion sort]: {{site.baseurl}}/2012/11/algorithm-insertion-sort.html
