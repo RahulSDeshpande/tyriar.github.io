@@ -18,6 +18,9 @@ The primary difference between the Fibonacci heap and the binomial heap is that 
 
 *The animations in this article may not work in your browser, it has been tested in the latest Chrome and Firefox.*
 
+<div class='clear'><!----></div>
+
+
 
 ## Time complexity
 
