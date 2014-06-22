@@ -2,15 +2,16 @@
 layout      : post
 title       : Sorting algorithms
 tags        : [Algorithm, Computer science, Sorting]
-socialimage : 
+preview     : /images/2014/06/22/sorting-algorithms.svg
+socialimage : /images/2014/06/22/preview.png
 primarytag  : Sorting
+draft : 1
 intro       : A sorting algorithm takes a list of items and sorts them in a particular order, most commonly alphabetically or numerical.
 ---
 
 {% include post-image.html class="right-col" alt="A sorting algorithm" src="/_drafts/images/sorting-algorithms/sorting-algorithms.svg" %}
 
-The study of sorting algorithms is a great way to improve your craft as a software developer. They provide simple algorith
-ms on which complexity analysis can be practised and also introduce some clever solutions to a simple and understandable problem.
+The study of sorting algorithms is a great way to improve your craft as a software developer. They provide simple algorithms on which complexity analysis can be practised and also introduce some clever solutions to a simple and understandable problem.
 
 <div class='clear'><!----></div>
 
@@ -29,4 +30,12 @@ In addition to the [time and space complexity][1] of sorting algorithms, the bel
 
 
 
+## Code
+
+All algorithms presented in the articles are available on GitHub in both [Java][2] and [JavaScript][3].
+
+
+
 [1]: {{ site.baseurl }}/2012/11/big-o-notation.html
+[2]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/sorting
+[3]: https://github.com/Tyriar/js-sorting
