@@ -1,0 +1,1 @@
+{% if include.link %} <a href="{{ include.link }}">Check out the code on GitHub.</a> {% else %} {% comment %} Assume java and javascript are provided if link isn't, this will throw an error and prevent bad output. {% endcomment %} Check out the code on GitHub (<a href="{{ include.java }}">java</a>, <a href="{{ include.javascript }}">javascript</a>). {% endif %}

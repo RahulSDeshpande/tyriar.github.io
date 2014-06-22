@@ -60,7 +60,7 @@ To better understand this point consider the list `[5, 2, 3, 4, 1]` where only t
 
 ## Code
 
-[View on GitHub][3]
+{% include on-github.html java="https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/sorting/bubble-sort" javascript="https://github.com/Tyriar/js-sorting/blob/master/src/bubble-sort.js" %}
 
 ### `for` loop version
 
@@ -107,4 +107,3 @@ This is an optimised version of bubble sort using a `while` loop that will exit 
 
 [1]: {{ site.baseurl }}/2012/11/algorithm-insertion-sort.html
 [2]: {{ site.baseurl }}/2013/12/selection-sort.html
-[3]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/sorting/bubble-sort

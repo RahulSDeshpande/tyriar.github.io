@@ -9,7 +9,8 @@ intro       : A sorting algorithm takes a list of items and sorts them in a part
 
 {% include post-image.html class="right-col" alt="A sorting algorithm" src="/_drafts/images/sorting-algorithms/sorting-algorithms.svg" %}
 
-The study of sorting algorithms is a great way to improve your craft as a software developer. They provide simple algorithms on which complexity analysis can be practised and also introduce some clever solutions to a simple and understandable problem.
+The study of sorting algorithms is a great way to improve your craft as a software developer. They provide simple algorith
+ms on which complexity analysis can be practised and also introduce some clever solutions to a simple and understandable problem.
 
 <div class='clear'><!----></div>
 
