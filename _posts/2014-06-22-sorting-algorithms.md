@@ -5,7 +5,6 @@ tags        : [Algorithm, Computer science, Sorting]
 preview     : /images/2014/06/22/sorting-algorithms.svg
 socialimage : /images/2014/06/22/preview.png
 primarytag  : Sorting
-draft : 1
 intro       : A sorting algorithm takes a list of items and sorts them in a particular order, most commonly alphabetically or numerical.
 ---
 
@@ -32,7 +31,7 @@ In addition to the [time and space complexity][1] of sorting algorithms, the bel
 
 ## Code
 
-All algorithms presented in the articles are available on GitHub in both [Java][2] and [JavaScript][3].
+All algorithms presented in the articles below are available on GitHub in both [Java][2] and [JavaScript][3].
 
 
 
