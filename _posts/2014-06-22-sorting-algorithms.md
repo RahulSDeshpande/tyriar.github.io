@@ -5,6 +5,7 @@ tags        : [Algorithm, Computer science, Sorting]
 preview     : /images/2014/06/22/sorting-algorithms.svg
 socialimage : /images/2014/06/22/preview.png
 primarytag  : Sorting
+gpluspost   : PeJtTKPQ9Pa
 intro       : A sorting algorithm takes a list of items and sorts them in a particular order, most commonly alphabetically or numerical.
 ---
 
