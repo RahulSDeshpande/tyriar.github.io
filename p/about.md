@@ -1,6 +1,7 @@
 ---
-layout : plain
-title  : About
+layout      : plain
+title       : About
+socialimage : /images/general/logo.png
 ---
 
 {% include post-image.html class="right-col" alt="A picture of me" src="/images/p/about/headshot.png" %}

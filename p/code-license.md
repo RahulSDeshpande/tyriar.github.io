@@ -1,6 +1,7 @@
 ---
-layout : plain
-title  : Code license
+layout      : plain
+title       : Code license
+socialimage : /images/general/logo.png
 ---
 
 Unless otherwise stated, within the article or linked GitHub project, all code within the articles of this blog is released under [Unlicense][1].
