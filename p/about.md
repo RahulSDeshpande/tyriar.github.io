@@ -33,6 +33,7 @@ I'm currently at [Amazon][6] working on the Silk which is an AWS-backed Android-
 ## Some of my favorite languages
 
 - [C#][2]
+- [JavaScript][10]
 - [Dart][7]
 - [Sass][8]
 - [Markdown][9]
@@ -51,3 +52,4 @@ You can get in touch with me by commenting on the blog or through the social pla
 [7]: /p/explore.html?t=Dart
 [8]: /p/explore.html?t=Sass
 [9]: /p/explore.html?t=Markdown
+[10]: /p/explore.html?t=JavaScript
