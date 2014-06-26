@@ -151,7 +151,7 @@ Here is a full generic implementation of a min-heap. Note that the only changes 
             int smallest = i;
             if (l < list.size() && list.get(l).compareTo(list.get(i)) < 0)
                 smallest = l;
-            if (r < list.size() && list.get(r).compareTo(list.get(small)) < 0)
+            if (r < list.size() && list.get(r).compareTo(list.get(smallest)) < 0)
                 smallest = r;
             if (smallest != i) {
                 swap(i, smallest);
