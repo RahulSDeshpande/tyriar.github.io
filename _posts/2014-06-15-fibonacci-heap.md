@@ -309,7 +309,7 @@ Delete is performed by calling decrease key to reduce the node to negative infin
             size += other.size;
         }
 
-        // Merged two lists and returns the minimum node
+        // Merges two lists and returns the minimum node
         public static <T extends Comparable<T>> Node<T> mergeLists(
                 Node<T> a, Node<T> b) {
 
