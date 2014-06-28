@@ -136,13 +136,13 @@ Delete is performed by calling decrease key to reduce the node to negative infin
         private int size;
 
         public FibonacciHeap() {
-            size = 0;
             minNode = null;
+            size = 0;
         }
 
         private FibonacciHeap(Node<T> node) {
-            size = 1;
             minNode = node;
+            size = 1;
         }
 
         private FibonacciHeap(Node<T> minNode, int size) {
@@ -156,6 +156,7 @@ Delete is performed by calling decrease key to reduce the node to negative infin
 
         public void clear() {
             minNode = null;
+            size = 0;
         }
 
         public Node<T> insert(T key) {
