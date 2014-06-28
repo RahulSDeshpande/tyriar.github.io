@@ -313,7 +313,6 @@ Delete is performed by calling decrease key to reduce the node to negative infin
         public static <T extends Comparable<T>> Node<T> mergeLists(
                 Node<T> a, Node<T> b) {
 
-            // Assume a and b a
             if (a == null && b == null)
                 return null;
             if (a == null)
