@@ -11,6 +11,6 @@ intro       : Recently GitHub Pages <a href="https://help.github.com/articles/mi
 
 | Issue | Maruku | Kramdown
 |-------|--------|----------
-| Asterisks have looser rules around when they're used for italics/bold | 1000*60*60 | 1000\\\*60\\\*60
-| Tables are created if a pipe exists on the line in Kramdown, it doesn't even need to be at the start of the line. You will need to use the HTML entity to get a pipe character in Kramdown, unfortunately this doesn't seem to work with MathJAX though (I haven't found a solution) | \|\| operator | \\\|\\\| operator
+| Asterisks have looser rules around when they're used for italics/bold | `1000*60*60` | `1000\*60\*60`
+| Tables are created if a pipe exists on the line in Kramdown, it doesn't even need to be at the start of the line. You will need to use the HTML entity to get a pipe character in Kramdown, unfortunately this doesn't seem to work with MathJAX though (I haven't found a solution) | `the | symbol` | `the \| symbol`
 | The order of some tags don't work, `<samp>` was acting up for me in Kramdown | `<samp><pre>...</pre></samp>` | `<pre><samp>...</samp></pre>`
