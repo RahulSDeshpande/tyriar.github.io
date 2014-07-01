@@ -5,6 +5,7 @@ tags        : [GitHub, Jekyll, Markdown]
 preview     : /images/2014/07/01/logo.png
 socialimage : /images/2014/07/01/logo.png
 primarytag  : Jekyll
+gpluspost   : ZxiXn844wRm
 intro       : Recently GitHub Pages <a href="https://help.github.com/articles/migrating-your-pages-site-from-maruku">migrated off</a> the <a href="https://github.com/bhollis/maruku/">Maruku markdown parser</a> to <a href="https://github.com/gettalong/kramdown">Kramdown</a> and deprecated support for Maruku moving forward. While some documentation was provided, it didn't really cover some of the specific differences between the interpreters. This post covers all the issues I experienced during this transition.
 ---
 
