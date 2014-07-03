@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="1000" height="500" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    rect, path, line { stroke: #000; stroke-width: 2; }
+    .red { fill: hsl(0,100%,80%); }
+    .yellow { fill: hsl(60,100%,80%); }
+    .green { fill: hsl(120,100%,80%); }
+    .teal { fill: hsl(180,100%,80%); }
+    .blue { fill: hsl(240,100%,80%); }
+    .purple { fill: hsl(300,100%,80%); }
+    line { stroke-width: 2; }
+    .l-red { stroke: hsl(0,75%,40%); }
+    .l-yellow { stroke: hsl(60,75%,40%); }
+    .l-green { stroke: hsl(120,75%,40%); }
+    .l-teal { stroke: hsl(180,75%,40%); }
+    .l-blue { stroke: hsl(240,75%,40%); }
+    .l-purple { stroke: hsl(300,75%,40%); }
+    text { text-anchor: middle; font-family: Helvetica, Arial, sans-serif; font-size: 22px; fill: #000; }
+    .algorithm { fill: #FFF; }
+    marker path, path path { stroke-width: 1; }
+    path {fill: transparent;}
+  </style>
+  <g transform="translate(10,10)">
+    <path d="m20,20l0,440l940,0" />
+    <path d="m20,460l94,0l94,0l94,-220l94,-162l94,0l94,-22l94,0l94,-27l94,0l94,-9" />
+    <text x="250" y="-10" transform="rotate(90)">Visual progress (%)</text>
+    <text>Time (s)</text>
+  </g>
+</svg>
