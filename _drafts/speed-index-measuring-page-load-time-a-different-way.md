@@ -44,7 +44,7 @@ The simplistic approach to measure visual progress is to compare the pixel at ea
 
 #### Paint events
 
-There is also a more recent method of calculating visual progress by using browser paint events that are emitted via the remote debugging protocol. This method is only Chromium-specific however so it cannot be applied to all browsers.
+There is also a more recent method of calculating visual progress by using browser paint events that are emitted via the [remote debugging protocol][10]. This method is only Chromium-specific however so it cannot be applied to all browsers.
 
 
 
@@ -52,14 +52,18 @@ There is also a more recent method of calculating visual progress by using brows
 
 Chromium have developed a testing framework written in Python called [Telemetry][7] that is responsible for generating all the results for the [Chrome Performance Dashboard][4]. It can also be used to run page load tests on URLs of your choosing to generate speed index in addition to over valuable metrics like [navigation timings][6].
 
+*********mention works for chromium-powered browsers
+
 ### Setting up Chromium
 
 The instructions to get the Chromium source are available on [the Chromium website][5], you don't need to call `gclient sync` or try to build the project since we're only interested in Telemetry.
 
 ### Running Telemetry
 
+Once the repository has been downloaded the following command will run
 Something like this: (confirm with upstream)
-./tools/perf/run_measurement --browser=system --use-live-sites --report-speed-index page_cycler http://www.growingwiththeweb.com
+
+    ./tools/perf/run_measurement --browser=system --use-live-sites --report-speed-index page_cycler http://www.growingwiththeweb.com
 
 
 
@@ -83,3 +87,4 @@ Start tracking the speed index of your web site in addition to other important m
 [7]: http://www.chromium.org/developers/telemetry
 [8]: https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index
 [9]: http://www.mathjax.org/
+[10]: https://developer.chrome.com/devtools/docs/debugger-protocol
