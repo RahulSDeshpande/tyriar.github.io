@@ -7,6 +7,8 @@ draft : 1
 intro       : This JavaScript snippet presents a function that returns a function used by <code>Array.prototype.sort</code> to sort an array by multiple properties.
 ---
 
+## Snippet
+
 <!--prettify lang=javascript-->
     function orderByProperty(prop) {
       var args = Array.prototype.slice.call(arguments, 1);
