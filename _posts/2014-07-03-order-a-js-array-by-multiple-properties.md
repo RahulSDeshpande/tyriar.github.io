@@ -3,7 +3,6 @@ layout      : post
 title       : Order a JS array by multiple properties
 tags        : [JavaScript, Snippet]
 primarytag  : JavaScript
-draft : 1
 intro       : This JavaScript snippet presents a function that returns a function used by <code>Array.prototype.sort</code> to sort an array by multiple properties.
 ---
 
