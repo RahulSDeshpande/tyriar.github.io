@@ -1,12 +1,11 @@
 ---
 layout      : post
 title       : Order a JS array by multiple properties
-tags        : [JavaScript]
+tags        : [JavaScript, Snippet]
 primarytag  : JavaScript
-intro       : This article presents a handy JavaScript snippet that sorts an array of objects using the <code>Array.prototype.sort</code> function.
+draft : 1
+intro       : This JavaScript snippet presents a function that returns a function used by <code>Array.prototype.sort</code> to sort an array by multiple properties.
 ---
-
-## Snippet
 
 <!--prettify lang=javascript-->
     function orderByProperty(prop) {
