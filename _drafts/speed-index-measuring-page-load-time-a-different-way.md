@@ -8,7 +8,7 @@ For a long time, measuring web performance was all about minimising the time it 
 
 [Speed index][8] is a relatively new way of measuring web page performance that was originally developed for [webpagetest.org][1] which focuses on the user. It works by measuring how much of the *above-the-fold* content (the part that is on screen when loaded initially) is visually complete over time until it is 100% complete.
 
-The reason this is great is because it does a far better job at measuring how the user perceives the performance of a page. Take my blog for example, I've spent a long time optimising every part of it to get the speed index as low as possible, but the page can actually take 2-3 seconds to load fully due to MathJAX's numerous requests and work it can do on a page. Speed index largely ignores this because by the time the user has scrolled down to the part of the page where the math is used, it has likely loaded anyway. Optimisations for speed index also typically improve the mobile experience because they're focused on getting something up and usable as soon as possible.
+The reason this is great is because it does a far better job at measuring how the user perceives the performance of a page. Take my blog for example, I've spent a long time optimising every part of it to get the speed index as low as possible, but the page can actually take 2-3 seconds to load fully due to [MathJAX's][9] numerous requests and work it can do on a page. Speed index largely ignores this because by the time the user has scrolled down to the part of the page where the math is used, it has likely loaded anyway. Optimisations for speed index also typically improve the mobile experience because they're focused on getting something up and usable as soon as possible.
 
 
 
@@ -40,11 +40,11 @@ The simplistic approach to measure visual progress is to compare the pixel at ea
 
 #### Frames per second
 
-webpagetest.org captures in 10 frames per seconds currently but that could change in the future, basically the more frames that are measured the more accurate the result will be.
+[webpagetest.org][1] captures in 10 frames per seconds currently but that could change in the future, basically the more frames that are measured the more accurate the result will be.
 
 #### Paint events
 
-There is also a more recent method of calculating visual progress by using browser paint events that are emitted via dev tools. This method is only Chromium-specific however so it cannot be applied to all browsers.
+There is also a more recent method of calculating visual progress by using browser paint events that are emitted via the remote debugging protocol. This method is only Chromium-specific however so it cannot be applied to all browsers.
 
 
 
@@ -54,7 +54,7 @@ Chromium have developed a testing framework written in Python called [Telemetry]
 
 ### Setting up Chromium
 
-The instructions to get the Chromium source are available on [the Chromium website][5], don't bother trying to get it to build since we're only interested in Telemetry.
+The instructions to get the Chromium source are available on [the Chromium website][5], you don't need to call `gclient sync` or try to build the project since we're only interested in Telemetry.
 
 ### Running Telemetry
 
@@ -82,3 +82,4 @@ Start tracking the speed index of your web site in addition to other important m
 [6]: http://www.w3.org/TR/navigation-timing/
 [7]: http://www.chromium.org/developers/telemetry
 [8]: https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index
+[9]: http://www.mathjax.org/
