@@ -121,7 +121,7 @@ This psuedocode allows for 8-way directional movement.
               add neighbor to open_list
             else
               openneighbor = neighbor in open_list
-              if neighbor.g &lt; openneighbor.g
+              if neighbor.g < openneighbor.g
                 openneighbor.g = neighbor.g
                 openneighbor.parent = neighbor.parent
       return false // no path exists
