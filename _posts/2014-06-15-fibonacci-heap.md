@@ -1,7 +1,7 @@
 ---
 layout      : post
 title       : Fibonacci heap
-tags        : [Computer science, Data structure, Generics, Heap, Java, Pathfinding]
+tags        : [Computer science, Data structure, Generics, Heap, Java]
 preview     : /images/2014/06/15/fibonacci-heap.svg
 socialimage : /images/2014/06/15/fibonacci-heap.png
 isfeatured  : 1
@@ -171,9 +171,9 @@ Delete is performed by calling decrease key to reduce the node to negative infin
         }
 
         public void decreaseKey(Node<T> node, T newKey) {
-            if (newKey.compareTo(node.key) > 0) 
+            if (newKey.compareTo(node.key) > 0)
                 throw new IllegalArgumentException("New key is larger than old key.");
-            
+
             node.key = newKey;
             Node<T> parent = node.parent;
             if (parent != null && node.compareTo(parent) < 0) {
@@ -214,7 +214,7 @@ Delete is performed by calling decrease key to reduce the node to negative infin
                 cascadingCut(parent);
             }
             minNode = node;
-            
+
             extractMin();
         }
 
@@ -238,7 +238,7 @@ Delete is performed by calling decrease key to reduce the node to negative infin
 
                 // Merge the children of the minimum node with the root list
                 minNode = mergeLists(nextInRootList, extractedMin.child);
-                
+
                 if (nextInRootList != null) {
                     minNode = nextInRootList;
                     consolidate();
@@ -328,7 +328,7 @@ Delete is performed by calling decrease key to reduce the node to negative infin
 
             return a.compareTo(b) < 0 ? a : b;
         }
-        
+
         public void print() {
             System.out.println("Fibonacci heap:");
             if (minNode != null)
