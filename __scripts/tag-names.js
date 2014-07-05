@@ -34,7 +34,7 @@ var tagNames = [
   "Opera","Optimisation",
   "Pathfinding","Prettyprint","Productivity",
   "Razor","Reflection","Responsive web design",
-  "Sass","SEO","SQL","SVG","Safari","Search engine","Searching","Software engineering","Sorting","Stack Exchange","Structural design pattern","Stylus","Sublime Text",
+  "Sass","Safari","Search engine","Searching","SEO","Software engineering","Sorting","Snippet","SQL","Stack Exchange","Structural design pattern","Stylus","SVG","Sublime Text",
   "Testing","Tree",
   "UML","Umbraco","Unicode",
   "Visual Studio",
@@ -43,7 +43,7 @@ var tagNames = [
 ];
 (function () {
   'use strict';
-  
+
   var tagList = document.createElement('datalist');
   tagList.id = "label-list";
   var cur = 0;
