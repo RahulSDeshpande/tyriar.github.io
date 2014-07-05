@@ -56,9 +56,12 @@
   };
 
   BinaryHeap.prototype.decreaseKey = function (node, newKey) {
+    if (typeof node === 'undefined') {
+      throw "Cannot decrease key of non-existant node";
+    }
     // Create a temp node for comparison
     if (this.compare(new Node(newKey, undefined), node.key) > 0) {
-      throw "New key is larger than old key.";
+      throw "New key is larger than old key";
     }
 
     node.key = newKey;
@@ -87,6 +90,7 @@
     }
     var min = this.list[0];
     this.list[0] = this.list.pop();
+    this.list[0].i = 0;
     heapify(this, 0);
     return min;
   };
@@ -160,9 +164,8 @@
     var temp = array[a];
     array[a] = array[b];
     array[b] = temp;
-    var tempI = array[a].i;
-    array[a].i = array[b].i;
-    array[b].i = tempI;
+    array[a].i = a;
+    array[b].i = b;
   }
 
   function getParent(i) {

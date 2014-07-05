@@ -1,0 +1,1 @@
+!function(a,b){"use strict";"function"==typeof define&&define.amd?define(["dijkstra-heap","fibonacci-heap"],b):"object"==typeof exports&&(module.exports=b(require("./dijkstra-heap"),require("../../bower_components/js-data-structures/src/fibonacci-heap")))}(this,function(a,b){"use strict";var c={};return c.run=function(c,d){a.run(c,d,b)},c});
