@@ -6,7 +6,7 @@ isfeatured  : 1
 preview     : /images/2012/06/03/grid-example.png
 socialimage : /images/2012/06/03/grid-example.png
 primarytag  : Algorithm
-intro       : Game development introduced me to programming when I was around 10 years old, and I've loved it ever since. One of the first formal algorithms I learned before entering university was A* (pronounced A-star), and I really had a great time doing learning about it. It's' one of the most widely used pathfinding algorithms and is one that you would likely be introduced to first when approaching the subject of pathfinding. A pathfinding algorithm takes a start point (also referred to as a node) and a goal and attempts to make the shortest path between the two given possible obstacles blocking the way.
+intro       : Game development introduced me to programming when I was around 10 years old, and I've loved it ever since. One of the first formal algorithms I learned before entering university was A* (pronounced A-star), and I really had a great time doing learning about it. It's one of the most widely used pathfinding algorithms and is one that you would likely be introduced to first when approaching the subject of pathfinding. A pathfinding algorithm takes a start point (also referred to as a node) and a goal and attempts to make the shortest path between the two given possible obstacles blocking the way.
 ---
 
 {% include post-image.html class="center-aligned" alt="Grid example" src="/images/2012/06/03/grid-example.png" %}
@@ -146,6 +146,8 @@ This psuedocode allows for 8-way directional movement.
 ## Demo
 
 See the algorithm in action in the [pathfinding visualiser web app][1] I created. You can also view the source on [GitHub][2].
+
+{% include post-image.html class="center-aligned" alt="A screenshot of the demo" src="/images/2012/06/03/demo.png" %}
 
 [1]: {{site.baseurl}}/projects/pathfinding-visualiser/
 [2]: https://github.com/Tyriar/pathfinding-visualiser
