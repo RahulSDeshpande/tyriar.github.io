@@ -145,7 +145,7 @@ This psuedocode allows for 8-way directional movement.
 
 ## Demo
 
-See the algorithm in action in the [pathfinding visualiser web app][1] I created. You can also view the source on [GitHub][2].
+See the algorithm in action along with Dijkstra's algorithm in the [pathfinding visualiser web app][1] I created. You can also view the source on [GitHub][2].
 
 {% include post-image.html class="center-aligned" alt="A screenshot of the demo" src="/images/2012/06/03/demo.png" %}
 
