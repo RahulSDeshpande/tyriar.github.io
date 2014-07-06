@@ -17,12 +17,12 @@ module.exports = function(grunt) {
             '__scripts/prettify-lang-sql.js',
             '__scripts/prettify-init.js',
             '__scripts/sort-primary-tags.js',
-            '__scripts/mathjax-config.js' 
+            '__scripts/mathjax-config.js'
           ],
-          '_gen/includereplace/tag-names.js': [ 
+          '_gen/includereplace/tag-names.js': [
             '__scripts/tag-names.js'
           ],
-          '_gen/includereplace/google-analytics.js': [ 
+          '_gen/includereplace/google-analytics.js': [
             '__scripts/google-analytics.js'
           ],
           '_gen/includereplace/fusion-ad.js': [ 
@@ -31,9 +31,6 @@ module.exports = function(grunt) {
           'scripts/tag-search.js': [
             '__scripts/tag-container-toggle.js',
             '__scripts/tag-search.js'
-          ],
-          'scripts/demos/pathfinding-visualiser.js': [
-            '__scripts/demos/pathfinding-visualiser.js'
           ]
         }
       }
