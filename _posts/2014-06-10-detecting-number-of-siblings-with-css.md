@@ -48,8 +48,8 @@ This technique can be applied in Sass by using a mixin.
 <!--prettify lang=css-->
     @mixin space-out($min, $max) {
       @for $i from $min through $max {
-        &:first-child:last-child(#{$i}),
-        &:first-child:last-child(#{$i}) ~ & {
+        &:first-child:nth-last-child(#{$i}),
+        &:first-child:nth-last-child(#{$i}) ~ & {
           width: 1 / $i * 100%;
         }
       }
@@ -65,8 +65,8 @@ LESS is a little trickier as [looping][4] isn't as intuitive but it's doable as 
     .space-out(@min, @max) {
       .space-out-loop(@i) when (@i > 0) {
         .space-out-loop(@i - 1);
-        &:first-child:last-child(@{i}),
-        &:first-child:last-child(@{i}) ~ & {
+        &:first-child:nth-last-child(@{i}),
+        &:first-child:nth-last-child(@{i}) ~ & {
           width: 1 / @i * 100%;
         }
       }
