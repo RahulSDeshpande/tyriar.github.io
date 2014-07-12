@@ -1,1 +1,0 @@
-`user-select` is no longer in the HTML5 specification. When you think about using this maybe button would be better?
