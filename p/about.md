@@ -8,6 +8,8 @@ socialimage : /images/general/logo.png
 
 My name is Daniel Imms, I'm a software engineer and web developer from Australia living in Seattle, Washington. I'm passionate about developing great software and have worked with quite a broad range of technologies to date.
 
+
+
 ## My background
 
 Computers have been a very large part of my life since I was around 5 years old. I quickly mastered the DOS commands on the family IBM 286 to navigate folder structures, and install and run games like Commander Keen and Prince of Persia.
@@ -22,6 +24,8 @@ It's my philosophy that a software engineer can never know enough about language
 
 Since 2012 I have been posting on my blog regularly, I'm also occasionally active on [Stack Overflow][5] when the mood strikes. I use these as platforms to continue learning and revising my existing knowledge on all things software development. Growing with the Web is primarily focused on web development, software engineering and computer science topics.
 
+
+
 ## Where I've worked
 
 I'm currently at [Amazon][6] working on the Silk which is an AWS-backed Android-based browser for Kindle Fire. Most of my experience before this was in the .NET/web Development space, here are the places I've worked in the past:
@@ -29,6 +33,8 @@ I'm currently at [Amazon][6] working on the Silk which is an AWS-backed Android-
 - Senior ASP.NET Developer at Shared Services, ACT Government
 - .NET Developer at F1 Solutions
 - Software Engineer at CEA Technologies
+
+
 
 ## Some of my favorite languages
 
@@ -38,9 +44,17 @@ I'm currently at [Amazon][6] working on the Silk which is an AWS-backed Android-
 - [Sass][8]
 - [Markdown][9]
 
+
+
 ## Contacting me
 
 You can get in touch with me by commenting on the blog or through the social platforms below.
+
+
+
+## Growing with the Web
+
+The source code for the site is [available on GitHub][11].
 
 
 
@@ -53,3 +67,4 @@ You can get in touch with me by commenting on the blog or through the social pla
 [8]: /p/explore.html?t=Sass
 [9]: /p/explore.html?t=Markdown
 [10]: /p/explore.html?t=JavaScript
+[11]: https://github.com/Tyriar/tyriar.github.io
