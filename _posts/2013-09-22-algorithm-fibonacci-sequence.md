@@ -89,7 +89,7 @@ fib-iter(n)
 
 ## Complexity
 
-The original recursive function how's exponentially \\(O(n^2)\\) while both the enhanced recursive solution and the iterative solution both run in linear time \\(O(n)\\).
+The original recursive function is exponential \\(O(n^2)\\), while the enhanced recursive solution and the iterative solution both run in linear time \\(O(n)\\).
 
 ## Code
 
