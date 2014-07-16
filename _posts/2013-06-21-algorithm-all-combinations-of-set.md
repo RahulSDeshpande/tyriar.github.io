@@ -39,7 +39,7 @@ abd
 abcd
 </pre>
 
-Now we're getting somewhere, if you look closely at the above you'll notice a pattern. Starting from the right (`d`), the column to the left (`c`) contains the all combinations on the right plus the empty set with c added the start. This pattern follows the `b` and `c`, we add `b` to all items to the right (`c`, `cd`, `d`) and add `b` itself.
+Now we're getting somewhere, if you look closely at the above you'll notice a pattern. Starting from the right (`d`), the column to the left (`c`) contains the all combinations on the right plus the empty set with c added the start. This pattern follows with `b` and `c`, we add `b` to all items to the right (`c`, `cd`, `d`) and add `b` itself.
 
 <pre>
 d row = d
