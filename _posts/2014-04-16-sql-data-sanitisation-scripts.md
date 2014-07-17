@@ -11,4 +11,8 @@ There are various scripts, each performing a transform to a particular data type
 
 The scripts that do not rely on `NEWID()` may work in non-T-SQL databases.
 
-The project is up on [GitHub](https://github.com/Tyriar/sql-data-sanitisation), check it out and contribute if you have improvements!
+Check out the scripts on [GitHub Gist][1].
+
+
+
+[1]: https://gist.github.com/Tyriar/d3635c6b6e32ac406623
