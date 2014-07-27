@@ -4,6 +4,16 @@ The repository contains the source code for the [Growing with the Web][1] websit
 
 [![Build Status](http://img.shields.io/travis/Tyriar/tyriar.github.io.svg?style=flat)](http://travis-ci.org/Tyriar/tyriar.github.io)
 
+## Dependencies
+
+In order to build the site Node.JS and Ruby (for Sass) need to be installed.
+
+## Building
+
+```bash
+grunt gen
+```
+
 ## Licenses
 
 The site source code itself is not released under a license, meaning there are [restrictions][2] as to what you can do with it. I'm releasing the source code purely as an educational tool to demonstrate how I've set it up and how various parts have been optimised.
