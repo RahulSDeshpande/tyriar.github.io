@@ -36,11 +36,11 @@ The `lang` attribute can be viewed through developer tools on WebKit and Blink-b
 This is what the HTML5 specification has to say about the `lang` attribute and font fallback:
 
 > To determine the language of a node, user agents must look at the nearest ancestor element (including the element itself if the node is an element) that has a `lang` attribute in the XML namespace set or is an HTML element and has a `lang` in no namespace attribute set. That attribute specifies the language of the node (regardless of its value).
-> 
+>
 > If both the `lang` attribute in no namespace and the `lang` attribute in the XML namespace are set on an element, user agents must use the `lang` attribute in the XML namespace, and the `lang` attribute in no namespace must be ignored for the purposes of determining the element's language.
-> 
+>
 > If neither the node nor any of the node's ancestors, including the root element, have either attribute set, but there is a pragma-set default language set, then that is the language of the node. If there is no pragma-set default language set, then language information from a higher-level protocol (such as HTTP), if any, must be used as the final fallback language instead. In the absence of any such language information, and in cases where the higher-level protocol reports multiple languages, the language of the node is unknown, and the corresponding language tag is the empty string.
-> 
+>
 > <footer><cite><a href="http://www.w3.org/TR/html5/dom.html#the-lang-and-xml:lang-attributes">HTML5 Specification: The <code>lang</code> and <code>xml:lang</code> attributes</a></cite>, W3C</footer>
 
 In other words, an element inherits language code information according to the following order of precedence:
@@ -94,7 +94,7 @@ A neat little service exists that spits back the HTTP headers that were used in 
 
 
 
-## Chinese, Japanese and Korean characters 
+## Chinese, Japanese and Korean characters
 
 Unfortunately this isn't all there is to font fallback on the web. The primary cause of issues with font rendering come from the <abbr title="Chinese Japanese Korean">CJK</abbr> characters, which is the collective term for the characters based on Chinese characters for these languages.
 
@@ -105,7 +105,7 @@ To give some more context of the problem, I'll start with a little language less
 - 53,667+ Korean
 - 50,000+ Japanese
 
-### Han unification 
+### Han unification
 
 Han unification (or Unihan) is a project by Unicode to combine the <abbr title="Chinese Japanese Korean">CJK</abbr> characters into a single, unified set of characters in an effort to reduce the total number of characters needed to be encoded. Characters that were derived from the same character were merged into a single character code in the Unicode Standard.
 
