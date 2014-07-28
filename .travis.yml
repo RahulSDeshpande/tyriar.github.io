@@ -10,5 +10,6 @@ before_install:
 
 install:
   - npm install
-  - grunt gen
+  - grunt dev
+  - grunt dist
   - grunt ps

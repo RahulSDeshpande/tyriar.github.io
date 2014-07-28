@@ -87,44 +87,6 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.config('uglify', {
-    dist: {
-      files: {
-        'scripts/site.js': [
-          '__scripts/search.js',
-          '__scripts/share.js',
-          // TODO: Fix responsive tables
-          //'__scripts/responsive-tables.js',
-          '__scripts/prettify.js',
-          '__scripts/prettify-lang-css.js',
-          '__scripts/prettify-lang-dart.js',
-          '__scripts/prettify-lang-sql.js',
-          '__scripts/prettify-init.js',
-          '__scripts/sort-primary-tags.js',
-          '__scripts/mathjax-config.js',
-          // Make abbr elements touch accessible
-          '__bower_components/touchtap-event.js/dist/touchtap-event.js',
-          '__bower_components/abbr-touch.js/dist/abbr-touch.js',
-          '__scripts/abbr-touch-glue.js'
-        ],
-        '_gen/includereplace/tag-names.js': [
-          '__scripts/tag-names.js'
-        ],
-        '_gen/includereplace/google-analytics.js': [
-          '__scripts/google-analytics.js'
-        ],
-        '_gen/includereplace/fusion-ad.js': [
-          '__scripts/fusion-ad.js'
-        ],
-        'scripts/tag-search.js': [
-          '__scripts/tag-container-toggle.js',
-          '__scripts/tag-search.js'
-        ]
-      }
-    }
-  });
-
   grunt.loadNpmTasks('grunt-include-replace');
   grunt.config('includereplace', {
     dist: {
@@ -181,9 +143,67 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask('gen', [
+  var scriptConfig = {
+    files: {
+      'scripts/site.js': [
+        '__scripts/search.js',
+        '__scripts/share.js',
+        // TODO: Fix responsive tables
+        //'__scripts/responsive-tables.js',
+        '__scripts/prettify.js',
+        '__scripts/prettify-lang-css.js',
+        '__scripts/prettify-lang-dart.js',
+        '__scripts/prettify-lang-sql.js',
+        '__scripts/prettify-init.js',
+        '__scripts/sort-primary-tags.js',
+        '__scripts/mathjax-config.js',
+        // Make abbr elements touch accessible
+        '__bower_components/touchtap-event.js/dist/touchtap-event.js',
+        '__bower_components/abbr-touch.js/dist/abbr-touch.js',
+        '__scripts/abbr-touch-glue.js'
+      ],
+      '_gen/includereplace/tag-names.js': [
+        '__scripts/tag-names.js'
+      ],
+      '_gen/includereplace/google-analytics.js': [
+        '__scripts/google-analytics.js'
+      ],
+      '_gen/includereplace/fusion-ad.js': [
+        '__scripts/fusion-ad.js'
+      ],
+      'scripts/tag-search.js': [
+        '__scripts/tag-container-toggle.js',
+        '__scripts/tag-search.js'
+      ]
+    }
+  };
+
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.config('uglify', {
+    dist: scriptConfig
+  });
+
+  grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.config('concat', {
+    dev: scriptConfig
+  });
+
+  grunt.registerTask('dist', [
     'sass',
-    'uglify',
+    'uglify:dist',
+    'copy:layouts',
+    'htmlmin',
+    'includereplace', // Apply any <!--@@include()-->
+    'copy:replaced',  // Copy generated files from above into correct folders
+    'copy:optimisedImages',
+    'imagemin',
+    'svgmin',
+    'copy:animsvg'
+  ]);
+
+  grunt.registerTask('dev', [
+    'sass',
+    'concat:dev',
     'copy:layouts',
     'htmlmin',
     'includereplace', // Apply any <!--@@include()-->
@@ -200,6 +220,6 @@ module.exports = function(grunt) {
   ]);
 
   grunt.registerTask('default', [
-    'gen'
+    'dev'
   ]);
 };
