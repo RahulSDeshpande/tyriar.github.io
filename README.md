@@ -6,7 +6,7 @@ The repository contains the source code for the [Growing with the Web][1] websit
 
 ## Dependencies
 
-In order to build the site Node.JS and Ruby (for Sass) need to be installed.
+In order to build the site, [Node.JS][4] and [Ruby][5] (for [Sass][6]) need to be installed.
 
 ## Building
 
@@ -25,3 +25,6 @@ For the code within the blog's articles, see the [code license][3] page.
   [1]: http://www.growingwiththeweb.com/
   [2]: http://choosealicense.com/no-license/
   [3]: http://www.growingwiththeweb.com/p/code-license.html
+  [4]: http://nodejs.org/
+  [5]: https://www.ruby-lang.org/
+  [6]: http://sass-lang.com/
