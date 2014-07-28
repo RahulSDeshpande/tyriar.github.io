@@ -102,13 +102,16 @@ figcaption {
     &.left-aligned img,
     &.center-aligned img,
     &.full-width img,
-    &.full-width-sm img {
+    &.full-width-sm img,
+    &.right-small-aligned img,
+    &.left-small-aligned img {
       width: 100%;
       margin-top: $paragraph-spacing;
     }
     &.right-small-aligned,
     &.left-small-aligned {
-      max-width: 50% !important;
+      max-width: 50%;
+      float:right;
     }
   }
 }
