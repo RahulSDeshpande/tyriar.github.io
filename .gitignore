@@ -222,3 +222,4 @@ node_modules/
 _site/
 _gen/
 .sass-cache/
+__bower_components/

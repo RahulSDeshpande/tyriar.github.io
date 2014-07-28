@@ -102,7 +102,11 @@ module.exports = function(grunt) {
           '__scripts/prettify-lang-sql.js',
           '__scripts/prettify-init.js',
           '__scripts/sort-primary-tags.js',
-          '__scripts/mathjax-config.js'
+          '__scripts/mathjax-config.js',
+          // Make abbr elements touch accessible
+          '__bower_components/touchtap-event.js/dist/touchtap-event.js',
+          '__bower_components/abbr-touch.js/dist/abbr-touch.js',
+          '__scripts/abbr-touch-glue.js'
         ],
         '_gen/includereplace/tag-names.js': [
           '__scripts/tag-names.js'
