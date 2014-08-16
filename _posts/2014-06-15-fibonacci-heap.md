@@ -426,4 +426,4 @@ Delete is performed by calling decrease key to reduce the node to negative infin
 
 [1]: /2014/01/binomial-heap.html
 [2]: /2014/01/binomial-heap.html#structure
-[3]: https://github.com/Tyriar/growing-with-the-web/tree/master/data-structures/fibonacci-heap
+[3]: https://github.com/Tyriar/growing-with-the-web/tree/master/com/growingwiththeweb/dataStructures

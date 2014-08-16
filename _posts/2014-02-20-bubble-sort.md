@@ -60,7 +60,7 @@ To better understand this point consider the list `[5, 2, 3, 4, 1]` where only t
 
 ## Code
 
-{% include on-github.html java="https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/sorting/bubble-sort" javascript="https://github.com/Tyriar/js-sorting/blob/master/src/bubble-sort.js" %}
+{% include on-github.html java="https://github.com/Tyriar/growing-with-the-web/tree/master/com/growingwiththeweb/algorithms/sorting" javascript="https://github.com/Tyriar/js-sorting/blob/master/src/bubble-sort.js" %}
 
 ### `for` loop version
 

@@ -91,7 +91,7 @@ For search we use the search operation on the regular binary search tree. Only n
                 parent = node;
                 if (key < parent.getKey())
                     node = parent.getLeft();
-                else 
+                else
                     node = parent.getRight();
             }
             if (parent == null) {
@@ -108,8 +108,8 @@ For search we use the search operation on the regular binary search tree. Only n
         }
 
         private void insertFixup(TreeNode node) {
-            while (node.getParent() != null && 
-                   node.getGrandparent() != null && 
+            while (node.getParent() != null &&
+                   node.getGrandparent() != null &&
                    node.getParent().getColor() == TreeNode.Color.RED) {
 
                 if (node.getParent() == node.getGrandparent().getLeft()) {
@@ -188,7 +188,7 @@ For search we use the search operation on the regular binary search tree. Only n
         public void delete(int key) {
             TreeNode node = search(key);
             TreeNode y, x;
-            if (node.getLeft().isNilNode() || node.getRight().isNilNode()) 
+            if (node.getLeft().isNilNode() || node.getRight().isNilNode())
                 y = node;
             else
                 y = treeSuccessor(node);
@@ -220,7 +220,7 @@ For search we use the search operation on the regular binary search tree. Only n
                         node.getParent().setColor(TreeNode.Color.RED);
                         rotateLeft(node.getParent());
                     }
-                    if (w.getLeft().getColor() == TreeNode.Color.BLACK && 
+                    if (w.getLeft().getColor() == TreeNode.Color.BLACK &&
                         w.getRight().getColor() == TreeNode.Color.BLACK) {
 
                         w.setColor(TreeNode.Color.RED);
@@ -245,7 +245,7 @@ For search we use the search operation on the regular binary search tree. Only n
                         node.getParent().setColor(TreeNode.Color.RED);
                         rotateRight(node.getParent());
                     }
-                    if (w.getRight().getColor() == TreeNode.Color.BLACK && 
+                    if (w.getRight().getColor() == TreeNode.Color.BLACK &&
                         w.getLeft().getColor() == TreeNode.Color.BLACK) {
 
                         w.setColor(TreeNode.Color.RED);
@@ -272,7 +272,7 @@ For search we use the search operation on the regular binary search tree. Only n
             if (node.getRight() != null && !node.isNilNode())
                 return treeMinimum(node.getRight());
             TreeNode successor = node.getParent();
-            while (successor != null && !successor.isNilNode() && 
+            while (successor != null && !successor.isNilNode() &&
                     node == successor) {
                 node = successor;
                 successor = node.getParent();
@@ -327,7 +327,7 @@ For search we use the search operation on the regular binary search tree. Only n
 
 
 
-[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/data-structures/red-black-tree
+[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/com/growingwiththeweb/dataStructures
 
 [Red-black tree example]: http://3.bp.blogspot.com/-DVjfNqUa4lc/UMQgN7I0EmI/AAAAAAAAK4Y/-5ZVq2txDQ0/s1600/rbt.png
 [Rotation]: https://googledrive.com/host/0B-wUQaw640vCRmR5RDh0ckJhRDQ

@@ -84,6 +84,6 @@ This is the primary purpose of the pattern; to conceal a piece of code that isn'
 [1]: {{site.baseurl}}/2012/12/algorithm-quicksort.html
 [2]: {{site.baseurl}}/2012/11/algorithm-merge-sort.html
 [3]: {{site.baseurl}}/2012/11/algorithm-heapsort.html
-[4]: https://github.com/Tyriar/growing-with-the-web/tree/master/design-patterns/facade
+[4]: https://github.com/Tyriar/growing-with-the-web/tree/master/com/growingwiththeweb/designPatterns/facade
 
 [Facade UML diagram]: https://googledrive.com/host/0B-wUQaw640vCcmp6Qko2V2dUcW8

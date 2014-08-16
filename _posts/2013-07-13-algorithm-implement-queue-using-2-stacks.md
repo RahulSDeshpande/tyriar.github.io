@@ -102,4 +102,4 @@ The push function is just a simple push on to the first stack which is \\(O(1)\\
         }
     }
 
-[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/interview-questions/two-stack-queue
+[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/com/growingwiththeweb/algorithms/interviewQuestions/twoStackQueue

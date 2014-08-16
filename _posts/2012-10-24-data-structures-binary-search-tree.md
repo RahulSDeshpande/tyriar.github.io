@@ -217,7 +217,7 @@ Here is a binary search tree implemented in Java.
 
 
 
-[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/data-structures/binary-search-tree
+[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/com/growingwiththeweb/dataStructures
 
 [Binary heap]: {{site.baseurl}}/2013/01/data-structure-binary-heap.html
 [Binary search tree]: {{site.baseurl}}/2012/10/data-structures-binary-search-tree.html

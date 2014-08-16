@@ -65,12 +65,12 @@ An good example of this categorisation is a graphical component such as a toolti
 
         public Flyweight get(Integer key) {
             Flyweight flyweight = flyweights.get(key);
-            
+
             if (flyweight == null) {
                 flyweight = new ConcreteFlyweight(key);
                 flyweights.put(key, flyweight);
             }
-            
+
             return flyweight;
         }
     }
@@ -85,4 +85,4 @@ An good example of this categorisation is a graphical component such as a toolti
 
 
 [1]: {{ site.baseurl }}/2012/04/design-patterns-introduction-and-lazy.html
-[2]: https://github.com/Tyriar/growing-with-the-web/tree/master/design-patterns/flyweight
+[2]: https://github.com/Tyriar/growing-with-the-web/tree/master/com/growingwiththeweb/designPatterns/flyweight

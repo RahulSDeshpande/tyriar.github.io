@@ -101,6 +101,6 @@ Here are a few example uses of the factory method pattern.
 
 
 
-[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/design-patterns/factory-method
+[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/com/growingwiththeweb/designPatterns/factoryMethod
 
 [Factory method UML diagram]: https://googledrive.com/host/0B-wUQaw640vCMjBRbXE4a2ZuQnM

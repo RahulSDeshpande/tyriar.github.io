@@ -54,7 +54,7 @@ Here is an example of how you could run merge sort using two threads to potentia
 
 ## Code
 
-{% include on-github.html java="https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/sorting/merge-sort" javascript="https://github.com/Tyriar/js-sorting/blob/master/src/merge-sort.js" %}
+{% include on-github.html java="https://github.com/Tyriar/growing-with-the-web/tree/master/com/growingwiththeweb/algorithms/sorting" javascript="https://github.com/Tyriar/js-sorting/blob/master/src/merge-sort.js" %}
 
 ### Top-down
 

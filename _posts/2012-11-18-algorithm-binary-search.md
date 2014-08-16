@@ -169,4 +169,4 @@ These types of algorithms have often been labelled as divide and conquer algorit
 
 
 [1]: {{site.baseurl}}/2012/11/algorithm-merge-sort.html
-[2]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/search/binary-search
+[2]: https://github.com/Tyriar/growing-with-the-web/tree/master/com/growingwiththeweb/algorithms/search/binarySearch

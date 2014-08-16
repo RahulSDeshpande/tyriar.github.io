@@ -106,6 +106,6 @@ Here are a few examples where you could use the decorator pattern:
 
 
 [1]: {{site.baseurl}}/2012/07/design-patterns-delegation-pattern.html
-[2]: https://github.com/Tyriar/growing-with-the-web/tree/master/design-patterns/decorator
+[2]: https://github.com/Tyriar/growing-with-the-web/tree/master/com/growingwiththeweb/designPatterns/decorator
 
 [Decorator UML diagram]: https://googledrive.com/host/0B-wUQaw640vCVkt4d1duOWMzWVU

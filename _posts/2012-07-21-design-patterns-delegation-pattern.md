@@ -90,6 +90,6 @@ There are countless examples that exist, anything where an object may behave in 
 
 
 
-[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/design-patterns/delegation
+[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/com/growingwiththeweb/designPatterns/delegation
 
 [Delegation UML diagram]: https://googledrive.com/host/0B-wUQaw640vCWmpHUWp3aUFFalU

@@ -122,4 +122,4 @@ It becomes clear from the picture that the list can be reversed by simply swappi
 
 
 
-[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/interview-questions/reverse-a-linked-list
+[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/com/growingwiththeweb/algorithms/interviewQuestions/reverseALinkedList

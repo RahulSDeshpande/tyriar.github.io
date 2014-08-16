@@ -269,7 +269,7 @@ The below is a generic implementation of a min binomial heap that uses the value
             Node<T> next = newHead.sibling;
 
             while (next != null) {
-                if (curr.degree != next.degree || (next.sibling != null && 
+                if (curr.degree != next.degree || (next.sibling != null &&
                         next.sibling.degree == curr.degree)) {
                     prev = curr;
                     curr = next;
@@ -389,4 +389,4 @@ The below is a generic implementation of a min binomial heap that uses the value
 
 
 [1]: {{site.baseurl}}/2013/01/data-structure-binary-heap.html
-[2]: https://github.com/Tyriar/growing-with-the-web/tree/master/data-structures/binomial-heap
+[2]: https://github.com/Tyriar/growing-with-the-web/tree/master/com/growingwiththeweb/dataStructures

@@ -58,4 +58,4 @@ With this solution, in a single call each number has a \\(12\%\\) chance of retu
 
 
 
-[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/interview-questions/given-random5-implement-random7
+[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/com/growingwiththeweb/algorithms/interviewQuestions/givenRandom5ImplementRandom7

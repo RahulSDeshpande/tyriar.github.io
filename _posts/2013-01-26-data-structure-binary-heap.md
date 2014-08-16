@@ -181,7 +181,7 @@ Here is a full generic implementation of a min-heap. Note that the only changes 
 
 
 [1]: {{site.baseurl}}/2012/11/algorithm-heapsort.html
-[2]: https://github.com/Tyriar/growing-with-the-web/tree/master/data-structures/binary-heap
+[2]: https://github.com/Tyriar/growing-with-the-web/tree/master/com/growingwiththeweb/dataStructures
 
 [Binary heap]: {{site.baseurl}}/2013/01/data-structure-binary-heap.html
 [Binary search tree]: {{site.baseurl}}/2012/10/data-structures-binary-search-tree.html

@@ -42,4 +42,4 @@ There are two other cases we need to handle: the first is when the divisor is `0
 
 
 
-[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/interview-questions/divide-without-divide
+[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/com/growingwiththeweb/algorithms/interviewQuestions/divideWithoutDivide

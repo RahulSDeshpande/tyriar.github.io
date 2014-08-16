@@ -97,4 +97,4 @@ While determining the complexity of a function like the above may seem intimidat
 
 
 
-[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/interview-questions/combinations-of-a-set
+[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/com/growingwiththeweb/algorithms/interviewQuestions/combinationsOfASet

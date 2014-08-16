@@ -16,4 +16,4 @@ Find articles on several design patterns below, each have an explanation, usage 
 
 
 
-[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/design-patterns
+[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/com/growingwiththeweb/designPatterns

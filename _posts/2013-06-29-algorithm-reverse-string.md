@@ -37,7 +37,7 @@ The string can be reversed in \\(O(n)\\) time with a couple of different methods
         int start = -1;
         int end = charArray.length;
         while (++start < --end) {
-            char temp = charArray[start]; 
+            char temp = charArray[start];
             charArray[start] = charArray[end];
             charArray[end] = temp;
         }
@@ -62,4 +62,4 @@ or
         return new StringBuilder(text).reverse().toString();
     }
 
-[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/interview-questions/reverse-string
+[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/com/growingwiththeweb/algorithms/interviewQuestions/reverseString

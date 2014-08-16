@@ -161,4 +161,4 @@ Here are a few example of where you could use the visitor pattern:
 
 
 
-[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/design-patterns/visitor
+[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/com/growingwiththeweb/designPatterns/visitor

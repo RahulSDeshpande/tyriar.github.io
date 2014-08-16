@@ -153,4 +153,4 @@ The original recursive function is exponential \\(O(n^2)\\), while the enhanced 
 
 
 
-[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/interview-questions/fibonacci-sequence
+[1]: https://github.com/Tyriar/growing-with-the-web/tree/master/com/growingwiththeweb/algorithms/interviewQuestions/fibonacciSequence

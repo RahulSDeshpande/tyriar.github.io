@@ -83,4 +83,4 @@ Some common uses of the Singleton design pattern are:
 
 
 [1]: {{site.baseurl}}/2012/04/design-patterns-introduction-and-lazy.html
-[2]: https://github.com/Tyriar/growing-with-the-web/tree/master/design-patterns/singleton
+[2]: https://github.com/Tyriar/growing-with-the-web/tree/master/com/growingwiththeweb/designPatterns/singleton

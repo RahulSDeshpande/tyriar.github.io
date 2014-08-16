@@ -117,11 +117,11 @@ Search performs a regular [<abbr title="Binary Search Tree">BST</abbr>][2] searc
                     if (parent.getLeft() == node && gparent.getLeft() == parent) {
                         rotateRight(gparent);
                         rotateRight(node.getParent());
-                    } else if (parent.getRight() == node && 
+                    } else if (parent.getRight() == node &&
                             gparent.getRight() == parent) {
                         rotateLeft(gparent);
                         rotateLeft(node.getParent());
-                    } else if (parent.getLeft() == node && 
+                    } else if (parent.getLeft() == node &&
                             gparent.getRight() == parent) {
                         rotateRight(parent);
                         rotateLeft(node.getParent());
@@ -150,7 +150,7 @@ Search performs a regular [<abbr title="Binary Search Tree">BST</abbr>][2] searc
             y.setLeft(x);
             x.setParent(y);
         }
-        
+
         private void rotateRight(TreeNode x) {
             TreeNode y = x.getLeft();
             x.setLeft(y.getRight());
@@ -304,4 +304,4 @@ Search performs a regular [<abbr title="Binary Search Tree">BST</abbr>][2] searc
 
 
 [2]: {{site.baseurl}}/2012/10/data-structures-binary-search-tree.html
-[3]: https://github.com/Tyriar/growing-with-the-web/tree/master/data-structures/splay-tree
+[3]: https://github.com/Tyriar/growing-with-the-web/tree/master/com/growingwiththeweb/dataStructures/splayTree

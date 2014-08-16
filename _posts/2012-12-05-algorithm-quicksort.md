@@ -72,7 +72,7 @@ The chosen pivot has a great impact of how well quicksort can be parallelised. C
 
 ## Code
 
-{% include on-github.html java="https://github.com/Tyriar/growing-with-the-web/tree/master/algorithms/sorting/quicksort" javascript="https://github.com/Tyriar/js-sorting/blob/master/src/quicksort.js" %}
+{% include on-github.html java="https://github.com/Tyriar/growing-with-the-web/tree/master/com/growingwiththeweb/algorithms/sorting" javascript="https://github.com/Tyriar/js-sorting/blob/master/src/quicksort.js" %}
 
 <!--prettify lang=java-->
     public class Quicksort {
