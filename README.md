@@ -8,6 +8,13 @@ The repository contains the source code for the [Growing with the Web][1] websit
 
 In order to build the site, [Node.JS][4] and [Ruby][5] (for [Sass][6]) need to be installed.
 
+## Installing
+
+```bash
+npm install
+bower install
+```
+
 ## Building
 
 ```bash
