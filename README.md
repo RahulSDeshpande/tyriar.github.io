@@ -1,8 +1,8 @@
 The repository contains the source code for the [Growing with the Web][1] website.
 
-[![Growing with the Web logo](http://www.growingwiththeweb.com/images/general/logo.png)][1]
+[![Growing with the Web logo](http://www.growingwiththeweb.com/images/site/logo.png)][1]
 
-[![Build Status](http://img.shields.io/travis/Tyriar/tyriar.github.io.svg?style=flat)](http://travis-ci.org/Tyriar/tyriar.github.io)
+[![Build Status](http://img.shields.io/travis/RahulSDeshpande/tyriar.github.io.svg?style=flat)](http://travis-ci.org/RahulSDeshpande/tyriar.github.io)
 
 ## Dependencies
 
